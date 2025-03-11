@@ -1,0 +1,422 @@
+!function(){var t,u=[].indexOf||function(t){for(var e=0,n=this.length;e<n;e++)if(e in this&&this[e]===t)return e;return-1};function e(t){null==t&&(t={}),this.options={},this.setOptions(this.default_options),this.setOptions(t)}e.prototype.default_options={selectors:["id","class","tag","nthchild"]},e.prototype.setOptions=function(t){var e,n,r=[];for(e in t=null==t?{}:t)n=t[e],this.default_options.hasOwnProperty(e)?r.push(this.options[e]=n):r.push(void 0);return r},e.prototype.isElement=function(t){return!(1!==(null!=t?t.nodeType:void 0))},e.prototype.getParents=function(t){var e,n=[];if(this.isElement(t))for(e=t;this.isElement(e);)n.push(e),e=e.parentNode;return n},e.prototype.getTagSelector=function(t){return this.sanitizeItem(t.tagName.toLowerCase())},e.prototype.sanitizeItem=function(t){return t.split("").map(function(t){return":"===t?"\\"+":".charCodeAt(0).toString(16).toUpperCase()+" ":/[ !"#$%&'()*+,.\/;<=>?@\[\\\]^`{|}~]/.test(t)?"\\"+t:escape(t).replace(/\%/g,"\\")}).join("")},e.prototype.getIdSelector=function(t){var e,n=t.getAttribute("id");return null==n||""===n||/\s/.exec(n)||/^\d/.exec(n)||(e="#"+this.sanitizeItem(n),1!==t.ownerDocument.querySelectorAll(e).length)?null:e},e.prototype.getClassSelectors=function(t){var o,e=[],i=t.getAttribute("class");return e=null!=i&&""!==(i=(i=i.replace(/\s+/g," ")).replace(/^\s|\s$/g,""))?function(){for(var t=i.split(/\s+/),e=[],n=0,r=t.length;n<r;n++)o=t[n],e.push("."+this.sanitizeItem(o));return e}.call(this):e},e.prototype.getAttributeSelectors=function(t){for(var e,n,r=[],o=["id","class"],i=t.attributes,s=0,l=i.length;s<l;s++)n=(e=i[s]).nodeName,u.call(o,n)<0&&r.push("["+e.nodeName+"="+e.nodeValue+"]");return r},e.prototype.getNthChildSelector=function(t){var e,n,r,o,i,s=t.parentNode;if(null!=s)for(n=e=0,r=(i=s.childNodes).length;n<r;n++)if(o=i[n],this.isElement(o)&&(e++,o===t))return":nth-child("+e+")";return null},e.prototype.testSelector=function(t,e){var n,r=!1;return r=null!=e&&""!==e&&1===(n=t.ownerDocument.querySelectorAll(e)).length&&n[0]===t?!0:r},e.prototype.getAllSelectors=function(t){var e={t:null,i:null,c:null,a:null,n:null};return 0<=u.call(this.options.selectors,"tag")&&(e.t=this.getTagSelector(t)),0<=u.call(this.options.selectors,"id")&&(e.i=this.getIdSelector(t)),0<=u.call(this.options.selectors,"class")&&(e.c=this.getClassSelectors(t)),0<=u.call(this.options.selectors,"attribute")&&(e.a=this.getAttributeSelectors(t)),0<=u.call(this.options.selectors,"nthchild")&&(e.n=this.getNthChildSelector(t)),e},e.prototype.testUniqueness=function(t,e){e=t.parentNode.querySelectorAll(e);return 1===e.length&&e[0]===t},e.prototype.testCombinations=function(t,e,n){for(var r,o,i,s,l=this.getCombinations(e),u=0,c=l.length;u<c;u++)if(r=l[u],this.testUniqueness(t,r))return r;if(null!=n)for(o=0,i=(s=e.map(function(t){return n+t})).length;o<i;o++)if(r=s[o],this.testUniqueness(t,r))return r;return null},e.prototype.getUniqueSelector=function(t){for(var e,n=this.getAllSelectors(t),r=this.options.selectors,o=0,i=r.length;o<i;o++)switch(r[o]){case"id":if(null!=n.i)return n.i;break;case"tag":if(null!=n.t&&this.testUniqueness(t,n.t))return n.t;break;case"class":if(null!=n.c&&0!==n.c.length&&(e=this.testCombinations(t,n.c,n.t)))return e;break;case"attribute":if(null!=n.a&&0!==n.a.length&&(e=this.testCombinations(t,n.a,n.t)))return e;break;case"nthchild":if(null!=n.n)return n.n}return"*"},e.prototype.getSelector=function(t){for(var e,n,r,o,i,s,l=[],u=this.getParents(t),c=0,a=u.length;c<a;c++)e=u[c],null!=(i=this.getUniqueSelector(e))&&l.push(i);for(s=[],n=0,r=l.length;n<r;n++)if(e=l[n],s.unshift(e),o=s.join(" > "),this.testSelector(t,o))return o;return null},e.prototype.getCombinations=function(t){for(var e,n,r,o,i=[[]],s=n=0,l=(t=null==t?[]:t).length-1;0<=l?n<=l:l<=n;s=0<=l?++n:--n)for(e=r=0,o=i.length-1;0<=o?r<=o:o<=r;e=0<=o?++r:--r)i.push(i[e].concat(t[s]));return i.shift(),i=(i=i.sort(function(t,e){return t.length-e.length})).map(function(t){return t.join("")})},t=e,"undefined"!=typeof define&&null!==define&&define.amd?define([],function(){return t}):("undefined"!=typeof exports&&null!==exports?exports:this).CssSelectorGenerator=t}.call(this),function(e){var n=new CssSelectorGenerator,r={instructions:"After clicking ok, click the element you want a selector for.",results:"Selector"};e(document).on("click","#wp-admin-bar-pum-get-selector",function(t){alert(r.instructions),t.preventDefault(),t.stopPropagation(),e(document).one("click",function(t){var e=t.target,e=n.getSelector(e);alert(r.results+": "+e),t.preventDefault(),t.stopPropagation()})})}(jQuery);;
+const painSlider = document.querySelector('.pain-slider')
+const painList = document.querySelector('.pain-list')
+const allScreen = document.querySelector('.row-list-slider')
+if (painSlider && painList) {
+  const firstPainList = painList.firstElementChild
+  firstPainList.classList.add('pain-list-active')
+  
+  const sliderElements = painSlider.querySelector('.n2-ss-slider-4')
+  const arrows = painSlider.querySelectorAll('.nextend-arrow')
+  if (sliderElements && arrows.length > 0) {
+    // Clique nas setas
+    arrows.forEach((arrow) => {
+      arrow.addEventListener('click', (e) => {
+
+        // Desabilita seta, bullets e lista
+        allScreen.classList.add('disabled-pointer')
+
+        let targetElement;
+        const activeCard = painSlider.querySelector('.n2-ss-slide-active')
+        if (activeCard) {
+          activeCard.classList.remove('pain-list-active')
+          if (e.target.alt == 'next arrow') {
+            if (activeCard.nextSibling.nodeName != 'DIV') {
+              targetElement = sliderElements.children[1]
+            } else {
+              targetElement = activeCard.nextSibling
+            }
+          } else {
+            if (activeCard.previousSibling.nodeName == 'svg') {
+              targetElement = sliderElements.lastElementChild
+            } else {
+              targetElement = activeCard.previousSibling
+            }
+          }
+        }
+
+        // Remove o foco do item na lista
+        const currentActive = painList.querySelector('.' + activeCard.attributes['data-title'].nodeValue)
+        if (currentActive.classList.contains('pain-list-active')) {
+          currentActive.classList.remove('pain-list-active')
+        }
+
+        const element = painList.querySelector('.' + targetElement.attributes['data-title'].nodeValue)
+        setTimeout(() => {
+          // Adiciona foco no item selecionado
+          element.classList.add('pain-list-active')
+
+          // Habilita seta, bullets e lista
+          allScreen.classList.remove('disabled-pointer')
+        }, '700')
+      })
+    })
+
+    // Clique na lista
+    painList.querySelectorAll('li').forEach((item) => {
+      item.addEventListener('click', (e) => {
+        const activeCard = painSlider.querySelector('.n2-ss-slide-active')
+        const bulletItem = document.querySelector(`div[aria-label="${item.classList[0]}"]`)
+
+        // Desabilita seta, bullets e lista
+        allScreen.classList.add('disabled-pointer')
+
+        // Retira foco do item da lista
+        const currentActive = painList.querySelector('.' + activeCard.attributes['data-title'].nodeValue)
+        if (currentActive.classList.contains('pain-list-active')) {
+          currentActive.classList.remove('pain-list-active')
+        }
+
+        if (activeCard && bulletItem) {
+          bulletItem.click()
+          setTimeout(() => {
+            // Adiciona foco no item selecionado e move o slider
+            item.classList.add('pain-list-active')
+
+            // Habilita seta, bullets e lista
+            allScreen.classList.remove('disabled-pointer')
+          }, '400')
+        }
+      })
+    })
+  }
+
+  // Bullets de navegação
+  function buildListener(elements) {
+    const navBullets = elements
+    if (navBullets) {
+      navBullets.forEach((bullet) => {
+        bullet.addEventListener('click', (e) => {
+          // Remove o foco do item atual na lista
+          const currentActive = painList.querySelector('.pain-list-active')
+
+          // Desabilita seta, bullets e lista
+          allScreen.classList.add('disabled-pointer')
+
+          if (currentActive) {
+            currentActive.classList.remove('pain-list-active')
+          }
+
+          const bulletSelected = painList.querySelector(`.${e.target.ariaLabel}`)
+          if (bulletSelected) {
+            setTimeout(() => {
+              // Adiciona o foco na lista do bullet clicado
+              bulletSelected.classList.add('pain-list-active')
+
+              // Habilita seta, bullets e lista
+              allScreen.classList.remove('disabled-pointer')
+            }, '400')
+          }
+        })
+      })
+    }
+  }
+
+  function waitForElements(selector, timeout = 5000) {
+    return new Promise((resolve, reject) => {
+      const elements = document.querySelectorAll(selector)
+      if (elements.length > 1) {
+        return resolve(elements)
+      }
+  
+      const observer = new MutationObserver(() => {
+        const elements = document.querySelectorAll(selector)
+        if (elements.length > 1) {
+          observer.disconnect()
+          resolve(elements)
+        }
+      })
+  
+      observer.observe(document.body, { childList: true, subtree: true })
+  
+      setTimeout(() => {
+        observer.disconnect()
+        reject(new Error(`Elemento ${selector} não encontrado dentro do tempo limite.`))
+      }, timeout)
+    })
+  }
+  
+  // Uso da função
+  waitForElements('.n2-bullet')
+    .then(elements => {
+      buildListener(elements)
+    })
+    .catch(error => {
+      console.error(error)
+    })
+}
+;
+// Script apenas para a página Quem somos
+if (window.location.href.includes('/quem-somos/')) {
+  // DESKTOP
+  const sliderNameClass = '.mvv-slider'
+  const listNameClass = '.mvv-list'
+  const listClassActive = 'mvv-list-active'
+  
+  const slider = document.querySelector(sliderNameClass)
+  const list = document.querySelector(listNameClass)
+  
+  // Promise para desabilitar a seta previous ao iniciar com o card Missão
+  let activeCardPromise
+  let previousPromise
+  function waitForElements(targetSlider, selector, timeout = 5000) {
+    return new Promise((resolve, reject) => {
+      const element = targetSlider.querySelector(selector)
+      if (element) {
+        return resolve(element)
+      }
+      const observer = new MutationObserver(() => {
+        const element = targetSlider.querySelector(selector)
+        if (element) {
+          observer.disconnect()
+          resolve(element)
+        }
+      })
+      observer.observe(document.body, { childList: true, subtree: true })
+      setTimeout(() => {
+        observer.disconnect()
+        reject(new Error(`Elemento ${selector} do slider ${targetSlider.className} não foi encontrado dentro do tempo limite.`))
+      }, timeout)
+    })
+  }
+  waitForElements(slider, '.n2-ss-slide-active')
+  .then(active => {
+    activeCardPromise = active
+    waitForElements(slider, '.nextend-arrow-previous')
+    .then(button => {
+      previousPromise = button
+      if (activeCardPromise.attributes['data-title'].nodeValue == 'mission') {
+        previousPromise.classList.add('display-none-important')
+      }
+    })
+    .catch(error => {
+      console.error(error)
+    })
+  })
+  .catch(error => {
+    console.error(error)
+  })
+  // Fim da Promise
+  
+  // Função para habilitar seta de acordo com o card
+  function showArrows(targetSlider, arrows) {
+    // Esse setTimeout serve para esperar o slider trocar o card ativo (.n2-ss-slide-active)
+    setTimeout(() => {
+      const targetCard = targetSlider.querySelector('.n2-ss-slide-active')
+      // Desabilita as setas de acordo com item selecionado
+      if (targetCard.attributes['data-title'].nodeValue == 'mission') {
+        // Aparece só seta direita
+        arrows[0].classList.add('display-none-important')
+        arrows[1].classList.remove('display-none-important')
+  
+      } else if (targetCard.attributes['data-title'].nodeValue == 'vision') {
+        // Aparace ambas as setas
+        arrows[0].classList.remove('display-none-important')
+        arrows[1].classList.remove('display-none-important')
+  
+      } else if (targetCard.attributes['data-title'].nodeValue == 'values') {
+        // Aparece só seta esquerda
+        arrows[0].classList.remove('display-none-important')
+        arrows[1].classList.add('display-none-important')
+      }
+    }, 500);
+  }
+  // Fim função
+  
+  if (slider && list) {
+    const firstlist = list.firstElementChild
+    firstlist.classList.add(listClassActive)
+    
+    const sliderElements = slider.querySelector('.n2-ss-slider-4')
+    const arrows = slider.querySelectorAll('.nextend-arrow')
+    if (sliderElements && arrows.length > 0) {
+      // Clique na seta
+      arrows.forEach((arrow) => {
+        arrow.addEventListener('click', (e) => {
+  
+          // Desabilita setas
+          arrows[0].classList.add('disabled')
+          arrows[1].classList.add('disabled')
+  
+          let targetElement;
+          const activeCard = slider.querySelector('.n2-ss-slide-active')
+  
+          if (activeCard) {
+            activeCard.classList.remove(listClassActive)
+            if (e.target.alt == 'next arrow') {
+              if (activeCard.nextSibling.nodeName != 'DIV') {
+                targetElement = sliderElements.children[1]
+              } else {
+                targetElement = activeCard.nextSibling
+              }
+            } else {
+              if (activeCard.previousSibling.nodeName == 'svg') {
+                targetElement = sliderElements.lastElementChild
+              } else {
+                targetElement = activeCard.previousSibling
+              }
+            }
+          }
+  
+          // Retira foco do item da lista
+          const currentActive = list.querySelector('.' + activeCard.attributes['data-title'].nodeValue)
+          if (currentActive.classList.contains(listClassActive)) {
+            currentActive.classList.remove(listClassActive)
+          }
+  
+          const element = list.querySelector('.' + targetElement.attributes['data-title'].nodeValue)
+          setTimeout(() => {
+            // Adiciona foco no item selecionado
+            element.classList.add(listClassActive)
+    
+            // Habilita setas
+            arrows[0].classList.remove('disabled')
+            arrows[1].classList.remove('disabled')
+          }, '700')
+  
+          showArrows(slider, arrows)
+        })
+      })
+  
+      // Clique na lista
+      const mission = document.querySelector('.mission')
+      const vision = document.querySelector('.vision')
+      const values = document.querySelector('.values')
+      if (mission && vision && values) {
+        const mvvList = [mission, vision, values]
+        mvvList.forEach((item) => {
+          item.addEventListener('click', (e) => {
+            const activeCard = slider.querySelector('.n2-ss-slide-active')
+            const bulletItem = document.querySelector(`div[aria-label="${item.classList[0]}"]`)
+  
+            // Desabilita setas
+            arrows[0].classList.add('disabled')
+            arrows[1].classList.add('disabled')
+  
+            // Retira foco do item da lista
+            const currentActive = list.querySelector('.' + activeCard.attributes['data-title'].nodeValue)
+            if (currentActive.classList.contains(listClassActive)) {
+              currentActive.classList.remove(listClassActive)
+            }
+  
+            // Adiciona foco no item selecionado e move o slider
+            if (activeCard && bulletItem) {
+              bulletItem.click()
+              setTimeout(() => {
+                item.classList.add(listClassActive)
+  
+                // Habilita setas
+                arrows[0].classList.remove('disabled')
+                arrows[1].classList.remove('disabled')
+              }, '400')
+            }
+  
+            showArrows(slider, arrows)
+          })
+        })
+      }
+    }
+  }
+  // DESKTOP
+  
+  
+  // MOBILE
+  const sliderNameClassM = '.mvv-slider-mobile'
+  const listClassActiveM = 'mvv-list-active'
+  
+  const sliderM = document.querySelector(sliderNameClassM)
+  
+  // Promise para desabilitar a seta previous ao iniciar com o card Missão
+  // let activeCardPromiseM
+  // let previousPromiseM
+  // waitForElements(sliderM, '.n2-ss-slide-active')
+  // .then(activeM => {
+  //   activeCardPromiseM = activeM
+  //   waitForElements(sliderM, '.nextend-arrow-previous')
+  //   .then(buttonM => {
+  //     previousPromiseM = buttonM
+  //     if (activeCardPromiseM.attributes['data-title'].nodeValue == 'mission') {
+  //       previousPromiseM.classList.add('display-none-important')
+  //     }
+  //   })
+  //   .catch(error => {
+  //     console.error(error)
+  //   })
+  // })
+  // .catch(error => {
+  //   console.error(error)
+  // })
+  // Fim da Promise
+  
+  // Desabilitando forçado, pois a Promise está demorando para carregar
+  let previousPromiseM2 = sliderM.querySelector('.nextend-arrow-previous')
+  previousPromiseM2.classList.add('display-none-important')
+  
+  if (sliderM) {
+    const sliderElementsM = sliderM.querySelector('.n2-ss-slider-4')
+    const arrowsM = sliderM.querySelectorAll('.nextend-arrow')
+    if (sliderElementsM && arrowsM.length > 0) {
+      // Clique na seta
+      arrowsM.forEach((arrow) => {
+        arrow.addEventListener('click', (e) => {
+  
+          // Desabilita setas
+          arrowsM[0].classList.add('disabled')
+          arrowsM[1].classList.add('disabled')
+  
+          let targetElementM;
+          const activeCardM = sliderM.querySelector('.n2-ss-slide-active')
+  
+          if (activeCardM) {
+            activeCardM.classList.remove(listClassActiveM)
+            if (e.target.alt == 'next arrow') {
+              if (activeCardM.nextSibling.nodeName != 'DIV') {
+                targetElementM = sliderElementsM.children[1]
+              } else {
+                targetElementM = activeCardM.nextSibling
+              }
+            } else {
+              if (activeCardM.previousSibling.nodeName == 'svg') {
+                targetElementM = sliderElementsM.lastElementChild
+              } else {
+                targetElementM = activeCardM.previousSibling
+              }
+            }
+          }
+  
+          setTimeout(() => {
+            // Habilita setas
+            arrowsM[0].classList.remove('disabled')
+            arrowsM[1].classList.remove('disabled')
+          }, '700')
+  
+          showArrows(sliderM, arrowsM)
+        })
+      })
+    }
+  }
+}
+;
+document.addEventListener("DOMContentLoaded", () => {
+  // Seleciona todos os botões de toggle e todas as respostas
+  const toggleButtons = document.querySelectorAll(".doubt-cards-question");
+
+  toggleButtons.forEach((toggleButton) => {
+    const answer = toggleButton.closest('.doubt-cards').querySelector(".doubt-cards-answer");
+    const arrowImage = toggleButton.querySelector("img");
+
+    // Adiciona o evento de clique em cada botão
+    toggleButton.addEventListener("click", () => {
+      // Alterna a classe de visibilidade da resposta
+      answer.classList.toggle("active");
+
+      // Alterna a rotação da seta
+      if (answer.classList.contains("active")) {
+        arrowImage.style.transform = "rotate(90deg)";
+      } else {
+        arrowImage.style.transform = "rotate(0deg)";
+      }
+    });
+  });
+});
+;

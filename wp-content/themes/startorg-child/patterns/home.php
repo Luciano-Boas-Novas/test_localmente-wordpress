@@ -25,7 +25,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p>Nosso compromisso é melhorar a performance</p>
+<p>Nosso compromisso é melhorar a perfvfdvfdvddvdvdvdvdormance</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -33,7 +33,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>na gestão das Equipes de Saúde.</p>
+<p>na gestão das Equipevfdvds de Saúde.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -43,7 +43,7 @@
 <div class="wp-block-group alignwide numbers-container"><!-- wp:group {"metadata":{"name":"Header"},"className":"numbers-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group numbers-header"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<p class="has-text-align-center">NOSSO NÚMEROS</p>
+<p class="has-text-align-center">NOSSO NÚMEROcdscS</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

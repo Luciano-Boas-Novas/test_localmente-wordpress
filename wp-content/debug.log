@@ -1,0 +1,2 @@
+[11-Mar-2025 11:31:04 UTC] Cron reschedule event error for hook: jetpack_sync_full_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[11-Mar-2025 11:31:04 UTC] Cron reschedule event error for hook: jetpack_sync_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
