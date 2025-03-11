@@ -1,0 +1,138 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-13 08:37:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:503
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "Klasický editor"
+
+#: classic-editor.php:429 classic-editor.php:507 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Blokový editor"
+
+#: classic-editor.php:425 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Klasický editor"
+
+#: classic-editor.php:860
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Upravit (klasický editor)"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Upravit (blokový editor)"
+
+#: classic-editor.php:512
+msgid "Change settings"
+msgstr "Změny nastavení"
+
+#: classic-editor.php:499
+msgid "Default editor for all sites"
+msgstr "Výchozí editor pro všechny weby"
+
+#: classic-editor.php:495
+msgid "Editor Settings"
+msgstr "Nastavení editoru"
+
+#: classic-editor.php:479
+msgid "Default Editor"
+msgstr "Výchozí editor"
+
+#: classic-editor.php:894
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "Blokový editor"
+
+#: classic-editor.php:891
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "Klasický editor"
+
+#. translators: %s: post title
+#: classic-editor.php:855
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Upravit &#8222;%s&#8220; v blokovém editoru"
+
+#: classic-editor.php:690
+msgid "Switch to block editor"
+msgstr "Přepnout na blokový editor"
+
+#: classic-editor.php:719
+msgid "Switch to classic editor"
+msgstr "Přepnout na klasický editor"
+
+#: classic-editor.php:516
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Ve výchozím nastavení je blokový editor nahrazený klasickým editorem a uživatelé si je nemohou sami změnit."
+
+#: classic-editor.php:515
+msgid "Allow site admins to change settings"
+msgstr "Povolit administrátorům webů měnit nastavení"
+
+#: classic-editor.php:671
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:453
+msgid "No"
+msgstr "Ne"
+
+#: classic-editor.php:449
+msgid "Yes"
+msgstr "Ano"
+
+#: classic-editor.php:376
+msgid "Allow users to switch editors"
+msgstr "Povolit uživatelům přepínat mezi editory."
+
+#: classic-editor.php:375
+msgid "Default editor for all users"
+msgstr "Výchozí editor pro  všechny uživatele."
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://cs.wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "WordPress Contributors"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Aktivuje klasický editor WordPressu a původní styl stránky úprav příspěvků (TinyMCE, prvky strukturovaných informací, atd.). Podporuje starší pluginy, které rozšiřují funkce původního editoru."
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "Klasický editor"
+
+#. translators: %s: post title
+#: classic-editor.php:862
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Upravit &#8222;%s&#8220; v klasickém editoru"
+
+#: classic-editor.php:738
+msgid "Settings"
+msgstr "Nastavení"

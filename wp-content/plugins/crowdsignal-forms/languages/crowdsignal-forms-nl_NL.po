@@ -1,0 +1,294 @@
+# Translation of Plugins - Crowdsignal Forms - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Crowdsignal Forms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-19 20:21:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Crowdsignal Forms - Stable (latest release)\n"
+
+#: includes/admin/views/html-admin-setup-step-3.php:25
+msgid "You can use Crowdsignal blocks right in your editor. Search for Crowdsignal in the blocks library and add the blocks to your page. Here is a short video to get you started:"
+msgstr "Je kunt blokken van Crowdsignal rechtstreeks in je editor gebruiken. Zoek naar Crowdsignal in de blokkenbibliotheek en voeg de blokken toe aan je pagina. Hier is een korte video om je op weg te helpen:"
+
+#: includes/admin/views/html-admin-setup-header.php:15 build/editor.js:6
+msgid "Crowdsignal Settings"
+msgstr "Instellingen van Crowdsignal"
+
+#: includes/admin/views/html-admin-settings.php:58
+msgid "Your Crowdsignal API Key"
+msgstr "Je API-sleutel van Crowdsignal"
+
+#: includes/admin/views/html-admin-settings.php:44
+msgid "Get API Key"
+msgstr "Ontvang API-sleutel"
+
+#: includes/admin/views/html-admin-settings.php:40
+msgid "If you have a Crowdsignal account, click the \"Get API Key\" button to connect. This will open a new window."
+msgstr "Als je een Crowdsignal account hebt, klik dan op de knop \"Verkrijg API-sleutel\" om verbinding te maken. Er wordt een nieuw venster geopend."
+
+#: includes/admin/views/html-admin-settings.php:34
+msgid "Crowdsignal account page"
+msgstr "Accountpagina Crowdsignal"
+
+#. translators: Placeholder is the text "Crowdsignal acount page".
+#: includes/admin/views/html-admin-settings.php:31
+msgid "Visit your %s to find out more about your settings."
+msgstr "Ga naar je %s voor meer informatie over je instellingen."
+
+#. translators: Placeholder is the text "Crowdsignal".
+#: includes/admin/views/html-admin-settings.php:23
+msgid "Your website is connected to a %s account to collect responses and data from your visitors."
+msgstr "Je site is gekoppeld aan een %s account om reacties en gegevens van je bezoekers te verzamelen."
+
+#: includes/admin/views/html-admin-settings.php:18
+msgid "API Key"
+msgstr "API-sleutel"
+
+#: includes/admin/views/html-admin-settings.php:12
+msgid "Account Settings"
+msgstr "Account instellingen"
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:59
+msgid "website plugins page"
+msgstr "de plugin pagina van de site"
+
+#. translators: Placeholder is the text "website plugins page".
+#: includes/admin/views/html-admin-dashboard-teaser.php:56
+msgid "Install the Crowdsignal Dashboard plugin directly from your %s."
+msgstr "Installeer de Crowdsignal Dashboard plugin rechtstreeks vanuit je %s."
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:31
+msgid "second plugin"
+msgstr "tweede plugin"
+
+#. translators: Placeholder is the text "second plugin".
+#: includes/admin/views/html-admin-dashboard-teaser.php:28
+msgid "We have a %s for you that allows you to manage all your Crowdsignal projects right in WP-Admin. Get an overview of all your active projects and get easy access to your results pages."
+msgstr "We hebben een %s voor je waarmee je al je Crowdsignal projecten rechtstreeks in WP beheerd kunt beheren. Krijg een overzicht van al je actieve projecten en krijg eenvoudig toegang tot je resultatenpagina's."
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:22
+msgid "The Crowdsignal Dashboard plugin"
+msgstr "De Crowdsignal Dashboard plugin"
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:16
+msgid "Manage your Crowdsignal projects inside WordPress"
+msgstr "Beheer je Crowdsignal projecten in WordPress"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:150
+#: build/editor.js:4
+msgid "Your Email"
+msgstr "Je e-mailadres"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:178
+#: build/editor.js:4
+msgid "Thanks for letting us know!"
+msgstr "Bedankt dat je het ons hebt laten weten!"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:162
+#: build/editor.js:4
+msgid "👋 Hey there!"
+msgstr "👋 Hoi!"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:158
+#: build/editor.js:4
+msgid "Please let us know how we can do better…"
+msgstr "Laat ons weten hoe we het beter kunnen doen…"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:193
+#: build/editor.js:3 build/editor.js:4
+msgid "Feedback"
+msgstr "Feedback"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:148
+#: build/editor.js:3
+msgid "How likely is it that you would recommend this project to a friend or colleague?"
+msgstr "Hoe waarschijnlijk is het dat je dit project aan een vriend of collega aanbeveelt?"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:144
+#: build/editor.js:3
+msgid "Not likely at all"
+msgstr "Helemaal niet waarschijnlijk"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:140
+#: build/editor.js:3
+msgid "Extremely likely"
+msgstr "Zeer waarschijnlijk"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:129
+#: build/editor.js:3
+msgid "Thanks so much for your response! How could we do better?"
+msgstr "Enorm bedankt voor je reactie! Hoe kunnen we het beter doen?"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:122
+#: build/editor.js:3
+msgid "Please help us understand your rating"
+msgstr "Help ons je beoordeling begrijpen"
+
+#: includes/admin/views/html-admin-setup-header.php:53
+msgid "Your API key has not been updated, please try again."
+msgstr "Je API-sleutel is niet geüpdatet, probeer het opnieuw."
+
+#: includes/admin/views/html-admin-setup-step-1.php:46
+msgid "Let’s get started"
+msgstr "Laten we beginnen"
+
+#: includes/admin/views/html-admin-setup-step-1.php:25
+msgid "Welcome to Crowdsignal Forms"
+msgstr "Welkom bij Crowdsignal Forms"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:22
+msgid "Skip Setup"
+msgstr "Configuratie overslaan"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:21
+msgid "Let's Get Started"
+msgstr "Laten we beginnen"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:17
+msgid "You are nearly ready to start creating polls with <strong>Crowdsignal</strong>."
+msgstr "Je kunt bijna polls aanmaken met <strong>Crowdsignal</strong>."
+
+#: includes/admin/views/html-admin-setup-step-2.php:28
+msgid "You're ready to start using Crowdsignal!"
+msgstr "Je bent klaar om Crowdsignal te gaan gebruiken!"
+
+#: includes/admin/views/html-admin-setup-footer.php:29
+msgid "Privacy"
+msgstr "Privacy"
+
+#: includes/admin/views/html-admin-setup-footer.php:29
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: includes/admin/views/html-admin-setup-footer.php:28
+msgid "Terms"
+msgstr "Voorwaarden"
+
+#: includes/admin/views/html-admin-setup-footer.php:28
+msgid "Terms of Service"
+msgstr "Eindgebruikersovereenkomst"
+
+#: includes/admin/views/html-admin-setup-footer.php:27
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/admin/views/html-admin-setup-footer.php:27
+msgid "Crowdsignal Support"
+msgstr "Crowdsignal Support"
+
+#: includes/admin/views/html-admin-setup-step-3.php:22
+msgid "First time using Crowdsignal?"
+msgstr "Eerste keer dat je Crowdsignal gebruikt?"
+
+#: includes/admin/views/html-admin-setup-header.php:46
+msgid "You have been connected to Crowdsignal."
+msgstr "Je bent verbonden met Crowdsignal."
+
+#: includes/admin/views/html-admin-setup-header.php:39
+msgid "Success! Your Crowdsignal account is successfully connected! You are ready!"
+msgstr "Gelukt! Je Crowdsignal account is met succes gekoppeld! Je bent klaar!"
+
+#: includes/admin/views/html-admin-setup-header.php:32
+msgid "Successfully disconnected from Crowdsignal."
+msgstr "De verbinding met Crowdsignal is verbroken."
+
+#: includes/admin/views/html-admin-setup-header.php:25
+msgid "Could not disconnect. Please try again."
+msgstr "Kan verbinding niet verbreken. Probeer het nog eens."
+
+#: includes/admin/views/html-admin-settings.php:84
+msgid "Connect"
+msgstr "Verbinden"
+
+#: includes/admin/views/html-admin-settings.php:78
+msgid "Disconnect"
+msgstr "Verbinding verbreken"
+
+#: includes/admin/views/html-admin-settings.php:51
+msgid "Settings successfully saved"
+msgstr "Instellingen succesvol opgeslagen"
+
+#: includes/admin/class-crowdsignal-forms-settings.php:143
+msgid "Enter Crowdsignal API Key"
+msgstr "Crowdsignal API-sleutel invullen"
+
+#: includes/admin/class-crowdsignal-forms-settings.php:138
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/admin/views/html-admin-setup-step-1.php:16
+#: includes/admin/views/html-admin-setup-step-3.php:16
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: includes/admin/class-crowdsignal-forms-admin.php:92 build/editor.js:3
+#: build/editor.js:6
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-crowdsignal-forms.php:454
+msgid "Crowdsignal"
+msgstr "Crowdsignal"
+
+#: includes/admin/class-crowdsignal-forms-admin-notices.php:116
+msgid "You don&#8217;t have permission to do this."
+msgstr "Je hebt geen toestemming om dit te doen."
+
+#: includes/admin/class-crowdsignal-forms-admin-notices.php:112
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: includes/rest-api/controllers/class-polls-controller.php:435
+msgid "Resource not found"
+msgstr "Gegevensbron niet gevonden"
+
+#: includes/rest-api/controllers/class-polls-controller.php:344
+msgid "Invalid post ID"
+msgstr "Ongeldig bericht ID"
+
+#: includes/rest-api/controllers/class-polls-controller.php:295
+#: includes/rest-api/controllers/class-polls-controller.php:358
+msgid "Invalid poll ID"
+msgstr "Ongeldige poll-ID"
+
+#: includes/rest-api/controllers/class-polls-controller.php:210
+#: includes/rest-api/controllers/class-polls-controller.php:235
+msgid "No Poll ID was provided."
+msgstr "Geen poll ID opgegeven."
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:174
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:155
+#: includes/frontend/blocks/class-crowdsignal-forms-poll-block.php:157
+#: build/editor.js:3 build/editor.js:4 build/editor.js:6
+msgid "Submit"
+msgstr "Verzenden"
+
+#. Author URI of the plugin
+#: crowdsignal-forms.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Author of the plugin
+#: crowdsignal-forms.php
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin
+#: crowdsignal-forms.php
+msgid "Crowdsignal Form Blocks"
+msgstr "Crowdsignal formulier blokken"
+
+#. Plugin URI of the plugin
+#: crowdsignal-forms.php
+msgid "https://crowdsignal.com/crowdsignal-forms/"
+msgstr "https://crowdsignal.com/crowdsignal-forms/"
+
+#. Plugin Name of the plugin
+#: crowdsignal-forms.php
+msgid "Crowdsignal Forms"
+msgstr "Crowdsignal Forms"

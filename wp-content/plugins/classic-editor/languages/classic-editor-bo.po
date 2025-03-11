@@ -1,0 +1,123 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Tibetan
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-02 09:39:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: bo\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:860
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "རྩོམ་སྒྲིག (ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས)"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "རྩོམ་སྒྲིག (རྡོག་པོ་རྩོམ་སྒྲིག་ཆས)"
+
+#: classic-editor.php:479
+msgid "Default Editor"
+msgstr "སོར་བཞག་གི་རྩོམ་སྒྲིག་ཆས།"
+
+#: classic-editor.php:512
+msgid "Change settings"
+msgstr "སྒྲིག་འགོད་བརྗེ་འགྱུར།"
+
+#: classic-editor.php:499
+msgid "Default editor for all sites"
+msgstr "དྲ་ཚིགས་ཡོངས་ཀྱི་སོར་བཞག་གི་རྩོམ་སྒྲིག་ཆས།"
+
+#: classic-editor.php:495
+msgid "Editor Settings"
+msgstr "རྩོམ་སྒྲིག་ཆས་སྒྲིག་འགོད།"
+
+#: classic-editor.php:894
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "རྡོག་པོ་རྩོམ་སྒྲིག་ཆས།"
+
+#: classic-editor.php:891
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས།"
+
+#. translators: %s: post title
+#: classic-editor.php:855
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "རྡོག་པོ་རྩོམ་སྒྲིག་ཆས་ནང་དུ &#8220;%s&#8221; རྩོམ་སྒྲིག"
+
+#: classic-editor.php:690
+msgid "Switch to block editor"
+msgstr "རྡོག་པོ་རྩོམ་སྒྲིག་ཆས་ལ་བརྗེ་བ།"
+
+#: classic-editor.php:516
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "རྡོག་པོ་རྩོམ་སྒྲིག་ཆས་ཀྱིས་ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས་ཀྱི་ཚབ་བྱེད་པ་དང་། སྤྱོད་མཁན་གྱིས་རྩོམ་སྒྲིག་ཆས་བརྗེ་མི་ཐུབ་པ་ཡིན།"
+
+#: classic-editor.php:515
+msgid "Allow site admins to change settings"
+msgstr "དྲ་ཚིགས་ཀྱི་དོ་དམ་པས་སྒྲིག་འགོད་བརྗེ་འགྱུར་བྱེད་ཆོག་པ།"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://bo.wordpress.org/plugins/classic-editor/"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#: classic-editor.php:719
+msgid "Switch to classic editor"
+msgstr "ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས་ལ་བརྗེ་བ།"
+
+#: classic-editor.php:671
+msgid "Editor"
+msgstr "རྩོམ་སྒྲིག་ཆས།"
+
+#: classic-editor.php:453
+msgid "No"
+msgstr "མིན།"
+
+#: classic-editor.php:449
+msgid "Yes"
+msgstr "ཡིན།"
+
+#: classic-editor.php:376
+msgid "Allow users to switch editors"
+msgstr "སྤྱོད་མཁན་གྱིས་རྩོམ་སྒྲིག་ཆས་བརྗེ་ཆོག"
+
+#: classic-editor.php:375
+msgid "Default editor for all users"
+msgstr "སྤྱོད་མཁན་ཡོངས་ཀྱི་སོར་བཞག་གི་རྩོམ་སྒྲིག་ཆས།"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "WordPress བྱས་རྗེས་འཇོག་མཁན།"
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས།"
+
+#. translators: %s: post title
+#: classic-editor.php:862
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས་ནང་དུ &#8220;%s&#8221; རྩོམ་སྒྲིག"
+
+#: classic-editor.php:738
+msgid "Settings"
+msgstr "སྒྲིག་འགོད།"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "WordPress ཡི་ཚད་ལྡན་རྩོམ་སྒྲིག་ཆས་དང་བཟོ་ལྟ་རྙིང་པའི་རྩོམ་ཡིག་རྩོམ་སྒྲིག་བརྙན་ཡོལ་སྤྱོད་འགོ་འཛུགས་པ། དེའི་ནང་དུ TinyMCE, Meta Boxes སོགས་འདུས་ཡོད་པ་དང་། བརྙན་ཡོལ་འདིའི་མཐུད་སྣེ་རྙིང་པའི་རྒྱ་སྐྱེད་ལ་རམ་འདེགས་ཐོབ་པ་ཡིན།"

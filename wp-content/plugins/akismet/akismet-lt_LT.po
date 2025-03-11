@@ -1,0 +1,1010 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Lithuanian
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-27 22:05:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: lt\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/notice.php:198
+msgid "Akismet is now protecting your site from spam."
+msgstr "Akismet dabar saugo jūsų tinklalapį nuo šlamšto."
+
+#: views/config.php:300
+msgid "Account overview"
+msgstr "Paskyros apžvalga"
+
+#. translators: %1$s: spam folder link, %2$d: delete interval in days
+#: views/config.php:188
+msgid "Spam in the %1$s older than %2$d day is deleted automatically."
+msgid_plural "Spam in the %1$s older than %2$d days is deleted automatically."
+msgstr[0] "Senesnis nei %2$d diena šlamštas iš %1$s ištrinamas automatiškai."
+msgstr[1] "Senesnis nei %2$d dienos šlamštas iš %1$s ištrinamas automatiškai."
+msgstr[2] "Senesnis nei %2$d dienų šlamštas iš %1$s ištrinamas automatiškai."
+
+#: views/config.php:183
+msgid "spam folder"
+msgstr "nepageidaujamų laiškų aplankas"
+
+#: views/stats.php:11
+msgid "Akismet detailed stats"
+msgstr "Išsami Akismet statistika"
+
+#: views/stats.php:6
+msgid "Back to settings"
+msgstr "Atgal į nustatymus"
+
+#: views/config.php:264
+msgid "Subscription type"
+msgstr "Prenumeratos tipas"
+
+#: views/config.php:228
+msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
+msgstr "Akismet gali rodyti reikiamus pranešimus lankytojams prie komentarų formų, kad jūsų tinklalapis praneštų jiems apie duomenų saugą, taip atitikdamas duomenų apsaugos įstatymus, pavyzdžiui, GDPR."
+
+#: views/config.php:150
+msgid "Spam filtering"
+msgstr "Apsauga nuo brukalų"
+
+#: views/config.php:90 views/enter.php:9
+msgid "API key"
+msgstr "API raktas"
+
+#: views/config.php:44
+msgid "Akismet stats"
+msgstr "Akismet statistika"
+
+#. Author of the plugin
+#: akismet.php
+msgid "Automattic - Anti-spam Team"
+msgstr "Automattic - Apsaugos nuo brukalų komanda"
+
+#. Plugin Name of the plugin
+#: akismet.php
+msgid "Akismet Anti-spam: Spam Protection"
+msgstr "Akismet Anti-Spam: apsauga nuo brukalų"
+
+#: views/notice.php:47
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "WP-Cron išjungtas su DISABLE_WP_CRON konstanta. Pakartotiniai komentarų patikrinimai gali veikti netinkamai."
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:802
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: views/get.php:17
+msgid "(opens in a new tab)"
+msgstr "(atsidaro naujame naršyklės skirtuke)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:341
+msgid "Upgrade to %s"
+msgstr "Pirkti versiją %s"
+
+#: views/notice.php:336
+msgid "Upgrade your subscription level"
+msgstr "Pirkti aukštesnį prenumeratos lygį"
+
+#: views/notice.php:293 views/notice.php:301 views/notice.php:309
+#: views/notice.php:318
+msgid "Learn more about usage limits."
+msgstr "Sužinokite daugiau apie naudojimosi limitus."
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:285
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "Nuo %1$s Jūsų paskyra atliko %2$s API užklausas. Jūsų plano limitas yra %3$s."
+
+#: views/notice.php:315
+msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Jūsų Akismet užklausų kiekis viršijo Jūsų plano limitą tris mėnesius iš eilės. Todėl apribijome Jūsų paskyrą iki šio mėnesio pabaigos. Norėdami nuimti ribojimą, įsigykite didesnį Akismet planą."
+
+#: views/notice.php:306
+msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Jūsų Akismet užklausų kiekis artėja prie Jūsų plano limito trečią mėnesį iš eilės. Jei pasieksite savo limitą, turėsime apriboti Jūsų paskyrą. Norėdami nuimti ribojimą, turėsite įsigyti didesnį Akismet planą."
+
+#: views/notice.php:298
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "Jūsų Akismet užklausų kiekis viršijo Jūsų plano limitą du mėnesius iš eilės. Jei kitą mėnesį vėl viršysite savo limitą, turėsime apriboti Jūsų paskyrą. Norėdami nuimti ribojimą, turėsite įsigyti didesnį Akismet planą."
+
+#: views/notice.php:272
+msgid "Your account has been restricted"
+msgstr "Jūsų paskyra yra apribota"
+
+#: views/notice.php:268
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "Jūsų Akismet užklausų kiekis artėja prie Jūsų plano limito."
+
+#: views/notice.php:265
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "Jūsų Akismet užklausų kiekis viršijo Jūsų plano limitą."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:228
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Įrašykite naują raktą arba <a href=\"%s\" target=\"_blank\">susisiekite su Akismet klientų aptarnavimo komada</a>."
+
+#: views/notice.php:222
+msgid "Your API key is no longer valid."
+msgstr "Jūsų API raktas nebegalioja."
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:490
+msgid "Checking for Spam (%1$s%)"
+msgstr "Tikriname dėl šlamšto (%1$s%)"
+
+#: class.akismet-admin.php:818
+msgid "No comment history."
+msgstr "Komentarų istorijos nėra."
+
+#: class.akismet-admin.php:751
+msgid "Akismet was unable to recheck this comment."
+msgstr "Akismet negalėjo iš naujo patikrinti šio komentaro."
+
+#: class.akismet-admin.php:743
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Akismet nepavyko patikrinti šio komentaro, bet vėliau tai bus automatiškai bandoma pakartoti."
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:712
+msgid "Comment was caught by %s."
+msgstr "Komentarą užfiksavo %s."
+
+#: class.akismet.php:807
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "Akismet dar nesukonfigūruotas. Įrašykite API raktą."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Įrašykite savo API raktą"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Sukurkite kitą paskyrą"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Norėdami įjungti šlamšto filtravimą šiame tinklalapyje, susikurkite Akismet paskyrą."
+
+#: class.akismet-admin.php:1330
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Akismet negalėjo iš naujo patikrinti, ar jūsų komentaruose nėra šlamšto."
+
+#: class.akismet-admin.php:523
+msgid "You don&#8217;t have permission to do that."
+msgstr "Jūs neturite teisių šiam veiksmui."
+
+#: class.akismet-cli.php:167
+msgid "Stats response could not be decoded."
+msgstr "Nepavyko iššifruoti statistikos užklausos atsako."
+
+#: class.akismet-cli.php:161
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Šiuo metu nepavyksta gauti statistikos. Pabandykite dar kartą."
+
+#: class.akismet-cli.php:135
+msgid "API key must be set to fetch stats."
+msgstr "Statistikai gauti reikalingas API raktas."
+
+#: views/config.php:221
+msgid "Do not display privacy notice."
+msgstr "Nerodyti privatumo pranešimo."
+
+#: views/config.php:213
+msgid "Display a privacy notice under your comment forms."
+msgstr "Rodyti pranešimą dėl privatumo po komentarų formomis."
+
+#: views/config.php:207
+msgid "Akismet privacy notice"
+msgstr "Akismet pranešimas dėl privatumo"
+
+#: views/config.php:202
+msgid "Privacy"
+msgstr "Privatumas"
+
+#: class.akismet-admin.php:106
+msgid "We collect information about visitors who comment on Sites that use our Akismet Anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
+msgstr "Mes renkame informaciją apie lankytojus, kurie komentuoja tinklalapiuose, naudojančiuose Akismet brukalų atpažinimo paslaugą. Renkamos informacijos pobūdis priklauso nuo to, kaip tinklalapio administratorius sukonfigūruoja Akismet, tačiau standartiškai įeina komentaro autoriaus IP adresas, vartotojo įrangos tipas, apsilankymo šaltinis ir tinklalapio URL (kartu su kita lankytojo tiesiogiai pateikia informacija, tokia kaip jo vardas, vartotojo vardas, el.pašto adresas bei pačio komentaro tekstas."
+
+#: class.akismet.php:409
+msgid "Comment discarded."
+msgstr "Komentaras užblokuotas."
+
+#: class.akismet-rest-api.php:206
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "Tinklalapio API raktas įrašytas tiesiogiai kode todėl jo neįmanoma ištrinti."
+
+#: class.akismet-rest-api.php:190
+msgid "The value provided is not a valid and registered API key."
+msgstr "Įrašyta reikšmė nėra tinkamas ar veikiantis API raktas."
+
+#: class.akismet-rest-api.php:184
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "Tinklalapio API raktas įrašytas tiesiogiai kode todėl jo neįmanoma pakeisti per API."
+
+#: class.akismet-rest-api.php:84 class.akismet-rest-api.php:97
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Pageidaujamas statistikos laikotarpis. Galimybės: 60 dienų, 6 mėnesiai, visų laikų statistika"
+
+#: class.akismet-rest-api.php:65
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Jei įjungta, komentarų sąrašo puslapyje, šalia kiekvieno komentaro autoriaus bus rodomas jo parašytų ir patvirtintų komentarų kiekis."
+
+#: class.akismet-rest-api.php:60
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Jei įjungta, Akismet automatiškai ištrins pačius akivaizdžiausius brukalus vietoj jų perkėlimo į Brukalų aplanką."
+
+#: class.akismet-rest-api.php:31 class.akismet-rest-api.php:122
+#: class.akismet-rest-api.php:135 class.akismet-rest-api.php:148
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "12 simbolių Akismet API raktas. Gaukite savo per akismet.com/get/"
+
+#: views/notice.php:109
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Jūsų tinklalapis negali prisijungti prie Akismet serverių."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Akismet API yra įrašytas šio tinklalapio %s faile."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Rankinis konfigūravimas"
+
+#: class.akismet-admin.php:284
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Šiame puslapyje galite pakeisti Akismet nustatymus ir peržiūrėti statistiką."
+
+#. Description of the plugin
+#: akismet.php
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
+msgstr "Akismet yra naudojamas milijonuose tinklalapių, ir šiuo metu yra bene geriausias būdas  <strong>apsaugoti savo tinklalapį nuo brukalų</strong>. Šis įskiepis saugo Jūsų tinklalapį net kai Jūs miegate. Norėdami pradėti jį naudoti, aktyvuokite įskiepį Akismet ir puslapyje Akismet nustatymai įrašykite savo API raktą."
+
+#: class.akismet-admin.php:133 class.akismet-admin.php:135
+msgid "Akismet Anti-spam"
+msgstr "Akismet Anti-Spam"
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Prisijungti su API raktu"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Jūs prisijungėte kaip %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Prisijungti per Jetpack"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Naudokite savo Jetpack prieigą Akismet aktyvavimui."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Apsaugokite savo tinklalapį nuo brukalų"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:205
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Ar norėtumėte <a href=\"%s\">patikrinti patvirtinimo laukiančius komentarus</a>?"
+
+#: views/notice.php:25
+msgid "Set up your Akismet account"
+msgstr "Sukonfigūruokite savo Akismet paskyrą"
+
+#: views/config.php:36
+msgid "Detailed stats"
+msgstr "Išsami statistika"
+
+#: views/config.php:31
+msgid "Statistics"
+msgstr "Statistika"
+
+#: class.akismet-admin.php:1431
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Akismet yra naudojamas milijonuose tinklalapių, ir šiuo metu yra bene geriausias būdas  <strong>apsaugoti savo tinklalapį nuo brukalų</strong>. Šis įskiepis saugo Jūsų tinklalapį net kai Jūs miegate. Norėdami pradėti jį naudoti, eikite į <a href=\"admin.php?page=akismet-key-config\">puslapį Akismet nustatymai</a> ir įrašykite savo API raktą."
+
+#: class.akismet-admin.php:1429
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Akismet yra naudojamas milijonuose tinklalapių, ir šiuo metu yra bene geriausias būdas  <strong>apsaugoti savo tinklalapį nuo brukalų</strong>. Jūsų tinklalapyje apsaugos nustatymai yra pilnai sukonfigūruoti ir jis yra saugomas net kai Jūs miegate. "
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:1324
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s komentaras pažymėtas kaip brukalai."
+msgstr[1] "%s komentarai pažymėti kaip brukalai."
+msgstr[2] "%s komentarų pažymėti kaip brukalai."
+
+#: class.akismet-admin.php:1321
+msgid "No comments were caught as spam."
+msgstr "Nėra komentarų pažymėtų kaip brukalai."
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:1317
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismet patvirtino %s komentarą."
+msgstr[1] "Akismet patvirtino %s komentarus."
+msgstr[2] "Akismet patvirtino %s komentarų."
+
+#: class.akismet-admin.php:1314
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "Nėra komentarų, kuriuos reikėtų patikrinti. Akismet tikrina tik komentarus, kurie yra laukiantys patvirtintino."
+
+#: class.akismet.php:813
+msgid "Comment not found."
+msgstr "Komentaras nerastas."
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:89
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d komentaro nepavyko patikrinti."
+msgstr[1] "%d komentarų nepavyko patikrinti."
+msgstr[2] "%d komentarų nepavyko patikrinti."
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d komentaras perkeltas į Brukalus."
+msgstr[1] "%d komentarai perkelti į Brukalus."
+msgstr[2] "%d komentarų perkelta į Brukalus."
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:82
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Patikrintas %d komentaras."
+msgstr[1] "Patikrinti %d komentarai."
+msgstr[2] "Patikrinta %d komentarų."
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:45
+msgid "Comment #%d could not be checked."
+msgstr "Komentaro #%d nepavyko patikrinti."
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:42
+msgid "Failed to connect to Akismet."
+msgstr "Nepavyko prisijungti prie Akismet."
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "Komentaras #%d nėra brukalas."
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "Komentaras #%d yra brukalas."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:66
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "Klaidingai pažymėtų kaip brukalas: %s"
+msgstr[1] "Klaidingai pažymėtų kaip brukalas: %s"
+msgstr[2] "Klaidingai pažymėtų kaip brukalas: %s"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:64
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "Nesugautų brukalų: %s"
+msgstr[1] "Nesugautų brukalų: %s"
+msgstr[2] "Nesugautų brukalų: %s"
+
+#: views/notice.php:175
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Jūs neturite Akismet prenumeratos plano."
+
+#: views/notice.php:142
+msgid "Your Akismet subscription is suspended."
+msgstr "Jūsų Akismet prenumerata yra sustabdyta."
+
+#: views/notice.php:131
+msgid "Your Akismet plan has been cancelled."
+msgstr "Jūsų Akismet prenumerata yra atšaukta."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:124
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Nepavyko įvykdyti apmokėjimo. Prašome <a href=\"%s\" target=\"_blank\">atnaujinti savo mokėjimo informaciją</a>."
+
+#: views/notice.php:120
+msgid "Please update your payment information."
+msgstr "Prašome atnaujinti savo mokėjimo informaciją."
+
+#. translators: %s: Number of minutes.
+#: class.akismet-admin.php:1224
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet Jums sutaupė %d minutę!"
+msgstr[1] "Akismet Jums sutaupė %d minutes!"
+msgstr[2] "Akismet Jums sutaupė %d minučių!"
+
+#. translators: %s: Number of hours.
+#: class.akismet-admin.php:1221
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet Jums sutaupė %d valandą!"
+msgstr[1] "Akismet Jums sutaupė %d valandas!"
+msgstr[2] "Akismet Jums sutaupė %d valandų!"
+
+#. translators: %s: Number of days.
+#: class.akismet-admin.php:1218
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet Jums sutaupė %s dieną!"
+msgstr[1] "Akismet Jums sutaupė %s dienas!"
+msgstr[2] "Akismet Jums sutaupė %s dienų!"
+
+#: class.akismet-admin.php:233 class.akismet-admin.php:271
+#: class.akismet-admin.php:283
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet sustabdo brukalus, o Jūs galite susitelkti į svarbesnius darbus."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:245
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Nepavyksta prisijungti prie akismet.com. Prašome peržiūrėti mūsų  <a href=\"%s\" target=\"_blank\">gidą apie ugniasienes</a> bei patikrinti savo serverio nustatymus."
+
+#: views/notice.php:239
+msgid "The API key you entered could not be verified."
+msgstr "Jūsų įvesto rakto nepavyko patvirtinti."
+
+#: views/config.php:117
+msgid "All systems functional."
+msgstr "Visos funkcijos veikia."
+
+#: views/config.php:116
+msgid "Enabled."
+msgstr "Įjungta."
+
+#: views/config.php:114
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Akismet susidūrė su problema apdorojant paskiausią SSL užklausą ir išjungė ją. Netrukus SSL vėl bus pradėta naudoti užklausose."
+
+#: views/config.php:113
+msgid "Temporarily disabled."
+msgstr "Laikinai išjungta."
+
+#: views/config.php:108
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Jūsų serveris nekuria SSL užklausų; susisiekite su savo hostingo paslaugų tiekėju ir paprašykite įjungti palaikymą SSL užklausoms."
+
+#: views/config.php:107
+msgid "Disabled."
+msgstr "Išjungta."
+
+#: views/config.php:104
+msgid "SSL status"
+msgstr "SSL statusas"
+
+#: class.akismet-admin.php:729
+msgid "This comment was reported as not spam."
+msgstr "Pranešta, kad šis komentaras nėra brukalas."
+
+#: class.akismet-admin.php:721
+msgid "This comment was reported as spam."
+msgstr "Šis komentaras pažymėtas kaip brukalas."
+
+#. Author URI of the plugin
+#: akismet.php
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+#: akismet.php
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Įveskite API raktą rankiniu būdu"
+
+#: views/connect-jp.php:53 views/notice.php:333
+msgid "Contact Akismet support"
+msgstr "Susisiekti su Akismet pagalba"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Nesijaudinkite! Susisiekite ir mes pagelbėsime."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Prenumerata sustabdyta: %s"
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Prenumerata atšaukta: %s"
+
+#: views/notice.php:217
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Įvestas raktas yra neteisingas. Patikrinkite, ar tikrai jį įvedėte be klaidų."
+
+#: views/notice.php:164
+msgid "There is a problem with your API key."
+msgstr "Yra problemų su jūsų raktu."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:157
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Galite padėti kovoti su brukalais ir pagerinti savo paskyrą <a href=\"%s\" target=\"_blank\">šiek tiek paremdami</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:146 views/notice.php:168
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Susisiekite su <a href=\"%s\" target=\"_blank\">Akismet pagalba</a>."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:135
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Užeikite į savo <a href=\"%s\" target=\"_blank\">Akismet paskyros puslapį</a> norėdami vėl įjungti prenumeratą."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:113
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Jūsų ugniasienė gali blokuoti Akismet prisijungimą prie API. Susisiekite su talpintoju ir parodykite <a href=\"%s\" target=\"_blank\">mūsų ugniasienių gidą</a>."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:102
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Jūsų serverio administratorius yra išjungęs PHP funkciją <code>gethostbynamel</code>. <strong>Akismet negali tinkamai dirbti, kol taip yra.</strong>  Susisiekite su serverio administratoriumi ir pateikite <a href=\"%s\" target=\"_blank\">šią informaciją apie Akismet reikalavimus</a>."
+
+#: views/notice.php:98
+msgid "Network functions are disabled."
+msgstr "Tinklo funkcijos yra išjungtos."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:83
+msgid "For more information: %s"
+msgstr "Daugiau informacijos: %s"
+
+#. translators: The placeholder is an error code returned by Akismet.
+#: views/notice.php:78
+msgid "Akismet error code: %s"
+msgstr "Akismet klaidos kodas: %s"
+
+#: views/notice.php:37
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Akismet dar nepatikrino kai kurių komentarų. Jie laikinai perkelti į laukiančių patvirtinimo komentarų sąrašą ir bus automatiškai patikrinti vėliau."
+
+#: views/notice.php:36 views/notice.php:46
+msgid "Akismet has detected a problem."
+msgstr "Akismet aptiko problemą."
+
+#: views/config.php:308
+msgid "Change"
+msgstr "Pakeisti"
+
+#: views/config.php:308
+msgid "Upgrade"
+msgstr "Pagerinti"
+
+#: views/config.php:289
+msgid "Next billing date"
+msgstr "Kita mokėjimo data"
+
+#: views/config.php:282
+msgid "Active"
+msgstr "Aktyvi"
+
+#: views/config.php:280
+msgid "No subscription found"
+msgstr "Prenumeratų nerasta"
+
+#: views/config.php:278
+msgid "Missing"
+msgstr "Nerasta"
+
+#: views/config.php:276
+msgid "Suspended"
+msgstr "Sustabdyta"
+
+#: views/config.php:274
+msgid "Cancelled"
+msgstr "Atšaukta"
+
+#: views/config.php:245
+msgid "Save changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: views/config.php:237
+msgid "Disconnect this account"
+msgstr "Atsijungti nuo šios paskyros"
+
+#: views/config.php:176
+msgid "Note:"
+msgstr "Pastaba:"
+
+#: views/config.php:169
+msgid "Always put spam in the Spam folder for review."
+msgstr "Visada perkelti brukalus į Brukalų sąrašą peržiūrai."
+
+#: views/config.php:161
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Iš karto ištrinti akivaizdžiausius brukalus, Jums net nerodant."
+
+#: views/config.php:155
+msgid "Akismet Anti-spam strictness"
+msgstr "Akismet griežtumas"
+
+#: views/config.php:142
+msgid "Show the number of approved comments beside each comment author."
+msgstr "Prie kiekvieno komentaro autoriaus rodyti, kiek jo komentarų yra patvirtinta."
+
+#: views/config.php:59
+msgid "Accuracy"
+msgstr "Tikslumas"
+
+#: views/config.php:54
+msgid "All time"
+msgstr "Iš viso"
+
+#: views/config.php:51 views/config.php:56
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Sugauta brukalų"
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/config.php:49
+msgid "Past six months"
+msgstr "Paskutiniai 6 mėn."
+
+#. translators: 1: WordPress documentation URL, 2: Akismet download URL.
+#: class.akismet.php:1741
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "<a href=\"%1$s\">Atnaujinkite WordPress</a> į naujausią versiją arba <a href=\"%2$s\">grįžkite prie Akismet 2.4</a>."
+
+#: class.akismet-admin.php:736
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet patvirtino šį komentarą per automatinę pakartotinę patikrą."
+
+#: class.akismet-admin.php:733
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet pagavo šį komentarą kaip brukalą per automatinę pakartotinę patikrą."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:727
+msgid "%s reported this comment as not spam."
+msgstr "%s pranešė, kad šis komentaras nėra brukalas."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:719
+msgid "%s reported this comment as spam."
+msgstr "%s pranešė, kad šis komentaras yra brukalas."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:784
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s pakeitė komentaro būseną į %2$s"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:741
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet negalėjo patikrinti komentaro (atsakas: %s), bet vėliau automatiškai bus pabandyta dar kartą."
+
+#: class.akismet-admin.php:706
+msgid "Akismet cleared this comment."
+msgstr "Akismet patvirtino šį komentarą."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:778
+msgid "Comment status was changed to %s"
+msgstr "Komentaro būsena pakeista į %s"
+
+#: class.akismet-admin.php:700
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet pažymėjo šį komentarą kaip brukalą."
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:137
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong>Akismet</strong> užblokavo <strong class=\"count\">%1$s brukalą</strong>"
+msgstr[1] "<strong>Akismet</strong> užblokavo <strong class=\"count\">%1$s brukalus</strong>"
+msgstr[2] "<strong>Akismet</strong> užblokavo <strong class=\"count\">%1$s brukalų</strong>"
+
+#: class.akismet-widget.php:101
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+#: class.akismet-widget.php:96 class.akismet-widget.php:118
+msgid "Spam Blocked"
+msgstr "Blokuota brukalų"
+
+#: class.akismet-widget.php:19
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Rodyti Akismet sugautų brukalų skaičių"
+
+#: class.akismet-widget.php:18
+msgid "Akismet Widget"
+msgstr "Akismet valdiklis"
+
+#: class.akismet-admin.php:1214
+msgid "Cleaning up spam takes time."
+msgstr "Brukalų valymas šiek tiek užtrunka."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:1097
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Patikrinkite savo <a href=\"%s\">Akismet konfigūraciją</a> ir susisiekite su tinklaraščio talpintoju, jei problema kartosis."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:798
+msgid "%s ago"
+msgstr "prieš %s"
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:673
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s patvirtintas"
+msgstr[1] "%s patvirtinti"
+msgstr[2] "%s patvirtinta"
+
+#: class.akismet-admin.php:647
+msgid "History"
+msgstr "Istorija"
+
+#: class.akismet-admin.php:647 class.akismet-admin.php:655
+msgid "View comment history"
+msgstr "Peržiūrėti komentaro istoriją"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:634
+msgid "Un-spammed by %s"
+msgstr "%s pažymėjo kaip ne brukalą"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:631
+msgid "Flagged as spam by %s"
+msgstr "%s pažymėjo kaip brukalą"
+
+#: class.akismet-admin.php:625
+msgid "Cleared by Akismet"
+msgstr "Akismet patvirtino"
+
+#: class.akismet-admin.php:623
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet pažymėjo kaip brukalą"
+
+#: class.akismet-admin.php:619
+msgid "Awaiting spam check"
+msgstr "Laukiama brukalų paieškos"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:749
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet nepavyko patikrinti šio komentaro iš naujo (atsakas: %s)"
+
+#: class.akismet-admin.php:703
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Akismet patikrino iš naujo ir patvirtino šį komentarą."
+
+#: class.akismet-admin.php:697
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Akismet patikrino iš naujo ir pažymėjo šį komentarą kaip brukalą."
+
+#: class.akismet-admin.php:507
+msgid "Check for Spam"
+msgstr "Ieškoti brukalų"
+
+#. translators: %s: Comments page URL.
+#: class.akismet-admin.php:449
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "<a href='%s'>Brukalų sąrašas</a> yra tuščias."
+
+#. translators: 1: Number of comments, 2: Comments page URL.
+#: class.akismet-admin.php:438
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Brukalų sąraše yra <a href=\"%2$s\">%1$s komentaras</a>."
+msgstr[1] "Brukalų sąraše yra <a href=\"%2$s\">%1$s komentarai</a>."
+msgstr[2] "Brukalų sąraše yra <a href=\"%2$s\">%1$s komentarų</a>."
+
+#. translators: %s: Akismet website URL.
+#: class.akismet-admin.php:430
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> apsaugo Jūsų tinklalapį nuo brukalų. "
+
+#. translators: 1: Akismet website URL, 2: Number of spam comments.
+#: class.akismet-admin.php:419
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> Jus jau apsaugojo nuo %2$s brukalo. "
+msgstr[1] "<a href=\"%1$s\">Akismet</a> Jus jau apsaugojo nuo %2$s brukalų. "
+msgstr[2] "<a href=\"%1$s\">Akismet</a> Jus jau apsaugojo nuo %2$s brukalų. "
+
+#. translators: 1: Akismet website URL, 2: Comments page URL, 3: Number of spam
+#. comments.
+#: class.akismet-admin.php:402
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> apsaugojo Jūsų tinklaraštį nuo <a href=\"%2$s\">%3$s brukalo</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> apsaugojo Jūsų tinklaraštį nuo <a href=\"%2$s\">%3$s brukalų</a>."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> apsaugojo Jūsų tinklaraštį nuo <a href=\"%2$s\">%3$s brukalų</a>."
+
+#: class.akismet-admin.php:398
+msgctxt "comments"
+msgid "Spam"
+msgstr "Brukalai"
+
+#: class.akismet-admin.php:325
+msgid "Cheatin&#8217; uh?"
+msgstr "Čytini, ane?"
+
+#: class.akismet-admin.php:319
+msgid "Akismet Support"
+msgstr "Akismet pagalba"
+
+#: class.akismet-admin.php:318
+msgid "Akismet FAQ"
+msgstr "Akismet DUK"
+
+#: class.akismet-admin.php:317
+msgid "For more information:"
+msgstr "Daugiau informacijos:"
+
+#: class.akismet-admin.php:308
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Paskyros būsena - aktyvi, atšaukta ar sustabdyta"
+
+#: class.akismet-admin.php:308 views/config.php:270
+msgid "Status"
+msgstr "Būsena"
+
+#: class.akismet-admin.php:307
+msgid "The Akismet subscription plan"
+msgstr "Akismet prenumeratos planas"
+
+#: class.akismet-admin.php:307
+msgid "Subscription Type"
+msgstr "Prenumeratos tipas"
+
+#: class.akismet-admin.php:304 views/config.php:256
+msgid "Account"
+msgstr "Paskyra"
+
+#: class.akismet-admin.php:296
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Pasirinkite, ar dažniausius brukalus sunaikinti automatiškai ar tik perkelti į brukalų sąrašą."
+
+#: class.akismet-admin.php:296
+msgid "Strictness"
+msgstr "Griežtumas"
+
+#: class.akismet-admin.php:295
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Prie kiekvieno komentaro autoriaus komentarų puslapyje rodyti, kiek jo komentarų yra patvirtinta."
+
+#: class.akismet-admin.php:295 views/config.php:127
+msgid "Comments"
+msgstr "Komentarai"
+
+#: class.akismet-admin.php:294
+msgid "Enter/remove an API key."
+msgstr "Įrašykite/ištrinkite API raktą."
+
+#: class.akismet-admin.php:294
+msgid "API Key"
+msgstr "API raktas"
+
+#: class.akismet-admin.php:282 class.akismet-admin.php:293
+#: class.akismet-admin.php:306
+msgid "Akismet Configuration"
+msgstr "Akismet nustatymai"
+
+#: class.akismet-admin.php:272
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Šiame puslapyje galite peržiūrėti Akismet statistiką."
+
+#: class.akismet-admin.php:270
+msgid "Akismet Stats"
+msgstr "Akismet statistika"
+
+#: class.akismet-admin.php:259
+msgid "Click the Use this Key button."
+msgstr "Paspauskite mygtuką „Naudoti šį raktą“."
+
+#: class.akismet-admin.php:258
+msgid "Copy and paste the API key into the text field."
+msgstr "Nukopijuokite ir įklijuokite API raktą į tekstinį laukelį."
+
+#: class.akismet-admin.php:256
+msgid "If you already have an API key"
+msgstr "Jei API raktą jau turite"
+
+#: class.akismet-admin.php:253
+msgid "Enter an API Key"
+msgstr "Įrašykite API raktą"
+
+#. translators: %s: a link to the signup page with the text 'Akismet.com'.
+#: class.akismet-admin.php:246
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Sukurkite paskyrą %s ir gaukite API raktą."
+
+#: class.akismet-admin.php:244
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Norėdami šiame tinklalapyje aktyvuoti Akismet, turite įrašyti API raktą."
+
+#: class.akismet-admin.php:241
+msgid "New to Akismet"
+msgstr "Pirmas kartas su Akismet"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Šiame puslapyje galite nustatyti Akismet įskiepį."
+
+#: class.akismet-admin.php:232 class.akismet-admin.php:243
+#: class.akismet-admin.php:255
+msgid "Akismet Setup"
+msgstr "Akismet nustatymai"
+
+#: class.akismet-admin.php:230 class.akismet-admin.php:268
+#: class.akismet-admin.php:280
+msgid "Overview"
+msgstr "Apžvalga"
+
+#: class.akismet-admin.php:199
+msgid "Re-adding..."
+msgstr "Vėl pridedama..."
+
+#: class.akismet-admin.php:198
+msgid "(undo)"
+msgstr "(atšaukti)"
+
+#: class.akismet-admin.php:197
+msgid "URL removed"
+msgstr "Nuoroda pašalinta"
+
+#: class.akismet-admin.php:196
+msgid "Removing..."
+msgstr "Šalinama..."
+
+#: class.akismet-admin.php:195
+msgid "Remove this URL"
+msgstr "Pašalinti nuorodą"
+
+#: class.akismet-admin.php:105 class.akismet-admin.php:1446
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:126 class.akismet-admin.php:291
+#: class.akismet-admin.php:825 views/config.php:79
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: class.akismet-admin.php:101
+msgid "Comment History"
+msgstr "Komentaro istorija"

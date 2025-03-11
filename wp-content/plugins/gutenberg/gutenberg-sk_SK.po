@@ -1,0 +1,366 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-24 19:45:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "Odkaz"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "Výsledky vyhľadávania"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Klasický"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Vložiť"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Vizuálne odlíšte citácie. \"Pri citovaní druhých, citujeme sami seba.\" - Julio Cortázar"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Predstavte nové sekcie a organizujte obsah, aby ste pomohli návštevníkom (a vyhľadávačom) pochopiť štruktúru vášho obsahu. "
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "Stredný"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Môžete vytvoriť akýkoľvek blok chcete, statický alebo dynamický, dekoratívny alebo jednoduchý. Tu je blok citácie:"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Ďakujeme za testovanie Gutenbergu!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Pomôžte budovať Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Ak sa chcete dozvedieť viac o tom, ako vytvoriť ďalšie bloky, alebo ak máte záujem pomôcť s projektom, prejdite do <a href=\"%s\">GitHub repository</a>."
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Každý blok sa môže zaradiť do týchto zarovnaní. Vložený blok ich má tiež a je ihneď responzívny:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Vyššie je galéria s dvomi obrázkami. Je to jednoduchšia cesta pre vytváranie vizuálne príťažlivých rozložení, bez toho, aby sme museli riešiť floaty. Tiež môžete galériu jednoducho premeniť späť na samostatné obrázky, pomocou prepínača blokov."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Je jasné, že obrázok na celú šírku môže byť pekne veľký. Ale niekedy to stojí za to."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Prístupnosť je dôležitá &mdash; nezabudnite na alt atribút obrázku"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Ak kombinujete nové <strong>široké</strong> zarovnania a zarovnania <strong>na celú šírku</strong> s galériami, môžete veľmi rýchlo vytvoriť rozloženie veľmi bohaté na médiá:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Bohaté na médiá"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Množstvo stĺpcov vo vašich galériách môžete zmeniť presunutím slajdru v inšpektore blokov na postrannom paneli."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Bloky môžu byť čokoľvek, čo potrebujete. Môžete napríklad pridať tlmené citácie ako časť kompozície vašich textov, alebo naopak ich môžete zobraziť ako veľmi štylizované. Všetky tieto možnosti sú dostupné cez vkladač."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informácie odpovedajúce zdroju citácie sú oddelené textové polia, podobne ako pri titulku obrázku. Štruktúra citácie je tak chránená aj v prípade, že vyberiete, zmeníte alebo zmažete zdroj. Navyše, je vždy ľahké pridať ho späť."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "WordPress komunita"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "Kód je poézia"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editor sa bude usilovať o vytvorenie lepšieho zážitku z vytvárania stránok a príspevkov prostredníctvom možnosti jednoduchšieho písania bohatších príspevkov. A má tiež bloky, ktoré uľahčujú to, čo sa dnes musí pracne robiť prostredníctvom shortcódov, vlastného HTML a podobne."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Predstavte si, že všetko čo WordPress dokáže bude rýchlo dostupné z jedného miesta v používateľskom rozhraní. Už nemusíte zisťovať HTML tagy, triedy, pamätať si komplikovaný syntax shortcódov. To je myšlienka za vkladačom. Tlačítkom <code>(+)</code>, ktoré uvidíte v editore, ktoré vám umožňuje prechádzať všetkými dostupný blokmi a pridávať ich do príspevkov. Pluginy a témy si môžu pridať svoje vlastné bloky, čo otvára všetky možnosti pre ešte bohatšie publikovanie a úpravy."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Obrovská výhoda blokov spočíva v tom, že ich môžete upraviť na mieste a manipulovať priamo s obsahom. Namiesto toho, aby ste mali polia na úpravu vecí, ako je zdroj citácie alebo text tlačítka, môžete priamo zmeniť obsah. Skúste upraviť nasledujúcu citáciu:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Vizuálna úprava"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "A <em>zoznam</em> ako tento, samozrejme :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Bloky rozloženia, ako tlačítka, Hero obrázky, oddelovače, a pod."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Vložené prvky, ako Youtube, Tweety, alebo iné WordPress príspevky."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galérie"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Obrázky &amp; Videá"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text &amp; Nadpisy"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Vyskúšajte to, môžete objaviť veci, ktoré WordPress už dokáže pridať do vašich príspevkov, o ktorých ste ani netušili. Tu je krátky zoznam toho, čo tu v súčasnosti nájdete:"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Pokúste sa vybrať a odstrániť alebo upraviť titulok obrázku, už nemusíte byť opatrní pri mylnom výbere obrázku alebo iného textu a pokazením prezentácie."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Ak to vaša téma podporuje, uvidíte \"široké\" tlačítko na obrázku panela nástrojov. Vyskúšajte to."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "To čo práve čítate je <strong>textový blok</strong>, najzákladnejší blok zo všetkých. Textový blok má vlastné ovládacie prvky na voľné presúvanie v príspevku..."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Obrázok hodný tisícov slov"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Nadpisy sú tiež samostatné bloky, ktoré pomáhajú s prehľadom a organizáciou vášho obsahu."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... ako napríklad tento, ktorý je zarovnaný napravo."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Nástroj <em>Vkladač</em>"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Používanie obrázkov a médií s maximálnou starostlivosťou je hlavným cieľom nového editora. Dúfajme, že bude pre vás pridávania titulkov obrázkov alebo ich používanie na celú šírku omnoho jednoduchšie a robustnejšie ako kedykoľvek predtým."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Cieľom tohto nového editora je jednoduché a príjemné pridávanie bohatého obsahu do WordPressu. Celý tento príspevok sa skladá z <em> kusov obsahu</em> - trochu podobných LEGO tehličkám, s ktorými sa môžete voľne pohybovať a interagovať. Presuňte kurzor a všimnete si, že obrysy jednotlivých blokov sa rozsvietia a získajú šípky. Kliknite na šípky, aby ste rýchlo premiestnili bloky bez toho, aby ste sa museli obávať, že stratíte obsah v procese jeho kopírovania a vkladania."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Z hôr a tlačiarenských lisov"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Vitajte v Gutenberg editore"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Požadované číslo stránky je väčšie ako počet dostupných stránok."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "Malý"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Vybrať príspevok"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Vybrať týždeň"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Vybrať deň"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Vybrať mesiac"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Vybrať rok"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Archívy"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Podpora"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "Žiadne komentáre na zobrazenie."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s na %2$s"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "Veľká"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Pridajte blok, ktorý zobrazuje obsah prevzatý z iných lokalít, napríklad zo služby Twitter alebo YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Stránkovanie"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "Upraviť"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "Čítať viac"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "Zavrieť"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(bez názvu)"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "Blok"
+
+#: gutenberg.php:45
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "Gutenberg vo vývojovom režime vyžaduje vytvorenie súborov. Spustite <code>npm install</code> pre inštaláciu závislostí, <code>npm run build</code> pre vytvorenie súborov alebo <code>npm run dev</code> pre vytvorenie súborov a sledovanie zmien. Prečítajte si <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">prispievajúci</a> súbor pre viac informácii."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "pred %s"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Gutenberg tím"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demo"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s odteraz"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg vyžaduje WordPress %s alebo novší pre správne fungovanie. Pred aktiváciou Gutenberg prosím aktualizujte WordPress."

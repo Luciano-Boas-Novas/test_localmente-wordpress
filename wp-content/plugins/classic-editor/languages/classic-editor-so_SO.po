@@ -1,0 +1,133 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Somali
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-03 16:10:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: so\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:429 classic-editor.php:507 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Tafatiraha xayndaabka"
+
+#: classic-editor.php:425 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Tafatiraha qadiimiga"
+
+#: classic-editor.php:512
+msgid "Change settings"
+msgstr "Beddelo dejinta"
+
+#: classic-editor.php:499
+msgid "Default editor for all sites"
+msgstr "Tifatiraha caadiga ah ee dhammaan baraha"
+
+#: classic-editor.php:495
+msgid "Editor Settings"
+msgstr "Dejinta Tafatiraha"
+
+#: classic-editor.php:479
+msgid "Default Editor"
+msgstr "Tifatiraha Gabbaadka"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Tafatir (Tafatiraha xayndaabka)"
+
+#: classic-editor.php:860
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Tafatir (Tafatiraha qadiimiga)"
+
+#: classic-editor.php:894
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "tafatiraha xayndaabka"
+
+#: classic-editor.php:891
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "tafatiraha qadiimiga"
+
+#. translators: %s: post title
+#: classic-editor.php:855
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Tafatir &#8220;%s&#8221; tifaftiraha xayndaabka dhexdeeda"
+
+#: classic-editor.php:515
+msgid "Allow site admins to change settings"
+msgstr "U oggolow maamulayaasha barta inay beddelaan dejinta"
+
+#: classic-editor.php:671
+msgid "Editor"
+msgstr "Tifaftire"
+
+#: classic-editor.php:453
+msgid "No"
+msgstr "Maya"
+
+#: classic-editor.php:449
+msgid "Yes"
+msgstr "Haa"
+
+#: classic-editor.php:376
+msgid "Allow users to switch editors"
+msgstr "U oggolow adeegsadayaasha inay beddelaan tifaftireyaasha"
+
+#: classic-editor.php:375
+msgid "Default editor for all users"
+msgstr "Tifatiraha caadiga ah ee dhammaan adeegsadayaasha"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://so.wordpress.org/plugins/classic-editor/"
+
+#: classic-editor.php:690
+msgid "Switch to block editor"
+msgstr "U beddel tafatiraha xayndaabka"
+
+#: classic-editor.php:719
+msgid "Switch to classic editor"
+msgstr "U beddel tafatiraha qadiimiga"
+
+#: classic-editor.php:516
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Sida caadiga ah tafatiraha xayndaabka waxaa lagu beddelay tafatiraha qadiimiga oo adeegsadayaashu ma beddeli karaan tifaftireyaasha."
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "Ka-qaybgalayaasha WordPress"
+
+#: classic-editor.php:738
+msgid "Settings"
+msgstr "Dejinta"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Waxay awood u siisaa tafatiraha qadiimiga hore iyo shaashaddii hore ee Tafatir Qormada ee TinyMCE, Meta Box, iwm. Waxay taageertaa kaabayaalkii hore ee fidinayay shaashadan."
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "Classic Editor - Tafatiraha Qadiimiga"
+
+#. translators: %s: post title
+#: classic-editor.php:862
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Tafatir &#8220;%s&#8221; tifaftiraha qadiimiga dhexdeeda"

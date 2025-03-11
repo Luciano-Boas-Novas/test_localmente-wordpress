@@ -1,0 +1,70 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Afrikaans
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-29 12:45:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: af_ZA\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:515
+msgid "Allow site admins to change settings"
+msgstr "Laat webblad administrateurs toe om verstellings te verander"
+
+#: classic-editor.php:671
+msgid "Editor"
+msgstr "Skryfpaneel"
+
+#: classic-editor.php:453
+msgid "No"
+msgstr "Nee"
+
+#: classic-editor.php:449
+msgid "Yes"
+msgstr "Ja"
+
+#: classic-editor.php:376
+msgid "Allow users to switch editors"
+msgstr "Laat gebruikers toe om skryfpanele te wissel"
+
+#: classic-editor.php:375
+msgid "Default editor for all users"
+msgstr "Standaard skryfpaneel vir alle gebruikers"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "WordPress Bydraers"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Maak die WordPress klassieke skryfpaneel en die ou Wysig Artikel skermuitleg (TiyMCE, metabokse, ens.) beskikbaar. Bied ook ondersteuning via ouer plugins wat hierdie skerm uitbrei."
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "Klassieke Skryfpaneel"
+
+#. translators: %s: post title
+#: classic-editor.php:862
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Wysig &#8220;%s&#8221; in die klassieke skryfpaneel"
+
+#: classic-editor.php:738
+msgid "Settings"
+msgstr "Verstellings"

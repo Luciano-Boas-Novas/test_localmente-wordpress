@@ -1,0 +1,130 @@
+# Translation of Plugins - Page Optimize - Stable (latest release) in Galician
+# This file is distributed under the same license as the Plugins - Page Optimize - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-07 13:41:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: gl_ES\n"
+"Project-Id-Version: Plugins - Page Optimize - Stable (latest release)\n"
+
+#: settings.php:79
+msgid "Concatenate styles"
+msgstr "Unir os estilos"
+
+#: settings.php:172
+msgid "Non-critical script execution mode (experimental)"
+msgstr "Modo de execución de scripts non críticos (experimental)"
+
+#. translators: a filesystem path to a directory
+#: service.php:22
+msgid "Disabling page-optimize cache. Unable to write to cache directory '%s'."
+msgstr "Desactivando a caché de optimización de páxina. Non se puido escribir no directorio «%s» da caché."
+
+#. translators: a filesystem path to a directory
+#: service.php:14
+msgid "Disabling page-optimize cache. Unable to create cache directory '%s'."
+msgstr "Desactivando a caché de optimización de páxina. Non se puido crear o directorio «%s» da caché."
+
+#: settings.php:195
+msgid "Settings"
+msgstr "Axustes"
+
+#: settings.php:179
+msgid "CSS"
+msgstr "CSS"
+
+#: settings.php:165
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: settings.php:159
+msgid "Page Optimization"
+msgstr "Optimización de páxina"
+
+#: settings.php:150
+msgid "Comma separated list of strings to exclude from CSS concating"
+msgstr "Lista de cadeas, separadas por comas, para excluír da unión de CSS"
+
+#: settings.php:141
+msgid "CSS concatenation"
+msgstr "Unión de CSS"
+
+#: settings.php:131
+msgid "Comma separated list of strings to exclude from JS concatenating"
+msgstr "Lista de cadeas, separadas por comas, para excluír da unión de JS"
+
+#: settings.php:121
+msgid "Non-critical script execution mode"
+msgstr "Modo de execución de scripts non críticos"
+
+#: settings.php:112
+msgid "JavaScript concatenation"
+msgstr "Unión de JavaScript"
+
+#: settings.php:98
+msgid "Performance"
+msgstr "Rendemento"
+
+#: settings.php:83
+msgid "Comma separated list of strings to exclude from CSS concatenating:"
+msgstr "Lista de cadeas, separadas por comas, para excluír da unión de CSS:"
+
+#: settings.php:68
+msgid "You can choose the execution mode of the concatenated JavaScript. <strong>This option might break your site, so use carefully.</strong>"
+msgstr "Podes elixir o modo de execución do JavaScript unido. <strong>Esta opción podería romper o teu sitio, así que úsaa con coidado.</strong>"
+
+#: settings.php:64
+msgid "Defer"
+msgstr "Aprazar"
+
+#: settings.php:60
+msgid "Async"
+msgstr "Asíncrono"
+
+#: settings.php:56
+msgid "None"
+msgstr "Ningún"
+
+#: settings.php:39
+msgid "Comma separated list of strings to exclude from JS concatenating:"
+msgstr "Lista de cadeas, separadas por comas, para excluír da unión de JS:"
+
+#: settings.php:35
+msgid "Concatenate scripts"
+msgstr "Unir os scripts"
+
+#: settings.php:24
+msgid "This plugin disables Jetpack \"Speed up static file load times\"."
+msgstr "Este plugin desactiva «Acelerar os tempos de carga dos arquivos estáticos» de Jetpack."
+
+#: settings.php:19
+msgid "Concatenating JavaScript and CSS for faster site loading and lower number of requests. Scripts are grouped by the original placement."
+msgstr "Unir o JavaScript e o CSS para unha carga máis rápida do sitio e un menor número de peticións. Os scripts son agrupados pola colocación orixinal."
+
+#: settings.php:6 settings.php:97
+msgid "Performance Settings"
+msgstr "Axustes do rendemento"
+
+#. Author URI of the plugin
+msgid "http://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin
+msgid "Optimizes JS and CSS for faster page load and render in the browser."
+msgstr "Optimiza o JS e o CSS para unha carga e renderizado máis rápido da páxina no navegador."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/page-optimize/"
+msgstr "https://gl.wordpress.org/plugins/page-optimize/"
+
+#. Plugin Name of the plugin
+msgid "Page Optimize"
+msgstr "Page Optimize"

@@ -1,0 +1,2928 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-12 01:42:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:82
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:92
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr "Maaf, Anda tak diizinkan membuat komentar ini tanpa sebuah pos."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:108
+msgid "Sorry, you are not allowed to read the post for this comment."
+msgstr "Maaf, Anda tak diizinkan membaca pos dengan komentar ini."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:100
+msgid "Sorry, you are not allowed to create a comment on this post."
+msgstr "Maaf, Anda tidak diizinkan untuk membuat komentar di pos ini."
+
+#. translators: %s: Request parameter.
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:54
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:64
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:74
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr "Maaf, Anda tidak diizinkan untuk mengedit '%s' untuk komentar."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:21
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:43
+msgid "Sorry, you must be logged in to comment."
+msgstr "Maaf, Anda harus login untuk berkomentar."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr "blog"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blogs"
+msgstr "blog"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "custom post types"
+msgstr "custom post type"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Terms List"
+msgstr "Daftar Term"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block description"
+msgid "Display a list of all terms of a given taxonomy."
+msgstr "Menampilkan daftar semua term taksonomi yang dipilih."
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block keyword"
+msgid "categories"
+msgstr "kategori"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:672
+msgid "Whether items must be assigned all or any of the specified terms."
+msgstr "Apakah item harus diberikan akses ke semua atau salah satu term yang ditentukan."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:666
+msgid "Limit result set to items with specific terms assigned in the %s taxonomy."
+msgstr "Batasi hasil untuk item dengan term spesifik yang ditetapkan dalam taksonomi %s."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:653
+msgid "Whether to include child terms in the terms limiting the result set."
+msgstr "Pilih untuk memasukkan term turunan dalam term yang membatasi kumpulan hasil."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:681
+msgid "Limit result set to items except those with specific terms assigned in the %s taxonomy."
+msgstr "Batasi hasil hanya untuk item yang memiliki istilah tertentu yang diterapkan di dalam taksonomi %s."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:37
+msgid "Unique identifier for the attachment."
+msgstr "Tanda pengenal unik untuk lampiran."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:259
+msgid "Invalid post ID, only images and PDFs can be sideloaded."
+msgstr "ID pos tidak valid, hanya gambar dan PDF yang dapat di-sideload."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:69
+msgid "Whether to generate image sub sizes."
+msgstr "Apakah Anda ingin membuat ukuran sub gambar."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:74
+msgid "Whether to convert image formats."
+msgstr "Apakah Anda ingin mengonversi format gambar."
+
+#: lib/experimental/media/load.php:118
+msgid "Original attachment file name"
+msgstr "Nama file lampiran asli"
+
+#: lib/experimental/media/load.php:131
+msgid "Attachment file size"
+msgstr "Ukuran file lampiran"
+
+#: lib/experiments-page.php:96
+msgid "Client-side media processing"
+msgstr "Pemrosesan media di sisi klien"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:645
+msgid "Term IDs."
+msgstr "ID Term"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:632
+msgid "Term ID List"
+msgstr "Daftar ID Term"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:374
+msgid "Limit response to posts modified before a given ISO8601 compliant date."
+msgstr "Batasi respon untuk artikel yang diubah sebelum tanggal tertentu sesuai ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:343
+msgid "Limit response to posts modified after a given ISO8601 compliant date."
+msgstr "Batasi respon untuk artikel yang diubah setelah tanggal tertentu sesuai ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:623
+msgid "Limit result set based on relationship between multiple taxonomies."
+msgstr "Batasi hasil yang ditetapkan berdasarkan hubungan antara beberapa taksonomi."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:492
+msgid "Limit result set to items that are sticky."
+msgstr "Batasi hasil hanya untuk item-item yang melekat."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:461
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-user-controller.php:12
+msgid "Array of column names to be searched."
+msgstr "Array pada nama kolom yang akan dicari."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:641
+msgid "Perform an advanced term query."
+msgstr "Jalankan fitur kueri term tingkat lanjut."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:640
+msgid "Term ID Taxonomy Query"
+msgstr "Kueri Taksonomi ID Term"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:633
+msgid "Match terms with the listed IDs."
+msgstr "Cocokkan term dengan ID yang terdaftar."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:47
+msgid "You need to define an include parameter to order by include."
+msgstr "Anda harus menentukan paramater 'include' untuk mengurutkan berdasarkan item yang disertakan."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:470
+msgid "Limit result set to posts with one or more specific slugs."
+msgstr "Batasi hasil hanya untuk pos yang memiliki satu atau lebih slug yang spesifik."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:450
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Batasi hasil hanya untuk semua item selain item-item dengan ID induk tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:442
+msgid "Limit result set to items with particular parent IDs."
+msgstr "Batasi hasil hanya untuk yang memiliki ID induk tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:358
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr "Pastikan hasil tidak termasuk pos dengan penulis tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:350
+msgid "Limit result set to posts assigned to specific authors."
+msgstr "Batasi hasil hanya untuk pos dengan penulis tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:38
+msgid "You need to define a search term to order by relevance."
+msgstr "Anda harus menentukan istilah pencarian untuk disusun berdasarkan relevansinya."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:389
+msgid "Limit result set to specific IDs."
+msgstr "Batasi hasil hanya untuk ID tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:380
+msgid "Ensure result set excludes specific IDs."
+msgstr "Pastikan hasil tidak termasuk ID tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:337
+msgid "Limit response to posts published after a given ISO8601 compliant date."
+msgstr "Batasi tanggapan hanya untuk pos yang diterbitkan setelah tanggal tertentu sesuai ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:368
+msgid "Limit response to posts published before a given ISO8601 compliant date."
+msgstr "Batasi tanggapan hanya untuk pos yang diterbitkan sebelum tanggal tertentu sesuai ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:499
+msgid "Limit result set to items assigned one or more given formats."
+msgstr "Batasi hasil pada item dengan satu atau lebih format yang ditetapkan."
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:58
+msgid "Template \"%s\" is already registered."
+msgstr "Template \"%s\" sudah terdaftar."
+
+#: lib/compat/wordpress-6.7/rest-api.php:118
+msgid "Plugin that registered the template."
+msgstr "Plugin yang mendaftarkan template."
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:48
+msgid "Template names must be strings."
+msgstr "Nama template harus berupa string."
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:226
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:230
+msgid "Template \"%s\" is not registered."
+msgstr "Templat \"%s\" belum terdaftar."
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block description"
+msgid "A cloud of popular keywords, each sized by how often it appears."
+msgstr "Awan untuk kata kunci populer, ukuran masing-masing berdasarkan seberapa sering kemunculannya."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block description"
+msgid "An organized collection of items displayed in a specific order."
+msgstr "Koleksi item terorganisasi yang ditampilkan dalam urutan tertentu."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block description"
+msgid "An individual item within a list."
+msgstr "Item tunggal dalam suatu daftar."
+
+#. translators: 1: maximum byte length (a count)
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:300
+msgid "Token Map tokens and substitutions must all be shorter than %1$d bytes."
+msgstr "Token dan pengganti dari Token Map harus lebih pendek dari %1$d byte."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:401
+msgid "Missing required inputs to pre-computed WP_Token_Map."
+msgstr "Input yang diperlukan untuk WP_Token_Map yang dikomputasi sebelumnya tidak ada."
+
+#. translators: 1: version string, 2: version string.
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:411
+msgid "Loaded version '%1$s' incompatible with expected version '%2$s'."
+msgstr "Versi '%1$s' yang dimuat tidak kompatibel dengan versi '%2$s' yang diinginkan."
+
+#: lib/experimental/blocks.php:102
+msgid "Block name must be a string or array."
+msgstr "Nama blok harus berupa string atau array."
+
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Grup Widget"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Area Widget"
+
+#: lib/block-supports/elements.php:123
+msgid "Use as a `pre_render_block` filter is deprecated. Use with `render_block_data` instead."
+msgstr "Penggunaan filter `pre_render_block` sudah tidak didukung lagi. Gunakan `render_block_data` sebagai gantinya."
+
+#. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
+#: build/block-library/blocks/latest-posts.php:161
+msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Baca selengkapnya<span class=\"screen-reader-text\">: %2$s</span></a>"
+
+#: lib/block-supports/typography.php:485
+msgid "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
+msgstr "Tipe `boolean` untuk argumen kedua `$settings` sudah tidak didukung. Gunakan `array()` sebagai gantinya."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block description"
+msgid "Reuse this design across your site."
+msgstr "Gunakan kembali desain ini di seluruh situs Anda."
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block. %s represents a pattern's slug.
+#: build/block-library/blocks/pattern.php:54
+msgid "[block rendering halted for pattern \"%s\"]"
+msgstr "[proses render blok terhenti untuk pola \"%s\"]"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:198
+msgid "Unknown author"
+msgstr "Penulis tidak diketahui"
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Formulir"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "input"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "tombol"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr "pesan"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "feedback"
+msgstr "feedback"
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block description"
+msgid "A form."
+msgstr "Sebuah formulir."
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "kirim"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "notification"
+msgstr "pemberitahuan"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block title"
+msgid "Form Submit Button"
+msgstr "Tombol Kirim Formulir"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block description"
+msgid "A submission button for forms."
+msgstr "Sebuah tombol kirim untuk formulir."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block description"
+msgid "Provide a notification message after the form has been submitted."
+msgstr "Cantumkan pesan pemberitahuan setelah formulir dikirim."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block title"
+msgid "Form Submission Notification"
+msgstr "Pemberitahuan Pengiriman Formulir"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block title"
+msgid "Input Field"
+msgstr "Kolom Isian"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block description"
+msgid "The basic building block for forms."
+msgstr "Blok penyusun dasar untuk formulir."
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Pos yang menyimpan konfgurasi tampilan data yang berbeda"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Jenis tampilan data"
+
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Jenis tampilan data"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Tampilan Data"
+
+#. translators: %s: The request URI.
+#: build/block-library/blocks/form.php:76
+msgid "Form submission from %1$s"
+msgstr "Kiriman formulir dari %1$s"
+
+#: build/block-library/blocks/form.php:94
+msgid "Form submission"
+msgstr "Kiriman formulir"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block description"
+msgid "Display footnotes added to the page."
+msgstr "Menampilkan catatan kaki yang ditambahkan ke halaman."
+
+#. Translators: %d: Integer representing the number of return links on the
+#. page.
+#: build/block-library/blocks/footnotes.php:48
+msgid "Jump to footnote reference %1$d"
+msgstr "Lompat ke referensi catatan kaki %1$d"
+
+#. translators: %s: taxonomy's label
+#: build/block-library/blocks/post-terms.php:93
+msgid "Display a list of assigned terms from the taxonomy: %s"
+msgstr "Tampilkan daftar istilah yang ditetapkan dari taksonomi: %s"
+
+#: lib/interactivity-api.php:27
+msgid "Page Loaded."
+msgstr "Halaman Dimuat."
+
+#: lib/interactivity-api.php:26
+msgid "Loading page, please wait."
+msgstr "Memuat halaman, mohon tunggu."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "Tanggal"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Content"
+msgstr "Konten"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Author"
+msgstr "Penulis"
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block description"
+msgid "Display the publish date for an entry such as a post or page."
+msgstr "Menampilkan tanggal publikasi untuk entri seperti pos atau halaman."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "beralih"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:525
+msgid "Please pass a query array to this function."
+msgstr "Harap cantumkan array query ke fungsi ini."
+
+#. translators: %s: WP_HTML_Processor::create_fragment().
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:361
+msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
+msgstr "Panggil %s untuk membuat Prosesor HTML, ketimbang memanggil konstruktor secara langsung."
+
+#: build/block-library/blocks/search.php:169
+msgid "Submit Search"
+msgstr "Kirim Pencarian"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block keyword"
+msgid "reusable"
+msgstr "pakai ulang"
+
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:65616 build/block-library/index.js:65628
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+#: lib/class-wp-theme-json-resolver-gutenberg.php:363
+msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
+msgstr "`experimental-link-color` tidak lagi didukung. Sebagai gantinya, gunakan `link-color`."
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block keyword"
+msgid "references"
+msgstr "referensi"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block title"
+msgid "Pattern placeholder"
+msgstr "Placeholder pola"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block title"
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+#. translators: %s: duotone colors
+#: lib/class-wp-duotone-gutenberg.php:536
+msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
+msgstr "\"%s\" pada settings.color.duotone di theme.json bukan merupakan string hex atau rgb."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Judul"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Excerpt"
+msgstr "Ringkasan"
+
+#: build/block-library/blocks/search.php:145
+#: build/block-library/blocks/search.php:170
+msgid "Expand search field"
+msgstr "Bentangkan bidang pencarian"
+
+#: build/block-library/blocks/image.php:158
+msgid "Enlarge image"
+msgstr "Perbesar gambar"
+
+#. translators: %s: Image alt text.
+#: build/block-library/blocks/image.php:162
+msgid "Enlarge image: %s"
+msgstr "Perbesar gambar: %s"
+
+#. translators: %s: duotone filter ID
+#: lib/class-wp-duotone-gutenberg.php:729
+msgid "The duotone id \"%s\" is not registered in theme.json settings"
+msgstr "ID duotone \"%s\" tidak terdaftar di pengaturan theme.json"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block description"
+msgid "Add an image or video with a text overlay."
+msgstr "Tambah gambar atau video dengan overlay teks."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block description"
+msgid "Hide and show additional content."
+msgstr "Sembunyikan dan tampilkan konten tambahan."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "akordeon"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block description"
+msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
+msgstr "Tampilkan gambar yang merepresentasikan situs ini. Perbarui blok ini dan perubahannya akan diterapkan di mana pun."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block title"
+msgid "Details"
+msgstr "Detail"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "disclosure"
+msgstr "pemberitahuan"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "daftar"
+
+#. translators: %s: the number of minutes to read the post.
+#: build/block-library/blocks/post-time-to-read.php:36
+#: build/block-library/index.js:45955 build/editor/index.js:32274
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s menit"
+msgstr[1] "%s menit"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block title"
+msgid "Time To Read"
+msgstr "Waktu Baca"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block description"
+msgid "Show minutes required to finish reading the post."
+msgstr "Tampilkan menit (waktu) yang diperlukan untuk menyelesaikan pembacaan pos."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:3272
+msgid "The query argument must be an array or a tag name."
+msgstr "Argumen query harus berupa array atau nama tag."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2947
+msgid "Invalid attribute name."
+msgstr "Nama fitur tidak valid."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2384
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Perintah panggil untuk fungsi seek() terlalu banyak, sehingga dapat terjadi kendala performa."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2375
+msgid "Unknown bookmark name."
+msgstr "Nama bookmark tidak diketahui."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:1224
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Terlalu banyak bookmark: tidak dapat menambah lagi."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "Pos tanpa judul %d"
+
+#. Description of the plugin
+#: gutenberg.php
+msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
+msgstr "Mecetak sejak 1440. Ini adalah plugin pengembangan untuk editor blok, editor situs, dan fungsionalitas inti WordPress masa depan lainnya."
+
+#. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
+#. name.
+#: lib/class-wp-theme-json-gutenberg.php:2514
+msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
+msgstr "File %1$s Anda menggunakan nilai dinamis (%2$s) untuk jalur di %3$s. Namun, nilai pada %3$s juga merupakan nilai dinamis (merujuk ke %4$s) dan merujuk ke nilai dinamis lainnya tidak didukung. Mohon perbarui %3$s untuk menunjuk langsung ke %4$s."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:698
+msgid "Markup is not allowed in CSS."
+msgstr "Markup tak diizinkan di CSS."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:202
+msgid "Block inspector tab display overrides."
+msgstr "Tampilan tab inspektur blok menimpa."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block description"
+msgid "Displays a page inside a list of all pages."
+msgstr "Menampilkan satu halaman dari dalam daftar semua halaman."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "halaman"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block title"
+msgid "Page List Item"
+msgstr "Isi Daftar Halaman"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: build/block-library/blocks/read-more.php:34
+msgid ": %s"
+msgstr ": %s"
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: build/block-library/blocks/read-more.php:28
+msgid "untitled post %s"
+msgstr "pos tanpa judul %s"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:405
+msgid "Offset the result set by a specific number of items."
+msgstr "Imbangi hasil dengan jumlah item tertentu."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:136
+msgid "Indicates whether the current theme supports block-based templates."
+msgstr "Menunjukkan apakah tema saat ini mendukung template berbasis blok."
+
+#: lib/block-supports/typography.php:286
+msgid "Raw size value must be a string, integer or a float."
+msgstr "Nilai ukuran dasar (raw) harus berupa string, bulangan bulat, atau bilangan desimal."
+
+#: build/block-library/blocks/tag-cloud.php:35
+msgid "There&#8217;s no content to show here yet."
+msgstr "Belum ada konten yang bisa ditampilkan."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block title"
+msgid "Comments Next Page"
+msgstr "Halaman Komentar Berikutnya"
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block title"
+msgid "Comments Previous Page"
+msgstr "Halaman Komentar Sebelumnya"
+
+#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:44
+msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+msgstr "$store harus merupakan instance dari WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:313
+msgid "Disables custom spacing sizes."
+msgstr "Nonaktifkan ukuran spasi kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:226
+msgid "Disables output of layout styles."
+msgstr "Menonaktifkan output gaya tata letak."
+
+#. translators: %s is the search term.
+#: build/block-library/blocks/query-title.php:46
+msgid "Search results for: \"%s\""
+msgstr "Hasil pencarian untuk: %s"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:172
+msgid "Whether the V2 of the list block that uses inner blocks should be enabled."
+msgstr "Apakah V2 blok daftar yang menggunakan blok inner harus diaktifkan."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:308
+msgid "Active theme spacing scale."
+msgstr "Skala spasi tema aktif."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:303
+msgid "Active theme spacing sizes."
+msgstr "Ukuran spasi tema aktif."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247
+msgid "%sX-Large"
+msgstr "%sEkstra Besar"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+msgid "%sX-Small"
+msgstr "%sEkstra Kecil"
+
+#: lib/class-wp-theme-json-gutenberg.php:4083
+msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
+msgstr "Beberapa nilai dari theme.json settings.spacing.spacingScale tidak valid"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: build/block-library/blocks/comments-title.php:47
+#: build/block-library/index.js:12092
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%1$s tanggapan untuk %2$s"
+msgstr[1] "%1$s tanggapan untuk %2$s"
+
+#. translators: %s: Number of comments.
+#: build/block-library/blocks/comments-title.php:61
+#: build/block-library/index.js:12098
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s tanggapan"
+msgstr[1] "%s tanggapan"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:29
+msgid "&#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "Komentar"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:68
+#: build/block-library/index.js:12103
+msgid "Response to %s"
+msgstr "Tanggapan untuk %s"
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:12109
+msgid "Response"
+msgstr "Tanggapan"
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Komentar Anda sedang menunggu moderasi. Ini adalah sebuah pratinjau; komentar Anda akan tampil setelah disetujui."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block title"
+msgid "Comments Title"
+msgstr "Judul Komentar"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:12106
+msgid "Responses to %s"
+msgstr "Tanggapan atas %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:9263 build/block-library/index.js:12089
+msgid "One response to %s"
+msgstr "Satu tanggapan untuk %s"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:12095
+msgid "One response"
+msgstr "Satu tanggapan"
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block description"
+msgid "Displays a title with the number of comments."
+msgstr "Menampilkan judul dengan jumlah komentar."
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:12111
+msgid "Responses"
+msgstr "Tanggapan"
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block title"
+msgid "Comment Author Avatar (deprecated)"
+msgstr "Avatar Penulis Komentar (usang)"
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Avatar block instead."
+msgstr "Blok ini tidak lagi digunakan. Silakan gunakan blok Avatar sebagai gantinya."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block description"
+msgid "Displays the name of the author of the comment."
+msgstr "Menampilkan nama penulis komentar."
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "Menampilkan tanggal saat komentar dibuat."
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post comments using different visual configurations."
+msgstr "Sebuah blok tingkat lanjut yang memungkinkan menampilkan komentar pos menggunakan beragam pengaturan visual."
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block description"
+msgid "Gather blocks in a layout container."
+msgstr "Kumpulkan blok dalam panel tata letak."
+
+#: build/block-library/blocks/rss.php:19
+msgid "Adding an RSS feed to this site’s homepage is not supported, as it could lead to a loop that slows down your site. Try using another block, like the <strong>Latest Posts</strong> block, to list posts from the site."
+msgstr "Menambahkan feed RSS ke beranda situs ini tidak didukung, karena dapat menyebabkan loop konten pos yang memperlambat situs Anda. Coba gunakan blok lain, seperti blok <strong>Pos Terbaru</strong>, untuk mencantumkan pos dari situs."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:166
+msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
+msgstr "Apakah V2 blok kutipan yang menggunakan blok inner harus diaktifkan."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "Tidak ada hasil"
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render content when no query results are found."
+msgstr "Berisi elemen blok yang akan digunakan untuk memuat konten saat tidak ada hasil pencarian yang ditemukan."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "Tambah avatar pengguna."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Daftar item"
+
+#. translators: %s: Comment author name.
+#: build/block-library/blocks/avatar.php:92
+msgid "(%s website link, opens in a new tab)"
+msgstr "(Tautan situs web %s, buka di tab baru)"
+
+#. translators: %s is the Author name.
+#: build/block-library/blocks/avatar.php:65
+msgid "(%s author archive, opens in a new tab)"
+msgstr "(arsip penulis %s, buka di tab baru)"
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block title"
+msgid "Read More"
+msgstr "Baca Lebih Lanjut"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block title"
+msgid "Author Biography"
+msgstr "Biografi Penulis"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block description"
+msgid "The author biography."
+msgstr "Biografi penulis."
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block description"
+msgid "Displays the link of a post, page, or any other content-type."
+msgstr "Menampilkan tautan dari pos, halaman, atau tipe konten lainnya."
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:9270 build/block-library/index.js:9353
+#: build/block-library/index.js:11397
+msgid "Older Comments"
+msgstr "Komentar Sebelumnya"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:208
+msgid "Sorry, you are not allowed to view this global style."
+msgstr "Maaf, Anda tidak diizinkan untuk melihat style global ini."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:200
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:245
+msgid "Sorry, you are not allowed to edit this global style."
+msgstr "Maaf, Anda tidak diizinkan untuk mengedit style global ini."
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:9276 build/block-library/index.js:9359
+#: build/block-library/index.js:11746
+msgid "Newer Comments"
+msgstr "Komentar Terbaru"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block description"
+msgid "Display post author details such as name, avatar, and bio."
+msgstr "Menampilkan detail penulis pos seperti nama, foto, dan biografi."
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:34827
+msgid "Icon"
+msgstr "Ikon"
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block title"
+msgid "Author Name"
+msgstr "Nama Penulis"
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block description"
+msgid "The author name."
+msgstr "Nama penulis."
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous comment's page link."
+msgstr "Menampilkan tautan halaman komentar sebelumnya."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next comment's page link."
+msgstr "Menampilkan tautan halaman komentar berikutnya."
+
+#: build/block-library/blocks/site-logo.php:98
+msgid "Site icon."
+msgstr "Ikon situs"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Pagination"
+msgstr "Paginasi"
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Nomor Halaman"
+
+#. translators: Accessibility text. %s: Parent page title.
+#: build/block-library/blocks/navigation-submenu.php:119
+#: build/block-library/blocks/page-list.php:200
+msgid "%s submenu"
+msgstr "Submenu %s"
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block title"
+msgid "Next Page"
+msgstr "Halaman Selanjutnya"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Ekstra Besar"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for comments pagination."
+msgstr "Menampilkan daftar nomor halaman untuk paginasi laman."
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block title"
+msgid "Previous Page"
+msgstr "Laman Sebelumnya"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block title"
+msgid "Comments Pagination"
+msgstr "Paginasi Komentar"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of comments, when applicable."
+msgstr "Menampilkan navigasi halaman ke sejumlah pos berikutnya/sebelumnya, jika memungkinkan."
+
+#: lib/block-template-utils.php:24
+msgid "Zip Export not supported."
+msgstr "Ekspor Zip tidak didukung."
+
+#: lib/block-template-utils.php:33
+msgid "Unable to open export file (archive) for writing."
+msgstr "Tidak dapat membuka berkas ekspor (arsip) untuk menulis."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Pattern"
+msgstr "Pola"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block description"
+msgid "Show a block pattern."
+msgstr "Tampilkan pola blok."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block title"
+msgid "Comment Author Name"
+msgstr "Nama Penulis Komentar"
+
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a comment."
+msgstr "Menampilkan isi komentar."
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block description"
+msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+msgstr "Menampilkan tautan untuk mengedit komentar di Dasbor WordPress. Tautan ini hanya dapat dilihat oleh pengguna yang diizinkan untuk mengedit komentar."
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to display a comment, like the title, date, author, avatar and more."
+msgstr "Mengandung elemen blok yang digunakan untuk menampilkan komentar, seperti judul, tanggal, penulis, avatar, dan lainnya."
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block title"
+msgid "Comment Reply Link"
+msgstr "Tautan Balas Komentar"
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block title"
+msgid "Comment Template"
+msgstr "Template Komentar"
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block title"
+msgid "Comment Edit Link"
+msgstr "Tautan Edit Komentar"
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block description"
+msgid "Displays a link to reply to a comment."
+msgstr "Menampilkan tautan untuk membalas komentar."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block title"
+msgid "Comment (deprecated)"
+msgstr "Komentar (tidak digunakan lagi)"
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Comments block instead."
+msgstr "Blok ini tidak lagi digunakan. Silakan gunakan blok Komentar sebagai gantinya."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:583
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:652
+msgid "Theme not found."
+msgstr "Tema tidak ditemukan"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:58
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:92
+msgid "The theme identifier"
+msgstr "Pengidentifikasi tema"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:563
+msgid "Sorry, you are not allowed to access the global styles on this site."
+msgstr "Maaf, Anda tidak diizinkan untuk mengakses pengaturan global pada situs ini."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:495
+msgid "Global styles."
+msgstr "Gaya global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:500
+msgid "Global settings."
+msgstr "Pengaturan global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:516
+msgid "HTML title for the post, transformed for display."
+msgstr "Judul HTML untuk pos, diubah ke mode tampilan."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:511
+msgid "Title for the global styles variation, as it exists in the database."
+msgstr "Judul variasi style global, sesuai yang ada di database."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:489
+msgid "ID of global styles config."
+msgstr "ID konfigurasi style global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:505
+msgid "Title of the global styles variation."
+msgstr "Judul variasi gaya global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:166
+msgid "No global styles config exist with that id."
+msgstr "Tidak ada konfigurasi style global dengan ID tersebut."
+
+#. translators: %s: Author name.
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:2150 build/block-library/index.js:2188
+msgid "%s Avatar"
+msgstr "Avatar %s"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "Polos"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block description"
+msgid "Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results."
+msgstr "Tampilkan nama situs ini. Perbarui blok, dan perubahannya diterapkan di mana saja blok ini digunakan. Pengaturan ini juga akan tampil di bar judul browser dan hasil pencarian."
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the next post"
+msgid "Next:"
+msgstr "Selanjutnya:"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the previous post"
+msgid "Previous:"
+msgstr "Sebelumnya:"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "Submenu"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block description"
+msgid "Add a submenu to your navigation."
+msgstr "Tambahkan submenu ke navigasi Anda."
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "Tampilkan konten dalam multi-kolom, dengan blok yang dapat ditambahkan pada setiap kolom."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block description"
+msgid "Create structured content in rows and columns to display information."
+msgstr "Buat konten terstruktur di baris dan kolom untuk menampilkan informasi."
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Kecil"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr "Hitam"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Putih"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "Abu-abu"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "Abu-abu gelap"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "Tengah malam"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medium"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Besar"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Cyan bluish gray"
+msgstr "Cyan bluish gray"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "Merah muda pucat"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid red"
+msgstr "Merah terang"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid orange"
+msgstr "Oranye cerah berkilau"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid amber"
+msgstr "Kuning sawo cerah berkilau"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Light green cyan"
+msgstr "Light green cyan"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale cyan blue"
+msgstr "Pale cyan blue"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid cyan blue"
+msgstr "Vivid cyan blue"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "Ungu terang"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "Pale ocean"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "Luminous dusk"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "Blush bordeaux"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "Biru dan merah"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "Tengah malam"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "Magenta dan kuning"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "Ungu dan hijau"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "Biru dan oranye"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid green cyan"
+msgstr "Cyan hijau terang"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Biru cyan terang ke ungu terang"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "Cyan hijau muda ke cyan hijau terang"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Amber terang berkilau ke oranye terang berkilau"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "Oranye terang berkilau ke merah terang"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "Abu-abu sangat terang ke abu-abu cyan kebiruan"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "Spektrum dingin ke hangat"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "Blush light purple"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "Rumput elektrik"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "Ungu ke kuning"
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "tautan"
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr "Template Pos"
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr "Berisi elemen blok yang digunakan untuk merender pos, seperti judul, tanggal, gambar unggulan, konten atau kutipan, dan banyak lagi."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
+msgstr "Blok tingkat lanjut memungkinkan menampilkan tipe artikel berdasarkan parameter kueri dan konfigurasi visual yang berbeda."
+
+#: build/block-library/blocks/calendar.php:27
+msgid "The calendar block is hidden because there are no published posts."
+msgstr "Blok kalendar disembunyikan karena tidak ada artikel yang dipublikasikan."
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block keyword"
+msgid "movie"
+msgstr "film"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Sematkan video dari pustaka media Anda atau unggah yang baru."
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poetry"
+msgstr "puisi"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poem"
+msgstr "sajak"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block description"
+msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
+msgstr "Masukkan puisi. Gunakan format spasi khusus. Atau kutip lirik lagu."
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Columns block instead."
+msgstr "Blok ini tidak lagi digunakan. Silakan gunakan blok Kolom sebagai gantinya."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block style label"
+msgid "Stripes"
+msgstr "Garis-garis"
+
+#: build/block-library/blocks/details/block.json
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "rangkuman"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block description"
+msgid "Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here."
+msgstr "Rangkum pos Anda dengan daftar heading. Tambahkan anchor HTML ke blok Heading untuk menautkannya ke sini."
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "document outline"
+msgstr "ringkasan dokumen"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Add white space between blocks and customize its height."
+msgstr "Tambahkan jarak antar blok dan sesuaikan tingginya."
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Daftar Isi"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Logos Only"
+msgstr "Hanya Logo"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Bentuk Pil"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block description"
+msgid "Display icons linking to your social profiles or sites."
+msgstr "Menampilkan ikon yang tertaut ke profil media sosial atau situs Anda."
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block description"
+msgid "Display an icon linking to a social profile or site."
+msgstr "Menampilkan ikon yang terhubung ke profil media sosial atau situs."
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "deskripsi"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "Deskripsikan situs web Anda dalam beberapa kata. Tagline dapat ditampilkan dalam hasil pencarian atau saat dibagikan ke jaringan sosial meskipun tema tidak menampilkannya."
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block description"
+msgid "Insert additional custom elements with a WordPress shortcode."
+msgstr "Tambahkan elemen khusus dengan shortcode WordPress."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "pembagi"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Dots"
+msgstr "Titik-titik"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Wide Line"
+msgstr "Garis Lebar"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "horizontal-line"
+msgstr "garis horizontal"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr "Buat pemisah antara ide atau bagian dengan pembatas horisontal."
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "atom"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "feed"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block keyword"
+msgid "find"
+msgstr "temukan"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block description"
+msgid "Display entries from any RSS or Atom feed."
+msgstr "Tampilkan entri dari feed RSS atau Atom."
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block description"
+msgid "Help visitors find your content."
+msgstr "Bantu pengunjung menemukan konten Anda."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "cite"
+msgstr "kutip"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "blockquote"
+msgstr "blockquote"
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Judul Query"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of posts, when applicable."
+msgstr "Menampilkan navigasi paginasi ke sejumlah pos berikutnya/sebelumnya, jika memungkinkan."
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block description"
+msgid "Display the query title."
+msgstr "Menampilkan judul kueri."
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous posts page link."
+msgstr "Menampilkan tautan halaman pos sebelumnya."
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for pagination."
+msgstr "Menampilkan daftar nomor halaman untuk paginasi."
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next posts page link."
+msgstr "Menampilkan tautan halaman pos berikutnya."
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block description"
+msgid "Give special visual emphasis to a quote from your text."
+msgstr "Beri aksentuasi visual khusus pada kutipan dari teks Anda."
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block description"
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "Tambahkan teks yang sesuai dengan gaya spasi dan tabulasi Anda, juga tambahkan pengaturan."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block description"
+msgid "Displays the title of a post, page, or any other content-type."
+msgstr "Menampilkan judul pos, halaman, atau tipe konten lainnya."
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block description"
+msgid "Post terms."
+msgstr "Term Pos."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block title"
+msgid "Post Navigation Link"
+msgstr "Tautan Navigasi Pos"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block description"
+msgid "Display a post's featured image."
+msgstr "Tampilkan gambar andalan artikel."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block description"
+msgid "Displays the next or previous post link that is adjacent to the current post."
+msgstr "Menampilkan tautan artikel berikutnya atau sebelumnya dari artikel yang dilihat."
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a post or page."
+msgstr "Menampilkan konten pos atau halaman."
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block description"
+msgid "Display the excerpt."
+msgstr "Tampilkan ringkasan."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block description"
+msgid "Displays the link to the current post comments."
+msgstr "Menampilkan tautan ke komentar pos saat ini."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "teks"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block description"
+msgid "Display a post's comments form."
+msgstr "Menampilkan formulir komentar artikel."
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block description"
+msgid "Display a post's comments count."
+msgstr "Tampilkan jumlah komentar pos."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "paginasi"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "Mulai dengan komponen dasar dari semua cerita."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block description"
+msgid "Separate your content into a multi-page experience."
+msgstr "Pisahkan konten Anda menjadi beberapa halaman."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block description"
+msgid "Display a list of all pages."
+msgstr "Tampilkan daftar semua laman."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "next page"
+msgstr "halaman selanjutnya"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "menu"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "navigasi"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "Sekumpulan blok yang memungkinkan pengunjung menjelajahi situs Anda."
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "Tambahkan halaman, tautan, atau item lain ke navigasi Anda."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block keyword"
+msgid "read more"
+msgstr "baca selengkapnya"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "Konten sebelum blok ini akan ditampilkan dalam ringkasan pada halaman arsip Anda."
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block description"
+msgid "Your site doesn’t include support for this block."
+msgstr "Situs Anda tidak mendukung blok ini."
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr "Video"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr "login"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr "logout"
+
+#: build/block-library/blocks/form-input/block.json
+#: build/block-library/blocks/form-submission-notification/block.json
+#: build/block-library/blocks/form-submit-button/block.json
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulir"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "gambar"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block description"
+msgid "Set media and words side-by-side for a richer layout."
+msgstr "Letakkan media dan teks bersisian agar tata letaknya tampak dinamis."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "bullet list"
+msgstr "daftar berbutir"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "ordered list"
+msgstr "Daftar berurutan"
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block title"
+msgid "Legacy Widget"
+msgstr "Widget Lama"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "numbered list"
+msgstr "daftar bernomor"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block description"
+msgid "Show login & logout links."
+msgstr "Tampilkan tautan login & logout."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block description"
+msgid "Display a legacy widget."
+msgstr "Tampilkan widget lama."
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block keyword"
+msgid "recent posts"
+msgstr "artikel terbaru"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Tampilkan daftar artikel terbaru Anda."
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "foto"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr "gambar"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block keyword"
+msgid "recent comments"
+msgstr "komentar terbaru"
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr "Bulat"
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/quote/block.json
+#: build/block-library/blocks/separator/block.json
+#: build/block-library/blocks/site-logo/block.json
+#: build/block-library/blocks/social-links/block.json
+#: build/block-library/blocks/table/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr "Standar"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent comments."
+msgstr "Tampilkan daftar komentar terbaru Anda."
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block description"
+msgid "Insert an image to make a visual statement."
+msgstr "Tambahkan gambar untuk membuat pernyataan visual."
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "gambar"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "sematan"
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block description"
+msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
+msgstr "Buat tautan yang akan selalu mengarah ke beranda situs. Biasanya tidak diperlukan jika sudah ada tautan judul situs di header."
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block description"
+msgid "Add custom HTML code and preview it as you edit."
+msgstr "Tambahkan kode HTML khusus dan pratinjau saat Anda mengedit."
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr "sub judul"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "judul"
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block title"
+msgid "Home Link"
+msgstr "Tautan Beranda"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "bagian"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr "baris"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr "pdf"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "unduh"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "gambar"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "foto"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "wrapper"
+msgstr "wrapper"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block description"
+msgid "Use the classic WordPress editor."
+msgstr "Gunakan editor WordPress klasik."
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block description"
+msgid "Display multiple images in a rich gallery."
+msgstr "Tampilkan beberapa gambar di galeri yang memiliki banyak isi."
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "kontainer"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "dokumen"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block description"
+msgid "Add a link to a downloadable file."
+msgstr "Tambahkan tautan ke file yang dapat diunduh."
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "Kolom tunggal di dalam blok kolom."
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block description"
+msgid "Display code snippets that respect your spacing and tabs."
+msgstr "Tampilkan potongan kode yang sesuai dengan spasi dan tabulasi Anda."
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr "arsip"
+
+#: build/block-library/blocks/calendar/block.json
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "artikel"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block description"
+msgid "A calendar of your site’s posts."
+msgstr "Kalender dari artikel di situs Anda."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Ikhtisar"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Isi"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a group of button-style links."
+msgstr "Arahkan pengunjung untuk mengambil tindakan dengan grup tautan button-style."
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a button-style link."
+msgstr "Arahkan pengunjung untuk mengambil tindakan dengan tautan button-style."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr "musik"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr "suara"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr "podcast"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr "rekaman"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block description"
+msgid "Display a date archive of your posts."
+msgstr "Tampilkan arsip tanggal dari pos Anda."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block description"
+msgid "Embed a simple audio player."
+msgstr "Sematkan pemutar audio sederhana."
+
+#: build/block-library/blocks/navigation.php:491
+#: build/block-library/index.js:34458
+msgid "Close menu"
+msgstr "Tutup menu"
+
+#: build/block-library/blocks/navigation.php:490
+#: build/block-library/index.js:34440
+msgid "Open menu"
+msgstr "Buka menu"
+
+#: build/block-library/blocks/site-logo.php:47
+msgid "(Home link, opens in a new tab)"
+msgstr "(Tautan beranda, buka di tab baru)"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:154
+msgid "Settings consolidated from core, theme, and user origins."
+msgstr "Pengaturan yang diambil dari komponen inti, tema, dan asal mula pengguna."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:160
+msgid "Styles consolidated from core, theme, and user origins."
+msgstr "Gaya yang diambil dari komponen inti, tema, dan asal pengguna."
+
+#: build/block-library/blocks/site-logo.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:268
+msgid "Determines whether the image editing feature is enabled."
+msgstr "Menentukan apakah fitur pengeditan gambar diaktifkan."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:292
+msgid "Active theme font sizes."
+msgstr "Ukuran font tema aktif."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:298
+msgid "Active theme gradients."
+msgstr "Gradien tema aktif."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:274
+msgid "Available image sizes."
+msgstr "Ukuran gambar yang tersedia."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:286
+msgid "Active theme color palette."
+msgstr "Palet warna tema aktif."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:280
+msgid "Maximum upload size in bytes allowed for the site."
+msgstr "Batas maksimum ukuran unggah dalam byte untuk situs."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:196
+msgid "Returns all the categories for block types that will be shown in the block editor."
+msgstr "Mengembalikan semua kategori untuk jenis blok yang akan ditampilkan di editor blok."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:250
+msgid "Determines whether the current locale is right-to-left (RTL)."
+msgstr "Menunjukkan apakah pengaturan locale saat ini adalah kanan-ke-kiri (RTL)."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:214
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:220
+msgid "Disables custom font size."
+msgstr "Menonaktifkan ukuran font kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:256
+msgid "Default size for images."
+msgstr "Ukuran default gambar."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:208
+msgid "Disables custom colors."
+msgstr "Menonaktifkan warna kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:238
+msgid "Enables custom spacing."
+msgstr "Mengaktifkan jarak spasi kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:232
+msgid "Enables custom line height."
+msgstr "Mengaktifkan jarak antarbaris kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:244
+msgid "Enables custom units."
+msgstr "Mengaktifkan unit kustom."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:262
+msgid "Available image dimensions."
+msgstr "Dimensi gambar yang tersedia."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:190
+msgid "List of allowed mime types and file extensions."
+msgstr "Daftar jenis MIME dan ekstensi file yang diizinkan."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:148
+msgid "Widget types to hide from Legacy Widget block."
+msgstr "Jenis widget yang akan disembunyikan dari blok Widget Lama."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:178
+msgid "Enable/Disable Wide/Full Alignments."
+msgstr "Aktifkan/Nonaktifkan Penjajaran Lebar/Penuh."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:142
+msgid "Enable/disable layouts support in container blocks."
+msgstr "Aktifkan/nonaktifkan dukungan tata letak di blok kontainer."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:184
+msgid "List of allowed block types."
+msgstr "Daftar jenis blok yang diizinkan."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:65
+msgid "Sorry, you are not allowed to read the block editor settings."
+msgstr "Maaf, Anda tidak diizinkan melihat pengaturan editor blok."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:124
+msgid "Enables experimental Site Editor blocks"
+msgstr "Mengaktifkan blok Editor SItus eksperimental"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:130
+msgid "Editor styles"
+msgstr "Gaya editor"
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block title"
+msgid "Term Description"
+msgstr "Deskripsi Istilah"
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block description"
+msgid "Display the description of categories, tags and custom taxonomies when viewing an archive."
+msgstr "Tampilkan deskripsi kategori, tag, dan taksonomi khusus saat melihat sebuah arsip."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block title"
+msgid "Comments Link"
+msgstr "Tautan Komentar"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Tautan Khusus"
+
+#: build/block-library/blocks/file.php:37 build/block-library/index.js:18264
+#: build/block-library/index.js:18373 build/block-library/index.js:18474
+msgid "PDF embed"
+msgstr "Sematan PDF"
+
+#. translators: %s: filename.
+#: build/block-library/blocks/file.php:35 build/block-library/index.js:18265
+#: build/block-library/index.js:18374 build/block-library/index.js:18475
+msgid "Embed of %s."
+msgstr "Sematan %s."
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block title"
+msgid "Login/out"
+msgstr "Login/logout"
+
+#: build/block-library/blocks/navigation-link.php:344
+msgid "Post Format Link"
+msgstr "Tautan Format Pos"
+
+#: build/block-library/blocks/navigation-link.php:345
+msgid "A link to a post format"
+msgstr "Tautan ke format pos"
+
+#: build/block-library/blocks/latest-posts.php:169
+#: build/block-library/blocks/latest-posts.php:184
+#: build/block-library/index.js:43038
+msgid "This content is password protected."
+msgstr "Konten ini terkunci dengan kata sandi"
+
+#. translators: 1: Number of comments, 2: post title
+#: build/block-library/blocks/post-comments-link.php:47
+msgid "%1$s comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s komentar<span class=\"screen-reader-text\"> untuk %2$s</span>"
+msgstr[1] "%1$s komentar<span class=\"screen-reader-text\"> untuk %2$s</span>"
+
+#. translators: %s post title
+#: build/block-library/blocks/post-comments-link.php:41
+msgid "No comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Tidak ada komentar<span class=\"screen-reader-text\"> untuk %s</span>"
+
+#. translators: %s: taxonomy's singular name
+#: build/block-library/blocks/categories.php:46
+#: build/block-library/index.js:6534
+msgid "Select %s"
+msgstr "Pilih %s"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Daftar Halaman"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block description"
+msgid "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
+msgstr "Edit bagian khusus situs Anda, seperti header, footer, sidebar, atau buat sendiri."
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "Halaman Sebelumnya"
+
+#. translators: %s: Template part slug.
+#: build/block-library/blocks/template-part.php:120
+#: build/block-library/index.js:63375
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "Komponen template telah dihapus atau tidak tersedia: %s"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "Halaman Selanjutnya"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Comments Page Numbers"
+msgstr "Nomor Halaman Komentar"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:38
+#: build/block-library/blocks/post-content.php:34
+#: build/block-library/blocks/template-part.php:131
+msgid "[block rendering halted]"
+msgstr "[perenderan blok dihentikan]"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Video"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Tabel"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Judul Situs"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Tagline Situs"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Logo Situs"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Pemisah"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Cari"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Kutipan"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Pullquote"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Praformat"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Pemisah Halaman"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Selengkapnya"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Media & Teks"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Navigasi"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Daftar"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Artikel Terbaru"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "Komentar Terbaru"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Gambar"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Judul"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Galeri"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Arsip"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Audio"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Tombol"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Tombol"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Kalender"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Kode"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Kolom"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Kolom"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Sampul "
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "Berkas"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "HTML Khusus"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Grup"
+
+#: build/block-library/index.js:10148
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "Konten Komentar"
+
+#: build/block-library/index.js:10326
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "Tanggal Komentar"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Puisi"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Komponen Template"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Ikon Sosial"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Ikon Sosial"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "Term Pos"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Spasi"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Kolom Teks (usang)"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "Tidak didukung"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Query Loop"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Comments Form"
+msgstr "Formulir Komentar"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Featured Image"
+msgstr "Gambar Unggulan"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Awan Tag"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Comments Count"
+msgstr "Jumlah Komentar"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:27
+msgid "No templates exist with that id."
+msgstr "Tidak ada templat dengan id tersebut."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:118
+msgid "The id of a template"
+msgstr "ID template"
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "Logo situs."
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "Desain"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "oleh %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "Notifikasi"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "Hasil pencarian"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "Konten"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "Beranda"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "Urutkan atribut penyortiran naik atau menurun."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:399
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Batasi hasil untuk pos-pos dengan nilai menu_order tertentu."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:417
+msgid "Sort collection by post attribute."
+msgstr "Sortir koleksi berdasarkan atribut artikel."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:41
+msgid "Image size."
+msgstr "Ukuran gambar."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "tautan"
+
+#: lib/experiments-page.php:235
+msgid "The block editor includes experimental features that are usable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Editor blok menyertakan fitur percobaan yang dapat digunakan saat masih dalam tahap pengembangan. Pilih yang ingin Anda aktifkan. Fitur berikut masih dapat berubah. Hindari penggunaan fitur berikut dalam proses produksi. "
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "Pengaturan Eksperimen"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "Pengaturan eksperimental"
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Eror RSS:"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Sebuah eror telah terjadi, yang kemungkinan berarti feed tersebut sedang tidak aktif. Coba lagi nanti."
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "Cari"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Sematan"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Klasik"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Beri aksentuasi visual pada teks kutipan. \"Saat mengutip orang lain, saat itulah kita mensitasikan diri.\" — Julio Cortázar"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Perkenalkan bagian baru dan atur konten untuk membantu pengunjung (dan mesin pencari) memahami struktur konten Anda."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:479
+msgid "Limit result set to posts assigned one or more statuses."
+msgstr "Batasi hasil hanya untuk pos yang memiliki status satu atau lebih."
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "Sedang"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "Tidak ada arsip untuk ditampilkan."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Bentang alam yang indah"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Bantu tingkatkan Gutenberg"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Terima kasih telah mencoba Gutenberg!"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Jika mengombinasikan perataan <strong>lebar</strong> dan <strong>lebar penuh</strong> baru dengan galeri, Anda dapat membuat tata letak media yang sangat kaya dengan sangat cepat:"
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Aksesibilitas merupakan hal yang penting &mdash; jangan lupa atribut alt gambar"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Komunitas WordPress"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Anda dapat mengubah jumlah kolom dalam galeri dengan menarik slider pada pemeriksa blok di sidebar."
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Blok dapat dibuat sesuka Anda, statis atau dinamis, dekoratif atau polos. Berikut adalah blok pullquote:"
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informasi terkait sumber kutipan merupakan ruas teks terpisah, serupa dengan keterangan di bawah gambar, sehingga struktur kutipan tetap terlindungi meskipun Anda memilih, mengubah, atau menghapus sumber. Anda juga dapat dengan mudah menambahkannya."
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editor akan berusaha untuk menciptakan pengalaman membuat halaman dan artikel baru yang kaya menjadi lebih mudah. Dan \"blok\" memudahkan penelusuran kode singkat, HTML khusus, atau sematan \"komponen misterius\"."
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Tampilan di atas adalah galeri dengan hanya dua gambar. Cara tersebut lebih mudah untuk membuat tampilan tata letak yang menarik dengan mudah. Anda juga dapat mengembalikan galeri ke satu gambar dengan menggunakan pengalih blok."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Tentu, gambar dengan lebar penuh akan sangat besar. Namun terkadang efeknya sangat dibutuhkan."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Media Rich"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Jika Anda ingin mempelajari lebih lanjut mengenai cara membuat blok tambahan, atau jika Anda tertarik membantu dalam proyek terkait, buka <a href=\"%s\">repositori GitHub</a>."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blok dapat mengakomodasi segala kebutuhan Anda. Misalnya, Anda ingin menambahkan kutipan kecil terpisah dalam komposisi teks, atau Anda memilih untuk menampilkannya dengan ukuran sangat besar. Semua pilihan tersebut tersedia dalam penyisip."
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Semua blok dapat diatur perataannya. Blok sematan juga dapat diatur, dan sangat responsif:"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "Kode itu Puisi"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galeri"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Gambar &amp; Video"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Teks &amp; Judul"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Selamat Datang di Editor Gutenberg"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Judul merupakan blok terpisah, yang membantu menata dan mengatur konten Anda."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Satu Gambar Mampu Mengungkap Seribu Kata"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Alat <em>Penyisip</em>"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blok Tata Letak, seperti Tombol, Gambar Hero, Pemisah, dll."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Penyuntingan Visual"
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Saat ini Anda membaca <strong>blok teks</strong>, blok paling dasar. Blok teks memiliki kontrol tersendiri yang dapat dipindahkan dengan bebas di seputar artikel..."
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Coba pilih lalu hapus atau sunting keterangan, Anda tidak perlu khawatir salah membuat pilihan gambar atau teks lain yang dapat merusak presentasi."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Tujuan editor baru adalah membuat penambahan konten yang kaya ke WordPress menjadi sederhana dan menyenangkan.  Seluruh artikel terdiri atas <em>potongan konten</em>—seperti halnya LEGO—yang dapat dipindahkan dan dimainkan sesuka Anda. Gerakkan kursor dan Anda akan melihat beberapa blok dengan garis luar dan tanda panah yang lebih terang. Tekan tanda panah untuk mengatur posisi blok dengan cepat, tanpa khawatir konten akan terhapus saat melakukan proses salin-tempel."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Tentang Pegunungan dan Mesin Cetak"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Bayangkan semua yang dapat dilakukan WordPress tersedia untuk Anda dengan cepat, dari satu tempat di antarmuka. Tidak perlu memikirkan tag dan kelas HTML, maupun mengingat sintaks kode singkat yang rumit. Inilah fungsi penyisip—tombol<code>(+)</code> yang akan sering Anda lihat dalam editor—yang mempermudah Anda menelusuri semua blok konten yang tersedia dan menambahkannya ke dalam artikel. Plugin dan tema dapat terdaftar secara mandiri, menawarkan semua kemungkinan penyuntingan dan penerbitan yang kaya."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Jika tema Anda mendukung, Anda dapat melihat tombol \"lebar\" pada toolbar gambar. Silakan mencoba."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Penanganan gambar dan media dengan sangat hati-hati merupakan fokus utama editor baru. Semoga penambahan keterangan atau melebarkan gambar secara penuh menjqdi jauh lebih mudah dan cepat dari sebelumnya."
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Silakan mencoba, Anda mungkin menemukan banyak hal baru yang dapat dilakukan WordPress untuk memperkaya artikal Anda. Berikut daftar singkat yang dapat Anda temukan saat ini:"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Sematan, seperti YouTube, Twit, atau artikel WordPress lain."
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Dan tentunya seperti<em>Daftar</em> berikut :)"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... seperti berikut ini, rata kanan."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Manfaat utama blok adalah Anda dapat langsung menyunting dan mengubah konten. Anda tidak perlu menggunakan kolom untuk menyunting sumber kutipan, atau teks tombol, karena Anda dapat langsung mengubah kontennya. Silakan coba sunting kutipan berikut:"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "Kecil"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Jumlah halaman yang diminta lebih besar dari jumlah halaman yang tersedia."
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Bantuan"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s mengenai %2$s"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "Tidak ada komentar untuk ditampilkan."
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Pilih Minggu"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Pilih Hari"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Pilih Tahun"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Pilih Bulan"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Arsip"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Pilih Pos"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "Besar"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Tambahkan blok yang menampilkan konten dari situs lain, seperti Twitter atau YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Paginasi"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "Blok"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "Tutup"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(tanpa judul)"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "Eksperimen"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "Edit"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "Baca selengkapnya"
+
+#: gutenberg.php:45
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "Mode pengembangan Gutenberg membutuhkan beberapa file untuk dibuat. Jalankan <code>npm install</code> untuk menginstal dependensi, <code>npm run build</code> untuk membuat file atau <code>npm run dev</code> untuk membuat file dan melihat perubahannya. Baca file <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">kontribusi</a> untuk informasi selengkapnya."
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Tim Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s dari sekarang"
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "%s lalu"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demo"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg membutuhkan WordPress %s atau yang lebih baru untuk berfungsi dengan baik. Silakan lakukan upgrade WordPress sebelum mengaktifkan Gutenberg."
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:54
+msgid "Template names must contain a namespace prefix. Example: my-plugin//my-custom-template"
+msgstr "Nama jenis blok harus berisi awalan namespace. Contoh: plugin-saya//template-khusus-saya"
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:51
+msgid "Template names must not contain uppercase characters."
+msgstr "Nama template tidak boleh mengandung huruf kapital."

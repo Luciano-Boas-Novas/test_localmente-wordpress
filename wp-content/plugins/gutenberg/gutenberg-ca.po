@@ -1,0 +1,2711 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-15 14:53:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Tall - 9:16"
+msgstr "Alta - 9:16"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic Portrait - 2:3"
+msgstr "Retrat clàssic - 2:3"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic - 3:2"
+msgstr "Clàssic - 3:2"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Portrait - 3:4"
+msgstr "Retrat - 3:4"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Standard - 4:3"
+msgstr "Estàndard - 4:3"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blogs"
+msgstr "blogs"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr "blog"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block keyword"
+msgid "categories"
+msgstr "categories"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Terms List"
+msgstr "Llista de termes"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:645
+msgid "Term IDs."
+msgstr "Identificadors de terme."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:640
+msgid "Term ID Taxonomy Query"
+msgstr "Consulta de la taxonomia de l'identificador del terme"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:632
+msgid "Term ID List"
+msgstr "Llista d'identificadors de termes"
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:226
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:230
+msgid "Template \"%s\" is not registered."
+msgstr "La plantilla «%s» no està registrada."
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:58
+msgid "Template \"%s\" is already registered."
+msgstr "La plantilla «%s» ja està registrada."
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:48
+msgid "Template names must be strings."
+msgstr "Els noms de les plantilles han de ser cadenes."
+
+#: lib/experimental/blocks.php:102
+msgid "Block name must be a string or array."
+msgstr "El nom del bloc ha de ser una cadena o una matriu."
+
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Grup de ginys"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Àrea de ginys"
+
+#. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
+#: build/block-library/blocks/latest-posts.php:161
+msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Més informació<span class=\"screen-reader-text\">: %2$s</span></a>"
+
+#: lib/block-supports/typography.php:485
+msgid "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
+msgstr "El tipus `boolean` per al segon argument `$settings` està obsolet. Utilitzeu `array()` en lloc d'això."
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block. %s represents a pattern's slug.
+#: build/block-library/blocks/pattern.php:54
+msgid "[block rendering halted for pattern \"%s\"]"
+msgstr "[s'ha aturat la renderització del bloc per al patró «%s»]"
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block description"
+msgid "A form."
+msgstr "Un formulari."
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Formulari"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "botó"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "envia"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block description"
+msgid "A submission button for forms."
+msgstr "Un botó d'enviament de formularis."
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block title"
+msgid "Form Submit Button"
+msgstr "Botó d'enviament del formulari"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr "missatge"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "notification"
+msgstr "notificació"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "feedback"
+msgstr "opinions"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block description"
+msgid "Provide a notification message after the form has been submitted."
+msgstr "Proporcioneu un missatge de notificació després d'enviar el formulari."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block title"
+msgid "Form Submission Notification"
+msgstr "Notificació de presentació de formularis"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "entrada"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block description"
+msgid "The basic building block for forms."
+msgstr "El bloc bàsic de construcció dels formularis."
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block title"
+msgid "Input Field"
+msgstr "Camp d'entrada"
+
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Tipus de visualització de dades"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Tipus de visualització de dades"
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Entrada que emmagatzema les diferents configuracions de visualitzacions de dades"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Visualitzacions de dades"
+
+#: build/block-library/blocks/form.php:94
+msgid "Form submission"
+msgstr "L'enviament del formulari no és vàlid"
+
+#. translators: %s: The request URI.
+#: build/block-library/blocks/form.php:76
+msgid "Form submission from %1$s"
+msgstr "Enviament de formularis des de %1$s"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block description"
+msgid "Display footnotes added to the page."
+msgstr "Mostra les notes a peu de pàgina afegides a la pàgina."
+
+#. Translators: %d: Integer representing the number of return links on the
+#. page.
+#: build/block-library/blocks/footnotes.php:48
+msgid "Jump to footnote reference %1$d"
+msgstr "Ves a la referència de la nota al peu %1$d"
+
+#. translators: %s: taxonomy's label
+#: build/block-library/blocks/post-terms.php:93
+msgid "Display a list of assigned terms from the taxonomy: %s"
+msgstr "Mostra una llista de termes assignats de la taxonomia: %s"
+
+#: lib/interactivity-api.php:27
+msgid "Page Loaded."
+msgstr "S'ha carregat la pàgina"
+
+#: lib/interactivity-api.php:26
+msgid "Loading page, please wait."
+msgstr "S’està carregant la pàgina, espereu."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block description"
+msgid "Display the publish date for an entry such as a post or page."
+msgstr "Mostra la data de publicació d'una entrada, com ara una entrada o una pàgina."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "Data"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Content"
+msgstr "Contingut"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Author"
+msgstr "Autor"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "commuta"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:525
+msgid "Please pass a query array to this function."
+msgstr "Passa una matriu de consultes a aquesta funció."
+
+#. translators: %s: WP_HTML_Processor::create_fragment().
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:361
+msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
+msgstr "Truca a %s per crear un processador HTML en lloc de trucar directament al constructor."
+
+#: build/block-library/blocks/search.php:169
+msgid "Submit Search"
+msgstr "Envía la cerca"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block keyword"
+msgid "reusable"
+msgstr "reutilitzable"
+
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:65616 build/block-library/index.js:65628
+msgid "Footnotes"
+msgstr "Notes al peu"
+
+#: lib/class-wp-theme-json-resolver-gutenberg.php:363
+msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
+msgstr "'experimental-link-color' ja no és compatible. Utilitzeu \"link-color\" en el seu lloc."
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block title"
+msgid "Pattern placeholder"
+msgstr "Espai reservat del patró"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block keyword"
+msgid "references"
+msgstr "referències"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block title"
+msgid "Footnotes"
+msgstr "Notes al peu"
+
+#. translators: %s: duotone colors
+#: lib/class-wp-duotone-gutenberg.php:536
+msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
+msgstr "\"%s\" a theme.json settings.color.duotone no és una cadena hexadecimal o rgb."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Títol"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Excerpt"
+msgstr "Extracte"
+
+#: build/block-library/blocks/search.php:145
+#: build/block-library/blocks/search.php:170
+msgid "Expand search field"
+msgstr "Amplia el camp de cerca"
+
+#. translators: %s: duotone filter ID
+#: lib/class-wp-duotone-gutenberg.php:729
+msgid "The duotone id \"%s\" is not registered in theme.json settings"
+msgstr "L'identificador de duotone \"%s\" no està registrat als paràmetres del theme.json"
+
+#. translators: %s: Image alt text.
+#: build/block-library/blocks/image.php:162
+msgid "Enlarge image: %s"
+msgstr "Amplia la imatge: %s"
+
+#: build/block-library/blocks/image.php:158
+msgid "Enlarge image"
+msgstr "Amplia la imatge"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "acordió"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block description"
+msgid "Hide and show additional content."
+msgstr "Amaga i mostra contingut addicional."
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block description"
+msgid "Add an image or video with a text overlay."
+msgstr "Afegeix una imatge o un vídeo amb una superposició de text."
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block description"
+msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
+msgstr "Mostra una imatge per representar aquest lloc. Actualitzeu aquest bloc i els canvis s'apliquen a tot arreu."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "disclosure"
+msgstr "revelació"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block title"
+msgid "Details"
+msgstr "Detalls"
+
+#. translators: %s: the number of minutes to read the post.
+#: build/block-library/blocks/post-time-to-read.php:36
+#: build/block-library/index.js:45955 build/editor/index.js:32274
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minuts"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block description"
+msgid "Show minutes required to finish reading the post."
+msgstr "Mostra els minuts necessaris per acabar de llegir l’entrada."
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block title"
+msgid "Time To Read"
+msgstr "Temps de lectura"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:3272
+msgid "The query argument must be an array or a tag name."
+msgstr "L'argument de consulta ha de ser una matriu o un nom d'etiqueta."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2947
+msgid "Invalid attribute name."
+msgstr "Nom d'atribut no vàlid."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2384
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Massa crides a seek() - això pot provocar problemes de rendiment."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2375
+msgid "Unknown bookmark name."
+msgstr "Nom d'adreça d'interès desconegut."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:1224
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Massa marcadors: no es poden crear més."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "Entrada sense títol %d"
+
+#. Description of the plugin
+#: gutenberg.php
+msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
+msgstr "Impressió des de 1440. Aquesta és l’extensió de desenvolupament per a l'editor de blocs, l'editor del lloc i altres futures funcions bàsiques de WordPress."
+
+#. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
+#. name.
+#: lib/class-wp-theme-json-gutenberg.php:2514
+msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
+msgstr "El fitxer %1$s utilitza un valor dinàmic (%2$s) per al camí d'accés en %3$s. No obstant això, el valor a %3$s també és un valor dinàmic (apuntant a %4$s) i no s'admet apuntar a un altre valor dinàmic. Actualitzeu %3$s per apuntar directament a %4$s."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:202
+msgid "Block inspector tab display overrides."
+msgstr "Substitueix la pantalla de la pestanya de l'inspector de blocs."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:698
+msgid "Markup is not allowed in CSS."
+msgstr "El marcatge no està permès a CSS."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "pàgina"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block description"
+msgid "Displays a page inside a list of all pages."
+msgstr "Mostra una pàgina dins d'una llista de totes les pàgines."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block title"
+msgid "Page List Item"
+msgstr "Element de la llista de pàgines"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:136
+msgid "Indicates whether the current theme supports block-based templates."
+msgstr "Indica si el tema actual admet plantilles basades en blocs."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:405
+msgid "Offset the result set by a specific number of items."
+msgstr "Desplaça el conjunt de resultats un nombre determinat d'elements."
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: build/block-library/blocks/read-more.php:28
+msgid "untitled post %s"
+msgstr "entrada sense títol %s"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: build/block-library/blocks/read-more.php:34
+msgid ": %s"
+msgstr ": %s"
+
+#: lib/block-supports/typography.php:286
+msgid "Raw size value must be a string, integer or a float."
+msgstr "El valor en brut de la mida ha de ser una cadena, un nombre enter o flotant."
+
+#: build/block-library/blocks/tag-cloud.php:35
+msgid "There&#8217;s no content to show here yet."
+msgstr "Encara no hi ha contingut per mostrar aquí."
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block title"
+msgid "Comments Previous Page"
+msgstr "Pàgina anterior de comentaris"
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block title"
+msgid "Comments Next Page"
+msgstr "Pàgina següent de comentaris"
+
+#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:44
+msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+msgstr "$store ha de ser una instància de WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:313
+msgid "Disables custom spacing sizes."
+msgstr "Desactiva les mides d'espaiat personalitzades."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:226
+msgid "Disables output of layout styles."
+msgstr "Desactiva la sortida dels estils de disseny."
+
+#. translators: %s is the search term.
+#: build/block-library/blocks/query-title.php:46
+msgid "Search results for: \"%s\""
+msgstr "Resultats de la cerca de: \"%s\""
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:172
+msgid "Whether the V2 of the list block that uses inner blocks should be enabled."
+msgstr "Si s'ha d'habilitar la V2 del bloc de llista que utilitza blocs interiors."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:308
+msgid "Active theme spacing scale."
+msgstr "Escala d'espaiat del tema actiu."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:303
+msgid "Active theme spacing sizes."
+msgstr "Mides d'espaiat de temes actius."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247
+msgid "%sX-Large"
+msgstr "%s X-Gran"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+msgid "%sX-Small"
+msgstr "%s X-Petit"
+
+#: lib/class-wp-theme-json-gutenberg.php:4083
+msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
+msgstr "Alguns dels valors de settings.spacing.spacingScale al fitxer theme.json no són vàlids"
+
+#. translators: %s: Number of comments.
+#: build/block-library/blocks/comments-title.php:61
+#: build/block-library/index.js:12098
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s resposta"
+msgstr[1] "%s respostes"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: build/block-library/blocks/comments-title.php:47
+#: build/block-library/index.js:12092
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%1$s resposta a %2$s"
+msgstr[1] "%1$s respostes a %2$s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:29
+msgid "&#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "Comentaris"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:68
+#: build/block-library/index.js:12103
+msgid "Response to %s"
+msgstr "Resposta a %s"
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:12109
+msgid "Response"
+msgstr "Resposta"
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "El comentari està pendent de moderació. Aquesta és una previsualització; El comentari serà visible després que s'hagi aprovat."
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "El comentari està pendent d’aprovació."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block description"
+msgid "Displays a title with the number of comments."
+msgstr "Mostra un títol amb el nombre de comentaris."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block title"
+msgid "Comments Title"
+msgstr "Títol dels comentaris"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:12106
+msgid "Responses to %s"
+msgstr "Respostes a %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:9263 build/block-library/index.js:12089
+msgid "One response to %s"
+msgstr "Una resposta a %s"
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:12111
+msgid "Responses"
+msgstr "Respostes"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:12095
+msgid "One response"
+msgstr "Una resposta"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block description"
+msgid "Gather blocks in a layout container."
+msgstr "Agrupa blocs en un contenidor amb disseny."
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post comments using different visual configurations."
+msgstr "Bloc avançat que permet visualitzar comentaris de les entrades mitjançant diferents configuracions visuals."
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "Mostra la data en què s'ha publicat el comentari."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block description"
+msgid "Displays the name of the author of the comment."
+msgstr "Mostra el nom de l'autor del comentari."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Avatar block instead."
+msgstr "Aquest bloc està obsolet. Utilitzeu el bloc Avatar."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block title"
+msgid "Comment Author Avatar (deprecated)"
+msgstr "Avatar de l’autor del comentari (obsolet)"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:166
+msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
+msgstr "Si s'ha d'habilitar la V2 del bloc de cita que utilitza blocs interiors."
+
+#: build/block-library/blocks/rss.php:19
+msgid "Adding an RSS feed to this site’s homepage is not supported, as it could lead to a loop that slows down your site. Try using another block, like the <strong>Latest Posts</strong> block, to list posts from the site."
+msgstr "No s'admet afegir un canal RSS a la pàgina d'inici d'aquest lloc web, ja que podria conduir a un bucle que alenteixi el vostre lloc web. Proveu d'utilitzar un altre bloc, com ara el bloc <strong>Entrades més recents</strong> , per mostrar les entrades del lloc web."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render content when no query results are found."
+msgstr "Conté els elements de bloc utilitzats per renderitzar contingut quan no es troben resultats de consulta."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "No hi ha resultats"
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Element de la llista"
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "Afegeix l'avatar d'un usuari."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "Avatar"
+
+#. translators: %s: Comment author name.
+#: build/block-library/blocks/avatar.php:92
+msgid "(%s website link, opens in a new tab)"
+msgstr "(enllaç al lloc web de %s, s'obre en una nova pestanya)"
+
+#. translators: %s is the Author name.
+#: build/block-library/blocks/avatar.php:65
+msgid "(%s author archive, opens in a new tab)"
+msgstr "(arxiu de l'autor %s, s'obre en una nova pestanya)"
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block description"
+msgid "Displays the link of a post, page, or any other content-type."
+msgstr "Mostra l'enllaç d'una entrada, pàgina o qualsevol altre tipus de contingut."
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block title"
+msgid "Read More"
+msgstr "Llegeix més"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block description"
+msgid "The author biography."
+msgstr "Biografia de l'autor."
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block title"
+msgid "Author Biography"
+msgstr "Biografia de l'autor de l'entrada"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:208
+msgid "Sorry, you are not allowed to view this global style."
+msgstr "No teniu permisos per a visualitzar aquest estil global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:200
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:245
+msgid "Sorry, you are not allowed to edit this global style."
+msgstr "No teniu permisos per a editar aquest estil global."
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:9270 build/block-library/index.js:9353
+#: build/block-library/index.js:11397
+msgid "Older Comments"
+msgstr "Comentaris antics"
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:9276 build/block-library/index.js:9359
+#: build/block-library/index.js:11746
+msgid "Newer Comments"
+msgstr "Comentaris més recents"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block description"
+msgid "Display post author details such as name, avatar, and bio."
+msgstr "Mostra els detalls de l'autor de l’entrada, com ara el nom, l'avatar i la biografia."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block description"
+msgid "The author name."
+msgstr "El nom de l'autor."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block title"
+msgid "Author Name"
+msgstr "Nom de l’autor de l’entrada"
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous comment's page link."
+msgstr "Mostra l'enllaç de la pàgina dels comentaris anteriors."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next comment's page link."
+msgstr "Mostra l'enllaç a la pàgina del comentari següent."
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:34827
+msgid "Icon"
+msgstr "Icona"
+
+#: build/block-library/blocks/site-logo.php:98
+msgid "Site icon."
+msgstr "Icona del lloc web."
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra Gran"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Pagination"
+msgstr "Paginació"
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block title"
+msgid "Previous Page"
+msgstr "Pàgina anterior"
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Números de pàgina"
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block title"
+msgid "Next Page"
+msgstr "Pàgina següent"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for comments pagination."
+msgstr "Mostra una llista de números de pàgina per a la paginació de comentaris."
+
+#. translators: Accessibility text. %s: Parent page title.
+#: build/block-library/blocks/navigation-submenu.php:119
+#: build/block-library/blocks/page-list.php:200
+msgid "%s submenu"
+msgstr "Submenú de %s"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of comments, when applicable."
+msgstr "Mostra una navegació paginada al conjunt de comentaris anteriors/posteriors, quan sigui possible."
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block title"
+msgid "Comments Pagination"
+msgstr "Paginació dels comentaris"
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Comments block instead."
+msgstr "Aquest bloc està obsolet. Utilitzeu el bloc Comentaris en lloc."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block title"
+msgid "Comment (deprecated)"
+msgstr "Comentari de l'entrada (obsolet)"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block description"
+msgid "Show a block pattern."
+msgstr "Mostra un patró de blocs."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Pattern"
+msgstr "Patró"
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to display a comment, like the title, date, author, avatar and more."
+msgstr "Conté els elements del bloc utilitzats per mostrar un comentari, com ara el títol, la data, l'autor, l'avatar i molt més."
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block title"
+msgid "Comment Template"
+msgstr "Plantilla de comentaris"
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block description"
+msgid "Displays a link to reply to a comment."
+msgstr "Mostra un enllaç per respondre a un comentari."
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block title"
+msgid "Comment Reply Link"
+msgstr "Enllaç de resposta del comentari"
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block description"
+msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+msgstr "Mostra un enllaç per editar el comentari al tauler de WordPress. Aquest enllaç només és visible per als usuaris amb capacitat d'editar comentaris."
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block title"
+msgid "Comment Edit Link"
+msgstr "Enllaç d'edició del comentari"
+
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a comment."
+msgstr "Mostra el contingut d'un comentari."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block title"
+msgid "Comment Author Name"
+msgstr "Nom de l'autor del comentari"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:583
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:652
+msgid "Theme not found."
+msgstr "Tema no trobat."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:516
+msgid "HTML title for the post, transformed for display."
+msgstr "Títol HTML de l'entrada, transformat per a mostrar-se."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:511
+msgid "Title for the global styles variation, as it exists in the database."
+msgstr "Títol per a la variació d'estils globals, tal com està a la base de dades."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:505
+msgid "Title of the global styles variation."
+msgstr "Títol per a la variació d'estils globals."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:500
+msgid "Global settings."
+msgstr "Configuració global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:495
+msgid "Global styles."
+msgstr "Estils globals."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:489
+msgid "ID of global styles config."
+msgstr "Identificador de la configuració d'estils globals."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:166
+msgid "No global styles config exist with that id."
+msgstr "No existeix cap configuració d'estils globals amb aquest identificador."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:563
+msgid "Sorry, you are not allowed to access the global styles on this site."
+msgstr "No teniu permisos per accedir als estils globals en aquest lloc web."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:58
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:92
+msgid "The theme identifier"
+msgstr "L'identificador del tema"
+
+#. translators: %s: Author name.
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:2150 build/block-library/index.js:2188
+msgid "%s Avatar"
+msgstr "Avatar de %s"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "Pla"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block description"
+msgid "Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results."
+msgstr "Mostra el nom d'aquest lloc web. Actualitzeu el bloc i els canvis s'apliquen a tot arreu on s'utilitzi. Això també apareixerà a la barra de títol del navegador i als resultats de la cerca."
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the previous post"
+msgid "Previous:"
+msgstr "Anterior:"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the next post"
+msgid "Next:"
+msgstr "Següent:"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block description"
+msgid "Add a submenu to your navigation."
+msgstr "Afegeix un submenú a la navegació."
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "Submenú"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "Mostra el contingut en diverses columnes, amb blocs afegits a cada columna."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block description"
+msgid "Create structured content in rows and columns to display information."
+msgstr "Creeu contingut estructurat en files i columnes per mostrar informació."
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "Blau i taronja"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "Porpra i verd"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "Magenta i groc"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "Mitjanit"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "Blau i vermell"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "Porpra i groc"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "Escala de grisos"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "Escala de grisos foscos"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "Mitjanit"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "Verd elèctric"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "Oceà pàl·lid"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "Capvespre lluminós"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "Rosa bordeus"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "Rosat violeta clar"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "Espectre fred a càlid"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "Gris molt clar a gris blavós"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "Taronja viu i lluminós a vermell viu"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Ambre viu i lluminós a taronja viu i lluminós"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "Verd cian clar a verd cian viu"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Blau cian viu a porpra viu"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "Porpra viu"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid cyan blue"
+msgstr "Blau cian viu"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale cyan blue"
+msgstr "Blau cel pàl·lid"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid green cyan"
+msgstr "Verd cian viu"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Light green cyan"
+msgstr "Verd cian clar"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid amber"
+msgstr "Ambre viu i lluminós"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid orange"
+msgstr "Taronja viu lluminós"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid red"
+msgstr "Vermell viu"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "Rosa pàl·lid"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Blanc"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Cyan bluish gray"
+msgstr "Gris blavós"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr "Negre"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Gran"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Mitjana"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Petita"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
+msgstr "Bloc avançat que permet visualitzar tipus d’entrades en funció de diferents paràmetres de consulta i configuracions visuals."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr "Conté els elements de bloc utilitzats per representar una entrada, com ara el títol, la data, la imatge destacada, el contingut o l’extracte, entre d'altres."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr "Plantilla d’entrada"
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "enllaç"
+
+#: build/block-library/blocks/calendar.php:27
+msgid "The calendar block is hidden because there are no published posts."
+msgstr "El bloc de calendari està amagat perquè no hi ha entrades publicades."
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block keyword"
+msgid "movie"
+msgstr "pel·lícula"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Incrusteu un vídeo de la biblioteca multimèdia o pugeu un de nou."
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poem"
+msgstr "poema"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poetry"
+msgstr "poesia"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block description"
+msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
+msgstr "Inseriu poesia. Useu formats d'espai especials. O citeu lletres de cançons."
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Columns block instead."
+msgstr "Aquest bloc està obsolet. En lloc d'això utilitzeu el bloc de columnes."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block style label"
+msgid "Stripes"
+msgstr "Ratlles"
+
+#: build/block-library/blocks/details/block.json
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "resum"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "document outline"
+msgstr "esquema del document"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block description"
+msgid "Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here."
+msgstr "Resumiu l’entrada amb una llista de capçalera. Afegiu àncores HTML als blocs de capçalera per enllaçar-los aquí."
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Taula de continguts"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Add white space between blocks and customize its height."
+msgstr "Afegeix espai en blanc entre blocs i personalitza la seva alçada."
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Forma de la píndola"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Logos Only"
+msgstr "Només logotips"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block description"
+msgid "Display icons linking to your social profiles or sites."
+msgstr "Mostra les icones que enllacen amb els vostres perfils socials o llocs web."
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "descripció"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "Descriviu en poques paraules de què tracta el lloc web. L'eslògan es pot utilitzar als resultats de cerca o quan es comparteix a les xarxes socials encara que no es mostri al disseny del tema."
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block description"
+msgid "Insert additional custom elements with a WordPress shortcode."
+msgstr "Inseriu elements personalitzats addicionals amb un codi curt de WordPress."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Dots"
+msgstr "Punts"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Wide Line"
+msgstr "Línia ampla"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "divisor"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "horizontal-line"
+msgstr "línia-horitzontal"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr "Crea un salt entre línies o seccions amb un separador horitzontal."
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block keyword"
+msgid "find"
+msgstr "trobar"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block description"
+msgid "Help visitors find your content."
+msgstr "Ajudeu els visitants a trobar el contingut."
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "canal"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "àtom"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block description"
+msgid "Display entries from any RSS or Atom feed."
+msgstr "Mostra les entrades des de qualsevol canal RSS o Atom."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "cite"
+msgstr "cita"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "blockquote"
+msgstr "bloc de cita"
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block description"
+msgid "Display the query title."
+msgstr "Mostra el títol de la consulta."
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Títol de la consulta"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of posts, when applicable."
+msgstr "Mostra una navegació paginada al conjunt d'entrades anteriors/posteriors, quan sigui possible."
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous posts page link."
+msgstr "Mostra l'enllaç de la pàgina d'entrades anteriors."
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for pagination."
+msgstr "Mostra una llista de números de pàgina per a la paginació."
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next posts page link."
+msgstr "Mostra l'enllaç de la pàgina d'entrades següents."
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block description"
+msgid "Give special visual emphasis to a quote from your text."
+msgstr "Emfatitza visualment una cita del text."
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block description"
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "Afegeix text que respecti els espais i tabulats, i que també permeti estils."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block description"
+msgid "Displays the title of a post, page, or any other content-type."
+msgstr "Mostra el títol d'una entrada, pàgina o qualsevol altre tipus de contingut."
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block description"
+msgid "Post terms."
+msgstr "Termes de les entrades."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block description"
+msgid "Displays the next or previous post link that is adjacent to the current post."
+msgstr "Mostra l'enllaç a l'entrada anterior o següent que és adjacent a l'entrada actual."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block title"
+msgid "Post Navigation Link"
+msgstr "Missatge de navegació Enllaç"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block description"
+msgid "Display a post's featured image."
+msgstr "Mostra la imatge destacada d'una entrada."
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block description"
+msgid "Display the excerpt."
+msgstr "Mostra l'extracte."
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a post or page."
+msgstr "Mostra el contingut d'una entrada o pàgina."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block description"
+msgid "Displays the link to the current post comments."
+msgstr "Mostra l'enllaç als comentaris de l'entrada actual."
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block description"
+msgid "Display a post's comments form."
+msgstr "Mostra el formulari de comentaris d'una entrada."
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block description"
+msgid "Display a post's comments count."
+msgstr "Mostra el recompte de comentaris d'una entrada."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "text"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "Comença amb el bloc bàsic que construeix tota la narrativa."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block description"
+msgid "Display a list of all pages."
+msgstr "Mostra una llista de totes les pàgines."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "paginació"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "next page"
+msgstr "pàgina següent"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block description"
+msgid "Separate your content into a multi-page experience."
+msgstr "Separa el contingut en una experiència multi pàgina."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "navegació"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "menú"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "Una col·lecció de blocs que permeten als visitants moure's del lloc web."
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "Afegiu una pàgina, un enllaç o un altre element a la navegació."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block keyword"
+msgid "read more"
+msgstr "llegeix més"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "El contingut anterior a aquest bloc es mostrarà al fragment de la pàgina d'arxius."
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block description"
+msgid "Your site doesn’t include support for this block."
+msgstr "El lloc web no inclou compatibilitat amb aquest bloqueig."
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr "vídeo"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "imatge"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block description"
+msgid "Set media and words side-by-side for a richer layout."
+msgstr "Defineix els mèdia i les paraules un al costat de l'altre per a un format més ric."
+
+#: build/block-library/blocks/form-input/block.json
+#: build/block-library/blocks/form-submission-notification/block.json
+#: build/block-library/blocks/form-submit-button/block.json
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulari"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr "tanca la sessió"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr "entra"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block description"
+msgid "Show login & logout links."
+msgstr "Mostra els enllaços d'inici de sessió i sortida."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "numbered list"
+msgstr "llista numerada"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "ordered list"
+msgstr "llista ordenada"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "bullet list"
+msgstr "llista de pics"
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block description"
+msgid "Display a legacy widget."
+msgstr "Mostra un giny heretat."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block title"
+msgid "Legacy Widget"
+msgstr "Giny heretat"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block keyword"
+msgid "recent posts"
+msgstr "entrades recents"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Mostra una llista de les entrades més recents."
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block keyword"
+msgid "recent comments"
+msgstr "comentaris recents"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent comments."
+msgstr "Mostra una llista dels comentaris més recents."
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr "Arrodonit"
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/quote/block.json
+#: build/block-library/blocks/separator/block.json
+#: build/block-library/blocks/site-logo/block.json
+#: build/block-library/blocks/social-links/block.json
+#: build/block-library/blocks/table/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr "Per defecte"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr "imatge"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "foto"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block description"
+msgid "Insert an image to make a visual statement."
+msgstr "Inseriu una imatge per fer una declaració visual."
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "incrustat"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block description"
+msgid "Add custom HTML code and preview it as you edit."
+msgstr "Afegeix codi HTML personalitzat i previsualitza'l mentre edites."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block description"
+msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
+msgstr "Creeu un enllaç que sempre apunti a la pàgina d'inici del lloc web. Normalment, no és necessari si ja hi ha un enllaç de títol del lloc present a la capçalera."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block title"
+msgid "Home Link"
+msgstr "Enllaça a la pàgina d’inici"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr "subtítol"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "títol"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "secció"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr "fila"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "wrapper"
+msgstr "embolcall"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "contenidor"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "fotos"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "imatges"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block description"
+msgid "Display multiple images in a rich gallery."
+msgstr "Mostra imatges múltiples en una galeria."
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block description"
+msgid "Use the classic WordPress editor."
+msgstr "Utilitza l'editor clàssic de WordPress."
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "baixa"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr "pdf"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "document"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block description"
+msgid "Add a link to a downloadable file."
+msgstr "Afegiu un enllaç a un fitxer que es pot baixar."
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "Una sola columna dins d'un bloc de columnes."
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block description"
+msgid "Display code snippets that respect your spacing and tabs."
+msgstr "Mostra fragments de codi que respecten l'espaiat i les pestanyes."
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr "arxiu"
+
+#: build/block-library/blocks/calendar/block.json
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "entrades"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block description"
+msgid "A calendar of your site’s posts."
+msgstr "Un calendari de les entrades del lloc web."
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a group of button-style links."
+msgstr "Sol·liciteu als visitants que interactuïn amb un grup d'enllaços amb estil de botó."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Contorn"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Emplena"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a button-style link."
+msgstr "Sol·liciteu als visitants que interactuïn amb un enllaç amb estil de botó."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr "enregistrament"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr "pòdcast"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr "so"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr "música"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block description"
+msgid "Embed a simple audio player."
+msgstr "Incrusta un reproductor d'àudio simple."
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block description"
+msgid "Display a date archive of your posts."
+msgstr "Mostra un arxiu de dates de les teves entrades."
+
+#: build/block-library/blocks/site-logo.php:47
+msgid "(Home link, opens in a new tab)"
+msgstr "(Pàgina d’inici, s'obre en una pestanya nova)"
+
+#: build/block-library/blocks/navigation.php:491
+#: build/block-library/index.js:34458
+msgid "Close menu"
+msgstr "Tanca el menú"
+
+#: build/block-library/blocks/navigation.php:490
+#: build/block-library/index.js:34440
+msgid "Open menu"
+msgstr "Obre el menú"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:160
+msgid "Styles consolidated from core, theme, and user origins."
+msgstr "Estils consolidats a partir dels orígens del nucli, el tema i l'usuari."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:154
+msgid "Settings consolidated from core, theme, and user origins."
+msgstr "Configuració consolidada a partir dels orígens del nucli, del tema i de l'usuari."
+
+#: build/block-library/blocks/site-logo.php:77
+msgid "Logo"
+msgstr "Logotip"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:298
+msgid "Active theme gradients."
+msgstr "Degradats del tema actiu."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:292
+msgid "Active theme font sizes."
+msgstr "Tipus de lletra del tema actiu."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:286
+msgid "Active theme color palette."
+msgstr "Paleta de colors de tema actiu."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:280
+msgid "Maximum upload size in bytes allowed for the site."
+msgstr "Mida màxima de pujada en bytes permesa per al lloc web."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:274
+msgid "Available image sizes."
+msgstr "Mides d'imatge disponibles."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:268
+msgid "Determines whether the image editing feature is enabled."
+msgstr "Determina si la funció d'edició d'imatges està habilitada."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:262
+msgid "Available image dimensions."
+msgstr "Dimensions d'imatge disponibles."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:256
+msgid "Default size for images."
+msgstr "Mida predeterminada per a les imatges."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:250
+msgid "Determines whether the current locale is right-to-left (RTL)."
+msgstr "Determina si la configuració regional actual és de dreta a esquerra (RTL)."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:244
+msgid "Enables custom units."
+msgstr "Habilita les unitats personalitzades."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:238
+msgid "Enables custom spacing."
+msgstr "Habilita l'espaiat personalitzat."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:232
+msgid "Enables custom line height."
+msgstr "Habilita l'alçada de línia personalitzada."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:214
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:220
+msgid "Disables custom font size."
+msgstr "Desactiva la mida de tipus de lletra."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:208
+msgid "Disables custom colors."
+msgstr "Desactiva els colors personalitzats."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:196
+msgid "Returns all the categories for block types that will be shown in the block editor."
+msgstr "Retorna totes les categories per als tipus de blocs que es mostraran a l'editor de blocs."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:190
+msgid "List of allowed mime types and file extensions."
+msgstr "Llista de tipus mime permesos i extensions de fitxer."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:184
+msgid "List of allowed block types."
+msgstr "Llista de tipus de blocs permesos."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:178
+msgid "Enable/Disable Wide/Full Alignments."
+msgstr "Habilitar/desactivar alineacions amples/completes."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:148
+msgid "Widget types to hide from Legacy Widget block."
+msgstr "Tipus de ginys per amagar-los al bloc de ginys antics."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:142
+msgid "Enable/disable layouts support in container blocks."
+msgstr "Habilita/deshabilita el suport de dissenys amb contenidors de blocs."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:130
+msgid "Editor styles"
+msgstr "Estils d'editor"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:124
+msgid "Enables experimental Site Editor blocks"
+msgstr "Habilita els blocs experimentals de l'Editor del lloc web"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:65
+msgid "Sorry, you are not allowed to read the block editor settings."
+msgstr "No teniu permisos per a llegir la configuració del directori de blocs."
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block description"
+msgid "Display the description of categories, tags and custom taxonomies when viewing an archive."
+msgstr "Mostra la descripció de categories, etiquetes i taxonomies personalitzades quan es veu un arxiu."
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block title"
+msgid "Term Description"
+msgstr "Descripció del terme"
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block title"
+msgid "Comments Link"
+msgstr "Enllaç de comentaris de l'entrada"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block title"
+msgid "Login/out"
+msgstr "Inicia/tanca la sessió"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Enllaç personalitzat"
+
+#. translators: %s: filename.
+#: build/block-library/blocks/file.php:35 build/block-library/index.js:18265
+#: build/block-library/index.js:18374 build/block-library/index.js:18475
+msgid "Embed of %s."
+msgstr "Incrustació de %s."
+
+#: build/block-library/blocks/file.php:37 build/block-library/index.js:18264
+#: build/block-library/index.js:18373 build/block-library/index.js:18474
+msgid "PDF embed"
+msgstr "Incrustació de PDF"
+
+#: build/block-library/blocks/navigation-link.php:345
+msgid "A link to a post format"
+msgstr "Un enllaç a un format d'entrada"
+
+#: build/block-library/blocks/navigation-link.php:344
+msgid "Post Format Link"
+msgstr "Enllaç al format d'entrada"
+
+#: build/block-library/blocks/latest-posts.php:169
+#: build/block-library/blocks/latest-posts.php:184
+#: build/block-library/index.js:43038
+msgid "This content is password protected."
+msgstr "Aquest contingut està protegit per contrasenya."
+
+#. translators: 1: Number of comments, 2: post title
+#: build/block-library/blocks/post-comments-link.php:47
+msgid "%1$s comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s Comentari<span class=\"screen-reader-text\"> a %2$s</span>"
+msgstr[1] "%1$s Comentaris<span class=\"screen-reader-text\"> a %2$s</span>"
+
+#. translators: %s post title
+#: build/block-library/blocks/post-comments-link.php:41
+msgid "No comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Sense comentaris<span class=\"screen-reader-text\"> a %s</span>"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block description"
+msgid "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
+msgstr "Editeu les diferents regions globals del vostre lloc web, com ara la capçalera, el peu de pàgina o la barra lateral, o creeu-ne de pròpies."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Llista de pàgines"
+
+#. translators: %s: taxonomy's singular name
+#: build/block-library/blocks/categories.php:46
+#: build/block-library/index.js:6534
+msgid "Select %s"
+msgstr "Selecciona %s"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Anterior"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Següent"
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "Pàgina anterior"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Comments Page Numbers"
+msgstr "Nombres de paginació de comentaris"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "Pàgina següent"
+
+#. translators: %s: Template part slug.
+#: build/block-library/blocks/template-part.php:120
+#: build/block-library/index.js:63375
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "La secció de plantilla s'ha suprimit o no està disponible: %s"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:38
+#: build/block-library/blocks/post-content.php:34
+#: build/block-library/blocks/template-part.php:131
+msgid "[block rendering halted]"
+msgstr "[s’ha aturat la renderització del bloc]"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "Termes de l'entrada"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Featured Image"
+msgstr "Imatge destacada"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Comments Form"
+msgstr "Formulari de comentaris"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Comments Count"
+msgstr "Recompte de comentaris de l’entrada"
+
+#: build/block-library/index.js:10326
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "Data del comentari"
+
+#: build/block-library/index.js:10148
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "Contingut del comentari"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Llista de continguts"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Secció de plantilla"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Títol del lloc web"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Lema del lloc web"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Logotip del lloc web"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Icona de xarxa social"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Icones de xarxes socials"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Núvol d'etiquetes"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Vídeo"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Vers"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Columnes de text (obsoletes)"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Taula"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Espaiador"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Codi de substitució"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Separador"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Grup"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Cerca"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Cita destacada"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Preformatat"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Salt de pàgina"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Més"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "No suportat"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Llista"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Darreres entrades"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "Últims comentaris"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Navegació"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Mèdia i text"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "HTML personalitzat"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "Fitxer"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Coberta"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Columna"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Columnes"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Codi"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Calendari"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Botons"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Botó"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Àudio"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Arxius"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Galeria"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Cita"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Capçalera"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Imatge"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Paràgraf"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:118
+msgid "The id of a template"
+msgstr "L'identificador de la plantilla"
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "Logotip del lloc web."
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "Disseny"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "per %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "Resultats de la cerca"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "Contingut"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "Menú"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "Pàgina d'inici"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:417
+msgid "Sort collection by post attribute."
+msgstr "Ordena la col·lecció per un atribut de l'entrada."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "Ordena l'atribut de manera ascendent o descendent."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "enllaços"
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "Configuració dels experiments"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "Configuració experimental"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "S'ha produït un error; probablement l'RSS ha deixat de funcionar. Torneu-ho a provar més tard."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Error RSS:"
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "Cerca"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Incrusta"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Clàssic"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Emfatitza visualment el text citat. \"En citar a altres, ens citem a nosaltres.\" -- Julio Cortázar"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Introduïu seccions noves i organitzeu continguts per ajudar els visitants (i els motors de cerca) a comprendre l'estructura del contingut."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:479
+msgid "Limit result set to posts assigned one or more statuses."
+msgstr "Limita el conjunt de resultats a entrades assignades a un o més estats."
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "Mitjà"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "No hi ha arxius per a mostrar."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Paisatge bonic"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Gràcies per provar el Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Ajudeu a construir el Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Si voleu aprendre més sobre com construir blocs addicionals o si esteu interessats en ajudar amb el projecte, adreceu-vos al <a href=\"%s\">repositori GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "La comunitat de WordPress"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "El codi és poesia"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Podeu construir qualsevol tipus de bloc, estàtic o dinàmic, decoratiu o simple. Aquí hi ha un bloc de contraportada. "
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Qualsevol bloc pot fer ús d'aquestes alineacions. El bloc incrustat també les té i és totalment responsiu:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Això és una galeria amb dues imatges. És una manera més fàcil de crear dissenys d'una manera visual sense haver de fer servir elements flotants. També podeu fàcilment tornar a convertir la galeria a imatges individuals una altra vegada usant l'intercanviador de blocs."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "La imatge en mida completa potser molt gran però, de vegades, la imatge val la pena.  "
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "L'accessibilitat és important; no oblideu l'atribut alt de la imatge."
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Si combineu els nous alineaments <strong>ample</strong> i <strong>amplada completa</strong> amb les galeries, podeu crear una disposició mèdia molt rica, molt ràpidament:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Ric en mèdia"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Podeu canviar la quantitat de columnes en la galeria arrossegant un desplaçador situat a l'inspector de blocs de la barra lateral."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Els blocs poden ser qualsevol cosa que necessiteu. Per exemple, podeu afegir una citació subtil com a part de la composicio del text, o potser preferiu mostrar-ne una gran i estilitzada. Totes aquestes opcions estan disponibles a l'eina d'inserció."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "La informació corresponent a la font de la citació és un camp de text diferent, semblant a les llegendes baix de les imatges, de manera que l'estructura de la citació està protegida fins i tot si seleccioneu, modifiqueu o elimineu la font. Sempre és fàcil tornar-la a afegir."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "L'editor us guiarà a crear una nova experiència de creació de pàgines i entrades, que fa l'escriptura d'entrades riques sense esforç, i té «blocs» per a fer més fàcil el que avuí es fa mitjançat codis de substitució, HTML personalitzat o \"misteriosos\" descobriments d'elements incrustats."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Un benefici molt gran dels blocs és que podeu editar-los en lloc i manipular el contingut directament. Enlloc de tindre camps per a editar coses com el codi d'una citació o el text d'un botó, podeu canviar el continngut directament. Proveu a editar la citació següent:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Edició visual"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "I <em>llistes</em> com aquesta, és clar :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Plantilla de blocs, botons de m'agrada, imatges de capçalera, separadors, etc."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Elements incrustats, com YouTube, tuits, o altres entrades del WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galeries"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Imatges i videos"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text i encapçalaments"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Proveu-lo, podeu descubrir coses que no sabíeu que el WordPress ja pot afegir a les vostres entrades. Aquí teniu una llista de què podeu trobar a hores d'ara:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imagine-vos que tot el que pot fer el WordPress està disponible ràpidament des del mateix lloc a la interfície. Sense necessitat d'encertar etiquetes HTML, classes, o recordar l'estranya sintaxi dels codis de substitució. Eixe és l'esperit de l'eina d'inserció — el botó <code>(+)</code> que veureu a l'editor — que us permetrà navegar per tots els blocs de contingut disponible i afegir-los a la vostra entrada. Extensions i temes poden registrar-ne de nous, obrint tot un ventall de possibilitats per a l'edició rica i la publicació."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "L'eina d'<em>inserció</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Proveu a seleccionar i eliminar o editar la llegenda, ara no hey d'anar en compte amb seleccionar una imatge o un altre text per error i arruinar la presentació."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "SI el tema és compatible, veureu el botó «ample» a la barra d'eines de la imatge. Proveu-ho!"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "La gestió d'imatges i mèdia amb la màxima cura és una de les prioritats del nou editor. Trobareu formes d'afegir llegendes o posar imatges a pantalla completa molt més fàcils i robustes que abans."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Una imatge val més que mil paraules"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Les capçaleres també són blocs separats, que us ajuda a esquematitzar i organitzar el contingut."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "...com aquesta, que està alineada a la dreta."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "El que esteu llegint és un <strong>bloc de text</strong>. Aquest és el bloc més bàsic de tots. El bloc de text té els seus propis controls per moure'l lliurement per l'entrada..."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "L'objectiu de l'editor nou és fer l'addició de contingut ric al WordPress simple i entretingut. Aquesta entrada està tota escrita amb <em>peces de contingut</em> — una cosa semblant a peces de LEGO — amb què podeu moure i interactuar. Moveu el cursos per la pantalla i veureu com diferents blocs s'iluminen amb vores i fletxes. Premeu les fletxes per a reposicionar ràpidament els blocs, sense por a perdre res en el procés de copiar i enganxar."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "de muntanyes i impremtes"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Benvingut a l'editor Gutenberg"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "El nombre de pàgina sol·licitat és major que el total de pàgines disponibles."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "Petit"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Suport"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "No s'han trobat comentaris."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s a %2$s"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Selecciona un post"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Selecciona la setmana"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Selecciona el dia"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Selecciona el mes"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Selecciona l'any"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Arxius"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "Gran"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Afegeix un bloc que mostri contingut extret d'altres llocs, com Twitter, Instagram o YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Paginació"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "Bloc"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(sense títol)"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "Tanca"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "Llegeix més"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "Experiments"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "Edita"
+
+#: gutenberg.php:45
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "El mode de desenvolupament de Gutenberg necessita generar alguns fitxers. Executeu <code>npm install</code> per instal·lar-ne les dependències, <code>npm run build</code> per generar els fitxers o <code>npm run dev</code> per generar els fitxers i mirar els canvis de codi. Vegeu el fitxer <a href=\"https://github.com/WordPress/gutenberg/blob/master/docs/contributors/getting-started.md\">contribucions</a> per a més informació."
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Equip del Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "fa %s"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s a partir d'ara"
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:51
+msgid "Template names must not contain uppercase characters."
+msgstr "Els noms de les plantilles no poden contenir caràcters en majúscules."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "El Gutenberg necessita el WordPress %s o superior per a funcionar correctament. Actualitzeu el WordPress abans d'activar el Gutenberg."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Documentació (en anglès)"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demo"

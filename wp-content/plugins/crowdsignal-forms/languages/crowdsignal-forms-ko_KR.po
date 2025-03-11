@@ -1,0 +1,280 @@
+# Translation of Plugins - Crowdsignal Forms - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Crowdsignal Forms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-07 06:54:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Crowdsignal Forms - Stable (latest release)\n"
+
+#: includes/admin/views/html-admin-setup-step-3.php:25
+msgid "You can use Crowdsignal blocks right in your editor. Search for Crowdsignal in the blocks library and add the blocks to your page. Here is a short video to get you started:"
+msgstr "편집기에서 바로 Crowdsignal 블록을 사용할 수 있습니다. 블록 라이브러리에서 Crowdsignal을 검색하고 페이지에 블록을 추가하세요. 다음은 시작하는 데 도움이 되는 짧은 비디오입니다."
+
+#: includes/admin/views/html-admin-setup-header.php:15 build/editor.js:6
+msgid "Crowdsignal Settings"
+msgstr "Crowdsignal 설정"
+
+#: includes/admin/views/html-admin-settings.php:58
+msgid "Your Crowdsignal API Key"
+msgstr "Crowdsignal API 키"
+
+#: includes/admin/views/html-admin-settings.php:44
+msgid "Get API Key"
+msgstr "API 키 받기"
+
+#: includes/admin/views/html-admin-settings.php:40
+msgid "If you have a Crowdsignal account, click the \"Get API Key\" button to connect. This will open a new window."
+msgstr "Crowdsignal 계정이 있으면 \"API 키 받기\" 버튼을 클릭하여 연결하세요. 그러면 새 창이 열립니다."
+
+#: includes/admin/views/html-admin-settings.php:34
+msgid "Crowdsignal account page"
+msgstr "Crowdsignal 계정 페이지"
+
+#. translators: Placeholder is the text "Crowdsignal acount page".
+#: includes/admin/views/html-admin-settings.php:31
+msgid "Visit your %s to find out more about your settings."
+msgstr "%s에서 설정에 대해 자세히 알아보세요."
+
+#. translators: Placeholder is the text "Crowdsignal".
+#: includes/admin/views/html-admin-settings.php:23
+msgid "Your website is connected to a %s account to collect responses and data from your visitors."
+msgstr "웹사이트가 %s 계정에 연결되어 방문객으로부터 응답과 데이터를 수집합니다."
+
+#: includes/admin/views/html-admin-settings.php:18
+msgid "API Key"
+msgstr "API 키"
+
+#: includes/admin/views/html-admin-settings.php:12
+msgid "Account Settings"
+msgstr "계정 설정"
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:59
+msgid "website plugins page"
+msgstr "웹사이트 플러그인 페이지"
+
+#. translators: Placeholder is the text "website plugins page".
+#: includes/admin/views/html-admin-dashboard-teaser.php:56
+msgid "Install the Crowdsignal Dashboard plugin directly from your %s."
+msgstr "%s에서 직접 Crowdsignal 알림판 플러그인을 설치하세요."
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:31
+msgid "second plugin"
+msgstr "두 번째 플러그인"
+
+#. translators: Placeholder is the text "second plugin".
+#: includes/admin/views/html-admin-dashboard-teaser.php:28
+msgid "We have a %s for you that allows you to manage all your Crowdsignal projects right in WP-Admin. Get an overview of all your active projects and get easy access to your results pages."
+msgstr "WP 관리자에서 바로 모든 Crowdsignal 프로젝트를 관리할 수 있는 %s이(가) 제공됩니다. 모든 활성 프로젝트의 개요를 가져오고 결과 페이지에 쉽게 액세스하세요."
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:22
+msgid "The Crowdsignal Dashboard plugin"
+msgstr "Crowdsignal 알림판 플러그인"
+
+#: includes/admin/views/html-admin-dashboard-teaser.php:16
+msgid "Manage your Crowdsignal projects inside WordPress"
+msgstr "워드프레스 내부에서 Crowdsignal 프로젝트 관리"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:150
+#: build/editor.js:4
+msgid "Your Email"
+msgstr "귀하의 이메일"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:158
+#: build/editor.js:4
+msgid "Please let us know how we can do better…"
+msgstr "어떻게 하면 더 나아질 수 있을지 알려주세요…"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:162
+#: build/editor.js:4
+msgid "👋 Hey there!"
+msgstr "👋 안녕하세요!"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:178
+#: build/editor.js:4
+msgid "Thanks for letting us know!"
+msgstr "알려주셔서 감사합니다!"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:122
+#: build/editor.js:3
+msgid "Please help us understand your rating"
+msgstr "평가를 파악할 수 있도록 도와주세요."
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:129
+#: build/editor.js:3
+msgid "Thanks so much for your response! How could we do better?"
+msgstr "응답해 주셔서 감사합니다! 어떻게 하면 나아질 수 있을까요?"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:140
+#: build/editor.js:3
+msgid "Extremely likely"
+msgstr "가능성 매우 높음"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:144
+#: build/editor.js:3
+msgid "Not likely at all"
+msgstr "전혀 가능성 없음"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:148
+#: build/editor.js:3
+msgid "How likely is it that you would recommend this project to a friend or colleague?"
+msgstr "이 프로젝트를 친구 또는 동료에게 추천할 가능성은 얼마나 되나요?"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:193
+#: build/editor.js:3 build/editor.js:4
+msgid "Feedback"
+msgstr "피드백"
+
+#: includes/admin/views/html-admin-setup-header.php:53
+msgid "Your API key has not been updated, please try again."
+msgstr "API 키가 업데이트되지 않았습니다. 다시 시도하세요."
+
+#: includes/class-crowdsignal-forms.php:454
+msgid "Crowdsignal"
+msgstr "Crowdsignal"
+
+#: includes/admin/class-crowdsignal-forms-admin.php:92 build/editor.js:3
+#: build/editor.js:6
+msgid "Settings"
+msgstr "설정"
+
+#: includes/admin/views/html-admin-setup-step-1.php:16
+#: includes/admin/views/html-admin-setup-step-3.php:16
+msgid "Getting Started"
+msgstr "시작하기"
+
+#: includes/admin/class-crowdsignal-forms-settings.php:138
+msgid "General"
+msgstr "일반"
+
+#: includes/admin/class-crowdsignal-forms-settings.php:143
+msgid "Enter Crowdsignal API Key"
+msgstr "Crowdsignal API 키 입력"
+
+#: includes/admin/views/html-admin-settings.php:51
+msgid "Settings successfully saved"
+msgstr "설정 저장됨"
+
+#: includes/admin/views/html-admin-settings.php:78
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#: includes/admin/views/html-admin-settings.php:84
+msgid "Connect"
+msgstr "연결"
+
+#: includes/admin/views/html-admin-setup-header.php:25
+msgid "Could not disconnect. Please try again."
+msgstr "연결을 해제할 수 없습니다. 다시 시도하세요."
+
+#: includes/admin/views/html-admin-setup-header.php:32
+msgid "Successfully disconnected from Crowdsignal."
+msgstr "Crowdsignal에서 연결이 해제되었습니다."
+
+#: includes/admin/views/html-admin-setup-header.php:39
+msgid "Success! Your Crowdsignal account is successfully connected! You are ready!"
+msgstr "성공! Crowdsignal 계정이 연결되었습니다! 준비가 끝났습니다!"
+
+#: includes/admin/views/html-admin-setup-header.php:46
+msgid "You have been connected to Crowdsignal."
+msgstr "Crowdsignal에 연결되었습니다."
+
+#: includes/admin/views/html-admin-setup-step-3.php:22
+msgid "First time using Crowdsignal?"
+msgstr "Crowdsignal을 처음 이용하시나요?"
+
+#: includes/admin/views/html-admin-setup-footer.php:27
+msgid "Crowdsignal Support"
+msgstr "Crowdsignal 지원"
+
+#: includes/admin/views/html-admin-setup-footer.php:27
+msgid "Support"
+msgstr "지원"
+
+#: includes/admin/views/html-admin-setup-footer.php:28
+msgid "Terms of Service"
+msgstr "이용 약관"
+
+#: includes/admin/views/html-admin-setup-footer.php:28
+msgid "Terms"
+msgstr "용어"
+
+#: includes/admin/views/html-admin-setup-footer.php:29
+msgid "Privacy Policy"
+msgstr "개인정보 취급방침"
+
+#: includes/admin/views/html-admin-setup-footer.php:29
+msgid "Privacy"
+msgstr "개인 정보"
+
+#: includes/admin/views/html-admin-setup-step-2.php:28
+msgid "You're ready to start using Crowdsignal!"
+msgstr "Crowdsignal을 통해 시작할 준비가 되셨습니다!"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:21
+msgid "Let's Get Started"
+msgstr "시작하기"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:22
+msgid "Skip Setup"
+msgstr "설정 건너뛰기"
+
+#: includes/admin/views/html-admin-setup-step-1.php:25
+msgid "Welcome to Crowdsignal Forms"
+msgstr "Crowdsignal 양식 시작"
+
+#: includes/admin/views/html-admin-setup-step-1.php:46
+msgid "Let’s get started"
+msgstr "시작하기"
+
+#. Plugin Name of the plugin
+#: crowdsignal-forms.php
+msgid "Crowdsignal Forms"
+msgstr "Crowdsignal 양식"
+
+#. Plugin URI of the plugin
+#: crowdsignal-forms.php
+msgid "https://crowdsignal.com/crowdsignal-forms/"
+msgstr "https://crowdsignal.com/crowdsignal-forms/"
+
+#. Description of the plugin
+#: crowdsignal-forms.php
+msgid "Crowdsignal Form Blocks"
+msgstr "Crowdsignal 양식 블록"
+
+#. Author of the plugin
+#: crowdsignal-forms.php
+msgid "Automattic"
+msgstr "자동"
+
+#. Author URI of the plugin
+#: crowdsignal-forms.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#: includes/frontend/blocks/class-crowdsignal-forms-feedback-block.php:174
+#: includes/frontend/blocks/class-crowdsignal-forms-nps-block.php:155
+#: includes/frontend/blocks/class-crowdsignal-forms-poll-block.php:157
+#: build/editor.js:3 build/editor.js:4 build/editor.js:6
+msgid "Submit"
+msgstr "제출하기"
+
+#: includes/rest-api/controllers/class-polls-controller.php:344
+msgid "Invalid post ID"
+msgstr "유효하지 않은 글 ID"
+
+#: includes/rest-api/controllers/class-polls-controller.php:435
+msgid "Resource not found"
+msgstr "리소스를 찾을 수 없음"
+
+#: includes/admin/class-crowdsignal-forms-admin-notices.php:112
+msgid "Action failed. Please refresh the page and retry."
+msgstr "작업에 실패했습니다. 페이지 새로 고침을 수행하고 다시 시도하세요."
+
+#: includes/admin/class-crowdsignal-forms-admin-notices.php:116
+msgid "You don&#8217;t have permission to do this."
+msgstr "해당 권한이 없습니다."

@@ -1,0 +1,5449 @@
+/*
+  Theme Name: Boas Novas Gestão 2
+  Author: Ezequiel Francisco Campos, Ryller Pádua, Felipe Arakaki e Rafael Scharf
+  Description: Startorg's child theme.
+  Version: 1.0.1
+  Template: startorg
+*/
+
+.disabled {
+  pointer-events: none !important;  /* Impede interações */
+  opacity: 0.2 !important;          /* Reduz a visibilidade */
+}
+
+.disabled-pointer {
+  pointer-events: none !important;  /* Impede interações */
+}
+
+.visibility-visible {
+  visibility: visible;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.display-none-important {
+  display: none !important;
+}
+
+/*
+  Header Child Global
+*/
+.header-child-global {
+  gap: 0;
+  z-index: 999999;
+}
+.header-child-global > div {
+  width: 100%;
+}
+.header-child-global .logo-menu-button {
+  /* Linha que contém o logo, menu de navegação e o botão Faça parte do Time */
+  justify-content: space-between;
+  min-width: 320px;
+  max-width: 120px;
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+}
+.header-child-global span,
+.header-child-global a {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+}
+.header-child-global .logo-menu-button > div {
+  gap: 70px;
+}
+.header-child-global .right-block {
+  gap: 15px;
+}
+.header-child-global .social-media-container {
+  align-self: flex-end;
+  align-items: baseline;
+}
+.header-child-global .social-media-container p {
+  font-family: "Montserrat" !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+}
+.header-child-global .social-media-container .wp-block-buttons a {
+  padding: 0;
+  height: 1px;
+  background-color: transparent;
+}
+.header-child-global .social-media-container .wp-block-buttons {
+  gap: 15px;
+}
+.header-child-global .social-media-container .wp-block-buttons img {
+  width: 20px !important;
+  margin-bottom: 3px;
+}
+.header-child-global
+  .social-media-container
+  .wp-block-buttons
+  .wp-block-button:nth-child(2)
+  img {
+  margin-bottom: 2px;
+}
+.header-child-global .navbar-btn a {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 15px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(69, 191, 134, 1) 0%,
+    rgba(28, 140, 66, 1) 50%
+  );
+  box-shadow: inset 0px 5px 8px -7px black, 0px 5px 10px -6px black;
+}
+.header-child-global .navbar-btn .navbar-btn-text {
+  display: flex;
+  gap: 5px;
+  font-family: "Poppins" !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  color: #ffff;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+.header-child-global .navbar-btn .navbar-btn-text p {
+  margin: 0;
+}
+.btn-text-1, .btn-text-2 {
+  white-space: nowrap;
+}
+.header-child-global .navbar-btn .navbar-btn-text .btn-text-1:first-letter {
+  text-transform: uppercase !important;
+}
+.header-child-global .navbar-btn .navbar-btn-text .btn-text-2:first-letter {
+  text-transform: uppercase !important;
+}
+.header-child-global .navbar-btn .navbar-btn-text figure {
+  margin: 5px 0 3px 0;
+  display: flex;
+}
+/*
+  Header Child Global
+*/
+
+/*
+  Footer
+*/
+
+.footer-bng-mobile {
+  display: none !important;
+}
+
+.footer-bng {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 100px 14.6px !important;
+}
+
+.footer-block {
+  gap: 16px !important;
+}
+
+.footer-bng .footer-text {
+  justify-content: start !important;
+}
+
+.footer-bng .footer-text .footer-social-medias {
+  padding-left: 42px
+}
+
+.footer-bng .footer-text .footer-social-medias a {
+  padding: 0;
+  background-color: transparent;
+}
+
+.footer-bng .footer-text .footer-social-medias a figure img {
+  width: 31px;
+  height: 31px;
+}
+
+.footer-bng .footer-text .footer-social-medias div:first-child a figure img {
+  /* Ícone do Linkedin é maior */
+  width: 30px;
+  height: 29px;
+}
+
+.footer-logo-media-block {
+  width: 20% !important;
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+  align-self: flex-start !important;
+}
+
+.footer-about-inst-contacts-block {
+}
+
+.footer-bng .right-block {
+  justify-content: end !important;
+}
+
+.footer-about {
+  width: 120px !important;
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+  align-self: flex-start !important;
+}
+
+
+.footer-institutional {
+  width: 130px !important;
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+  align-self: flex-start !important;
+}
+
+.footer-contacts {
+  width: 35% !important;
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+  align-self: flex-start !important;
+}
+
+.footer-block .wp-block-group.is-nowrap {
+  gap: 15px !important;
+}
+
+.footer-input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-input span[data-name="newsletter-name"] input,
+.footer-input span[data-name="Newsletter"] input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 92% !important;
+  font-size: 16px;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+
+.footer-input p {
+  margin: -12px 0 0;
+}
+
+.footer-input input.wpcf7-submit {
+  width: 60px;
+  height: 41px;
+  background-color: #1c8c42 !important;
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+}
+
+.footer-input .wpcf7-response-output {
+  position: relative;
+  top: -50px;
+  left: -25px;
+  width: 454px;
+  border: none !important;
+  cursor: pointer;
+}
+
+.footer-block img {
+  display: flex;
+  object-fit: none !important;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: end;
+  align-self: flex-start !important;
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+  width: 10% !important;
+}
+
+.btn-scrolltop {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #7cdb9c;
+}
+
+.footer-bng .footer-lower {
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+
+.footer-bng .footer-lower div:first-child {
+  flex-basis: auto !important;
+  flex-grow: unset !important;
+
+}
+
+/*
+  Footer
+*/
+
+/*
+  Home page
+*/
+.home-page-container .wp-block-template-part {
+  margin-left: 0;
+  max-width: none;
+}
+
+.home-page-container .header-cover-mobile {
+  display: none !important;
+}
+
+.home-page-container .header-cover {
+  max-height: 950px !important;
+  min-height: 950px !important;
+}
+
+.home-page-container .header-cover .header-child-global {
+  margin-top: 635px;
+  margin-bottom: 60px;
+}
+.home-page-container .home-doctors-cover {
+  position: relative;
+  top: -365px;
+  left: 175px;
+  zoom: 1.6;
+}
+.home-text-btns {
+  min-height: 0 !important; /* sobrescrever o default do pattern */
+  gap: 245px;
+}
+.home-text-btns .team-management {
+  font-family: "Montserrat" !important;
+  font-size: clamp(1em, 1.5em + 1vw, 2.5em) !important;
+  font-weight: 900 !important;
+  color: #102d49 !important;
+  letter-spacing: 1px !important;
+  line-height: normal !important;
+}
+.home-text-btns .know-our-touch {
+  font-family: "Montserrat" !important;
+  font-size: clamp(1em, 1em + 1vw, 1.25em) !important;
+  font-weight: 400 !important;
+  color: #102d49 !important;
+  letter-spacing: 0px !important;
+  line-height: 1.5 !important;
+}
+.btn-institutions a {
+  background-color: #102d49;
+  opacity: 75%;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.btn-doctors a {
+  position: relative;
+  z-index: 9999;
+  background-color: #1c8c42;
+  opacity: 88%;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.home-btns a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 15px 20px 0px;
+  width: 19rem;
+  height: 9rem;
+  border-radius: 10px;
+}
+.home-btns a .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: normal;
+  color: white;
+  font-family: "Montserrat" !important;
+}
+.home-btns a .text-title {
+  font-weight: 800;
+  font-size: 37px;
+  letter-spacing: -1px;
+  text-align: start;
+  padding-left: 20px;
+}
+.home-btns a .text-description {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  display: block;
+  text-transform: lowercase;
+  text-align: start;
+  padding-left: 20px;
+}
+.home-btns a .text-description:first-letter {
+  text-transform: uppercase !important;
+}
+.home-btns a .text-description-doctors {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  display: flex;
+  gap: 4px;
+  text-transform: lowercase;
+  text-align: start;
+  padding-left: 20px;
+}
+.home-btns a .text-description-doctors .doctors-1:first-letter {
+  text-transform: uppercase !important;
+}
+.home-btns a .text-description-doctors .doctors-2 {
+  margin: 0;
+}
+.home-btns a .text-description-doctors .doctors-2:first-letter {
+  text-transform: uppercase !important;
+}
+.home-btns a .arrow-img {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+/*
+  Home page
+*/
+
+/*
+  Nossos números
+*/
+.our-numbers-container {
+  min-height: 880px;
+  max-height: 880px;
+}
+.floating-container-mobile {
+  display: none !important;
+}
+
+.floating-container {
+  display: flex !important;
+  justify-content: space-around;
+  position: relative;
+  top: -125px; /* posicao da div flutuante */
+  width: 100%;
+  min-height: 11rem;
+  height: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px -6px black;
+  background-color: #ffff;
+  overflow: hidden;
+}
+.floating-container div:first-child {
+  gap: 0;
+  /* padding-left: 20px; */
+  font-family: "Montserrat" !important;
+  /* font-size: clamp(23.043px, 1.44rem +((1vw - 3.2px)* 1.7), 38px); */
+  font-size: 38px !important;
+  font-weight: 400;
+  color: #102d49;
+  line-height: normal;
+  letter-spacing: -2px;
+}
+.floating-container div:first-child span {
+  padding: 0 15px 0 10px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: normal;
+}
+.floating-container div:nth-child(2) {
+  gap: 0;
+  /* padding-right: 20px; */
+  font-family: "Montserrat" !important;
+  /* font-size: clamp(17.905px, 1.119rem +((1vw - 3.2px)* 1.147), 28px); */
+  font-size: 28px !important;
+  font-weight: 400;
+  color: #102d49;
+  line-height: normal;
+  letter-spacing: -2px;
+  white-space: nowrap;
+}
+
+.numbers-container-mobile {
+  display: none !important;
+}
+
+.numbers-container {
+  display: flex !important;
+  min-height: 550px;
+  max-height: 559px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1185px) {
+  .numbers-container {
+    position: relative;
+    top: -88px;
+  }
+}
+
+.numbers-header {
+  width: 100%;
+}
+.numbers-header div {
+  display: flex;
+  justify-content: center;
+}
+.numbers-header p {
+  display: flex;
+  justify-content: flex-end;
+  width: 215px;
+  position: relative;
+  left: 125px;
+  margin: 0;
+  padding-right: 7px;
+  white-space: nowrap;
+  border-bottom: 5px solid #102d49;
+  border-bottom-left-radius: 1% 3%;
+  border-bottom-right-radius: 1% 3%;
+  font-family: "Montserrat" !important;
+  font-size: 50px;
+  font-weight: 800 !important;
+  color: #45BF86;
+}
+.cards-container {
+  width: 85%;
+}
+.cards-container div {
+  gap: 5px;
+}
+.cards-container div div {
+  gap: 0;
+  line-height: normal;
+  font-family: "Montserrat" !important;
+  font-size: 25px;
+  font-weight: 500;
+  color: #102d49;
+  letter-spacing: -1px;
+}
+.animated-counter .ub_counter-number-wrapper {
+  display: flex !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+}
+.animated-counter .ub_counter-number-wrapper .ub_counter-prefix {
+  font-weight: 400 !important;
+}
+.cards-container div:nth-child(3) .wp-block-image {
+  margin-left: 25px;
+}
+.cards-container div:nth-child(4) .wp-block-image {
+  margin-left: 25px;
+}
+.text-container {
+  width: 100%;
+  line-height: normal;
+  font-family: "Montserrat" !important;
+  font-size: 25px;
+  font-weight: 500;
+  color: #102d49;
+  letter-spacing: -2px;
+}
+.text-container div {
+  gap: 0;
+  white-space: nowrap;
+}
+.text-container div p span {
+  padding-right: 15px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+}
+/*
+  Nossos números
+*/
+
+/*
+  Mapa Brasil
+*/
+.blue-banner-brasil {
+  background-color: #102d49;
+  z-index: 99999;
+}
+.blue-banner-brasil p {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 178px;
+  text-wrap: nowrap;
+  font-family: "Montserrat" !important;
+  /* font-size: clamp(37.821px, 2.364rem +((1vw - 3.2px)* 3.657), 70px); */
+  font-size: 70px !important;
+  font-weight: 400;
+  letter-spacing: -4px;
+}
+.brasil-map-2 {
+  position: relative;
+  top: -1005px;
+  /* left: 400px; */
+  min-height: 775px;
+  max-height: 775px;
+  /* max-width: unset; */
+  width: 100% !important;
+  margin: 0 !important;
+}
+.brasil-map-2 video {
+  left: 1px !important;
+}
+.brasil-map-background {
+  margin-top: 0;
+  opacity: 0.7;
+}
+.brasil-map-background img {
+  min-height: 920px;
+  max-height: 920px;
+  /* width: unset !important; */
+  position: relative;
+  top: -124px;
+  /* left: 668px; */
+}
+.estados-video-2 {
+  position: relative;
+  top: -945px;
+  left: 107px;
+  z-index: 9999;
+  width: 330px;
+}
+.brasil-map-cover-responsive {
+  display: none !important;
+}
+.brasil-map-3 {
+  display: flex !important;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 30px 0;
+}
+.brasil-map-3 .video-3 {
+  width: 40%;
+  height: 524px;
+}
+.brasil-map-3 .video-3 video {
+  /* width: 70%; */
+}
+
+/*
+  Mapa Brasil
+*/
+
+/*
+  Nossos parceiros
+*/
+.partners-header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #1c8c42;
+  font-family: "Montserrat" !important;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+.partners-logos {
+  display: block !important;
+  background-color: #ffff;
+  height: 278px;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+/*
+  Nossos parceiros
+*/
+
+/*
+  Quem Somos
+*/
+
+.about-us-outter-mobile {
+  display: none;
+}
+.about-us-outter {
+  align-items: unset;
+  min-height: 900px !important;
+  max-height: 900px !important;
+  padding-top: 50px;
+}
+.about-us-outter .wp-block-template-part {
+  margin-left: 0;
+  max-width: none;
+}
+.about-us-outter .about-us-wave {
+  position: relative;
+  left: -20px;
+  bottom: -17px;
+  width: 100vw;
+}
+.about-us-outter .about-us-doctor {
+  position: relative;
+  top: -820px;
+  left: 305px;
+}
+.about-us-outter .about-us-content .left-column {
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 53%;
+  height: 23rem;
+}
+.about-us-content .left-column .know-more-btn a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 275px;
+  height: 60px;
+  border-radius: 15px;
+  margin-top: 40px;
+  box-shadow: inset 0px 5px 8px -7px black, 0px 5px 10px -6px black;
+}
+.about-us-outter
+  .about-us-content
+  .left-column
+  .know-more-btn
+  a
+  .know-more-btn {
+  font-family: "Poppins" !important;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.about-us-outter
+  .about-us-content
+  .left-column
+  .know-more-btn
+  a
+  .know-more-btn:first-letter {
+  text-transform: uppercase !important;
+}
+.about-us-outter .about-us-content .left-column .know-more-btn a figure {
+  display: flex;
+  margin-bottom: 0;
+}
+.about-us-outter .about-us-content .left-column .know-more-btn a figure:first-child {
+  width: 14% !important;
+}
+.about-us-outter .about-us-content .left-column .know-more-btn a figure:nth-child(3) {
+  width: 5% !important;
+}
+.about-us-outter .about-us-content .right-column {
+  justify-content: space-between;
+  width: 33%;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1145px) {
+  /* Ícones ao lado do rosto */
+  .about-us-outter .about-us-content .right-column {
+    display: none !important;
+  }
+}
+
+.about-us-outter .about-us-content .right-column div:first-child {
+  align-self: end;
+}
+.mission-vision-block-mobile {
+  display: none !important;
+}
+.mission-vision-block {
+  display: block !important;
+  margin-block-start: 0;
+  padding: 50px 0;
+  min-height: 900px;
+  max-height: 900px;
+}
+.mission-vision-block .icons-row {
+  zoom: 0.8;
+  gap: 60px;
+}
+.mvv-body {
+  padding: 0 80px;
+}
+.mvv-body .mvv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  font-family: "Montserrat" !important;
+  font-size: 30px;
+  font-weight: 400;
+  color: #8f9eba;
+}
+.mvv-body .mvv-list li {
+  cursor: pointer;
+}
+.mvv-body .mvv-list-active {
+  font-size: 35px;
+  font-weight: 800;
+  color: #102d49;
+}
+.mvv-slider .nextend-arrow-previous {
+  /* display: none; */
+}
+.mission-vision-block .mission-caroussel .swiper-button-next i {
+  color: #102d49 !important;
+  zoom: 1.5;
+}
+.mvv-slider .nextend-arrow-previous,
+.mvv-slider .nextend-arrow-next {
+  zoom: 2;
+}
+
+.mvv-slider .n2-ss-control-bullet {
+  display: none;
+}
+.icon-description-container .n2-ss-layer-row {
+  width: 100%;
+  height: 353px;
+  background-color: white;
+  overflow: hidden;
+}
+.icon-description-container .n2-ss-layer-row .n2-ss-layer-row-inner {
+  flex-wrap: nowrap !important;
+}
+.icon-description-container .n2-ss-layer-row .n2-ss-layer-row-inner > div:first-child {
+  width: 29% !important;
+}
+.icon-description-container .n2-ss-layer-row .n2-ss-layer-row-inner > div:nth-child(2) {
+  width: 64% !important;
+}
+.icon-description-container .n2-ss-layer-row .n2-ss-layer-row-inner > div:nth-child(2) .mvv-titles div {
+  font-size: clamp(0.5em, 1.81em + 1vw, 2.81em) !important;
+}
+.icon-description-container .n2-ss-layer-row .n2-ss-layer-row-inner > div:nth-child(2) .mvv-descriptions p {
+  font-size: clamp(0.5em, 0.6em + 1vw, 1.5em) !important;
+}
+.icon-description-container
+  .n2-ss-layer-row
+  .n2-ss-layer:nth-child(2)
+  .n2-ss-layer-col {
+  gap: 30px !important;
+  justify-content: center !important;
+}
+.icon-description-container .mvv-titles div {
+  font-family: "Montserrat" !important;
+  font-size: 45px !important;
+  font-weight: 800 !important;
+  color: #45bf86 !important;
+}
+.icon-description-container .mvv-descriptions div p {
+  width: 100%;
+  font-family: "Poppins" !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: black !important;
+}
+.team-fly-mobile {
+  display: none;
+}
+.team-fly {
+  margin-block-start: 0;
+  min-height: 750px;
+  max-height: 750px;
+  white-space: nowrap;
+}
+.team-fly .white-board {
+  width: fit-content;
+  padding-right: 60px;
+  padding-left: 60px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.team-fly .white-board p:first-child {
+  height: 235px;
+  line-height: normal;
+  font-family: "Montserrat" !important;
+  font-size: clamp(0em, 2.5em + 0.75vw, 60px) !important;
+  font-weight: 800;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: #1c8c42;
+}
+.team-fly .white-board .voa-longe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.team-fly .white-board .voa-longe span:nth-child(2) {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 30px;
+  margin-top: 16px;
+  padding: 0 10px 17px;
+  background-color: #d9d9d9;
+  border-radius: 33px;
+}
+.team-fly .icons-row > div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+  flex-wrap: wrap !important;
+}
+.team-fly .icons-row p {
+  font-size: 18px !important;
+  white-space: unset;
+}
+.team-fly img {
+  height: 60px;
+}
+.meet-bng {
+  margin-block-start: 0;
+  min-height: 650px;
+  max-height: 700px;
+}
+.meet-bng img {
+  padding: 0px 45px;
+  object-fit: fill !important;
+}
+.meet-bng div:first-child {
+  justify-content: space-between !important;
+}
+.meet-bng .right-box {
+  align-self: flex-start;
+  gap: 0;
+}
+.meet-bng .meet-bng-text {
+  margin-top: -15px;
+}
+.meet-bng .youtube-institutional {
+  max-width: 50%;
+}
+.meet-bng .see-more-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 45px;
+  margin-top: 20px;
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 500;
+  color: #1c8c42;
+  text-transform: lowercase;
+  border-radius: 15px;
+  letter-spacing: -1px;
+}
+.together-more-mobile {
+  display: none !important;
+}
+.together-more {
+  min-height: 750px;
+  max-height: 750px;
+}
+.together-more .together-title {
+  font-size: clamp(1em, 1.5em + 1vw, 2.5em) !important;
+}
+.together-more .together-subtitle {
+  font-size: clamp(1em, 1em + 1vw, 1.25em) !important;
+}
+.together-more .image-row {
+  width: 100%;
+  justify-content: space-between;
+}
+.together-more .image-row div:first-child figure img {
+  margin-top: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.together-more .image-row a {
+  position: relative;
+  top: -35px;
+  width: 210px;
+  height: 43px;
+  border-radius: 5px;
+  font-family: "Montserrat" !important;
+  font-size: 15px !important;
+  font-weight: 700;
+  color: #102d49;
+  letter-spacing: -1px;
+  line-height: 13px;
+  text-transform: lowercase;
+  background-color: #ffff !important;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.together-more .image-row div:first-child div div a {
+  z-index: 0;
+}
+.together-more .image-row a:first-letter {
+  text-transform: uppercase;
+}
+.together-more .header-logo {
+  gap: 50px;
+  margin-left: 100px;
+}
+.together-more .header-logo .text-container {
+  gap: 0;
+  line-height: 50px;
+}
+
+.p-header-responsive,
+.team-fly-responsive,
+.team-that-flies,
+.together-more-responsivo {
+  display: none;
+}
+
+/*
+  Quem Somos
+*/
+
+/*
+  Médicos
+*/
+.page-template-doctors .wp-site-blocks {
+  max-height: 4272px;
+}
+.doctors-footer {
+  position: relative;
+  top: -85px;
+}
+.doctors-outter {
+  min-height: 800px !important;
+  max-height: 800px !important;
+}
+.doctors-outter .wp-block-template-part {
+  margin-left: 0;
+  max-width: none;
+}
+.doctors-outter {
+  align-items: unset;
+  padding-top: 50px !important;
+}
+.doctors-outter .doctors-container {
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-bottom: 30px;
+}
+.doctors-outter .left-block {
+  width: 50%;
+  height: 465px;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.doctors-outter .left-block * {
+  font-family: "Montserrat" !important;
+}
+.doctors-outter .left-block .label-doctors {
+  height: 31px;
+  width: 130px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  font-family: "Poppins" !important;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+}
+.doctors-outter .signup-btn a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 275px;
+  height: 60px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 15px;
+  background-color: #1c8c42;
+  opacity: 80%;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+  font-family: "Poppins" !important;
+  font-size: 20px !important;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.doctors-outter .signup-btn a figure {
+  margin: 0;
+  zoom: 0.6;
+}
+.doctors-outter .slider-specialties-container {
+  width: 640px;
+}
+.doctors-outter .doctors-specialties .n2-ss-slide-background-color {
+  background-color: transparent !important;
+}
+.doctors-outter .doctors-specialties .n2-ss-layer .n2-ss-section-main-content {
+  background-color: transparent !important;
+}
+.doctors-outter .doctors-specialties div#n2-ss-2 {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+.doctors-outter .doctors-specialties div#n2-ss-2 .n2-active {
+  background-color: darkgray !important;
+}
+.doctors-outter .doctors-specialties .n2-bullet {
+  background-color: #c6c5c5 !important;
+}
+.doctors-outter .doctors-specialties .specialty-description div {
+  font-family: "Montserrat" !important;
+  font-size: 35px !important;
+  font-weight: 600 !important;
+  letter-spacing: -2px !important;
+  color: #102d49 !important;
+}
+.advantages-floating-1 {
+  align-self: center;
+  position: relative;
+  top: -360px; /* posicao do parágrafo flutuante */
+  left: 72px;
+  height: 6rem;
+  padding: 30px 42px;
+  margin: 0 14.6px !important;
+  border-radius: 20px 30px;
+  background-color: #ffff;
+  font-family: "Montserrat" !important;
+  font-size: 31px !important;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: #102d49;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.advantages-top {
+  /* max-height: 252px; */
+  /* min-height: 252px; */
+}
+.advantages-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  top: -150px;
+  padding-right: 150px !important;
+  min-height: 894px;
+  max-height: 894px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .advantages-floating-1 {
+    /* line-height: 39px !important; */
+    padding: 30px 26px !important;
+  }
+}
+@media only screen and (max-width: 1340px) {
+  .advantages-body {
+    padding-right: 0 !important;
+  }
+  .advantages-floating-1 {
+    left: 2px !important;
+    line-height: 35px !important;
+    padding: 30px 126px !important;
+  }
+}
+
+.green-advantages-mobile {
+  display: none !important;
+}
+
+.advantages-body .advantages-floating-2 {
+  /* "Vanatagens em atuar conosco" */
+  position: relative;
+  top: -57px;
+  font-family: "Montserrat" !important;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -4px;
+  color: #102d49;
+  white-space: nowrap;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 !important;
+}
+.advantages-body .advantage-text {
+  display: flex;
+  align-items: baseline;
+  width: fit-content;
+  padding-right: 15px;
+  padding-left: 2px;
+  background-color: #d9d9d9;
+  font-weight: 800;
+  line-height: 60px;
+}
+.advantages-body .advantage-text-block {
+  width: 100%;
+  justify-content: flex-end;
+}
+.advantages-body .grid-and-arrow {
+  width: 100%;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.advantages-body .grid-and-arrow .grid-images {
+  gap: 50px;
+}
+.advantages-body .advantages-grid {
+  height: 247px;
+  align-items: flex-end;
+}
+.advantages-body .advantage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  width: 335px;
+  padding: 50px 0px 10px;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.advantages-body .card-img {
+  position: relative;
+  top: 65px;
+  left: 123px;
+}
+.advantages-body .advantage-card .first-paragraph {
+  font-family: "Montserrat" !important;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+  width: 100%;
+}
+.advantages-body .advantage-card .second-paragraph {
+  font-family: "Montserrat" !important;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+}
+.advantages-body .advantage-card .hide-paragraph {
+  color: transparent;
+}
+
+.advantages-bottom-text-mobile {
+  display: none !important;
+}
+
+.advantages-bottom-text {
+  position: relative;
+  top: -150px;
+  gap: 0 !important;
+  margin-top: 50px;
+}
+.advantages-bottom-text .specialized-team {
+  font-family: "Montserrat" !important;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+}
+.advantages-bottom-text .care-of-you {
+  font-family: "Montserrat" !important;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+}
+
+.our-doctors-mobile,
+.commitment-text-mobile {
+  display: none !important;
+}
+
+.doctors-testimonials {
+  height: 1000px;
+  margin-block-start: 0;
+  position: relative;
+  top: -60px;
+}
+.doctors-testimonials .testemonials-waves {
+  height: 1000px;
+}
+.doctors-testimonials .testemonials-waves .outter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 910px;
+  padding: 50px 0 80px;
+}
+.doctors-testimonials
+  .testemonials-waves
+  .outter-container
+  .testemonials-container {
+}
+.doctors-testimonials
+  .testemonials-waves
+  .outter-container
+  .testemonials-container
+  .text-container {
+  gap: 0;
+}
+.doctors-testimonials
+  .testemonials-waves
+  .outter-container
+  .testemonials-container
+  .text-container
+  .our-doctors {
+  font-family: "Montserrat" !important;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+}
+.doctors-testimonials
+  .testemonials-waves
+  .outter-container
+  .testemonials-container
+  .text-container
+  .check-testemonials {
+  width: max-content;
+  font-family: "Montserrat" !important;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #102d49;
+  text-align: center;
+  line-height: normal;
+}
+.testemonials-box .testemonial-card {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+.testemonials-box .testemonial-card .play-button {
+  margin-top: 20px !important;
+}
+.testemonials-box .testemonial-card .doctor-name p {
+  font-family: "Montserrat" !important;
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  color: #102d49 !important;
+  text-align: center !important;
+  line-height: normal !important;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1140px) {
+  .testemonials-box .testemonial-card .doctor-name p {
+    white-space: normal !important;
+  }
+  .doctors-testimonials .testemonials-waves .outter-container {
+    height: 950px !important;
+  }
+}
+
+.testemonials-box .testemonial-card .testemonial-specialty p {
+  margin-top: 5px;
+  font-family: "Montserrat" !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  color: #8f9eba !important;
+  text-align: center !important;
+  line-height: normal !important;
+  white-space: nowrap;
+}
+.testemonials-box .testemonial-card .testemonial-description p {
+  margin-top: 15px;
+  min-height: 120px;
+  font-family: "Montserrat" !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  letter-spacing: -1px !important;
+  color: #102d49 !important;
+  text-align: center !important;
+  line-height: normal !important;
+}
+
+.doctors-doubts {
+  display: flex !important;
+  min-height: 900px;
+  max-height: fit-content;
+  background-color: #1c8c42;
+  position: relative;
+  top: -85px;
+  padding: 80px 14.6px !important;
+}
+
+.doctors-doubts .doubts-header {
+  margin-bottom: 50px;
+  gap: 0;
+}
+
+.doctors-doubts .doubts-header p {
+  font-family: "Montserrat" !important;
+  font-size: 52px !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: white;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.doctors-doubts .doubts-header p:nth-child(2) {
+  font-weight: 800 !important;
+  letter-spacing: 10px !important;
+}
+
+#doubts-container {
+  gap: 0 !important;
+}
+/*
+  Médicos
+*/
+
+/*
+  Dores gestão
+*/
+
+#main-pains-green-backgroud-mobile {
+  margin-top: 0 !important;
+}
+
+.pain-container {
+  padding-top: 0 !important;
+  padding-bottom: 150px !important;
+}
+.pain-container .pain-header {
+  gap: 0;
+  padding: 50px 40px;
+  background-color: white;
+}
+.pain-container .pain-header-text {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0;
+  font-family: "Montserrat" !important;
+  font-size: clamp(20px, 3rem + 1.5vw, 70px) !important;
+  font-weight: 600;
+  letter-spacing: -5px;
+  color: #102d49;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+.pain-container .capitalized-text {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 15px;
+  padding: 0 10px;
+  height: 35px;
+  background-color: #85eebd;
+  border-bottom: 14px solid #f3bbbb;
+  line-height: 60px;
+  font-weight: 800;
+}
+.pain-container .wp-block-cover__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-list-slider {
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  gap: 120px !important;
+  padding-bottom: 100px; /* arrumar */
+}
+.pain-list-active {
+  font-size: clamp(14.642px, 0.8rem + ((1vw - 3.2px) * 0.836), 22px) !important;
+  color: #bf3232 !important;
+  font-weight: 800;
+  opacity: 1 !important;
+}
+.row-list-slider .pain-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: end;
+  padding: 0 !important;
+}
+.row-list-slider .pain-list li {
+  position: relative !important;
+  left: 10px !important;
+  opacity: 0.28;
+  direction: rtl !important;
+  cursor: pointer;
+  font-family: "Montserrat" !important;
+  font-size: clamp(14.642px, 0.9rem + ((1vw - 3.2px) * 0.836), 22px) !important;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #000000;
+  /* white-space: nowrap; */
+}
+.pain-slider {
+  max-width: 31% !important;
+  margin-right: 60px !important;
+}
+.pain-slider .n2-ss-section-main-content {
+  padding-top: 50px !important;
+}
+.pain-slider .card-content .n2-ss-layer-row {
+  min-height: 350px !important;
+  min-width: 376px !important;
+  padding-left: 5px !important;
+  background-color: white;
+}
+
+/* Responsividade cards do slider */
+@media only screen and (max-width: 1340px) {
+  .pain-slider {
+    /* Largura do slider */
+    max-width: 35% !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .pain-slider {
+    /* Largura do slider */
+    max-width: 40% !important;
+  }
+}
+@media only screen and (max-width: 1055px) {
+  .pain-slider {
+    /* Largura do slider */
+    max-width: 45% !important;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .pain-slider {
+    /* Largura do slider */
+    max-width: 50% !important;
+  }
+  .pain-container .pain-header-text {
+    /* Tamanho fonte Header */
+    font-size: clamp(20px, 2.5rem + 1.5vw, 70px) !important;
+
+  }
+}
+@media only screen and (max-width: 911px) {
+  .pain-slider .card-content .n2-ss-layer-row {
+    /* Largura do card */
+    min-height: 417px !important;
+    min-width: 340px !important;
+  }
+  .pain-slider .card-content .card-headers div {
+    /* Título do card */
+    white-space: normal !important;
+  }
+  .pain-slider .card-content .card-descriptions p {
+    /* Descrição do card */
+    white-space: normal !important;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .pain-slider .card-content .n2-ss-layer-row {
+    /* Largura do card */
+    min-height: 495px !important;
+    min-width: 325px !important;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .pain-slider .card-content .n2-ss-layer-row {
+    /* Largura do card */
+    min-width: 308px !important;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .pain-slider .card-content .n2-ss-layer-row {
+    /* Largura do card */
+    min-height: 525px !important;
+    min-width: 288px !important;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .pain-slider .card-content .n2-ss-layer-row {
+    /* Largura do card */
+    min-height: 549px !important;
+    min-width: 273px !important;
+  }
+}
+/* Responsividade cards do slider */
+
+.pain-slider .card-content .n2-ss-layer-row-inner {
+  justify-content: center;
+  padding: 50px 10px 10px;
+}
+.pain-slider .card-content .n2-ss-layer-row-inner .n2-ss-layer {
+  width: 100% !important;
+}
+.pain-slider .card-content .n2-ss-layer-row-inner .n2-ss-layer-col {
+  gap: 20px;
+}
+.pain-slider .card-content .card-img {
+  display: flex;
+  justify-content: center;
+}
+.pain-slider .card-content .card-img div {
+  display: flex;
+  justify-content: center;
+}
+.pain-slider .card-content .card-img div img {
+  z-index: 1;
+  position: fixed;
+  top: 5px;
+}
+.pain-slider .card-content .card-headers div {
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  letter-spacing: -1px !important;
+  color: #1c8c42 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+.pain-slider .card-content .card-descriptions p {
+  font-family: "Montserrat" !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1px !important;
+  color: #102d49 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+.pain-slider .nextend-arrow img {
+  width: 75px !important;
+}
+/*
+  Dores gestão
+*/
+/*
+  Faça Parte do Time
+*/
+.join-team-outter {
+  gap: 0 !important;
+  position: relative;
+  top: -85px;
+}
+.join-team-top-blue {
+  width: 100%;
+  background-color: #102d49;
+  padding: 0 14.6px;
+}
+.join-team-top {
+  max-height: 430px;
+}
+.join-team-top .join-team-header {
+  font-family: "Montserrat" !important;
+  font-size: 50px !important;
+  font-weight: 800 !important;
+  letter-spacing: -2px !important;
+  color: #45bf86 !important;
+}
+.join-team-top .header-description {
+  font-family: "Poppins" !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  letter-spacing: -1px !important;
+  color: white !important;
+  width: 84%;
+  text-align: justify;
+}
+.bng-attributes {
+  font-family: "Montserrat" !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: -1px !important;
+  color: #102d49 !important;
+  width: 38%;
+}
+.join-team-container {
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  bottom: -200px;
+  z-index: 2;
+  width: 504px !important;
+  padding: 50px 0 20px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 5px 10px -6px black;
+}
+
+@media only screen and (max-width: 1300px) {
+  .join-team-top > div:first-child {
+    padding: 0 40px;
+  }
+  .join-team-top .join-team-header {
+    width: 325px !important;
+    font-size: 41px !important;
+  }
+  .join-team-top .header-description {
+    width: unset !important;
+  }
+  .join-team-container {
+    width: 460px !important;
+  }
+}
+
+.join-team-container p:first-child {
+  align-self: center;
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #102d49 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+.join-team-container .disclaimer-text {
+  position: relative;
+  top: -42px;
+  width: 80%;
+  align-self: center;
+  font-family: "Montserrat" !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  color: #102d49 !important;
+  line-height: 1.2 !important;
+  text-align: justify !important;
+}
+.join-team-container .disclaimer-text .privacy-policy {
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #102d49;
+}
+.join-team-container .wpcf7.js {
+  width: 80%;
+  height: 350px;
+  padding: 0 50px;
+}
+.join-team-container .join-team-form {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.join-team-container .join-team-form p {
+  width: 100% !important;
+  margin: 0;
+}
+.join-team-container .join-team-form p span[data-name="Estado"] select {
+  width: 99.5%;
+  height: 46px;
+  padding-left: 7px;
+}
+.join-team-container
+  .join-team-form
+  p
+  span[data-name="Estado"]
+  select
+  option:first-child {
+  /* color: red !important; */
+}
+.join-team-container .join-team-form p input[name="Nome"] {
+  width: 96%;
+  height: 40px;
+  padding-left: 10px;
+}
+.join-team-container .join-team-form p input[name="CRM"] {
+  width: 96%;
+  height: 40px;
+  padding-left: 10px;
+}
+.join-team-container .join-team-form p input[name="Especialidade"] {
+  width: 96%;
+  height: 40px;
+  padding-left: 10px;
+}
+.join-team-container .join-team-form p input[name="E-mail"] {
+  width: 96%;
+  height: 40px;
+  padding-left: 10px;
+}
+.join-team-container .join-team-form p input[name="WhatsApp"] {
+  width: 96%;
+  height: 40px;
+  padding-left: 10px;
+}
+.join-team-container .join-team-form .wpcf7-submit {
+  position: relative;
+  top: 105px;
+  left: 120px;
+  width: 184px;
+  height: 45px;
+  background-color: #1c8c42 !important;
+  font-family: "Montserrat" !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.join-team-container .join-team-form .wpcf7-response-output {
+  position: relative;
+  top: -42px;
+  position: relative;
+  border: none;
+  width: 100%;
+  line-height: 0.9;
+}
+
+.join-team-container #rd-section-m5ldawgs {
+  width: 403px !important;
+}
+
+.join-team-bottom {
+  width: 100%;
+}
+.join-team-bottom .text-block {
+  align-items: flex-start !important;
+  padding: 0 !important;
+}
+.join-team-bottom .arrow-right {
+  margin-left: 155px !important;
+}
+/*
+  Faça Parte do Time
+*/
+
+/*
+  Contatos
+*/
+
+.contacts-outter-mobile {
+  display: none !important;
+}
+.contacts-outter {
+  display: flex !important;
+  padding: 50px 0 70px;
+}
+.contacts-outter .wp-block-template-part {
+  margin-left: 0;
+  max-width: none;
+  padding: 0 17.9px;
+}
+.contacts-outter .contacts-form {
+  gap: 30px;
+  width: 45%;
+}
+.contacts-outter .contacts-form .form-header {
+  font-family: "Montserrat" !important;
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+}
+.contacts-outter .contacts-form .wpcf7.js {
+  width: 100%;
+  margin: 0;
+  height: 555px;
+}
+.contacts-outter .contacts-form .fale-conosco-form {
+  width: 100%;
+  margin: 0;
+}
+.contacts-outter .contacts-form .fale-conosco-form p:nth-child(6) {
+  position: relative;
+  top: -45px;
+  justify-content: flex-end;
+  display: flex;
+  width: 112%;
+  
+  
+}
+.contacts-outter .contacts-form .wpcf7-response-output {
+  border: none !important;
+  top: -84px;
+  position: relative;
+  color: #102d49;
+  padding: 0;
+}
+.contacts-outter .fale-conosco-form label {
+  font-family: "Poppins" !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+}
+.contacts-outter .fale-conosco-form label span input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+.contacts-outter .fale-conosco-form label span textarea {
+  width: 100%;
+  height: 269px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+.contacts-outter .fale-conosco-form p input.wpcf7-submit {
+  left: 330px;
+  width: 184px;
+  height: 42px;
+  background-color: #1c8c42 !important;
+  font-family: "Poppins" !important;
+  font-size: 23px !important;
+  font-weight: 600 !important;
+  color: white;
+  letter-spacing: 0 !important;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px -6px black;
+  background: linear-gradient(
+    90deg,
+    rgba(69, 191, 134, 1) 0%,
+    rgba(28, 140, 66, 1) 50%
+  );
+}
+.contacts-outter .form-maps-row {
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 14.6px;
+}
+.contacts-outter .form-maps-row iframe {
+  margin-top: 100px;
+  border-radius: 30px;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+}
+.contacts-outter .form-maps-row iframe #madDiv {
+  width: 53% !important;
+
+}
+.hours-address-container {
+  padding: 0 14.6px;
+}
+.contacts-outter .opening-hours {
+  font-family: "Montserrat" !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+  line-height: normal;
+  overflow: hidden;
+}
+.contacts-outter .sky-galleria-name {
+  font-family: "Montserrat" !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.contacts-outter .sky-galleria-address {
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.contacts-outter .sky-galleria-icon {
+  margin-bottom: 6px;
+}
+.contacts-outter .talk-us-button {
+  padding: 0 14.6px;
+}
+.contacts-outter .talk-us-button a {
+  display: flex;
+  gap: 25px;
+  height: 60px;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 35px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Montserrat" !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  color: #102d49;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  box-shadow: inset 0px 6px 10px -7px gray;
+}
+.contacts-outter .talk-us-button a figure {
+  margin: 0;
+  zoom: 0.8;
+}
+
+/*
+  Contatos
+*/
+/*
+  Institutions
+*/
+
+
+.institutions-white-gradient {
+  margin: 0 !important;
+  position: relative;
+  top: -1520px;
+  right: 24px;
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+.institutions-white-gradient img {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-height: 850px;
+  max-height: 850px;
+}
+
+.institutions-most-top {
+  display: block !important;
+  align-items: unset;
+  min-height: 830px;
+  max-height: 830px;
+  padding-top: 50px;
+}
+
+.institutions-most-top .doctor-cover {
+  position: relative;
+  bottom: 503px;
+  zoom: 1.35;
+  left: 350px;
+}
+
+.institutions-opening-block {
+  width: 700px;
+  z-index: 999;
+}
+
+.institutions-opening-block .consulting-diagnostics {
+  margin-top: 5px;
+  font-family: "Montserrat" !important;
+  font-size: 42px !important;
+  font-weight: 800 !important;
+  letter-spacing: -1px !important;
+  color: #102d49;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.institution-card-title {
+  height: 40px;
+  width: 157px;
+  align-items: center;
+}
+
+.institution-card-title p {
+  padding: 0px 7px !important;
+  box-shadow: inset 0px 5px 8px -7px black, 0px 5px 10px -6px black;
+}
+
+.institution-title {
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.institutions-header-subtitile {
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.institutions-header-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px !important;
+  gap: 150px;
+}
+
+.institutions-opening-block .how-we-support {
+  font-family: "Montserrat" !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1px !important;
+  color: #102d49;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn-talk-to-us a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around !important;
+  gap: 10px;
+  border-radius: 16px;
+  width: 275px;
+  height: 60px;
+  background: #1c8c42 !important;
+  justify-content: center;
+  font-family: "Poppins" !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  color: white;
+  line-height: normal;
+  white-space: nowrap;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+}
+
+.btn-talk-to-us a figure {
+  display: flex;
+  margin: 0 !important;
+}
+
+.green-banner-institutions {
+  display: flex;
+  justify-content: center;
+  width: 97% !important;
+  position: relative !important;
+  top: -145px !important;
+  z-index: 9999 !important;
+  margin: 0 14.6px !important;
+}
+
+.green-banner-institutions div {
+  gap: 50px;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: #159b5c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+}
+
+.green-banner-institutions p {
+  flex-grow: 1;
+  font-family: "Montserrat" !important;
+  font-size: clamp(1em, 1.5em + 1vw, 2.5em) !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  color: white;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.green-banner-institutions img {
+  width: 90px;
+}
+
+.cases-cover-block {
+  min-height: 1000px !important;
+  max-height: 1000px !important;
+  position: relative;
+  top: -243px;
+}
+
+.institutions-doubts {
+  display: flex !important;
+  min-height: 900px;
+  max-height: fit-content;
+  background-color: #1c8c42;
+  padding: 0 14.6px !important;
+}
+
+.institutions-doubts .doubts-header {
+  margin-bottom: 50px;
+  gap: 0;
+}
+
+.institutions-doubts .doubts-header p {
+  font-family: "Montserrat" !important;
+  font-size: 52px !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: white;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.institutions-doubts .doubts-header p:nth-child(2) {
+  font-weight: 800 !important;
+  letter-spacing: 10px !important;
+}
+
+.doubt-cards {
+  gap: 0;
+  width: 100%;
+  font-family: "Montserrat" !important;
+  font-size: 23px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0px !important;
+  color: #102D49;
+}
+
+.doubt-cards-question {
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.doubt-cards-text {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.doubt-cards-image {
+  width: 6%;
+  padding-right: 15px;
+}
+
+.arrow-down {
+  display: flex;
+  rotate: -90deg;
+}
+
+.arrow-down img {
+  transition: transform 0.3s ease;
+}
+
+.doubt-cards-answer {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.doubt-cards-answer.active {
+  opacity: 1;
+  max-height: 500px;
+  transition: opacity 0.7s ease, max-height 0.7s ease;
+}
+
+.doubt-cards-separator {
+  width: 93.3%;
+  border-color: #8f9eba !important;
+  margin-left: 43px !important;
+}
+
+.doubt-cards-text-answer {
+  border-radius: 10px;
+  font-weight: 500 !important;
+  padding-top: 0;
+}
+
+.cases-container {
+  gap: 110px;
+}
+.cases-banner {
+  gap: 0;
+  box-shadow: 0px 5px 10px -6px black;
+}
+.cases-banner-text {
+  gap: 0;
+  position: relative;
+  right: 35px;
+  line-height: normal;
+}
+
+.cases-banner-text p {
+  font-family: "Montserrat" !important;
+}
+
+.cases-cards {
+  width: 100%;
+  position: relative;
+  top: 165px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cases-cards p {
+  font-family: "Montserrat" !important;
+}
+
+.cases-cards-images {
+  padding: 0px 8px !important;
+  background-color: #1c8c42 !important;
+  height: 100%;
+  width: 70px !important;
+  min-width: 70px !important;
+  align-items: center;
+  display: flex;
+  box-shadow: inset 0px 6px 10px -7px black;
+}
+
+.cases-cards-images img {
+  width: 42px;
+  height: 42px;
+}
+
+.cases-cards .cases-card {
+  gap: 0 !important;
+  justify-content: space-between;
+  width: 300px;
+  height: 59px;
+  overflow: hidden;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+
+.cases-cards .cases-card:first-child {
+  /* Atenção Primária  */
+  width: 255px;
+}
+
+.cases-cards .cases-card:nth-child(4) {
+  /* Atenção Hospitalar  */
+  width: 264px;
+}
+
+.cases-cards .cases-card p {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin-right: 0px !important;
+  font-size: clamp(14px, 1vw + 4px, 17px) !important;
+  text-align: center;
+}
+
+.wp-block-template-part {
+  /* Refatorar */
+  margin-top: 0;
+}
+
+.wp-block-cover {
+  /* Refatorar */
+  margin-top: 0;
+}
+
+.consultancy-banner {
+  position: relative;
+  z-index: 999;
+  bottom: 75px;
+  justify-content: center;
+  width: 100%;
+}
+
+.institution-white-banner {
+  width: 75rem !important;
+  height: 10rem;
+  position: relative;
+  left: 0px;
+}
+
+.consultancy-banner-text {
+  border-radius: 64px;
+  width: 63rem;
+  padding: 30px 96px !important;
+  margin: 0 14.6px !important;
+  font-family: "Montserrat" !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  letter-spacing: -2px;
+  color: 000000;
+  box-shadow: inset 0px 6px 10px -7px gray;
+}
+
+.consultancy-banner-text-bold {
+  font-weight: 700;
+}
+
+.consultancy-img {
+  align-items: center;
+  position: relative;
+  top: -70px;
+  margin-top: 0;
+  min-height: 450px;
+  max-height: 450px;
+}
+
+.consultancy-img figure img {
+  zoom: 0.8;
+  margin-top: 50px;
+}
+
+.modals-container-outter {
+  display: flex;
+  justify-content: center;
+  height: 560px;
+}
+
+
+.modals-container {
+  margin-left: 2vw !important;
+  margin-right: 2vw !important;
+  position: relative;
+  height: 885px;
+  bottom: 285px;
+  width: 96%;
+  z-index: 999;
+  justify-content: space-evenly;
+  display: grid;
+  overflow: hidden;
+  box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+}
+
+.card-modals {
+  gap: 0;
+  border-radius: 11px !important;
+  border-top-left-radius: 19px !important;
+  border-top-right-radius: 19px !important;
+  overflow: hidden;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  filter: contrast(1); /* O nome da cidade só aparece com esse filter. */
+  box-shadow: 0px 5px 10px -6px black !important;
+}
+
+.card-modals div figure {
+  margin-right: -9px !important; /* Workaround para compensar a borda na imagem. */
+}
+
+.card-modals div figure img::after {
+  /* O ::after é um workaround para fazer a borda interna aparecer na imagem. */
+  box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black !important;
+}
+
+.card-modals .wp-block-image img {
+  position: relative !important; /* Workaround para compensar a borda na imagem. */
+  left: -4px !important; /* Workaround para compensar a borda na imagem. */
+}
+
+.modal-card-footer {
+  color: #1c8c42;
+  padding: 5px;
+  letter-spacing: -0.08em;
+  font-family: "Montserrat" !important;
+}
+
+.card-modals-name-top {
+  position: absolute;
+  bottom: 50px;
+  padding: 0 5px;
+  -webkit-text-stroke: 2px black;
+  color: white;
+  paint-order: stroke fill;
+  font-family: "Montserrat" !important;
+  font-weight: 800 !important;
+  letter-spacing: -2px !important;
+  line-height: normal;
+  text-align: center;
+}
+
+.card-modals-name {
+  position: absolute;
+  bottom: 50px;
+  padding: 0 5px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  paint-order: stroke fill;
+  font-family: "Montserrat" !important;
+  font-weight: 800 !important;
+  letter-spacing: -2px !important;
+  line-height: normal;
+  text-align: center;
+}
+.modal-content {
+  gap: 0 !important;
+  justify-content: end;
+}
+
+.modal-header {
+  gap: 0 !important;
+  position: relative;
+  right: 17vw !important;
+  top: 1vw;
+}
+
+.modal-header-sp {
+  right: 25% !important;
+}
+
+.modal-text-header {
+  flex-direction: column;
+  align-items: flex-start !important;
+  gap: 0 !important;
+  position: relative;
+  right: 3.5vw;
+  top: 1vw;
+}
+
+.modal-text-header *,
+.modal-number-of-shifts *,
+.modal-shifts * {
+  font-family: "Montserrat" !important;
+}
+
+.modal-number-of-shifts {
+  flex-direction: column !important;
+  gap: 0 !important;
+  align-items: end !important;
+}
+
+.modal-shifts {
+  flex-direction: column;
+  gap: 0 !important;
+  align-items: flex-start !important;
+}
+
+.modal-content-shifts {
+  gap: 3vw !important;
+}
+
+.modal-content-shift-sp {
+  gap: 50px !important;
+}
+
+.shifts-average {
+  /* align-self: flex-end; */
+}
+
+.queues-cleared {
+  align-items: center !important;
+  align-self: center;
+  flex-direction: column;
+  gap: 0 !important;
+}
+
+.modal-shifts-queues {
+  align-items: center;
+  gap: 2vw !important;
+}
+
+.modal-content-queues {
+  gap: 2vw !important;
+}
+
+.modal-header-queues {
+  right: 33%;
+}
+
+.modal-content-shifts-go {
+  gap: 4vw !important;
+}
+
+.modal-header-go {
+  right: 2.1vw !important;
+}
+
+.modal-header-su {
+  right: 42% !important;
+}
+
+.modal-content-shifts-su {
+  gap: 60px !important;
+}
+
+.modal-header-gu {
+  right: 24vw !important;
+}
+
+.modal-content-shifts-gu {
+  gap: 5vw;
+}
+
+.modal-header-ro {
+  right: 33vw !important;
+}
+
+.modal-content-shifts-ro {
+  gap: 5vw !important;
+}
+.modal-about-us-title {
+  color: #1c8c42;
+}
+
+.modal-about-us-text {
+  gap: 80px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-about-us-text p {
+  font-family: "Montserrat" !important;
+}
+
+.act-banner {
+  position: absolute;
+  top: 275%;
+  z-index: 999;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.img-trophy {
+  width: 14vw;
+}
+
+.img-card-modal {
+  width: 27.7vw;
+}
+
+.img-card-modal-sb {
+  width: 24vw;
+}
+
+.img-hands {
+  width: 8.5vw;
+}
+
+.img-card-modal-about-us {
+  width: 30vw;
+}
+
+.modal-list {
+  gap: 0.7vw;
+}
+
+@media only screen and (min-width: 1920px) {
+  .institution-modal-title {
+    font-size: 60px !important;
+  }
+
+  .institution-modal-subtitle{
+    font-size: 38px !important;
+  }
+
+  .img-trophy {
+    width: 268px !important;
+  }
+
+  .shifts-average {
+    font-size: 58px !important;
+  }
+
+  .institution-modal-number {
+    font-size: 150px !important;
+  }
+
+  .institution-modal-monthly {
+    font-size: 57px !important;
+  }
+
+  .img-hands {
+    width: 163px !important;
+  }
+
+  .img-card-modal {
+    width: 531px !important;
+  }
+
+  .institution-modal-list {
+    font-size: 38px !important;
+  }
+
+  .institution-modal-list-sb {
+    font-size: 30px !important;
+  }
+
+  .modal-header-ro {
+    right: 52% !important;
+  }
+
+  .institution-modal-subtitle-go{
+    font-size: 38px !important;
+  }
+
+  .modal-header-go {
+    right: 1% !important;
+  }
+
+  .modal-header-gu {
+    right: 37% !important;
+  }
+
+  .modal-header-df {
+    right: 29% !important;
+  }
+
+  .modal-header-sp {
+    right: 27% !important;
+  }
+}
+
+
+/*
+  Institutions
+*/
+
+/*
+======================
+  >>>>>>>>>>>>>>>>>>>>
+  INICIO DA HOME PAGE
+  <<<<<<<<<<<<<<<<<<<
+======================
+*/
+
+/*
+  Header Child Global Responsive
+*/
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .header-child-global {
+    /* Desktop */
+    display: none !important;
+  }
+
+  .header-child-global-mobile {
+    z-index: 9999999;
+    top: -20px !important;
+  }
+
+  .header-child-global-mobile > div {
+    margin-top: -135px !important;
+  }
+
+  .home-page-container .header-cover-mobile .header-child-global-mobile {
+    /* Home */
+    margin: 0 !important;
+    max-width: unset;
+  }
+  .home-page-container .header-cover-mobile .header-child-global-mobile > div {
+    /* Home */
+    margin-bottom: 40px;
+  }
+
+
+  #doctors-outter-responsive .header-child-global-mobile {
+    /* Médicos */
+    top: 70px !important;
+    padding: 0 14.6px;
+  }
+
+  #institutions-header-mobile .header-child-global-mobile {
+    /* Instituições */
+    margin: 0 !important;
+    max-width: unset;
+    top: -72px !important;
+    position: relative;
+  }
+
+  .about-us-outter-mobile .header-child-global-mobile,
+  .about-us-outter-mobile header.wp-block-template-part {
+    /* Quem somos */
+    margin: 0 !important;
+    max-width: unset;
+  }
+
+  .contacts-outter-mobile .header-child-global-mobile,
+  .contacts-outter-mobile header.wp-block-template-part {
+    /* Fale conosco */
+    margin: 0 !important;
+    max-width: unset;
+  }
+
+  .boas-novas-logo-mobile {
+    width: 42px !important;
+  }
+
+  #be-part-of-the-team {
+    display: none !important;
+  }
+
+  .header-child-global-mobile .wp-block-navigation__responsive-container {
+    /* Menu navegação */
+    padding: 30px;
+    /* height: 331px; */
+    /* width: 200px; */
+  }
+
+  .header-child-global-mobile .wp-block-navigation__responsive-container ul.wp-block-navigation__container {
+    width: 100%;
+  }
+
+  .header-child-global-mobile .wp-block-navigation__responsive-container li.wp-block-navigation-item {
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: clamp(14px, 1vw + 7px, 20px) !important;
+  }
+
+  .header-child-global-mobile .wp-block-navigation__responsive-container li.wp-block-navigation-item a {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-image: url("/wp-content/uploads/2024/11/arrow-right-blue.svg") !important;
+    background-size: 20px !important;
+    background-position: 100% !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .header-child-global-mobile .logo-menu-button > div {
+    gap: 0 !important;
+  }
+
+  .logo-responsive {
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+  .wp-block-buttons.button-header {
+    display: none !important;
+  }
+
+  .header-child-global-mobile .navbar-btn .navbar-btn-text {
+    font-size: 8px !important;
+  }
+
+  .wp-block-group .container-social-media-responsive {
+    display: none !important;
+  }
+
+  .header-child-global-mobile .social-media-container {
+    display: none !important;
+  }
+}
+/*
+  Header Child Global Responsive
+*/
+
+/* 
+  FOOTER
+*/
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .footer-bng {
+    display: none !important;
+  }
+
+  .footer-bng-mobile {
+    display: block !important;
+    gap: 1.5rem !important;
+    padding: 32px 14.6px !important;
+  }
+  
+  .footer-bng-mobile .footer-higher-mobile {
+    flex-direction: column !important;
+  }
+
+  .footer-bng-mobile .footer-higher-mobile .footer-logo-social-mobile {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .footer-bng-mobile .footer-text {
+    margin-top: 32px !important;
+    justify-content: center !important;
+  }
+  
+  .footer-bng-mobile .footer-text .footer-social-medias {
+    padding-left: 42px
+  }
+  
+  .footer-bng-mobile .footer-text .footer-social-medias a {
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .footer-bng-mobile .footer-text .footer-social-medias a figure img {
+    width: 31px;
+    height: 31px;
+  }
+  
+  .footer-bng-mobile .footer-text .footer-social-medias div:first-child a figure img {
+    /* Ícone do Linkedin é maior */
+    width: 30px;
+    height: 29px;
+  }
+
+  .footer-bng-mobile .infos-footer-row-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .footer-bng-mobile .about-us-block {
+    border-top: 0.5px solid lightgrey;
+    padding-top: 15px;
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 15px;
+  }
+  
+  .footer-bng-mobile .contacts-block {
+    border-top: 0.5px solid lightgrey;
+    padding-top: 15px;
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 20px;
+  }
+  
+  .footer-bng-mobile .footer-last-block-mobile {
+    justify-content: space-between;
+    margin-top: 15px !important;
+  }
+  
+  .footer-bng-mobile .footer-block {
+    gap: 5px !important;
+  }
+  
+  .footer-bng-mobile .footer-block .wpcf7 {
+    width: 90%;
+  }
+  
+  .footer-bng-mobile .right-block {
+    flex-direction: column !important;
+    gap: 15px;
+  }
+
+  .footer-bng-mobile .footer-input {
+    margin-top: 10px;
+  }
+  
+  .footer-bng-mobile .footer-input .wpcf7-response-output {
+    position: relative;
+    left: -340px;
+    top: 8px;
+    width: 0;
+    border: none !important;
+    white-space: nowrap;
+  }
+}
+/* 
+  FOOTER
+*/
+
+/*
+    Home page Responsive
+  */
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+
+  .home-page-container .header-cover {
+    display: none !important;
+  }
+
+  .home-page-container .header-cover-mobile {
+    display: flex !important;
+    padding-top: 170px !important;
+    padding-bottom: 0px !important;
+    /* min-height: 430px !important; */
+    /* max-height: 430px !important; */
+  }
+
+  .home-text-btns {
+    flex-wrap: nowrap !important;
+    position: relative !important;
+    top: -22px !important;
+    gap: 60px !important;
+  }
+
+  .home-text-btns * {
+    font-family: "Montserrat" !important;
+  }
+
+  .team-management-mobile {
+    font-size: 22px !important;
+  }
+
+  .know-our-touch-mobile {
+    font-size: 16px !important;
+  }
+
+  .home-btns a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px !important;
+    height: 80px !important;
+    padding: 16px !important;
+    border-radius: 6px !important;
+  }
+
+  .home-btns a .text-title {
+    font-size: 14px !important;
+    padding: 0px !important;
+    align-self: center !important;
+  }
+
+  .home-btns a .text-description,
+  .home-btns a .text-description-doctors {
+    font-size: 8px !important;
+    padding: 0px !important;
+    align-self: center !important;
+  }
+
+  .arrow-img img {
+    width: 32px !important;
+  }
+
+  .home-page-container header .header-cover div video {
+    object-fit: contain !important;
+  }
+
+  body
+    > div
+    > div
+    > header
+    > div
+    > div
+    > div.wp-block-group.alignwide.home-text-btns.is-vertical.is-content-justification-left.is-layout-flex.wp-container-core-group-is-layout-7.wp-block-group-is-layout-flex {
+    display: block !important;
+  }
+
+  .home-btns-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-btns-container .wp-block-buttons {
+    gap: 4px !important;
+    position: relative;
+    top: 20px;
+  }
+
+  .floating-container {
+    display: none !important;
+  }
+
+  .floating-container-mobile {
+    display: flex !important;
+    position: relative;
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #ffff;
+    padding: 20px;
+    top: 20px !important;
+    overflow: hidden;
+    font-family: "Montserrat" !important;
+    font-weight: 400 !important;
+    color: #102d49;
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  .quality-care-life-mobile {
+    gap: 0;
+  }
+
+  .quality-care-life-mobile p {
+    font-size: 18px !important;
+    letter-spacing: 0px !important;
+    white-space: normal !important;
+  }
+
+  .our-commitment-mobile {
+    font-size: 16px !important;
+    letter-spacing: 0px !important;
+    white-space: normal !important;
+  }
+
+  .floating-container-mobile div:first-child span {
+    padding: 0px 0px 0 2px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+    line-height: normal;
+  }
+
+  .cards-container figure img {
+    width: 42px !important;
+  }
+}
+
+/*
+    Home page Responsive
+  */
+
+/*
+    Nossos números Responsive
+  */
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .numbers-header p {
+    font-weight: 800 !important;
+    font-size: 22px !important;
+    position: static !important;
+    white-space: nowrap !important;
+    /* border-bottom: 2px solid #102d49 !important;
+    border-bottom-left-radius: 1% 3% !important;
+    border-bottom-right-radius: 1% 3% !important; */
+    border: none !important;
+  }
+
+  .wp-container-core-group-is-layout-25 {
+    justify-content: center !important;
+  }
+
+  :root :where(.is-layout-constrained) > * {
+    margin-block-start: 0px !important;
+  }
+
+  .numbers-container {
+    margin-top: -380px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .cards-container {
+    width: 100%;
+  }
+
+  .cards-container div div p:first-child {
+    font-size: 20px !important;
+  }
+
+  .cards-container div:nth-child(3) .wp-block-image,
+  .cards-container div:nth-child(4) .wp-block-image {
+    margin-left: 13px !important;
+  }
+
+  .our-numbers-mobile {
+    font-size: 10px !important;
+  }
+
+  .animated-counter-mobile .ub_counter-number-wrapper {
+    display: flex !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+  }
+  .animated-counter-mobile .ub_counter-number-wrapper .ub_counter-prefix {
+    font-weight: 400 !important;
+  }
+
+  #wp--skip-link--target
+    > div.wp-block-group.alignwide.has-white-background-color.has-background.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-26.wp-block-group-is-layout-constrained
+    > div.wp-block-group.alignwide.numbers-container.is-vertical.is-content-justification-center.is-layout-flex.wp-container-core-group-is-layout-25.wp-block-group-is-layout-flex
+    > div.wp-block-group.text-container.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained
+    > div
+    > p:nth-child(1),
+  #wp--skip-link--target
+    > div.wp-block-group.alignwide.has-white-background-color.has-background.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-26.wp-block-group-is-layout-constrained
+    > div.wp-block-group.alignwide.numbers-container.is-vertical.is-content-justification-center.is-layout-flex.wp-container-core-group-is-layout-25.wp-block-group-is-layout-flex
+    > div.wp-block-group.text-container.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained
+    > div
+    > p:nth-child(2) {
+    font-size: 12px !important;
+    letter-spacing: 0px !important;
+  }
+
+  .text-container div p span {
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    font-weight: 700;
+  }
+
+  .text-container {
+    letter-spacing: 0px !important;
+    font-size: 12px;
+  }
+
+  .our-numbers-container,
+  .numbers-container {
+    display: none !important;
+  }
+
+  .numbers-container-mobile {
+    display: flex !important;
+  }
+
+  .numbers-content-mobile {
+    padding: 0 5px !important;
+    overflow: hidden;
+  }
+}
+
+/*
+  Nossos números Responsive
+*/
+
+/*
+  Mapa Brasil Resposive
+*/
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .brasil-map-3 {
+    display: none !important;
+  }
+
+  .brasil-map-cover-responsive {
+    display: block !important;
+  }
+
+  .brasil-map-cover-responsive {
+    position: relative !important;
+    width: 100% !important;
+    height: 550px !important;
+    overflow: hidden !important;
+  }
+
+  .brasil-map-cover-responsive .states-brazil-mobile p {
+    font-family: "Montserrat" !important;
+    color: #102d49 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    margin-top: 25px;
+  }
+  
+  .brasil-map-cover-responsive .states-brazil-mobile {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .brasil-map-cover-responsive video {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    height: 550px !important;
+    object-fit: scale-down !important;
+    object-position: 100% 43% !important;
+  }
+
+  .brasil-map-cover-responsive .wp-block-cover__inner-container {
+    position: absolute !important;
+    top: 90% !important; /* Alinha o texto ao centro verticalmente */
+    transform: translate(-6%, -43%) !important; /* Garante centralização */
+    width: 100% !important;
+    text-align: center !important;
+    padding: 10px !important;
+  }
+
+  .blue-banner-brasil p {
+    height: 66px !important;
+    margin-top: 130px !important;
+
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
+  }
+
+  #wp--skip-link--target
+    > div:nth-child(2)
+    > div.wp-block-group.alignfull.map-text-container.is-nowrap.is-layout-flex.wp-container-core-group-is-layout-29.wp-block-group-is-layout-flex
+    > div.wp-block-group.is-nowrap.is-layout-flex.wp-container-core-group-is-layout-28.wp-block-group-is-layout-flex
+    > figure {
+    visibility: hidden !important;
+  }
+
+  .ul-brasil {
+    font-size: 12px !important;
+  }
+
+  .brasil-map-cover video {
+    width: 170px !important;
+    height: 200px !important;
+  }
+}
+
+@media only screen and (min-width: 1105px) and (max-width: 1170px){
+  .brasil-map-3 .video-3 {
+    width: 43%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1104px){
+  .brasil-map-3 .video-3 {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 840px) and (max-width: 991px){
+  .brasil-map-cover-responsive {
+    margin: 20px 0 !important;
+  }
+
+}
+@media only screen and (min-width: 629px) and (max-width: 991px){
+  .brasil-map-cover-responsive .wp-block-cover__inner-container {
+    /* Estados */
+    left: -133px;
+  }
+}
+@media only screen and (min-width: 536px) and (max-width: 839px){
+  .brasil-map-cover-responsive video {
+    width: 70% !important;
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 535px){
+  .brasil-map-cover-responsive video {
+    width: 80% !important;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 475px){
+  .brasil-map-cover-responsive video {
+    width: 90% !important;
+  }
+}
+/*
+      Mapa Brasil Resposive
+  */
+
+/*
+    Nossos Parceiros Resposive
+  */
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .partners-header {
+    height: 66px !important;
+    letter-spacing: 0px !important;
+    font-size: 23px !important;
+  }
+
+  .partners-header figure img {
+    width: 42px !important;
+  }
+
+  .partners {
+    width: auto !important;
+    height: 128px !important;
+  }
+
+  #swiper-wrapper-3971833cd8c6510dc
+    > div.swiper-slide.swiper-slide-active
+    > div {
+    height: 100px !important;
+  }
+}
+
+/*
+      Nossos Parceiros Resposive
+  */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  /* Telas de tablet */
+  .team-management-mobile {
+    font-size: 30px !important;
+  }
+  .know-our-touch-mobile {
+    font-size: 18px !important;
+  }
+  .home-btns a .text-title {
+    font-size: 16px !important;
+  }
+  .home-btns a .text-description {
+    font-size: 10px !important;
+  }
+  .home-btns a {
+    width: 174px !important;
+  }
+  .blue-banner-brasil p {
+    font-size: 22px !important;
+  }
+  .partners-header {
+    font-size: 26px !important;
+  }
+  .our-numbers-mobile {
+    font-size: 14px !important;
+  }
+  .text-container {
+    font-size: 14px !important;
+  }
+}
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    FIM DA HOME PAGE
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    INICIO DA QUEM SOMOS
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+
+/*
+  Quem Somos Responsivo
+*/
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  /*
+    Quero saber mais
+  */
+
+  /*
+    Respeito e Humanização
+  */
+
+  .about-us-outter {
+    display: none !important;
+  }
+
+  .about-us-outter-mobile {
+    display: flex !important;
+    align-items: flex-end;
+    padding-top: 0px;
+    min-height: 700px !important;
+    max-height: 700px !important;
+  }
+
+  .about-us-outter-mobile > img {
+    min-height: 750px !important;
+  }
+
+  .about-us-outter-mobile .label-img-btn {
+    
+  }
+
+
+  .about-us-outter-mobile .about-us-content {
+    width: 100% !important;
+    height: 85% !important;
+    align-items: flex-end;
+  }
+
+  .about-us-doctor-mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-us-doctor-mobile img {
+    width: 424px;
+    margin-left: 30px;
+  }
+
+  .about-us-outter-mobile .about-us-content .right-column {
+    justify-content: space-between;
+    width: 93%;
+    margin-top: -207px;
+    margin-left: -223px;
+    display: none;
+  }
+
+  .about-us-outter-mobile .wp-block-cover__inner-container {
+    height: 510px !important;
+    margin-top: 100px;
+  }
+
+  .about-us-outter-mobile .left-column {
+    width: 100%;
+    height: unset;
+    margin-top: 300px;
+  }
+
+  .know-more-white-panel {
+    height: 50px;
+    margin-top: 0 !important;
+    position: relative;
+    top: -49px;
+    background-color: white;
+    z-index: 88888;
+  }
+
+  #want-to-know-more {
+    /* Container de buttons */
+    justify-content: center !important;
+    position: relative;
+    top: -385px;
+    width: 100% !important;
+    height: 80px;
+    z-index: 99999;
+  }
+
+  .about-us-outter-mobile .left-column .know-more-btn-div {
+    /* Button */
+  }
+  
+  .about-us-outter-mobile .left-column .know-more-btn-div a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    position: relative;
+    top: -14px;
+    width: 275px;
+    height: 60px;
+    margin-top: 0 !important;
+    border-radius: 15px;
+    box-shadow: inset 0px 5px 8px -7px black, 0px 5px 10px -6px black;
+  }
+
+  .about-us-outter-mobile
+    .left-column
+    .know-more-btn-div
+    a
+    .know-more-btn {
+    font-family: "Poppins" !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: lowercase;
+  }
+  .about-us-outter-mobile
+    .left-column
+    .know-more-btn-div
+    a
+    .know-more-btn:first-letter {
+    text-transform: uppercase !important;
+  }
+  .about-us-outter-mobile .left-column .know-more-btn-div a figure {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .about-us-outter-mobile .left-column .know-more-btn-div a figure:first-child {
+    width: 14% !important;
+  }
+  .about-us-outter-mobile .left-column .know-more-btn-div a figure:nth-child(3) {
+    width: 5% !important;
+  }
+
+  .respect-humanization-mobile {
+    width: 100%;
+    font-family: "Montserrat" !important;
+  }
+
+  /*
+    Há 6 anos
+  */
+
+  .six-years-container {
+    margin: 0;
+  }
+
+  .six-years-p {
+    font-family: "Montserrat" !important;
+    text-align: center;
+    color: #102d49 !important;
+    display: block !important;
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+
+  /*
+    Missão, Visão e Valores
+  */
+
+  .icons-row-mobile .icon-mobile img {
+    width: 42px !important;
+  }
+
+  .mission-vision-block {
+    display: none !important;
+  }
+
+  .mission-vision-block-mobile {
+    display: block !important;
+    min-height: auto !important;
+    position: relative;
+    top: -35px;
+  }
+
+  .icon-description-container div.n2-ss-layer-row {
+    height: 140px !important;
+    background-color: white;
+  }
+
+  .mvv-body {
+    padding: 0 20px;
+  }
+
+  .mvv-body .mvv-titles-mobile * {
+    font-family: "Montserrat" !important;
+  }
+
+  .mvv-body .mvv-descriptions-mobile * {
+    font-family: "Poppins" !important;
+  }
+
+  div#n2-ss-8 .n-uc-3l9PwBTVGSC9-inner,
+  div#n2-ss-8 .n-uc-ffKZdyMKiYPF-inner,
+  div#n2-ss-8 .n-uc-IfNhB0X1Yn9B-inner {
+    gap: 2px !important;
+    padding: 0px !important;
+  }
+
+  .icon-description-container div:first-child {
+    padding: 1px !important;
+  }
+
+  /*
+    Somos um time que voa longe P.2
+  */
+
+  .team-fly {
+    display: none !important;
+  }
+
+  .team-fly-mobile {
+    min-height: 1289px !important;
+    display: block !important;
+    padding: 42px !important;
+    background-color: #FAFAFA;
+  }
+
+  .team-fly-mobile .wp-block-embed {
+    min-width: auto !important;
+  }
+
+  .team-fly-mobile .team-fly-header-mobile,
+  .team-fly-mobile .team-fly-description,
+  .team-fly-mobile .icons-row p,
+  .team-fly-mobile .meet-boas-novas-mobile,
+  .team-fly-mobile .watch-video-mobile {
+    font-family: "Montserrat" !important;
+  }
+
+  .white-board-responsive {
+    padding: 20px 50px !important;
+    width: 93%;
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  .team-fly-header-mobile {
+    font-size: clamp(20px, 2vw + 12px, 40px) !important;
+    font-weight: 800 !important;
+  }
+
+  .team-fly-description {
+    text-align: justify;
+    font-size: clamp(11px, 1.5vw + 1px, 16px) !important;
+  }
+
+  .meet-bng {
+    display: none !important;
+  }
+
+  .triangle-icons {
+    display: grid !important;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .icons-row-education {
+    grid-column: 1 / -1;
+  }
+
+  /*
+   Juntos fazemos mais
+  */
+
+  .together-more {
+    display: none !important;
+  }
+
+  .header-logo-mobile {
+    margin-top: 48px !important;
+    margin-bottom: 34px !important;
+  }
+
+  .together-more-mobile {
+    display: flex !important;
+    padding: 0 10px !important;
+  }
+
+  .header-logo-mobile .container-together-more-responsivo p,
+  .together-more-mobile .icons-row a {
+    font-family: "Montserrat" !important;
+  }
+
+  .header-logo-mobile .container-together-more-responsivo p {
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+  }
+
+  .together-more-mobile .icons-row a {
+    box-shadow: 0px 5px 10px -6px black !important;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    letter-spacing: -1px;
+    text-transform: lowercase !important;
+    padding: 12px 23px !important;
+    width: 230px !important;
+  }
+
+  .pum-content .modal-about-us-header {
+    justify-content: center !important;
+    display: flex !important;
+  }
+
+  .pum-content .modal-about-us-title {
+    font-size: 5.5vw !important;
+  }
+
+  .pum-content .modal-about-us-content {
+    font-size: 4.5vw !important;
+  }
+
+  .pum-content .modal-about-us-text {
+    gap: 40px !important;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+  /* IPHONE 14 PRO MAX*/
+ .know-more-white-panel {
+    top: -74px;
+    height: 75px;
+  }
+  .about-us-outter-mobile .left-column .know-more-btn-div a {
+    top: -32px;
+  }
+  .about-us-doctor-mobile {
+    margin-top: 30px !important;
+  }
+  .mission-vision-block-mobile {
+    top: -56px;
+  }
+  .about-us-outter-mobile .right-column {
+    width: 87%;
+    margin-top: -209px;
+    margin-left: -202px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .about-us-doctor-mobile {
+    margin-top: 50px !important;
+  }
+  .mission-vision-block-mobile {
+    top: -65px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* IPHONE XR & Samsumg S20 Ultra*/
+  .about-us-outter-mobile .right-column {
+    width: 88%;
+    margin-top: -203px;
+    margin-left: -227px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .about-us-doctor-mobile {
+    margin-top: 73px !important;
+  }
+}
+@media only screen and (max-width: 390px) {
+  /* IPHONE 12 pro*/
+}
+@media only screen and (max-width: 387px) {
+  .about-us-doctor-mobile {
+    margin-top: 105px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* IPHONE SE & Samsumg S8+*/
+  .about-us-outter-mobile .right-column {
+    width: 92%;
+    margin-top: -210px;
+    margin-left: -199px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .about-us-doctor-mobile {
+    margin-top: 143px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mvv-descriptions-mobile {
+    font-size: 12px !important;
+  }
+
+  .about-us-outter-mobile .right-column {
+    width: 96%;
+    margin-top: -219px;
+    margin-left: -186px;
+    display: none;
+  }
+
+}
+
+/*
+  Quem Somos Responsivo
+*/
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    FIM DA QUEM SOMOS
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    INICIO DO DOUTORES
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+
+#register-button,
+.join-team-outter-mobile,
+#doctors-outter-responsive,
+.doctors-btn-container,
+.join-team-outter-infos-mobile {
+  display: none !important;
+}
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .doctors-outter,
+  .advantages-top,
+  .advantages-bottom-text,
+  .join-team-outter,
+  .advantages-floating-1,
+  .doctors-testimonials,
+  .be-part-of-the-team, /* Refatorar: colocar junto com header global mobile */
+  #doctors-testimonials-img {
+    display: none !important;
+  }
+
+  /**
+    Home
+  */
+
+  .mobile-slider-buttons {
+    position: relative;
+    top: 203px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    z-index: 9999999999999;
+  }
+
+  .doctors-slider-arrow-left {
+    width: 45px;
+  }
+
+  .doctors-slider-arrow-right {
+    width: 45px;
+  }
+
+  #doctors-outter-responsive,
+  .doctors-btn-container {
+    display: block !important;
+  }
+
+  #doctors-outter-responsive {
+    margin-top: 85px !important;
+  }
+
+  #doctors-outter-responsive .header-child-doctors-mobile {
+    position: relative !important;
+    top: 25px !important;
+    z-index: 10 !important;
+    padding-left: 14.6px !important;
+    padding-right: 14.6px !important;
+  }
+
+  #doctors-outter-responsive .header-child-doctors-mobile figure {
+    margin-bottom: 0 !important;
+  }
+
+  #doctors-outter-responsive .header-child-doctors-mobile figure img {
+    width: 42px !important;
+  }
+
+  .doctors-info-title {
+    font-family: "Poppins" !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #102d49 !important;
+    text-align: center !important;
+    letter-spacing: 2px !important;
+  }
+
+  .doctors-slider-new {
+    position: relative !important;
+    width: 102% !important;
+    height: 547px !important;
+    overflow: hidden !important;
+    /* margin-top: -40px !important; */
+    margin-top: -5px !important;
+    margin-left: -5px !important;
+    z-index: 1 !important;
+  }
+
+  .doctors-slider-new .slide {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    opacity: 0 !important;
+    transition: opacity 1s ease-in-out !important;
+  }
+
+  .specialty-mobile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    z-index: 99999;
+    font-family: "Montserrat" !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: #102d49 !important;
+  }
+
+  .slider-overlay {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    ) !important;
+    pointer-events: none !important;
+  }
+
+  .doctors-slider-new .slide.active {
+    opacity: 1 !important;
+  }
+
+  .doctors-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #1c8c42 !important;
+    padding: 0 30px !important;
+    border-radius: 5px !important;
+    height: 48px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px !important;
+    text-align: center !important;
+  }
+
+  .doctors-btn img {
+    height: 24px !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+
+  .doctors-btn-container {
+    align-self: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 24px !important;
+  }
+  /**
+    Gestao de equipes
+  */
+
+  #be-part-of-the-team {
+    /* Refatorar: colocar junto com header global mobile */
+    display: block !important;
+    padding: 0px 42px !important;
+    font-family: "Montserrat" !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #102d49 !important;
+    text-align: center !important;
+  }
+
+  #together-transforming {
+    display: block !important;
+    padding: 0px 42px !important;
+    font-family: "Montserrat" !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #102d49 !important;
+    text-align: center !important;
+  }
+
+  #container-team-management-responsive {
+    display: flex;
+    justify-content: center;
+    padding: 12px !important;
+  }
+
+  #team-management-responsive {
+    width: 85%;
+    text-align: center !important;
+    display: block !important;
+    font-size: 16px !important;
+    font-family: "Montserrat" !important;
+    font-weight: 500 !important;
+    color: #102d49 !important;
+    border-radius: 26px !important;
+    padding: 16px 20px !important;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px !important; */
+
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  #register-button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 48px !important;
+  }
+
+  #register-button span {
+    font-family: "Montserrat" !important;
+  }
+
+  .signup-btn {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: auto !important;
+  }
+
+  .signup-btn a {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #1c8c42 !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    color: white !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    text-decoration: none !important;
+    gap: 16px !important;
+    letter-spacing: 0px !important;
+    font-weight: 700 !important;
+    height: 55px !important;
+    box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+  }
+
+  .signup-btn figure {
+    margin: 0 !important;
+  }
+
+  .signup-icon-mobile {
+    max-width: 24px !important;
+    height: auto !important;
+  }
+
+  .arrow-right-icon-mobile {
+    max-width: 12px !important;
+    height: auto !important;
+  }
+
+  /*
+  Vantagens em atuar conosco
+  */
+
+  .advantages-body {
+    top: -120px !important;
+    padding-right: 0 !important;
+    padding-top: 50px !important;
+  }
+
+  .advantages-body .advantage-text {
+    display: unset !important;
+    padding-right: 0 !important;
+    margin-top: -125px !important;
+  }
+
+  .green-advantages-mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    height: 245px;
+    background-color: #1C8C42;
+    border-radius: 13px;
+    box-shadow: inset 0px 6px 10px -7px black;
+  }
+
+  .green-advantages-inner-mobile {
+    width: 93%;
+    max-width: 500px !important;
+    height: 2400px;
+    margin-top: 75px !important;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 10px -7px black;
+  }
+
+  .advantages-body-mobile {
+    padding-right: 0px !important;
+    top: 50px !important;
+    min-height: unset !important;
+    max-height: unset !important;
+  }
+
+  #arrow-down-advantages,
+  .advantages-floating-2 {
+    display: none !important;
+  }
+
+  #advantages-floating-2-responsive {
+    text-align: center !important;
+    display: block !important;
+    font-family: "Montserrat" !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    line-height: 0px !important;
+    color: #102d49;
+    letter-spacing: -1px !important;
+    margin: auto !important;
+  }
+
+  .advantages-body-mobile .advantage-text-responsive {
+    display: flex;
+    align-items: baseline;
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 2px;
+    background-color: #d9d9d9;
+    font-weight: 800;
+    line-height: 25px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    letter-spacing: normal;
+  }
+
+  .grid-and-arrow {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: auto !important;
+    justify-content: center;
+  }
+
+  .advantages-grid {
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #advantages-img-responsive {
+    width: auto !important;
+  }
+
+  .specialized-team,
+  .care-of-you {
+    font-size: 16px !important;
+  }
+
+  .advantages-bottom-text-mobile {
+    display: flex !important;
+    margin-top: 1185px;
+  }
+
+  .advantages-bottom-text-mobile .specialized-team-mobile {
+    font-family: "Montserrat" !important;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: #102d49;
+    text-align: center;
+    line-height: 0;
+    margin-top: 60px !important;
+  }
+
+  .advantages-bottom-text-mobile .care-of-you-mobile {
+    font-family: "Montserrat" !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #102d49;
+    text-align: center;
+    line-height: 0;
+  }
+
+  /*
+  Nossos Médicos
+  */
+
+  .our-doctors-mobile {
+    display: flex !important;
+    margin-top: 100px !important;
+  }
+
+  .our-doctors {
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+
+  .slider-doctors-testemonials-mobile {
+    width: 95%;
+    max-width: 500px !important;
+  }
+
+  .check-testemonials {
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+
+  /**
+    Faça parte do nosso time
+  */
+
+  .blue-join-team-mobile {
+    width: 100%;
+    height: 300px;
+    background-color: #102d49;
+    padding: 24px;
+  }
+
+  .join-team-outter-mobile {
+    display: block !important;
+    margin-top: 100px !important;
+    margin-bottom: 200px !important;
+  }
+
+  .join-team-infos-mobile {
+    min-height: 0px;
+    line-height: 1;
+    color: #102d49;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: "Montserrat" !important;
+  }
+
+  .join-team-container p:first-child {
+    font-family: "Montserrat" !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: #102d49 !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    white-space: nowrap;
+  }
+
+  .join-team-container p:nth-child(9) {
+    /* Botão Enviar */
+    display: flex;
+    justify-content: center;
+  }
+  .join-team-container p:nth-child(9) .wpcf7-submit{
+    margin-left: 60px;
+  }
+
+  .join-team-top {
+    padding: 0px;
+    height: auto !important;
+    max-height: unset !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .join-team-top .join-team-header {
+    font-family: "Montserrat" !important;
+    font-size: 44px !important;
+    font-weight: 800 !important;
+    letter-spacing: -2px !important;
+    color: #45bf86 !important;
+    text-align: center !important;
+  }
+
+  .join-team-top .header-description {
+    font-family: "Montserrat" !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    color: white !important;
+    width: 100% !important;
+    max-width: 500px;
+    text-align: center !important;
+  }
+
+  .join-team-container {
+    width: 90% !important;
+    max-width: 500px;
+    margin: 0 auto !important;
+    position: static !important;
+    padding: 25px 12px 30px !important;
+    border-radius: 12px !important;
+    display: block !important;
+    border: 0.5px solid #B2B2B2;
+  }
+
+  .join-team-container * {
+    font-family: "Montserrat" !important;
+  }
+
+  .join-team-container p {
+    font-size: 8px !important;
+    font-weight: 400 !important;
+    color: #102d49 !important;
+    text-align: justify !important;
+  }
+
+  .join-team-disclaimer-mobile {
+    margin-top: 15px !important;
+  }
+
+  p.join-team-title-mobile {
+    margin-bottom: 24px;
+  }
+
+  .forms-join-team-mobile .screen-reader-response .wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+    display: none;
+  }
+
+  .join-team-container {
+    padding-bottom: 50px !important;
+  }
+
+  .join-team-container .join-team-form {
+    gap: 10px;
+  }
+
+  .join-team-container .join-team-form .wpcf7-submit {
+    position: sticky !important;
+    margin-top: 48px;
+    margin-bottom: 10px;
+  }
+
+  .join-team-container .wpcf7.js {
+    width: 100%;
+    height: 330px;
+    padding: 0px;
+  }
+
+  .join-team-outter-infos-mobile {
+    display: block !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #102d49 !important;
+  }
+
+  .text-block {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .arrow-right {
+    margin: 20px auto 0 !important;
+  }
+
+  .bng-attributes {
+    margin: 20px 0 !important;
+  }
+
+  #handshake-img {
+    display: none !important;
+  }
+
+  #group-20520-responsive,
+  #infos-20520-responsive {
+    display: none !important;
+  }
+
+  .commitment-text-mobile {
+    display: flex !important;
+    justify-content: center !important;
+    position: relative !important;
+    top: -130px !important;
+    font-family: "Montserrat" !important;
+  }
+
+  /*
+  Principais duvidas
+  */
+
+  .institutions-doubts {
+    display: none !important;
+  }
+
+  .doctors-doubts {
+    max-height: fit-content;
+    background-color: #1c8c42;
+    position: relative;
+    top: -85px;
+    width: 95%;
+    border-radius: 26px 26px 0px 0px !important;
+    padding: 20px !important;
+    padding-bottom: 50px !important;
+    min-height: 0vh !important;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px !important; */
+    box-shadow: inset 0px 6px 10px -7px black;
+  }
+  
+  .doctors-doubts .doubts-header {
+    margin-bottom: 50px;
+    gap: 0;
+  }
+  
+  .doctors-doubts .doubts-header p {
+    font-family: "Montserrat" !important;
+    font-size: 52px !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+    color: white;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .doctors-doubts .doubts-header p:nth-child(2) {
+    font-weight: 800 !important;
+    letter-spacing: 10px !important;
+  }
+
+  #doubts-container {
+    gap: 2px !important;
+    margin-bottom: 48px !important;
+  }
+
+  #main-p,
+  #doubts-p {
+    font-size: clamp(20px, 1.5vw + 15px, 35px) !important;
+  }
+
+  #doubts-p {
+    letter-spacing: 5px !important;
+  }
+
+  #question-and-answer {
+    margin-bottom: 24px !important;
+  }
+
+  .doubt-cards-question {
+    gap: 0px !important;
+  }
+
+  .doubt-cards-text {
+    padding-left: 28.5px;
+    padding-right: 28.5px;
+    padding-bottom: 15px !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    width: 100% !important;
+  }
+
+  .doubt-cards-text-answer {
+    padding-bottom: 17.5px !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+  }
+
+  .doubt-cards-image {
+    width: 10%;
+  }
+
+  .doubt-cards-separator {
+    margin-left: 28px !important;
+    width: 88.5%;
+  }
+
+  .doubt-cards-answer {
+    gap: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .doctors-slider-new {
+    height: 430px !important;
+    margin-top: -40px !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .join-team-container .join-team-form p span[data-name="Estado"] select {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .our-doctors,
+  .check-testemonials {
+    font-size: 13px !important;
+    text-align: center !important;
+    line-height: 0 !important;
+  }
+
+  .testemonials-header-mobile {
+    gap: 15px;
+  }
+
+  .blue-join-team-mobile {
+    height: 260px;
+  }
+
+  .join-team-top .join-team-header {
+    font-size: 36px !important;
+  }
+
+  .join-team-top .header-description {
+    font-size: 14px !important;
+  }
+
+  .join-team-container .join-team-form .wpcf7-submit {
+    left: 70px !important;
+  }
+
+  #advantages-floating-2-responsive {
+    /* left: -50px !important; */
+  }
+
+  .advantages-bottom-text-mobile {
+    margin-top: 1365px;
+  }
+
+  .green-advantages-inner-mobile {
+    height: 2575px;
+  }
+
+  .advantages-body .advantage-card {
+    width: 271px !important;
+    padding: 50px 10px 10px !important;
+  }
+
+  .advantages-body .card-img {
+    left: 83px !important;
+  }
+
+  .slider-doctors-testemonials-mobile .n2-ss-layer-row {
+    zoom: 0.8;
+  }
+
+}
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    FIM DO DOUTORES
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+
+/*
+  ======================
+    >>>>>>>>>>>>>>>>>>>>
+    INICIO INSTITUIÇÕES
+    <<<<<<<<<<<<<<<<<<<
+  ======================
+  */
+#institutions-header-mobile,
+#we-do-consultancy-container-mobile,
+#consultancy-graphic-container-mobile,
+#how-we-treat-pain-mobile,
+#main-pains-container-mobile,
+#sliders-container-mobile,
+#main-doubts-mobile,
+#success-stories-mobile {
+  display: none;
+}
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+
+  .institutions-most-top,
+  .consultancy-img,
+  .green-banner-institutions,
+  .consultancy-banner,
+  .cases-cover-block,
+  .modals-container-outter {
+    display: none !important;
+  }
+  
+  .institutions-header,
+  .pain-container,
+  #institutions-header-mobile img.wp-block-cover__image-background {
+    display: none !important;
+  }
+
+  #institutions-header-mobile,
+  #we-do-consultancy-container-mobile,
+  #consultancy-graphic-container-mobile,
+  #how-we-treat-pain-mobile,
+  #main-pains-container-mobile,
+  #sliders-container-mobile,
+  #main-doubts-mobile,
+  #success-stories-mobile,
+  .consultancy-img {
+    display: block;
+  }
+
+  /*HOME*/
+
+  .institutions-header-container-mobile {
+    padding-left: 8vw !important;
+  }
+
+  #institutions-header-mobile span.wp-block-cover__background {
+    opacity: 0;
+  }
+
+  #institutions-header-mobile {
+    background-image: url("/wp-content/uploads/2024/11/image-24.png");
+    background-size: cover;
+    background-position: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 100px 14.6px 0px;
+    position: relative;
+  }
+
+  #diagnose-heading-mobile {
+    font-size: clamp(19px, 2vw + 10px, 30px);
+    font-weight: 800;
+  }
+
+  #diagnose-heading-mobile,
+  #support-paragraph-mobile,
+  #we-do-consultancy-p-mobile,
+  #main-pains-title-mobile,
+  #main-pains-title-mobile span,
+  #slider-content-mobile *,
+  #success-stories-content-mobile *,
+  #main-doubts-mobile * {
+    font-family: "Montserrat" !important;
+  }
+
+  #support-paragraph-mobile {
+    font-size: clamp(18px, 2vw + 9px, 20px);
+    font-weight: 600;
+    color: #102d49;
+    max-width: 436px;
+  }
+
+  .institutions-mobile-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    gap: 10px;
+    border-radius: 12px;
+    max-width: 230px;
+    padding: 8px 16px;
+    background-color: #102d49 !important;
+    justify-content: center;
+    font-family: "Poppins" !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    color: white;
+    line-height: normal;
+    white-space: nowrap;
+    text-align: center;
+    box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+  }
+
+  .institutions-mobile-btn a figure {
+    margin-bottom: 0;
+  }
+
+  .institutions-mobile-btn a figure:nth-child(2) img {
+    margin-bottom: 4px;
+  }
+  #institutions-btn-p-mobile {
+    font-size: 12px;
+  }
+
+  #wp-image-162-mobile,
+  #wp-image-163-mobile {
+    width: auto;
+    height: 32px;
+  }
+
+  .green-banner-institutions-mobile {
+    zoom: 0.55;
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    position: relative !important;
+    top: -1845px !important;
+    z-index: 9999 !important;
+    margin-top: 0 !important;
+  }
+
+  .green-banner-institutions-mobile div {
+    gap: 15px;
+    padding: 15px 30px;
+    justify-content: center;
+    background-color: #159b5c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+  }
+
+  .green-banner-institutions-mobile img {
+    width: 60px !important;
+  }
+
+  .green-banner-institutions-mobile p {
+    font-size: 1.4rem !important;
+    flex-grow: unset;
+    font-family: "Montserrat" !important;
+    font-size: clamp(1em, 1.5em + 1vw, 2.5em) !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+    color: white;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+  /* CONSULTORIAS */
+
+  #we-do-consultancy-container-mobile {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-top: -32px;
+    z-index: 2;
+    position: relative;
+    margin: -32px auto 0;
+    width: 80%;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: inset 0px 6px 10px -7px gray;
+  }
+
+  #we-do-consultancy-p-mobile {
+    font-size: clamp(11px, 1vw + 7px, 23px);
+    font-weight: 500;
+    color: #102d49;
+    text-align: center;
+  }
+
+  /* GRÁFICO */
+
+  #consultancy-graphic-container-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 48px 0px;
+    margin-bottom: 96px;
+  }
+
+  #consultancy-graphic-img-mobile {
+    height: auto !important;
+    max-width: 90% !important;
+    object-fit: fill !important;
+    min-width: 90% !important;
+  }
+
+  /* COMO TRATAMOS DORES*/
+
+  #main-pains-green-backgroud-mobile {
+    height: 126px;
+    /* background-color: #102d49; */
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  #main-pains-container-mobile {
+    height: auto;
+    margin: -32px auto 0;
+    width: 95%;
+    margin-top: -190px;
+  }
+
+  #main-pain-text-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 15px;
+    color: #102d49;
+    font-weight: 600;
+    font-size: clamp(18px, 2vw + 13px, 30px);
+    text-align: center;
+  }
+
+  #main-pain-text-container p {
+    margin: 0 !important;
+  }
+
+  
+  #main-pains-title-mobile {
+  }
+
+  #main-pain-capitalized-text-mobile {
+    padding: 0 10px;
+    height: 34px;
+    background-color: #85eebd;
+    border-bottom: 9px solid #f3bbbb;
+    font-weight: 800;
+  }
+
+  /* SLIDER */
+
+  #sliders-container-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+  #slider-content-mobile {
+    width: 300px;
+  }
+
+  #slider-top-title-mobile {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 20px;
+    color: #a60000;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  #slider-top-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    min-height: 164px;
+    max-height: 164px;
+  }
+
+  #slider-body-mobile {
+    margin-top: -50px;
+    border-radius: 20px;
+    background-color: #1c8c42;
+    padding: 8px;
+    position: relative;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  #slider-top-title-desc-mobile {
+    font-size: 20px;
+    font-weight: 800;
+    min-height: 60px;
+    max-height: 60px;
+    padding: 0 10px;
+  }
+  #slider-top-desc-mobile {
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 180px;
+    max-height: 180px;
+    padding: 0 10px;
+  }
+
+  #slider-x-icon-top-mobile {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  #slider-icons-top-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  #slider-ellipse-icon-mobile {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  #slider-rockeat-icon-mobile {
+    margin-top: 24px;
+    align-self: center;
+  }
+
+  #slider-top-title-desc-mobile,
+  #slider-top-desc-mobile {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #slider-body-bar-mobile {
+    height: 16px;
+    width: 136px;
+    background-color: #fff;
+    border-radius: 12px;
+    align-self: center;
+  }
+
+  #slider-arrow-right {
+    margin-left: 24px;
+  }
+
+  #slider-arrow-left {
+    margin-right: 24px;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .slide.active {
+    display: block;
+  }
+
+  /* Banner verde */
+
+  @media only screen and (max-width: 430px) {
+    /* IPHONE 14 PRO MAX*/
+    .green-banner-institutions-mobile p {
+      font-size: 1.6rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    /* IPHONE XR & Samsumg S20 Ultra*/
+    .green-banner-institutions-mobile p {
+      font-size: 1.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    /* IPHONE 12 pro*/
+    .green-banner-institutions-mobile p {
+      font-size: 1.4rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    /* IPHONE SE & Samsumg S8+*/
+    .green-banner-institutions-mobile p {
+      font-size: 1.3rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    /* IPHONE 4 */
+    .green-banner-institutions-mobile p {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  /* CASES DE SUCESSO */
+
+  #success-stories-mobile {
+    background-image: url("/wp-content/uploads/2024/12/CASES-DE-SUCESSO-1-1024x765.png");
+    background-size: cover;
+    background-position: 70%;
+    height: 776px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #102d49;
+    padding: 20px;
+    position: relative;
+  }
+
+  #success-stories-container-map-mobile {
+    margin-top: -52px;
+  }
+
+  #success-stories-content-mobile {
+    padding: 12px 22px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 270px;
+    border-radius: 20px;
+  }
+
+  #success-stories-content-container-title-mobile {
+    display: flex;
+  }
+
+  #success-stories-content-img-mobile {
+    width: 140px;
+  }
+
+  #success-stories-title-mobile {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1;
+    margin-left: -75px;
+  }
+
+  #success-stories-content-p-mobile {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  #success-stories-content-modal-mobile {
+    color: #ffffff;
+    background-color: #04481f;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #success-stories-content-modal-city-mobile {
+    font-size: 12px;
+  }
+
+  #success-stories-content-modal-more-mobile {
+    font-size: 10px;
+    margin-top: -12px;
+  }
+
+  .pum-content .institution-modal-title {
+    font-size: 4vw !important;
+  }
+
+  .pum-content .institution-modal-subtitle {
+    font-size: 3vw !important;
+  }
+
+  .pum-content .img-trophy {
+    width: 15vw !important;
+  }
+
+  .pum-content .shifts-average {
+    font-size: 3.5vw !important;
+  }
+
+  .pum-content .img-hands {
+    width: 10.5vw !important;
+  }
+
+  .pum-content .institution-modal-number {
+    font-size: 9.8vw !important;
+  }
+
+  .pum-content .institution-modal-monthly {
+    font-size: 3vw !important;
+  }
+
+  .pum-content .institution-modal-list {
+    font-size: 3vw !important;
+  }
+
+  .pum-content .img-card-modal {
+    width: 30.7vw !important;
+  }
+
+  .pum-content .modal-header-go {
+    right: 2% !important;
+  }
+
+  .pum-content .modal-content-shifts {
+    gap: 30px !important;
+  }
+
+  .pum-content .modal-content-shifts-su {
+    gap: 30px !important;
+  }
+
+  .pum-content .modal-header-su {
+    right: 33% !important;
+  }
+
+  .pum-content .institution-modal-subtitle-go {
+    font-size: 2.3vw !important;
+  }
+
+  .pum-content .institution-modal-padding-list {
+    padding-left: 15px !important;
+  }
+
+  .pum-content .modal-content-shifts-sp {
+    gap: 10px !important;
+  }
+
+  .pum-content .institution-modal-list-sb {
+    font-size: 2.1vw !important;
+  }
+
+  .pum-content .img-card-modal-sb {
+    width: 22.7vw !important;
+  }
+
+  .pum-content .modal-content-queues {
+    gap: 10px !important;
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .pum-content .modal-header-sp {
+      right: 10% !important;
+    }
+
+    .pum-content .modal-header {
+      right: 10% !important;
+    }
+
+    .pum-content .img-card-modal {
+      width: 22.7vw !important;
+    }
+
+    .pum-content .img-card-modal-sb {
+      width: 16.7vw !important;
+    }
+
+    .pum-content .modal-content-shifts {
+      gap: 20px !important;
+    }
+
+    .pum-content .modal-header-su {
+      right: 24% !important;
+    }
+
+    .pum-content .modal-header-gu {
+      right: 25% !important;
+    }
+
+    .pum-content .modal-header-ro {
+      right: 39% !important;
+    }
+
+    .pum-content .img-card-modal-sb {
+      width: 16.7vw !important;
+    }
+
+    .pum-content .modal-header-go {
+      right: 0% !important;
+    }
+
+    .pum-content .img-trophy-go {
+      right: 13vw !important;
+    }
+
+    .pum-content .img-card-modal-su {
+      width: 26.7vw !important;
+    }
+  }
+
+
+
+  /* PRINCIPAIS DUVIDAS */
+
+  #main-doubts-mobile {
+    background-color: #1c8c42;
+    padding: 22px;
+    margin-top: -22px;
+  }
+
+  .main-doubts-card-mobile {
+    margin-bottom: 24px;
+  }
+
+  #main-doubts-title-one-mobile {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  #main-doubts-title-two-mobile {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: -40px;
+  }
+}
+
+/*  POPUPS INSTITUTIONS */
+@media only screen and (max-width: 1023px) {
+  .pum-content .modal-content {
+    justify-content: center;
+  }
+
+  .pum-content .modal-header-sp {
+    right: 20% !important;
+  }
+
+  .pum-content .modal-header-ro {
+    right: 28% !important;
+  }
+
+  .pum-content .modal-header-go {
+    right: 10% !important;
+  }
+
+  .pum-content .modal-header-su {
+    right: 26% !important;
+  }
+
+  .pum-content .modal-header-gu {
+    right: 22% !important;
+  }
+}
+/*  POPUPS INSTITUTIONS */
+
+@media only screen and (max-width: 320px) {
+  #we-do-consultancy-container-mobile {
+    margin: -16px auto 0 !important;
+  }
+
+  #success-stories-map-mobile {
+    width: 260px !important;
+  }
+
+  #success-stories-content-img-mobile {
+    width: 140px !important;
+  }
+
+  #success-stories-title-mobile {
+    font-size: 31px !important;
+    margin-left: -59px !important;
+  }
+
+  #success-stories-changing-img {
+    width: 230px !important;
+  }
+}
+
+/*
+ INICIO CONTATOS
+*/
+
+/* @media only screen and (max-width: 767px) { */
+@media only screen and (max-width: 991px) {
+  .header-global-contacts-mobile {
+    padding: 0px !important;
+  }
+
+  .contacts-outter {
+    display: none !important;
+  }
+
+  .contacts-outter-mobile {
+    display: flex !important;
+    padding: 175px 14.6px 0px;
+  }
+
+
+
+  /* .contacts-outter .wp-block-template-part {
+    margin-left: 0;
+    max-width: none;
+    padding: 0 17.9px;
+  }
+  .contacts-outter .contacts-form {
+    gap: 30px;
+    width: 45%;
+  }
+
+  .contacts-outter .contacts-form .wpcf7.js {
+    width: 100%;
+    margin: 0;
+    height: 555px;
+  }
+  .contacts-outter .contacts-form .fale-conosco-form {
+    width: 100%;
+    margin: 0;
+  }
+ 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contacts-outter-mobile .form-header {
+    font-family: "Montserrat" !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+    margin-top: 32px !important;
+  }
+
+  .contacts-outter-mobile .fale-conosco-form label {
+    font-family: "Poppins" !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+  }
+
+  .contacts-outter-mobile .fale-conosco-form label span input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  .contacts-outter-mobile .fale-conosco-form label span textarea {
+    width: 100%;
+    height: 269px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  .contacts-outter-mobile .fale-conosco-form p input.wpcf7-submit {
+    position: static !important;
+    top: -47px;
+    left: 330px;
+    width: 184px;
+    height: 42px;
+    background-color: #1c8c42 !important;
+    font-family: "Poppins" !important;
+    font-size: 23px !important;
+    font-weight: 600 !important;
+    color: white;
+    letter-spacing: 0 !important;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px -6px black;
+    background: linear-gradient(
+      90deg,
+      rgba(69, 191, 134, 1) 0%,
+      rgba(28, 140, 66, 1) 50%
+    );
+  }
+
+  .contacts-outter-mobile .fale-conosco-form .wpcf7-response-output {
+    border: none !important;
+    top: -3 0px;
+    position: relative;
+    color: #102d49;
+    padding: 0;
+  }
+
+  .contacts-outter-mobile .sky-galleria-name {
+    font-family: "Montserrat" !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .contacts-outter-mobile .sky-galleria-address {
+    font-family: "Montserrat" !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+    line-height: normal;
+    margin-bottom: 24px;
+    white-space: pre-line !important;
+  }
+
+  .contacts-outter-mobile iframe {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: inset 0px 6px 10px -7px black, 0px 5px 10px -6px black;
+  }
+
+  .contacts-outter-mobile .opening-hours {
+    font-family: "Montserrat" !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+    overflow: hidden;
+  }
+
+  .opening-hours-mobile {
+    font-size: 22px !important;
+    margin-top: 42px !important;
+    line-height: 1;
+    white-space: pre-line;
+  }
+
+  .opening-dates-mobile {
+    font-size: 14px !important;
+    line-height: 0;
+    margin-bottom: 32px !important;
+    white-space: pre-line;
+  }
+
+  .talk-us-button-mobile {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 32px !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .contacts-outter-mobile .talk-us-button a {
+    display: flex;
+    gap: 12px;
+    height: 60px;
+    max-width: 340px;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Montserrat" !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0 !important;
+    color: #102d49;
+    line-height: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: inset 0px 6px 10px -7px gray, 0px 5px 10px -6px black;
+  }
+
+  .contacts-outter-mobile .talk-us-button a figure {
+    margin: 0;
+    zoom: 0.8;
+  }
+}

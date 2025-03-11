@@ -1,0 +1,1032 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-08 21:13:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:1224
+msgid "Too many bookmarks: cannot create any more."
+msgstr "عدد كبير جدا من الإشارات المرجعية: لا يمكن إنشاء المزيد."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "منشور بدون عنوان %d"
+
+#. Description of the plugin
+#: gutenberg.php
+msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
+msgstr "بدأت الخطوط منذ عام 1440. هذه هي الإضافة لمحرر المكونات ومحرر الموقع ووظائف ووردبريس الأساسية المستقبلية الأخرى الخاصة بالتطوير."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "صفحة"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:313
+msgid "Disables custom spacing sizes."
+msgstr "تعطيل أحجام التباعد المخصصة."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:226
+msgid "Disables output of layout styles."
+msgstr "يقوم بتعطيل ناتج أنماط التخطيط."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247
+msgid "%sX-Large"
+msgstr "%s كبيرا جداً"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+msgid "%sX-Small"
+msgstr "%s صغير جداً"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:308
+msgid "Active theme spacing scale."
+msgstr "مقياس تباعد القوالب النشطة."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:303
+msgid "Active theme spacing sizes."
+msgstr "أحجام تباعد القوالب النشطة."
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "التعليقات"
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:12109
+msgid "Response"
+msgstr "استجابة"
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "تعليقك في انتظار المراجعة. هذه معاينة؛ سيكون تعليقك مرئيًا بعد الموافقة عليه."
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار المراجعة."
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:12106
+msgid "Responses to %s"
+msgstr "الردود على %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:9263 build/block-library/index.js:12089
+msgid "One response to %s"
+msgstr "رد واحد على %s"
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:12111
+msgid "Responses"
+msgstr "الردود"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:12095
+msgid "One response"
+msgstr "رد واحد"
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "يعرض التاريخ الذي تم نشر التعليق فيه."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:166
+msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
+msgstr "ما إذا كان يجب تمكين ن2 من مكوّن الاقتباس الذي يستخدم مكوّنات داخلية."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "عنصر القائمة"
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "الصورة الرمزية"
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "لا توجد نتائج."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "إضافة الصورة الرمزية للمستخدم."
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:9270 build/block-library/index.js:9353
+#: build/block-library/index.js:11397
+msgid "Older Comments"
+msgstr "التعليقات القديمة"
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:9276 build/block-library/index.js:9359
+#: build/block-library/index.js:11746
+msgid "Newer Comments"
+msgstr "تعليقات جديدة"
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:34827
+msgid "Icon"
+msgstr "أيقونة"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "كبير جدًا"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:583
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:652
+msgid "Theme not found."
+msgstr "القالب غير موجود"
+
+#. translators: %s: Author name.
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:2150 build/block-library/index.js:2188
+msgid "%s Avatar"
+msgstr "%s الصورة الرمزية"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "عادي"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "القائمة الفرعية"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "أرجواني وأخضر"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "أزرق وأحمر"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "تدرّجات الرمادي"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "تدرّجات الرمادي الداكن"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "أزرق وبرتقالي"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "أرجواني وأصفر"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "زهري فاتح"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "أبيض"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "صغير"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "متوسط"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "أزرق منتصف الليل"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "أزرق منتصف الليل"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "أحمر أرجواني وأصفر"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "أخضر مشع"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "محيط شاحب"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "برتقالي مضيء"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "وردي نبيذي"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "بنفسجي متورد"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "طيف بارد إلى دافئ"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "رمادي فاتح جدا إلى رمادي سماوي مزرق"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "برتقالي زاهي مضيء إلى أحمر زاهي"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "أصفر زاهي مضيء إلى برتقالي زاهي مضيء"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "سماوي أخضر فاتح إلى سماوي أخضر زاهي"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "أزرق سماوي زاهي إلى أرجواني زاهي"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "أرجواني زاهي"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "يرجى وصف الموقع بقليل من الكلمات. يمكن استخدام سطر الوصف في نتائج البحث أو عند المشاركة على وسائل التواصل الاجتماعي حتى لو لم يتم عرضه في تصميم القالب."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "ابدأ إنشاء مكوّنات لكل الحكايات."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "التنقّل"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "القائمة"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "إضافة صفحة أو رابطًا أو عنصرًا آخر إلى قائمة التصفّح."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "المحتوى قبل هذا المكوّن سيتمّ عرضه في المقتطف الموجود على صفحة الأرشيفات."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "قائمة الصفحات"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "السابق"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "التالي"
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "فقرة"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "صورة"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "عنوان"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "اقتباس"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "معرض"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "صوت"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "زر"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "أزرار"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "تقويم"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "أعمدة"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "عمود"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "غلاف"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "ملف"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "HTML مخصص"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "وسائط مع نصّ"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "التنقّل"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "آخر التعليقات"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "آخر المقالات"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "قائمة"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "غير مدعوم"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "المزيد"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "فاصل الصفحة"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "مهيأ مسبقاً"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "اقتباس مائل"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "بحث"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "مجموعة"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "فاصل"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "كود قصير"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "فراغ فاصل"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "جدول"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "فيديو"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "أيقونات اجتماعية"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "أيقونة اجتماعية"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "شعار الموقع"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "سطر وصف الموقع"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "جزء القالب"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "اسم الموقع"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "سحابة وسوم"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "آية / بيت شعر"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "أعمدة النص (مُهملة)"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "أرشيفات"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "حلقة استعلام"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "كود Code"
+
+#: build/block-library/index.js:10148
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "محتوى التعليق"
+
+#: build/block-library/index.js:10326
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "تاريخ نشر التعليق"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "مصطلحات المقالة"
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "شعار الموقع."
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "تصميم"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "القائمة"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "المحتوى "
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "الرئيسية"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "خاصية الترتيب إما تصاعدي أو تنازلي."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:399
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "حصر النتيجة على مقالات مع قيمة menu_order مُعينة."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "الروابط"
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "إعدادات التجارب"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "إعدادات الميزات التجريبية"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "حدث خطأ ما، مما يعني أن الخلاصة معطلة. حاول مرة أخرى في وقت لاحق."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "خطأ RSS:"
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "بحث"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "تقليدي"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "تضمين"
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "متوسط"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "لا توجد أرشيفات لعرضها."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "منظر طبيعي جميل"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "الكود شعر"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "مجتمع الووردبريس"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "المساعدة في بناء Gutenberg"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "المعلومات ذات الصلة لمصدر الاقتباس عبارة عن حقل نصّ منفصل، شبيهة بالتسميات التوضيحية أسفل الصور، لذا تتم حماية بنية الاقتباس حتى إذا قمت بتحديد المصدر أو تعديله أو إزالته. من السهل دائماً إعادة إضافته."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "يمكن أن تكون المكوّنات أي شيء أنت بحاجة إليه. على سبيل المثال، قد ترغب في إضافة اقتباس خافت كجزء من تركيبة النص الخاص بك. أو قد تفضّل عرضها بأسلوب أكبر. كل هذه الخيارات متاحة في أداة الإدراج."
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "يمكنك تغيير عدد الأعمدة في المعارض الخاصة بك عن طريق سحب شريط التمرير من إعدادات المعرض للمكوّن في الشريط الجانبي."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "وسائط ثرية"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "إذا قمت بضمّ وجمع المحاذاة الجديدة <strong>واسع</strong> و <strong>عرض واسع</strong> مع المعارض، فيمكنك إنشاء تخطيط ثري جداً بالوسائط، وبسرعة كبيرة:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "يمكن لأي مكوّن أن يختار هذه المحاذاة. مكوّن التضمين لديه الأسلوب، والإستجابة لطريقة الخروج من الصندوق:"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "يمكنك بناء أي مكوّن تريده، ثابت أو ديناميكي، بنصّ عادي أو مزخرف وبرموز أو أيقونات خاصة. وإليك هنا مكوّن اقتباس مائل:"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "لا شك! أن الصورة بعرض كامل قد تكون كبيرة جداً. لكن في بعض الأحيان تستحق الصورة ذلك."
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "ماسبق هو معرض صور مكوّن من صورتين فقط، إنها طريقة أسهل لإنشاء تنسيقات جذابة بصرياً، دون الاضطرار للتعامل مع موضع الصور. يمكنك أيضًا تحويل المعرض بسهولة إلى صور فردية مرة أخرى، باستخدام زر تغيير نوع المكوّن."
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "إذا كنت تريد معرفة المزيد حول كيفية بناء مكوّنات المُحرر الإضافية، أو إذا كنت مهتماً بالمساعدة في المشروع، فانتقل إلى <a href=\"%s\">مستودع GitHub</a>."
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "يسعى المُحرر على إنشاء تجربة بناء جديدة لإنشاء الصفحات والمقالات مما يجعل كتابة المقالات الغنية بالمحتوى بجهد أقل، كما أن المُحرر الجديد الجديد لديه \"مكوّنات\" لجعل الأمر سهلاً بدلاً من الطريقة التي نقوم بها حالياً عند التحرير بالأكواد القصيرة أو إضافة شفرات HTML مخصصة أو \"أشياء أكثر غموضاً\"."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "إمكانية الوصول مهمة  &mdash; لا تنسى ميزة النص البديل \"alt\" للصورة"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "شكراً لك على تجربة مُحرر Gutenberg!"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "أهلاً بك في محرر Gutenberg"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "نص وعناوين"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "صور ومقاطع فيديو"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "معارض"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "تضمين، مثل يوتيوب، تغريدات، أو مقالات ووردبريس أخرى."
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "مكوّنات التخطيط، مثل الأزرار، صور البطل، فواصل، وغير ذلك."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "تحرير مرئي"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "الصورة تعادل ألف كلمة"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "أداة <em>الإدراج</em>"
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "من الفوائد الهائلة للمكوّنات أنه يمكنك تحريرها مباشرة في مكانها وسهولة معالجة المحتوى الخاص بك. يمكنك تغيير المحتوى مباشرةً بدلاً من وجود حقول لتحرير الأشياء من محتوى المقال أو الصفحة مثل: مصدر اقتباس، أو نص لزر ما. جرّب طريقة التحرير للاقتباس التالي:"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "الهدف من هذا المُحرر الجديد هو إضافة محتوى ثريّ إلى ووردبريس بشكل بسيط وممتع. تتكون هذه المقالة بالكامل من <em>أجزاء من المحتوى</em>— تشبه إلى حدّ ما مكعبات LEGO— التي يمكنك تحريكها والتنقل بها والتفاعل معها. حرّك المؤشر حولك وستلاحظ أن المكوّنات المختلفة تضيء مع المخططات والأسهم. اضغط على الأسهم لإعادة ضبط موضع المكوّنات بسرعة، دون خوف من فقدان المحتويات والأشياء أثناء عملية النسخ واللصق."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "ما تقرأه الآن هو <strong>مكوّن نص</strong> وهو أكثر مكوّن بسيط بين بقية المكوّنات. مكوّن النص لديه عناصر التحكم الخاصة به ليتم نقله بحريّة بين أجزاء المقالة."
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "جرّب تحديد التسمية التوضيحية أو إزالتها أو تعديلها، وحالياً لا يتعين عليك توخي الحذر عند تحديد الصورة أو أي نص آخر عن طريق الخطأ الذي يؤدي لفقدان بيانات العرض أو المحتوى الذي تعمل من أجله."
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "قم بتجربتها، قد تكتشف أشياء لم تكن تعرفها من قبل يستطيع من خلالها ووردبريس أن يضيفها بالفعل إلى مقالاتك. إليك قائمة قصيرة بما يمكنك العثور عليه حاليًا:"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "ومثل هذه الـ<em>قوائم</em> بالطبع :)"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... مثل هذه الفقرة، والذي تم وضعها بمحاذاة اليمين."
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "كذلك تعتبر العناوين مكوّنات منفصلة، والتي تساعدك في تخطيط المحتوى الخاص بك وتنظيمه."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "تم الاهتمام والتركيز وبعناية فائقة في طريقة التعامل مع الصور والوسائط في المُحرر الجديد. نأمل أن تجد السهولة والقوة أكثر من أي وقت سابق من ناحية إضافة تسميات توضيحية أو إدراج صورك بعرض كامل."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "إذا كان القالب الخاص بك يدعم التسميات، فسترى الزر \"عرض واسع\" على شريط أدوات الصورة. جرّبها."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "تخيّل أن كل ما يمكن لـ ووردبريس فعله متاح لك بسرعة، وفي المكان نفسه على واجهة التحرير. لست بحاجة إلى معرفة وسوم HTML أو الـ Classes أو تذكّر صيغة الأكواد القصيرة المعقدة. هذه هي الروح التي تكمن خلف أداة الإدراج — زر <code>(+)</code> الذي ستراه بأرجاء المُحرر — والذي يسمح لك باستعراض جميع مكوّنات المحتوى المتاحة، وإضافتها إلى مقالاتك. كما يمكن للإضافات والقوالب تسجيل وإضافة المكوّنات الخاصة بها، مما سيتيح ويجعل كل أنواع وإمكانيات التحرير والنشر مفتوحة وغنية بالمحتويات."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "عبر الجبال وآلية الخطوط"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "صغير"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "رقم الصفحة المطلوبة أكبر من عدد الصفحات المتاحة."
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "الدعم"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s على %2$s"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "تحديد مقالة"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "تحديد الأسبوع"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "تحديد اليوم"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "تحديد الشهر"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "تحديد السنة"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "لا توجد تعليقات للعرض."
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "كبير"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "تحرير"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(بلا عنوان)"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "إغلاق"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "المكوّن"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "التجارب"
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "فريق Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s من الآن"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "قبل %s"
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "وثائق المساعدة"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "عرض توضيحي"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "تتطلب إضافة Gutenberg إصدار ووردبريس %s أو أحدث لتعمل بشكل صحيح. يرجى ترقية ووردبريس قبل تفعيل إضافة Gutenberg."

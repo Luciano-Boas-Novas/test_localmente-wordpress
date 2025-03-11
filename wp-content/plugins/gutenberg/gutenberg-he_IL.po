@@ -1,0 +1,687 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-22 17:43:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "רשימת עמודים"
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "עמוד קודם"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "עמוד הבא"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "קובץ"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "וידג'ט HTML"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "מדיה וטקסט"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "ניווט"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "תגובות אחרונות"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "פוסטים אחרונים"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "רשימה"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "לא נתמך"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "עוד"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "מעבר דף"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "מעוצב מראש"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "ציטוט"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "חיפוש"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "קבוצה"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "מפריד"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "שורטקוד"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "מרווח"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "טבלה"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "עמודות טקסט (הוצא משימוש)"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "פסוק"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "וידאו"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "ענן תגיות"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "אייקונים חברתיים"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "אייקון חברתי"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "לוגו אתר"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "תיאור אתר"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "שם האתר"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "חלק של תבנית"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "הצגה ברצף של שאילתות"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "כותרת"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "ציטוט"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "גלרייה"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "ארכיונים"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "אודיו"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "כפתור"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "כפתורים"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "קוד"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "עמודות"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "עמודה"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "כיסוי"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "פסקה רגילה"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "תמונה"
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "לוגו האתר."
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "עיצוב"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "מאת %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "התראות"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "תוצאות חיפוש"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "תפריט"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "תוכן"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "ראשי"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:399
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "הגבלת תוצאות לפוסטים עם ערך menu_order מסויים."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "סדר מיון עולה או יורד."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "קישורים"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "הגדרות ניסיוניות"
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "הגדרות ניסויים"
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "שגיאת RSS:"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "לא ניתן להגיע לפיד, השרת כנראה לא פעיל. יש לנסות שנית מאוחר יותר."
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "חיפוש"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "הטמעה"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "קלאסי"
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "בינוני"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "אין ארכיון לתצוגה."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "נוף יפה"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "מדיה"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "מאט מולנווג, 2017"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "עיזרו לבנות את גוטנברג"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "קוד הוא שירה"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "תודה שבדיקת את גוטנברג."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "קהילת וורדפרס"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "העורך נועד כדי לספק לך חוויה חדשה בבניית עמודים או פוסטים חדשים שתאפשר כתיבה של פוסטים עשירים ללא מאמץ באמצעות \"בלוקים\" שעוזרים לך לבצע פעולות שכיום דורשות כתיבה של שורטקוד, התאמה של HTML או איתור של תוכן \"מסתורי\" מוטמע."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "המידע שתואם למקור של הציטוט נמצא בשדה טקסט נפרד, כמו בכיתוב מתחת לתמונות, כדי שהמבנה של הציטוט יישמר גם אם בוחרים, משנים או מזיזים את המקור. תמיד אפשר להוסיף אותו שוב בקלות."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "הבלוקים יכולים להוסיף כל מה שצריך. לדוגמה, אפשר להוסיף ציטוט עמום כחלק מהקומפוזיציה של הטקסט או ליצור ציטוט ענק ומובלט. כל האפשרויות האלה זמינות בכלי ההוספה."
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "אפשר לשנות את מספר הטורים בגלריות שלך על ידי גרירה של הסליידר בבודק הבלוקים שבסרגל הצדי."
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "אם בחרת לשלב את היישורים החדשים של <strong>לרוחב</strong> <strong>ורוחב מלא</strong> בגלריות, אפשר ליצור פריסה עשירה בתוכן של מדיה במהירות:"
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "הנגישות חשובה ולכן, חשוב לזכור גם את המאפיינים לתיאור התמונות"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "כמובן, תמונות שמוצגות ברוחב מלא יכולות להיות גדולות מאוד. אבל לפעמים התמונה שווה את זה."
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "למעלה מוצגת גלריה שכוללת שתי תמונות בלבד. כך אפשר ליצור פריסות יפות ומושכות בקלות רבה יותר ובלי להשתמש באובייקטים צפים. אפשר גם להמיר בקלות את הגלריה בחזרה לתמונות בודדות על ידי החלפה בין בלוקים."
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "בכל בלוק אפשר להכיל את היישורים האלה. הבלוק המוטמע גם כולל אותם והוא מובנה עם אפשרויות ריספונסיביות:"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "אפשר לבנות כל בלוק שרוצים, סטטי או דינאמי, מקושט או פשוט. זהו בלוק ציטוט:"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "אם ברצונך לקבל מידע נוסף על בנייה של בלוקים נוספים, או אם נדרשת לך עזרה בפרויקט, כדאי לעבור <a href=\"%s\">למאגר של GitHub‏</a>."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "עיצוב ויזואלי"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "גלריות"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "תמונות וסרטים"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "טקסטים וכותרות"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "ו<em>רשימה</em> כמו זו, כמובן :)"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "תמונה שווה אלף מילים"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... כמו זו, המיושרת לימין."
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "ברוכים הבאים לעורך גוטנברג"
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "של הרים ומכונות דפוס"
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "השורות האלה נמצאות <strong>בבלוק טקסט</strong>, הבלוק הבסיסי ביותר. לבלוק הטקסט יש פקדים משלו וניתן להזיז אותו בחופשיות ברחבי הפוסט..."
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "הכותרות מוצגות בבלוקים נפרדים כדי לבנות ולארגן את הפריסה של התוכן."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "המטרה העיקרית של העורך החדש היא להקדיש את תשומת הלב המרבית לטיפול בתמונות ובמדיה. אנחנו מקווים שהאפשרויות המעודכנות, כגון הוספה של כתוביות או הטמעה של תמונות ברוחב מלא, יהיו לך קלות ומועילות יותר מבעבר."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "אם ערכת העיצוב שלך תומכת באפשרות, הכפתור \"לרוחב\" יוצג בסרגל הכלים של התמונה. כדאי לנסות אותו."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "המטרה של העורך החדש היא לאפשר הוספה של תוכן עשיר ל-WordPress באופן פשוט ומהנה. הפוסט הזה מורכב <em>מקטעי תוכן שונים</em> שאפשר להזיז ברחבי העמוד ולשחק איתם – ממש כמו קוביות לגו. ניתן להזיז את סמן העכבר ברחבי העמוד כדי לראות את הבלוקים השונים ולהדגיש אותם עם קווי מתאר וחצים. יש להקיש על החצים כדי לשנות את המיקום של הבלוקים במהירות. אל דאגה, התוכן בבלוק לא יאבד במהלך ההעתקה וההדבקה."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "למעשה, כל מה שאפשר לעשות ב-WordPress זמין לך לביצוע מהיר ונגיש ממקום אחד בממשק. אין צורך להבין איך להשתמש בתגיות HTML, בסיווגים או לזכור תחבירים מורכבים של שורטקוד. הרעיון מאחורי כפתור ההוספה – הכפתור <code>(+)</code> – הוא לאפשר לך לעיין בכל הבלוקים הזמינים לתוכן ולהוסיף אותם לפוסט שלך. תוספים וערכות עיצוב יכולים להכיל בלוקים מסוימים ולפתוח בפניך אפשרויות נוספות לעריכה ולפרסום של תוכן עשיר."
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "אפשר לבחור את הכיתוב ולנסות להזיז או לערוך אותו. אין צורך לדאוג שייבחרו תמונות או טקסטים אחרים בטעות או שהתצוגה תיהרס."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "כלי <em>ההוספה</em>"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "מומלץ לנסות אותו כעת, ייתכן שיש דברים שאפשר להוסיף ב-WordPress שטרם הכרת. זוהי רשימה קצרה של האפשרויות הקיימות:"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "הטמעות, כגון תוכן של YouTube, ציוצים או פוסטים אחרים של WordPress."
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "בלוקים של פריסה, בלוקים של לייקים, תמונות Hero, מפרידים וכו'."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "אחד היתרונות המרכזיים של הבלוקים הוא לאפשר לך לערוך אותם במיקומם הייעודי ולשנות את התוכן ישירות. במקום לעבוד עם שדות לעריכה של תכנים, כגון מקור הציטוט או המלל של הכפתור, אפשר לעבוד ישירות בבלוק כדי לשנות את התוכן. כדאי לנסות לערוך את הציטוט הבא:"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "קטן"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "מספר הדף המבוקש גדול יותר ממספר הדפים הקיימים."
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://he.wordpress.org/support/plugin/gutenberg"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "תמיכה"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "אין תגובות להציג."
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "בחירת פוסט"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "בחירת שבוע"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "בחירת יום"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "בחירת חודש"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "בחירת שנה"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s על %2$s"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "ארכיונים"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "גדול"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(ללא כותרת)"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "סגור"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "עריכה"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "בלוק"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "ניסויים"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "לפני %s"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s מעכשיו"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "גוטנברג"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "צוות גוטנברג"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "הדגמה"
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "תיעוד"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "לפעילות התקינה של Gutenberg נדרשת WordPress בגרסה %s ומעלה. עליך לשדרג את WordPress לפני ההפעלה של Gutenberg."

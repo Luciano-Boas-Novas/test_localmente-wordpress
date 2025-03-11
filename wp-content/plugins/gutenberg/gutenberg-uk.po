@@ -1,0 +1,2401 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-18 08:44:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:108
+msgid "Sorry, you are not allowed to read the post for this comment."
+msgstr "На жаль, вам не дозволено прочитати запис для цього коментаря."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:100
+msgid "Sorry, you are not allowed to create a comment on this post."
+msgstr "На жаль, вам не дозволено створити коментар до цього запису."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:82
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:92
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr "На жаль, вам не дозволено створити цей коментар без запису."
+
+#. translators: %s: Request parameter.
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:54
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:64
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:74
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr "На жаль, вам не дозволено редагувати '%s' для коментарів."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:21
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:43
+msgid "Sorry, you must be logged in to comment."
+msgstr "На жаль, для відправки коментаря необхідно авторизуватись."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "custom post types"
+msgstr "користувацькі типи запису"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blogs"
+msgstr "блоги"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr "блог"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block keyword"
+msgid "categories"
+msgstr "категорії"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Terms List"
+msgstr "Список умов"
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:37
+msgid "Unique identifier for the attachment."
+msgstr "Унікальний ідентифікатор для вкладення."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:681
+msgid "Limit result set to items except those with specific terms assigned in the %s taxonomy."
+msgstr "Обмежити вибірку до об'єктів з встановленим зазначеним елементом в таксономії %s."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:666
+msgid "Limit result set to items with specific terms assigned in the %s taxonomy."
+msgstr "Обмежити вибірку до об'єктів з встановленим зазначеним елементом в таксономії %s."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:653
+msgid "Whether to include child terms in the terms limiting the result set."
+msgstr "Дозволити включати дочірні елементи в обмеження списку результатів."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:645
+msgid "Term IDs."
+msgstr "ID елементів."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:641
+msgid "Perform an advanced term query."
+msgstr "Виконати розширений запит за елементами."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:640
+msgid "Term ID Taxonomy Query"
+msgstr "Запит ID елементів таксономії"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:633
+msgid "Match terms with the listed IDs."
+msgstr "Співпадаючі елементи з перерахованими ID."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:632
+msgid "Term ID List"
+msgstr "Перелік ID елементів"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:623
+msgid "Limit result set based on relationship between multiple taxonomies."
+msgstr "Обмежити набір результатів грунтуючись на відносинах між множинними таксономіями."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:492
+msgid "Limit result set to items that are sticky."
+msgstr "Обмежити вибірку прикріпленими елементами."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:470
+msgid "Limit result set to posts with one or more specific slugs."
+msgstr "Обмежити вибірку записами з певними слаґами (одним або більше)."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:461
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-user-controller.php:12
+msgid "Array of column names to be searched."
+msgstr "Масив імен колонок для пошуку."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:450
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Обмежити вибірку всіма елементи за винятком елементів з певним ID предка."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:442
+msgid "Limit result set to items with particular parent IDs."
+msgstr "Обмежити вибірку елементами з певними ідентифікаторами предків."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:389
+msgid "Limit result set to specific IDs."
+msgstr "Обмежити вибірку певними ID."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:380
+msgid "Ensure result set excludes specific IDs."
+msgstr "Переконайтесь що вибірка виключає певні ID."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:374
+msgid "Limit response to posts modified before a given ISO8601 compliant date."
+msgstr "Обмежити відповідь записами зміненими до заданої ISO8601 сумісної дати."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:368
+msgid "Limit response to posts published before a given ISO8601 compliant date."
+msgstr "Обмежити відповідь записами опублікованими до заданої ISO8601 сумісної дати."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:358
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr "Переконайтесь що вибірка виключає записи призначені певним авторам."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:350
+msgid "Limit result set to posts assigned to specific authors."
+msgstr "Обмежити вибірку записами що призначені певним авторам."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:343
+msgid "Limit response to posts modified after a given ISO8601 compliant date."
+msgstr "Обмежити відповідь записами зміненими після заданої ISO8601 сумісної дати."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:337
+msgid "Limit response to posts published after a given ISO8601 compliant date."
+msgstr "Обмежити відповідь записами опублікованими після заданої ISO8601 сумісної дати."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:47
+msgid "You need to define an include parameter to order by include."
+msgstr "Потрібно визначити параметр включення в порядок включення."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:38
+msgid "You need to define a search term to order by relevance."
+msgstr "Вам потрібно визначити умови пошуку в порядку релевантності."
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block description"
+msgid "A cloud of popular keywords, each sized by how often it appears."
+msgstr "Хмара популярних ключових слів, розмір кожного з яких залежить від частоти його появи."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block description"
+msgid "An organized collection of items displayed in a specific order."
+msgstr "Упорядкована колекція елементів, що відображаються в певному порядку."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block description"
+msgid "An individual item within a list."
+msgstr "Окремий елемент у списку."
+
+#. translators: 1: version string, 2: version string.
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:411
+msgid "Loaded version '%1$s' incompatible with expected version '%2$s'."
+msgstr "Завантажена версія '%1$s' несумісна з очікуваною версією '%2$s'."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:401
+msgid "Missing required inputs to pre-computed WP_Token_Map."
+msgstr "Відсутні необхідні вхідні дані для попередньо обчисленої карти WP_Token_Map."
+
+#. translators: 1: maximum byte length (a count)
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:300
+msgid "Token Map tokens and substitutions must all be shorter than %1$d bytes."
+msgstr "Токени мапи токенів і підстановки повинні бути коротшими за %1$d байт."
+
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Група віджетів"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Область віджетів"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block description"
+msgid "Reuse this design across your site."
+msgstr "Повторне використання цього дизайну на сайті."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:198
+msgid "Unknown author"
+msgstr "Невідомий автор"
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Форма"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "кнопка"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "відправити"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr "повідомлення"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "notification"
+msgstr "сповіщення"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "feedback"
+msgstr "відгук"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "ввід"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block title"
+msgid "Input Field"
+msgstr "Поле вводу"
+
+#: build/block-library/blocks/form.php:94
+msgid "Form submission"
+msgstr "Відправка форми"
+
+#. Translators: %d: Integer representing the number of return links on the
+#. page.
+#: build/block-library/blocks/footnotes.php:48
+msgid "Jump to footnote reference %1$d"
+msgstr "Перейти до зноски %1$d"
+
+#: lib/interactivity-api.php:27
+msgid "Page Loaded."
+msgstr "Сторінку завантажено."
+
+#: lib/interactivity-api.php:26
+msgid "Loading page, please wait."
+msgstr "Завантаження сторінки, будь ласка, зачекайте."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block description"
+msgid "Display the publish date for an entry such as a post or page."
+msgstr "Відображення дати публікації для елементу, наприклад запису чи сторінки."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "Дата"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Content"
+msgstr "Вміст"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Author"
+msgstr "Автор"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "перемикач"
+
+#: build/block-library/blocks/search.php:169
+msgid "Submit Search"
+msgstr "Відправити пошук"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block keyword"
+msgid "reusable"
+msgstr "багаторазовий"
+
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:65616 build/block-library/index.js:65628
+msgid "Footnotes"
+msgstr "Примітки"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block title"
+msgid "Pattern placeholder"
+msgstr "Заповнювач патерну"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block keyword"
+msgid "references"
+msgstr "посилання"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block title"
+msgid "Footnotes"
+msgstr "Примітки"
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Заголовок"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Excerpt"
+msgstr "Уривок"
+
+#: build/block-library/blocks/search.php:145
+#: build/block-library/blocks/search.php:170
+msgid "Expand search field"
+msgstr "Розгорнути поле пошуку"
+
+#. translators: %s: Image alt text.
+#: build/block-library/blocks/image.php:162
+msgid "Enlarge image: %s"
+msgstr "Збільшити зображення: %s"
+
+#: build/block-library/blocks/image.php:158
+msgid "Enlarge image"
+msgstr "Збільшити зображення"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "акордеон"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block description"
+msgid "Hide and show additional content."
+msgstr "Приховати та показати додатковий вміст"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block description"
+msgid "Add an image or video with a text overlay."
+msgstr "Додати зображення або відео з накладанням тексту."
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block description"
+msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
+msgstr "Покажіть зображення, яке представлятиме цей сайт. Оновіть цей блок, і зміни будуть застосовані всюди."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "перелік"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "disclosure"
+msgstr "розкриття"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block title"
+msgid "Details"
+msgstr "Деталі"
+
+#. translators: %s: the number of minutes to read the post.
+#: build/block-library/blocks/post-time-to-read.php:36
+#: build/block-library/index.js:45955 build/editor/index.js:32274
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s хвилина"
+msgstr[1] "%s хвилини"
+msgstr[2] "%s хвилин"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2947
+msgid "Invalid attribute name."
+msgstr "Невірна назва атрибута."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2384
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Забагато запитів до \"seek()\" - це може призвести до проблем із швидкодією."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2375
+msgid "Unknown bookmark name."
+msgstr "Невідома назва закладки."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:1224
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Забагато закладок: неможливо створити більше."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "Запис без назви %d"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:698
+msgid "Markup is not allowed in CSS."
+msgstr "Розмітка є неприпустимою в CSS."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "сторінка"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block title"
+msgid "Page List Item"
+msgstr "Елемент переліку сторінки"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:405
+msgid "Offset the result set by a specific number of items."
+msgstr "Зміщення вибірки результатів на певне число елементів."
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: build/block-library/blocks/read-more.php:28
+msgid "untitled post %s"
+msgstr "запис без назви %s"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: build/block-library/blocks/read-more.php:34
+msgid ": %s"
+msgstr ": %s"
+
+#: lib/block-supports/typography.php:286
+msgid "Raw size value must be a string, integer or a float."
+msgstr "Тип значення вихідного розміру має бути рядком, цілим числом, або дробовим числом."
+
+#: build/block-library/blocks/tag-cloud.php:35
+msgid "There&#8217;s no content to show here yet."
+msgstr "Тут ще немає вмісту для показу."
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block title"
+msgid "Comments Previous Page"
+msgstr "Попередня сторінка коментарів"
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block title"
+msgid "Comments Next Page"
+msgstr "Наступна сторінка коментарів"
+
+#. translators: %s is the search term.
+#: build/block-library/blocks/query-title.php:46
+msgid "Search results for: \"%s\""
+msgstr "Результати пошуку для: \"%s\""
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247
+msgid "%sX-Large"
+msgstr "%sX-Large"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+msgid "%sX-Small"
+msgstr "%sX-Small"
+
+#. translators: %s: Number of comments.
+#: build/block-library/blocks/comments-title.php:61
+#: build/block-library/index.js:12098
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s відповідь"
+msgstr[1] "%s відповіді"
+msgstr[2] "%s відповідей"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: build/block-library/blocks/comments-title.php:47
+#: build/block-library/index.js:12092
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%1$s відповідь до %2$s"
+msgstr[1] "%1$s відповіді до %2$s"
+msgstr[2] "%1$s відповідей до %2$s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:29
+msgid "&#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "Коментарі"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:68
+#: build/block-library/index.js:12103
+msgid "Response to %s"
+msgstr "Відповідь на %s"
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:12109
+msgid "Response"
+msgstr "Відповідь"
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Ваш коментар чекає схвалення. Це його попередній перегляд, коментар стане видимим для всіх після схвалення."
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар очікує на схвалення."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block description"
+msgid "Displays a title with the number of comments."
+msgstr "Відображення назви з кількістю коментарів."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block title"
+msgid "Comments Title"
+msgstr "Заголовок коментарів"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:12106
+msgid "Responses to %s"
+msgstr "Відповіді до %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:9263 build/block-library/index.js:12089
+msgid "One response to %s"
+msgstr "Одна відповідь до %s"
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:12111
+msgid "Responses"
+msgstr "Відповіді"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:12095
+msgid "One response"
+msgstr "Одна відповідь"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block description"
+msgid "Gather blocks in a layout container."
+msgstr "Збір блоків в контейнер макета."
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "Відображення дати коментаря."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block description"
+msgid "Displays the name of the author of the comment."
+msgstr "Відображення імені автора коментаря."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render content when no query results are found."
+msgstr "Містить елементи блоку, які використовуються для відображення вмісту, коли результати запиту не знайдені."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "Немає результатів"
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Елемент переліку"
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "Додати аватар користувача."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "Аватар"
+
+#. translators: %s: Comment author name.
+#: build/block-library/blocks/avatar.php:92
+msgid "(%s website link, opens in a new tab)"
+msgstr "(посилання на сайт %s, відкриється у новій вкладці)"
+
+#. translators: %s is the Author name.
+#: build/block-library/blocks/avatar.php:65
+msgid "(%s author archive, opens in a new tab)"
+msgstr "(архів автора %s, відкриється у новій вкладці)"
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block title"
+msgid "Read More"
+msgstr "Читати далі"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block description"
+msgid "The author biography."
+msgstr "Біографія автора"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block title"
+msgid "Author Biography"
+msgstr "Біографія автора"
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:9270 build/block-library/index.js:9353
+#: build/block-library/index.js:11397
+msgid "Older Comments"
+msgstr "Попередні коментарі"
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:9276 build/block-library/index.js:9359
+#: build/block-library/index.js:11746
+msgid "Newer Comments"
+msgstr "Новіші коментарі"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block description"
+msgid "Display post author details such as name, avatar, and bio."
+msgstr "Відображення відомостей про автора запису, таких як ім'я, аватар та біографія."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block description"
+msgid "The author name."
+msgstr "Ім'я автора."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block title"
+msgid "Author Name"
+msgstr "Ім'я автора"
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous comment's page link."
+msgstr "Показує посилання на попередню сторінку коментарів."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next comment's page link."
+msgstr "Показує посилання на наступну сторінку коментарів."
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:34827
+msgid "Icon"
+msgstr "Іконка"
+
+#: build/block-library/blocks/site-logo.php:98
+msgid "Site icon."
+msgstr "Іконка сайту."
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Дуже великий"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Pagination"
+msgstr "Нумерація сторінок"
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block title"
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Номери сторінок"
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block title"
+msgid "Next Page"
+msgstr "Наступна сторінка"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for comments pagination."
+msgstr "Відображає список номерів сторінок для розбиття масиву коментарів."
+
+#. translators: Accessibility text. %s: Parent page title.
+#: build/block-library/blocks/navigation-submenu.php:119
+#: build/block-library/blocks/page-list.php:200
+msgid "%s submenu"
+msgstr "%s підменю"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block title"
+msgid "Comments Pagination"
+msgstr "Розбивка коментарів на сторінки"
+
+#: lib/block-template-utils.php:33
+msgid "Unable to open export file (archive) for writing."
+msgstr "Неможливо відкрити файл експорту (архів) для запису."
+
+#: lib/block-template-utils.php:24
+msgid "Zip Export not supported."
+msgstr "Zip-експорт не підтримується."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Comments block instead."
+msgstr "Цей блок застарілий. Замість цього скористайтеся блоком стовпців."
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block description"
+msgid "Show a block pattern."
+msgstr "Показати патерн блоків."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Pattern"
+msgstr "Патерн"
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block title"
+msgid "Comment Template"
+msgstr "Шаблон коментаря"
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block description"
+msgid "Displays a link to reply to a comment."
+msgstr "Показує посилання на форму відповіді на коментар."
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block title"
+msgid "Comment Reply Link"
+msgstr "Посилання відповіді на коментар"
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block description"
+msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+msgstr "Відображає посилання на редактор коментаря на панелі керування WordPress. Це посилання видно лише користувачам з можливістю редагування коментарів."
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block title"
+msgid "Comment Edit Link"
+msgstr "Посилання на редагування коментаря"
+
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a comment."
+msgstr "Відображає вміст коментаря."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block title"
+msgid "Comment Author Name"
+msgstr "Ім'я автора коментаря"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:583
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:652
+msgid "Theme not found."
+msgstr "Тема не знайдена."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:516
+msgid "HTML title for the post, transformed for display."
+msgstr "HTML-назва для запису, перетворена для відображення."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:500
+msgid "Global settings."
+msgstr "Загальні налаштування."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:495
+msgid "Global styles."
+msgstr "Загальні стилі."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:58
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:92
+msgid "The theme identifier"
+msgstr "Ідентифікатор теми"
+
+#. translators: %s: Author name.
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:2150 build/block-library/index.js:2188
+msgid "%s Avatar"
+msgstr "Аватар %s"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "Простий"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the previous post"
+msgid "Previous:"
+msgstr "Попередній:"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the next post"
+msgid "Next:"
+msgstr "Наступний:"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block description"
+msgid "Add a submenu to your navigation."
+msgstr "Додавання підменю до навігації по сайту."
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "Підменю"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block description"
+msgid "Create structured content in rows and columns to display information."
+msgstr "Створюйте структурований вміст у рядках та стовпцях для відображення інформації."
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "Синій та помаранчевий"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "Фіолетовий та зелений"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "Пурпурний та жовтий"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "Північний"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "Синій та червоний"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "Фіолетовий та жовтий"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "Відтінки сірого"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "Темні відтінки сірого"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "Північ"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "Електрична трава"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "Блідий океан"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "Сяючі сутінки"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "Палаючий бордовий"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "Палаючий світло-фіолетовий"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "Холодний до теплого спектру"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "Світло-сірий до блакитно-зеленувато-сірому"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "Яскраво-оранжевий до яскраво-червоного"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Сяючий яскравий бурштин до сяючого яскравого помаранчевого"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "Світлий зелено-блакитний до яскравого зелено-блакитного"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Яскравий зеленувато-блакитний до яскравого фіолетового"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "Яскравий пурпурний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid cyan blue"
+msgstr "Яскравий зеленувато-блакитний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale cyan blue"
+msgstr "Блідий зеленувато-блакитний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid green cyan"
+msgstr "Яскравий зелено-блакитний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Light green cyan"
+msgstr "Легкий зелено-блакитний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid amber"
+msgstr "Сяючий яскравий бурштин"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid orange"
+msgstr "Сяючий яскравий помаранчевий"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid red"
+msgstr "Яскраво червоний"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "Блідо-рожевий"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Білий"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Cyan bluish gray"
+msgstr "Зеленувато-блакитно сірий"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr "Чорний"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Великий"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Середній"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Малий"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
+msgstr "Розширений блок, який дозволяє відображати типи записів на основі різних параметрів запиту та візуальних конфігурацій."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr "Містить блокові елементи, що використовуються для відображення запису, такі як заголовок, дата, головне зображення, вміст або уривок тощо."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr "Шаблон запису"
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "посилання"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block keyword"
+msgid "movie"
+msgstr "фільм"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Вставте відео з Медіафайлів або завантажте нове."
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poem"
+msgstr "вірш"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poetry"
+msgstr "поезія"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block description"
+msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
+msgstr "Вставити вірші. Використовуйте спеціальні формати інтервалу. Або цитата лірика пісні."
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Columns block instead."
+msgstr "Цей блок застарілий. Замість цього скористайтеся блоком стовпців."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block style label"
+msgid "Stripes"
+msgstr "Смуги"
+
+#: build/block-library/blocks/details/block.json
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "підсумок"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Зміст"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Add white space between blocks and customize its height."
+msgstr "Додати пробіл між блоками та налаштувати його висоту."
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Форма таблетки"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Logos Only"
+msgstr "Тільки логотипи"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "опис"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block description"
+msgid "Insert additional custom elements with a WordPress shortcode."
+msgstr "Вставте додаткові спеціальні елементи за допомогою короткого коду WordPress."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Dots"
+msgstr "Точки"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Wide Line"
+msgstr "Широка лінія"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "роздільник"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "horizontal-line"
+msgstr "горизонтальна-лінія"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr "Створіть перерву між ідеями або розділами з горизонтальним сепаратором."
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block keyword"
+msgid "find"
+msgstr "знайти"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block description"
+msgid "Help visitors find your content."
+msgstr "Допомагає відвідувачам знайти вміст вашого сайту."
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "канал"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "атом"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block description"
+msgid "Display entries from any RSS or Atom feed."
+msgstr "Показати елементи з будь-якої RSS- або Atom-стрічки."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "cite"
+msgstr "цитувати"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "blockquote"
+msgstr "цитата"
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Заголовок запиту"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block description"
+msgid "Give special visual emphasis to a quote from your text."
+msgstr "Надайте особливий нагляд на цитату з тексту."
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block description"
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "Додайте текст, який відповідає вашим інтервалам і вкладкам, а також дозволяє стилізувати."
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block description"
+msgid "Post terms."
+msgstr "Мітки запису."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block title"
+msgid "Post Navigation Link"
+msgstr "Посилання для навігації по запису"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block description"
+msgid "Display a post's featured image."
+msgstr "Показує зображення запису."
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block description"
+msgid "Display the excerpt."
+msgstr "Відображати уривок."
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a post or page."
+msgstr "Відображає вміст запису або сторінки."
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block description"
+msgid "Display a post's comments form."
+msgstr "Відображення форми коментарів до запису."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "текст"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "Почніть із створення оповідального блоку."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block description"
+msgid "Display a list of all pages."
+msgstr "Показує список всіх сторінок."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "Посторінкова навігація"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "next page"
+msgstr "наступна сторінка"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block description"
+msgid "Separate your content into a multi-page experience."
+msgstr "Поділяє вміст на кілька сторінок."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "навігація"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "меню"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "Набір блоків, які дозволяють відвідувачам переміщатися по вашому сайту."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block keyword"
+msgid "read more"
+msgstr "читати далі"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "Вміст перед цим блоком буде показано в уривку на сторінці архівів."
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block description"
+msgid "Your site doesn’t include support for this block."
+msgstr "Ваш сайт не підтримує цей блок."
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr "відео"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "зображення"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block description"
+msgid "Set media and words side-by-side for a richer layout."
+msgstr "Встановлює медіафайл та текст з обох боків від нього для форматування макета."
+
+#: build/block-library/blocks/form-input/block.json
+#: build/block-library/blocks/form-submission-notification/block.json
+#: build/block-library/blocks/form-submit-button/block.json
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "форма"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr "вихід"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr "вхід"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block description"
+msgid "Show login & logout links."
+msgstr "Показує посилання входу та виходу."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "numbered list"
+msgstr "нумерований список"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "ordered list"
+msgstr "упорядкований список"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "bullet list"
+msgstr "маркований перелік"
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block description"
+msgid "Display a legacy widget."
+msgstr "Показує застарілий віджет."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block title"
+msgid "Legacy Widget"
+msgstr "Застарілий віджет"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block keyword"
+msgid "recent posts"
+msgstr "останні записи"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Виводить список ваших останніх записів."
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block keyword"
+msgid "recent comments"
+msgstr "останні коментарі"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent comments."
+msgstr "Показує список останніх коментарів."
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr "Закруглений"
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/quote/block.json
+#: build/block-library/blocks/separator/block.json
+#: build/block-library/blocks/site-logo/block.json
+#: build/block-library/blocks/social-links/block.json
+#: build/block-library/blocks/table/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr "зображення"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "фото"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block description"
+msgid "Insert an image to make a visual statement."
+msgstr "Додає зображення для візуального затвердження."
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "вставка"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block description"
+msgid "Add custom HTML code and preview it as you edit."
+msgstr "Додайте власний HTML-код і попередньо перегляньте його під час редагування."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block title"
+msgid "Home Link"
+msgstr "Посилання на головну"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr "підзаголовок"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "заголовок"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "розділ"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr "рядок"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "wrapper"
+msgstr "обгортка"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "контейнер"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "фотографії"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "зображення"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block description"
+msgid "Display multiple images in a rich gallery."
+msgstr "Поєднує кілька зображень у гарній галереї."
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block description"
+msgid "Use the classic WordPress editor."
+msgstr "Використовує класичний редактор WordPress."
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "завантаження"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr "pdf"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "документ"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block description"
+msgid "Add a link to a downloadable file."
+msgstr "Додає посилання на файл, що завантажується."
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "Одна колонка у блоці колонок."
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block description"
+msgid "Display code snippets that respect your spacing and tabs."
+msgstr "Фрагменти коду відображення, що враховують ваші інтервали та вкладки."
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr "архів"
+
+#: build/block-library/blocks/calendar/block.json
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "записи"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block description"
+msgid "A calendar of your site’s posts."
+msgstr "Календар записів сайту."
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a group of button-style links."
+msgstr "Спонукаєте відвідувачів до дії за допомогою групи посилань в стилі кнопок."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Контур"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Заповнити"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a button-style link."
+msgstr "Спонукаєте відвідувачів до дії посиланням у вигляді кнопки."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr "запис"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr "подкаст"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr "звук"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr "музика"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block description"
+msgid "Embed a simple audio player."
+msgstr "Вставляє простий аудіо плеєр."
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block description"
+msgid "Display a date archive of your posts."
+msgstr "Відображення архіву записів за датами."
+
+#: build/block-library/blocks/site-logo.php:47
+msgid "(Home link, opens in a new tab)"
+msgstr "(Посилання на головну, відкриється у новій вкладці)"
+
+#: build/block-library/blocks/navigation.php:491
+#: build/block-library/index.js:34458
+msgid "Close menu"
+msgstr "Закрити меню"
+
+#: build/block-library/blocks/navigation.php:490
+#: build/block-library/index.js:34440
+msgid "Open menu"
+msgstr "Відкрити меню"
+
+#: build/block-library/blocks/site-logo.php:77
+msgid "Logo"
+msgstr "Лого"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:274
+msgid "Available image sizes."
+msgstr "Доступні розміри зображення."
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block title"
+msgid "Term Description"
+msgstr "Опис терміну"
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block title"
+msgid "Comments Link"
+msgstr "Посилання на коментарі"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block title"
+msgid "Login/out"
+msgstr "Вхід/вихід"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Власне посилання"
+
+#. translators: %s: filename.
+#: build/block-library/blocks/file.php:35 build/block-library/index.js:18265
+#: build/block-library/index.js:18374 build/block-library/index.js:18475
+msgid "Embed of %s."
+msgstr "Вставка %s"
+
+#: build/block-library/blocks/file.php:37 build/block-library/index.js:18264
+#: build/block-library/index.js:18373 build/block-library/index.js:18474
+msgid "PDF embed"
+msgstr "Вбудований PDF"
+
+#: build/block-library/blocks/navigation-link.php:345
+msgid "A link to a post format"
+msgstr "Посилання на формат запису"
+
+#: build/block-library/blocks/navigation-link.php:344
+msgid "Post Format Link"
+msgstr "Посилання на формат запису"
+
+#: build/block-library/blocks/latest-posts.php:169
+#: build/block-library/blocks/latest-posts.php:184
+#: build/block-library/index.js:43038
+msgid "This content is password protected."
+msgstr "Цей вміст захищено паролем."
+
+#. translators: %s post title
+#: build/block-library/blocks/post-comments-link.php:41
+msgid "No comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Немає коментарів<span class=\"screen-reader-text\"> до %s</span>"
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Список сторінок"
+
+#. translators: %s: taxonomy's singular name
+#: build/block-library/blocks/categories.php:46
+#: build/block-library/index.js:6534
+msgid "Select %s"
+msgstr "Вибрати %s"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Попередній"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Наступний"
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Comments Page Numbers"
+msgstr "Номери сторінок коментарів"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "Наступна сторінка"
+
+#. translators: %s: Template part slug.
+#: build/block-library/blocks/template-part.php:120
+#: build/block-library/index.js:63375
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "Частина шаблону видалена або недоступна: %s"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:38
+#: build/block-library/blocks/post-content.php:34
+#: build/block-library/blocks/template-part.php:131
+msgid "[block rendering halted]"
+msgstr "[відображення блоку зупинено]"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "Мітки запису"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Featured Image"
+msgstr "Головне зображення"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Comments Form"
+msgstr "Форма коментарів"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Comments Count"
+msgstr "Підрахунок коментарів"
+
+#: build/block-library/index.js:10326
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "Дата коментаря"
+
+#: build/block-library/index.js:10148
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "Вміст коментаря"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Цикл запитів"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Частина шаблону"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Назва сайту"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Короткий опис"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Логотип сайту"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Іконка соціальної мережі"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Іконки соціальних мереж"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Хмара позначок"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Відео"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Вірш"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Текстові стовпці (застарів)"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Таблиця"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Роздільник"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Короткий код"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Роздільник"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Група"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Пошук"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Витримка"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Попередньо відформатований"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Розрив сторінки"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Більше"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "Не підтримується"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Перелік"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Останні записи"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "Останні коментарі"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Навігація"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Медіа та текст"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "Власний HTML"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "Файл"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Обкладинка"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Колонка"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Колонки"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Код"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Календар"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Кнопка"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Аудіо"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Архіви"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Галерея"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Цитата"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Заголовок"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Зображення"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Параграф"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:118
+msgid "The id of a template"
+msgstr "ID шаблону."
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "Логотип сайту"
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "Дизайн"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "Автор: %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "Результати пошуку"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "Вміст"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "Меню"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "Головна"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:417
+msgid "Sort collection by post attribute."
+msgstr "Сортувати за атрибутом об'єкта."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "Порядок сортування атрибутів за зростанням або за спаданням."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:399
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Обмежити вибірку записами з певним значенням menu_order."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "посилання"
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "Експериментальні налаштування"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "Експериментальні налаштування"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Сталася помилка Це може означати, що канал не працює. Спробуйте ще раз пізніше."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Помилка RSS:"
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "Пошук"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Вставка"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Класичний"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Візуально підкреслюйте цитований текст. \"Цитуючи інших, ми цитуємо себе.\" — Хуліо Кортасар"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Впроваджуйте нові розділи та організовуйте вміст, щоби допомогти відвідувачам (і пошуковим системам) зрозуміти структуру вашого вмісту."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:479
+msgid "Limit result set to posts assigned one or more statuses."
+msgstr "Обмежити вибірку записами з одним або декількома статусами."
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "Середній"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "Немає архівів для показу."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Красивий краєвид"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Дякую за тестування Гутенберга!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Допоможіть побудувати Гутенберг"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Якщо ви хочете дізнатись більше про те, як створювати додаткові блоки, або якщо ви зацікавлені в тому, щоб допомогти проекту, <a href=\"%s\">перейдіть до сховища GitHub</a> ."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Спільнота WordPress"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "Код - це поезія."
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Ви можете побудувати будь-який блок, який вам подобається, статичний або динамічний, декоративний або просто. Ось блок блокування:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Будь-який блок може вибрати ці вирівнювання. Вбудований блок також має їх, і реагує на нього з коробки:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Вище це галерея з двома зображеннями. Це простий спосіб створити візуально привабливі макети, без необхідності мати справу з поплавцями. Ви також можете легко перетворити галерею назад на індивідуальні зображення знову за допомогою блоку перемикача."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Звичайно, повноцінний імідж може бути досить великим. Але іноді образ це коштує."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Доступність важлива - не забувайте атрибут image alt"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Якщо ви об'єднаєте нові <strong>широкі</strong> та <strong>повноцінні</strong> вирівнювання за допомогою галерей, ви можете створити дуже масивний медіа-стилі, дуже швидко:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Media Rich"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Ви можете змінити кількість стовпців у ваших галереях, перетягуючи повзунок в інспекторі блоку на бічній панелі."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Блоки можуть бути що завгодно. Наприклад, ви можете додати податкову цитату як частину композиції вашого тексту, або ви можете віддати перевагу стисуванню гіганта. Всі ці параметри доступні у вкладенні."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Інформація, яка відповідає джерелу цитат, є окремим текстовим полем, подібним до підписів під зображеннями, тому структура цитати захищена, навіть якщо ви вибираєте, змінюєте чи видаляєте джерело. Завжди легко додати його назад."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Метт Малленвег, 2017 рік"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Редактор намагатиметься створити нову сторінку та пошта, яка спрощує написання багатих повідомлень, і має &quot;блоки&quot;, щоб полегшити доступність коротких кодів, спеціальних HTML-кодів або відкриття вставки &quot;таємного м&#39;яса&quot;."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Велика перевага блоків полягає в тому, що ви можете редагувати їх на місці та маніпулювати вмістом безпосередньо. Замість того, щоб мати поля для редагування речей, як джерело цитати, або тексту кнопки, ви можете безпосередньо змінити вміст. Спробуйте редагувати наступну цитату:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Візуальне Редагування"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "І це, звичайно, <em>Списки</em> :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Блоки макета, як-от кнопки, зображення героя, сепаратори тощо."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Вбудовує, як YouTube, Tweets чи інші повідомлення WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Галереї"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Зображення та відео"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Текст та заголовки"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Давайте спробуємо, ви можете дізнатись про те, що WordPress вже може додати до своїх публікацій, про які ви не знали. Ось короткий список того, що ви зараз можете знайти там:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Уявіть, що все, що WordPress може зробити, доступно вам швидко і в одному місці на інтерфейсі. Не потрібно вирахувати HTML теги, класи або запам&#39;ятати складний синтаксис коротких кодів. Це дух за вставкою - кнопка <code>(+)</code> яку ви побачите біля редактора, що дозволяє переглядати всі доступні блоки вмісту та додати їх до вашого повідомлення. Плагіни та теми можуть реєструвати свої власні, відкриваючи всілякі можливості для багатих редагування та публікації."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Інструмент <em>Вставлення</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Спробуйте вибирати і видаляти або редагувати заголовок, тепер вам не треба бути обережним при виборі зображення чи іншого тексту помилково і позбавити презентацію."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Якщо ваша тема підтримує її, ви побачите кнопку &quot;широкий&quot; на панелі інструментів зображення. Спробувати."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Основна увага нового редактора - це надзвичайно важлива обробка зображень та носіїв. Сподіваємося, ви знайдете аспекти додавання субтитрів або повноцінне розміщення фотографій набагато простіше та надійніше, ніж раніше."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Картина варта тисяч слів"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Заголовки також є окремими блоками, що допомагає контуру та організації вмісту."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "… як цей, який правильно вирівняний."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Те, що ви зараз читаєте, - це <strong>текстовий блок,</strong> найбільш основний блок. Текстовий блок має власні елементи керування, які можна вільно переміщати навколо публікації …"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Мета цього нового редактора - зробити додавання багатим змістом до WordPress простим та приємним. Весь цей пост складається з <em>частин вмісту, який</em> трохи схожий на цеглу LEGO, - що ви можете пересуватися та взаємодіяти. Перемістіть курсор навколо, і ви помітите, що різні блоки запалюються контурами та стрілками. Натисніть стрілки, щоб швидко перемістити блоки, не боячись втратити речі в процесі копіювання та вставки."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Книга гір і морів"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Ласкаво просимо в редактор Gutenberg"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Номер запитаної сторінки перевищує кількість наявних сторінок."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "Маленький"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Підтримка"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "Немає коментарів до показу."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s до %2$s"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Обрати запис"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Обрати тиждень"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Виберіть День"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Обрати місяць"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Обрати рік"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Архіви"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "Великий"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Додайте блок, який відображає вміст, отриманий із інших сайтів, таких як Twitter або YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Поділ на сторінки"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "Блок"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(без назви)"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "Закрити"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "Читати далі"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "Експерименти"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "Редагувати"
+
+#: gutenberg.php:45
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "Режим розробки Gutenberg вимагає створення файлів. Запустіть <code>npm install</code>, щоб установити залежності, <code>npm run build</code>, щоб зібрати файли, або <code>npm run dev</code>, щоб зібрати файли та стежити за змінами. Прочитайте файл <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contribution</a>, щоб дізнатися більше інформації."
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Команда Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "%s тому"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s тому назад"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Гутенберг вимагає WordPress %s або пізнішої для належного функціонування. Будь ласка, оновіть WordPress перед активацією Gutenberg."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Документація"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Демо"

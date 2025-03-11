@@ -1,0 +1,251 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Urdu
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-15 15:47:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ur_PK\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "الفاظ"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "ایمبیڈ"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "کلاسک"
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "دکھانے کے لیے کوئی آرکائیو موجود نہیں"
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "خوبصورت نظارہ"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Gutenberg کو آزمانے کا شکریہ!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Gutenberg بنانے میں مدد کریں"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "کوڈ شاعری ہے"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "WordPress کمیونٹی"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "سیر حاصل میڈیا"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg، 2017"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "یقینا، مکمل وسیع تصویر بہت بڑی ہو سکتی ہے۔ لیکن کبھی کبھی تصویر اس کے قابل ہے۔"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "بصری ترمیم"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "تصاویر اور ویڈیوز"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "متن اور عنوانات"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "گیلریز"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>انسرٹر</em> ٹول"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Gutenberg ایڈیٹر میں خوش آمدید"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "ایک تصویر ہزار الفاظ کئ برابر ہے"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "لے آؤٹ بلاکس، لائیک بٹن، ہیرو تصاویر، سپریٹر وغیرہ"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "یوٹیوب، ٹویٹس، یا دیگرWordPress پوسٹوں کی طرح ایمبیڈ کر سکتے ہیں"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "اور <em>فہرستیں</em> کی طرح کورس میں سے ایک :)"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "درخواست کردہ صفحے کا نمبر کُل موجود صفحات کے نمبر سے زیادہ ہے۔"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "معاونت"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "دکھانے کے لئے کوئی تبصرہ نہیں۔"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s از %2$s"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "سال منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "دن منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "ہفتہ منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "پوسٹ منتخب کریں"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "مہینہ منتخب کریں"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "آرکائیوز"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "بڑا"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "ترمیم کریں"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "مزید پڑھیں"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "واحد: بلاک"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "بند کریں"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(بلاعنوان)"
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "دستاویزات"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "ڈیمو"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Gutenberg ٹیم"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "%s پہلے"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s سے اب تک"

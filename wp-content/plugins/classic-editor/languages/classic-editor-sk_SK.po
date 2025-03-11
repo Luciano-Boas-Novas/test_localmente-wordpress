@@ -1,0 +1,133 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-25 11:13:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:429 classic-editor.php:507 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Editor blokov"
+
+#: classic-editor.php:425 classic-editor.php:907
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Klasický editor"
+
+#: classic-editor.php:860
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Upraviť (klasický editor)"
+
+#: classic-editor.php:512
+msgid "Change settings"
+msgstr "Zmeniť nastavenia"
+
+#: classic-editor.php:499
+msgid "Default editor for all sites"
+msgstr "Predvolený editor pre všetky stránky "
+
+#: classic-editor.php:479
+msgid "Default Editor"
+msgstr "Predvolený editor"
+
+#: classic-editor.php:495
+msgid "Editor Settings"
+msgstr "Nastavenia editoru"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Upraviť (editor blokov)"
+
+#: classic-editor.php:891
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "Klasický editor"
+
+#: classic-editor.php:894
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "blokový editor"
+
+#. translators: %s: post title
+#: classic-editor.php:855
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Upraviť &#8222;%s&#8220; v klasickom editore"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://sk.wordpress.org/plugins/classic-editor/"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#: classic-editor.php:671
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:453
+msgid "No"
+msgstr "Nie"
+
+#: classic-editor.php:449
+msgid "Yes"
+msgstr "Áno"
+
+#: classic-editor.php:376
+msgid "Allow users to switch editors"
+msgstr "Povoliť používateľom prepnúť editory"
+
+#: classic-editor.php:375
+msgid "Default editor for all users"
+msgstr "Predvolený editor pre všetkých používateľov"
+
+#: classic-editor.php:515
+msgid "Allow site admins to change settings"
+msgstr "Povoliť administrátorom webovej stránky meniť nastavenia"
+
+#: classic-editor.php:719
+msgid "Switch to classic editor"
+msgstr "Zmeniť na klasický editor"
+
+#: classic-editor.php:516
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "V predvolenom nastavení je editor blokov nahradený klasickým editorom a používatelia nemôžu meniť editory."
+
+#: classic-editor.php:690
+msgid "Switch to block editor"
+msgstr "Zmeniť na editor blokov"
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "Klasický editor"
+
+#: classic-editor.php:738
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. translators: %s: post title
+#: classic-editor.php:862
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Upraviť &#8220;%s&#8221; v klasickom editore"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "WordPress prispievatelia"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Povoľuje klasický editor WordPress a starú obrazovku pre úpravu článku s TinyMCE editorom, vlastnými poľami a ďalšími. Podporuje tiež rozšírenia, ktoré túto pridávajú funkcie tejto obrazovky. "

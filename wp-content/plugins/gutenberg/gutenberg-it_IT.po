@@ -1,0 +1,3064 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-16 18:27:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/theme.json
+msgctxt "Shadow name"
+msgid "Crisp"
+msgstr "Definita"
+
+#: lib/theme.json
+msgctxt "Shadow name"
+msgid "Outlined"
+msgstr "Contorno"
+
+#: lib/theme.json
+msgctxt "Shadow name"
+msgid "Sharp"
+msgstr "Nitida"
+
+#: lib/theme.json
+msgctxt "Shadow name"
+msgid "Deep"
+msgstr "Profonda"
+
+#: lib/theme.json
+msgctxt "Shadow name"
+msgid "Natural"
+msgstr "Naturale"
+
+#. translators: %d: number of results.
+#: build/block-library/blocks/query-total.php:64
+msgid "%d result found"
+msgid_plural "%d results found"
+msgstr[0] "%d risultato trovato"
+msgstr[1] "%d risultati trovati"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Tall - 9:16"
+msgstr "Alto - 9:16"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Wide - 16:9"
+msgstr "Largo - 16:9"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic Portrait - 2:3"
+msgstr "Ritratto classico - 2:3"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic - 3:2"
+msgstr "Classico - 3:2"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Portrait - 3:4"
+msgstr "Ritratto - 3:4"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Standard - 4:3"
+msgstr "Standard - 4:3"
+
+#: lib/theme.json
+msgctxt "Aspect ratio name"
+msgid "Square - 1:1"
+msgstr "Quadrato - 1:1"
+
+#: build/block-library/blocks/query-total/block.json
+msgctxt "block description"
+msgid "Display the total number of results in a query."
+msgstr "Visualizza il numero totale di risultati in una query."
+
+#: build/block-library/blocks/query-total/block.json
+msgctxt "block title"
+msgid "Query Total"
+msgstr "Totale delle query"
+
+#: lib/experiments-page.php:192
+msgid "Simplified site editing"
+msgstr "Modifica del sito semplificata"
+
+#: lib/experiments-page.php:161
+msgid "Enables a redesigned posts dashboard accessible through a submenu item in the Gutenberg plugin."
+msgstr "Abilita una bacheca degli articoli riprogettata e accessibile da un elemento del sottomenu nel plugin Gutenberg."
+
+#: lib/experiments-page.php:149
+msgid "Enables the ability to add, edit, and save custom views when in the Site Editor."
+msgstr "Abilita la possibilità di aggiungere, modificare e salvare le viste personalizzate nell'Editor del sito."
+
+#: lib/experiments-page.php:120
+msgid "Collaboration: add real time editing"
+msgstr "Collaborazione: aggiungi le modifiche in tempo reale"
+
+#: lib/experiments-page.php:108
+msgid "Collaboration: add block level comments"
+msgstr "Collaborazione: aggiungi i commenti a livello di blocco"
+
+#: lib/experiments-page.php:84
+msgid "Blocks: disable TinyMCE and Classic block"
+msgstr "Blocchi: disattiva il blocco TinyMCE e Classico"
+
+#: lib/experiments-page.php:48
+msgid "Blocks: add experimental blocks"
+msgstr "Blocchi: aggiungi blocchi sperimentali"
+
+#. translators: 1: Start index of posts, 2: End index of posts, 3: Total number
+#. of posts
+#: build/block-library/blocks/query-total.php:52
+msgid "Displaying %1$s – %2$s of %3$s"
+msgstr "Visualizzati da %1$s a %2$s di %3$s"
+
+#. translators: 1: Start index of posts, 2: Total number of posts
+#: build/block-library/blocks/query-total.php:45
+msgid "Displaying %1$s of %2$s"
+msgstr "Visualizzati %1$s di %2$s"
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:108
+msgid "Sorry, you are not allowed to read the post for this comment."
+msgstr "Non hai i permessi per leggere l'articolo associato a questo commento."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:100
+msgid "Sorry, you are not allowed to create a comment on this post."
+msgstr "Non hai i permessi per creare un commento per questo articolo."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:82
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:92
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr "Non hai i permessi per creare questo commento senza un articolo."
+
+#. translators: %s: Request parameter.
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:54
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:64
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:74
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr "Non hai i permessi per modificare '%s' nei commenti."
+
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:21
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php:43
+msgid "Sorry, you must be logged in to comment."
+msgstr "Per inviare un commento occorre aver effettuato il login."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "custom post types"
+msgstr "custom post type"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blogs"
+msgstr "blog"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr "blog"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block keyword"
+msgid "categories"
+msgstr "categorie"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block description"
+msgid "Display a list of all terms of a given taxonomy."
+msgstr "Visualizza un elenco di termini di una determinata tassonomia."
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Terms List"
+msgstr "Elenco dei termini"
+
+#: lib/experiments-page.php:96
+msgid "Client-side media processing"
+msgstr "Elaborazione dei media lato client"
+
+#: lib/experimental/media/load.php:131
+msgid "Attachment file size"
+msgstr "Dimensione del file allegato"
+
+#: lib/experimental/media/load.php:118
+msgid "Original attachment file name"
+msgstr "Nome originale del file allegato"
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:259
+msgid "Invalid post ID, only images and PDFs can be sideloaded."
+msgstr "ID dell'articolo non valido, è possibile effettuare il sideload solo di immagini e file PDF."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:74
+msgid "Whether to convert image formats."
+msgstr "Se convertire o meno i formati delle immagini."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:69
+msgid "Whether to generate image sub sizes."
+msgstr "Se generare o meno le sottodimensioni delle immagini."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:37
+msgid "Unique identifier for the attachment."
+msgstr "Identificatore univoco per l'allegato."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:681
+msgid "Limit result set to items except those with specific terms assigned in the %s taxonomy."
+msgstr "Limita i risultati agli elementi eccetto quelli con termini specifici assegnati nella tassonomia %s."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:672
+msgid "Whether items must be assigned all or any of the specified terms."
+msgstr "Se gli elementi devono essere assegnati a tutti o ad alcuni dei termini specificati."
+
+#. translators: %s: Taxonomy name.
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:666
+msgid "Limit result set to items with specific terms assigned in the %s taxonomy."
+msgstr "Limita i risultati agli elementi con termini specifici assegnati nella tassonomia %s."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:653
+msgid "Whether to include child terms in the terms limiting the result set."
+msgstr "Se i termini figli sono inclusi nei termini che limitano il set di risultati."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:645
+msgid "Term IDs."
+msgstr "ID dei termini."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:641
+msgid "Perform an advanced term query."
+msgstr "Esegui una query avanzata dei termini."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:640
+msgid "Term ID Taxonomy Query"
+msgstr "Query della tassonomia degli ID dei termini"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:633
+msgid "Match terms with the listed IDs."
+msgstr "Abbina i termini con gli ID elencati."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:632
+msgid "Term ID List"
+msgstr "Elenco degli ID dei termini"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:623
+msgid "Limit result set based on relationship between multiple taxonomies."
+msgstr "Limita i risultati in base alle relazioni tra tassonomie multiple."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:499
+msgid "Limit result set to items assigned one or more given formats."
+msgstr "Limita i risultati agli elementi assegnati ad uno o più formati specifici."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:492
+msgid "Limit result set to items that are sticky."
+msgstr "Limita i risultati agli elementi in evidenza."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:470
+msgid "Limit result set to posts with one or more specific slugs."
+msgstr "Limita i risultati agli articoli con uno o più slug specifici."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:461
+#: lib/compat/wordpress-6.8/class-gutenberg-rest-user-controller.php:12
+msgid "Array of column names to be searched."
+msgstr "Array di nomi di colonna da cercare."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:450
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Limita i risultati a tutti gli elementi eccetto quelli di uno specifico ID genitore."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:442
+msgid "Limit result set to items with particular parent IDs."
+msgstr "Limita i risultati agli elementi con specifici ID genitori."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:389
+msgid "Limit result set to specific IDs."
+msgstr "Limita i risultati a specifici ID."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:380
+msgid "Ensure result set excludes specific IDs."
+msgstr "Garantisce che l'insieme dei risultati escluda specifici ID."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:374
+msgid "Limit response to posts modified before a given ISO8601 compliant date."
+msgstr "Limita la risposta agli articoli modificati prima di una determinata data conforme allo standard ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:368
+msgid "Limit response to posts published before a given ISO8601 compliant date."
+msgstr "Limita la risposta agli articoli pubblicati prima di una determinata data conforme allo standard ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:358
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr "Garantisce che l'insieme dei risultati escluda gli articoli assegnati ad autori specifici."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:350
+msgid "Limit result set to posts assigned to specific authors."
+msgstr "Limita i risultati agli articoli assegnati ad autori specifici."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:343
+msgid "Limit response to posts modified after a given ISO8601 compliant date."
+msgstr "Limita la risposta agli articoli modificati dopo una determinata data conforme allo standard ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:337
+msgid "Limit response to posts published after a given ISO8601 compliant date."
+msgstr "Limita la risposta agli articoli pubblicati dopo una determinata data conforme allo standard ISO8601."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:47
+msgid "You need to define an include parameter to order by include."
+msgstr "Devi definire un parametro include per ordinare per include."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:38
+msgid "You need to define a search term to order by relevance."
+msgstr "Devi definire un termine di ricerca per ordinare per rilevanza."
+
+#: lib/compat/wordpress-6.7/rest-api.php:118
+msgid "Plugin that registered the template."
+msgstr "Il plugin che ha registrato il template."
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:226
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:230
+msgid "Template \"%s\" is not registered."
+msgstr "Il template \"%s\" non è registrato."
+
+#. translators: %s: Template name.
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:58
+msgid "Template \"%s\" is already registered."
+msgstr "Il template \"%s\" è già registrato."
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:48
+msgid "Template names must be strings."
+msgstr "I nomi dei template devono essere stringhe."
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block description"
+msgid "A cloud of popular keywords, each sized by how often it appears."
+msgstr "Una nuvola di parole chiave popolari, ognuna grande in proporzione a quanto spesso appare."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block description"
+msgid "An organized collection of items displayed in a specific order."
+msgstr "Una raccolta organizzata di elementi visualizzati in un ordine specifico."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block description"
+msgid "An individual item within a list."
+msgstr "Un elemento singolo all'interno di un elenco."
+
+#. translators: 1: version string, 2: version string.
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:411
+msgid "Loaded version '%1$s' incompatible with expected version '%2$s'."
+msgstr "La versione caricata '%1$s' è incompatibile con la versione attesa '%2$s'."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:401
+msgid "Missing required inputs to pre-computed WP_Token_Map."
+msgstr "Mancano gli input necessari alla WP_Token_Map precompilata."
+
+#. translators: 1: maximum byte length (a count)
+#: lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php:300
+msgid "Token Map tokens and substitutions must all be shorter than %1$d bytes."
+msgstr "I token e le sostituzioni della mappa dei token devono essere tutti più corti di %1$d byte."
+
+#: lib/experimental/blocks.php:102
+msgid "Block name must be a string or array."
+msgstr "Il nome del blocco deve essere una stringa o un array."
+
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Gruppo di widget"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Area widget"
+
+#: lib/experiments-page.php:180
+msgid "iAPI: full page client side navigation"
+msgstr "iAPI: navigazione lato client della pagina intera"
+
+#: lib/block-supports/elements.php:123
+msgid "Use as a `pre_render_block` filter is deprecated. Use with `render_block_data` instead."
+msgstr "L'uso come filtro \"pre_render_block\" è deprecato. Utilizza invece con \"render_block_data\"."
+
+#. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
+#: build/block-library/blocks/latest-posts.php:161
+msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Leggi tutto<span class=\"screen-reader-text\">: %2$s</span></a>"
+
+#: lib/experiments-page.php:77
+msgid "Enables enhancements to the Grid block that let you move and resize items in the editor canvas."
+msgstr "Abilita i miglioramenti al blocco Griglia che consentono di spostare e ridimensionare gli elementi nell'area dell'editor."
+
+#: lib/block-supports/typography.php:485
+msgid "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
+msgstr "Il tipo \"boolean\" per il secondo argomento \"$settings\" è deprecato. Usa \"array()\"."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block description"
+msgid "Reuse this design across your site."
+msgstr "Riusa questo design su tutto il tuo sito."
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block. %s represents a pattern's slug.
+#: build/block-library/blocks/pattern.php:54
+msgid "[block rendering halted for pattern \"%s\"]"
+msgstr "[rendering del blocco arrestato per il pattern \"%s\"]"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:198
+msgid "Unknown author"
+msgstr "Autore sconosciuto"
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block description"
+msgid "A form."
+msgstr "Un modulo."
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Modulo"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "pulsante"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "invia"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block description"
+msgid "A submission button for forms."
+msgstr "Un pulsante di invio per moduli."
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block title"
+msgid "Form Submit Button"
+msgstr "Pulsante di invio del modulo"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr "messaggio"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "notification"
+msgstr "notifica"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "feedback"
+msgstr "feedback"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block description"
+msgid "Provide a notification message after the form has been submitted."
+msgstr "Mostra un messaggio di notifica dopo l'invio del modulo."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block title"
+msgid "Form Submission Notification"
+msgstr "Notifica dell'invio del modulo"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "input"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block description"
+msgid "The basic building block for forms."
+msgstr "Il blocco di base per la creazione di moduli."
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block title"
+msgid "Input Field"
+msgstr "Campo input"
+
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Tipo di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Tipi di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Articolo che memorizza le diverse configurazioni di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Visualizzazione dei dati"
+
+#: build/block-library/blocks/form.php:94
+msgid "Form submission"
+msgstr "Invio del modulo"
+
+#. translators: %s: The request URI.
+#: build/block-library/blocks/form.php:76
+msgid "Form submission from %1$s"
+msgstr "Invio del modulo da %1$s"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block description"
+msgid "Display footnotes added to the page."
+msgstr "Visualizza le note a piè di pagina aggiunte alla pagina."
+
+#. Translators: %d: Integer representing the number of return links on the
+#. page.
+#: build/block-library/blocks/footnotes.php:48
+msgid "Jump to footnote reference %1$d"
+msgstr "Salta al riferimento nella nota a piè di pagina %1$d"
+
+#. translators: %s: taxonomy's label
+#: build/block-library/blocks/post-terms.php:93
+msgid "Display a list of assigned terms from the taxonomy: %s"
+msgstr "Visualizza un elenco di termini assegnati dalla tassonomia: %s"
+
+#: lib/interactivity-api.php:27
+msgid "Page Loaded."
+msgstr "Pagina caricata."
+
+#: lib/interactivity-api.php:26
+msgid "Loading page, please wait."
+msgstr "Caricamento pagina, attendi."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block description"
+msgid "Display the publish date for an entry such as a post or page."
+msgstr "Visualizza la data di pubblicazione di un contenuto, come un articolo o una pagina."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "Data"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Content"
+msgstr "Contenuto"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Author"
+msgstr "Autore"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "attiva/disattiva"
+
+#: lib/experiments-page.php:125
+msgid "Enables live collaboration and offline persistence between peers."
+msgstr "Abilita la collaborazione in tempo reale e la persistenza offline tra pari."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:525
+msgid "Please pass a query array to this function."
+msgstr "Passa un array di query a questa funzione."
+
+#. translators: %s: WP_HTML_Processor::create_fragment().
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-processor-6-7.php:361
+msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
+msgstr "Fai una chiamata a %s per creare un HTML Processor anziché chiamare il costruttore direttamente."
+
+#: build/block-library/blocks/search.php:169
+msgid "Submit Search"
+msgstr "Invia ricerca"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block keyword"
+msgid "reusable"
+msgstr "riutilizzabile"
+
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:65616 build/block-library/index.js:65628
+msgid "Footnotes"
+msgstr "Note a piè di pagina"
+
+#: lib/experiments-page.php:89
+msgid "Disables the TinyMCE and Classic block"
+msgstr "Disattiva il blocco TinyMCE e Classico"
+
+#: lib/class-wp-theme-json-resolver-gutenberg.php:363
+msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
+msgstr "`experimental-link-color` non è più supportato. Usa `link-color` al suo posto."
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block title"
+msgid "Pattern placeholder"
+msgstr "Segnaposto del pattern"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block keyword"
+msgid "references"
+msgstr "riferimenti"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block title"
+msgid "Footnotes"
+msgstr "Note a piè di pagina"
+
+#. translators: %s: duotone colors
+#: lib/class-wp-duotone-gutenberg.php:536
+msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
+msgstr "\"%s\" in theme.json settings.color.duotone non è una stringa hex o rgb."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Titolo del contenuto"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Excerpt"
+msgstr "Riassunto"
+
+#: build/block-library/blocks/search.php:145
+#: build/block-library/blocks/search.php:170
+msgid "Expand search field"
+msgstr "Espandi campo di ricerca"
+
+#. translators: %s: duotone filter ID
+#: lib/class-wp-duotone-gutenberg.php:729
+msgid "The duotone id \"%s\" is not registered in theme.json settings"
+msgstr "L’id bicromia \"%s\" non è registrato nelle impostazioni di theme.json"
+
+#. translators: %s: Image alt text.
+#: build/block-library/blocks/image.php:162
+msgid "Enlarge image: %s"
+msgstr "Ingrandisci l’immagine: %s"
+
+#: build/block-library/blocks/image.php:158
+msgid "Enlarge image"
+msgstr "Ingrandisci l’immagine"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "accordion"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block description"
+msgid "Hide and show additional content."
+msgstr "Nascondi o mostra contenuto aggiuntivo."
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block description"
+msgid "Add an image or video with a text overlay."
+msgstr "Aggiungi un'immagine o video con un overlay di testo."
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block description"
+msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
+msgstr "Visualizza un'immagine per rappresentare questo sito. Aggiorna questo blocco e le modifiche saranno applicate ovunque."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "elenco"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "disclosure"
+msgstr "rivela"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block title"
+msgid "Details"
+msgstr "Dettagli"
+
+#. translators: %s: the number of minutes to read the post.
+#: build/block-library/blocks/post-time-to-read.php:36
+#: build/block-library/index.js:45955 build/editor/index.js:32274
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuto"
+msgstr[1] "%s minuti"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block description"
+msgid "Show minutes required to finish reading the post."
+msgstr "Mostra i minuti necessari per finire la lettura di un articolo."
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block title"
+msgid "Time To Read"
+msgstr "Tempo di lettura"
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:3272
+msgid "The query argument must be an array or a tag name."
+msgstr "L'argomento della query deve essere un array o il nome di un tag."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2947
+msgid "Invalid attribute name."
+msgstr "Nome dell'attributo non valido."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2384
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Troppe chiamate a seek(): questo può causare problemi di prestazioni."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:2375
+msgid "Unknown bookmark name."
+msgstr "Nome del segnalibro sconosciuto."
+
+#: lib/compat/wordpress-6.7/html-api/class-gutenberg-html-tag-processor-6-7.php:1224
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Troppi segnalibri: impossibile crearne altri."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "Articolo senza titolo %d"
+
+#. Description of the plugin
+#: gutenberg.php
+msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
+msgstr "Stampa dal 1440. Questo è il plugin di sviluppo per l'editor a blocchi, l'editor del sito e altre future funzionalità del core di WordPress."
+
+#. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
+#. name.
+#: lib/class-wp-theme-json-gutenberg.php:2514
+msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
+msgstr "Il file %1$s utilizza un valore dinamico (%2$s) per il percorso che punta a %3$s. Tuttavia, anche %3$s è un valore dinamico (punta a %4$s) e il puntamento a un altro valore dinamico non è supportato. Aggiorna %3$s per puntare direttamente a %4$s."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:202
+msgid "Block inspector tab display overrides."
+msgstr "Sostituzioni della visualizzazione della scheda dell'Ispettore blocchi."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:698
+msgid "Markup is not allowed in CSS."
+msgstr "Il markup non è ammesso nel CSS."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "pagina"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block description"
+msgid "Displays a page inside a list of all pages."
+msgstr "Visualizza una pagina all'interno di un elenco di tutte le pagine."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block title"
+msgid "Page List Item"
+msgstr "Elemento elenco pagina"
+
+#: lib/experiments-page.php:132
+msgid "Color randomizer"
+msgstr "Generatore di colori casuali"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:136
+msgid "Indicates whether the current theme supports block-based templates."
+msgstr "Indica se il tema corrente supporta template basati su blocchi."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:405
+msgid "Offset the result set by a specific number of items."
+msgstr "Sposta di uno specifico numero di elementi l'inizio dell'insieme dei risultati."
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: build/block-library/blocks/read-more.php:28
+msgid "untitled post %s"
+msgstr "articolo %s senza titolo"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: build/block-library/blocks/read-more.php:34
+msgid ": %s"
+msgstr ": %s"
+
+#: lib/block-supports/typography.php:286
+msgid "Raw size value must be a string, integer or a float."
+msgstr "Il valore della dimensione grezza deve essere una stringa, un intero o un numero con decimali."
+
+#: build/block-library/blocks/tag-cloud.php:35
+msgid "There&#8217;s no content to show here yet."
+msgstr "Non c'è ancora contenuto da mostrare."
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block title"
+msgid "Comments Previous Page"
+msgstr "Pagina precedente dei commenti"
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block title"
+msgid "Comments Next Page"
+msgstr "Pagina successiva dei commenti"
+
+#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:44
+msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+msgstr "$store deve essere un'istanza di WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:313
+msgid "Disables custom spacing sizes."
+msgstr "Disabilita dimensione della spaziatura personalizzata."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:226
+msgid "Disables output of layout styles."
+msgstr "Disabilita l'output degli stili del layout."
+
+#. translators: %s is the search term.
+#: build/block-library/blocks/query-title.php:46
+msgid "Search results for: \"%s\""
+msgstr "Risultati della ricerca per: \"%s\""
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:172
+msgid "Whether the V2 of the list block that uses inner blocks should be enabled."
+msgstr "Se è necessario abilitare la V2 del blocco elenco che usa i blocchi interni."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:308
+msgid "Active theme spacing scale."
+msgstr "Scala di spaziatura del tema attivo."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:303
+msgid "Active theme spacing sizes."
+msgstr "Dimensioni di spaziatura del tema attivo."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247
+msgid "%sX-Large"
+msgstr "%sX-Large"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+msgid "%sX-Small"
+msgstr "%sX-Small"
+
+#: lib/class-wp-theme-json-gutenberg.php:4083
+msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
+msgstr "Alcuni dei valori di theme.json settings.spacing.spacingScale non sono validi"
+
+#. translators: %s: Number of comments.
+#: build/block-library/blocks/comments-title.php:61
+#: build/block-library/index.js:12098
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s risposta"
+msgstr[1] "%s risposte"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: build/block-library/blocks/comments-title.php:47
+#: build/block-library/index.js:12092
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%1$s risposta a %2$s"
+msgstr[1] "%1$s risposte a %2$s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:29
+msgid "&#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "Commenti"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:68
+#: build/block-library/index.js:12103
+msgid "Response to %s"
+msgstr "Risposta a %s"
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:12109
+msgid "Response"
+msgstr "Risposta"
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Il tuo commento è in attesa di moderazione. Questa è un'anteprima; il tuo commento sarà visibile dopo esser stato approvato."
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block description"
+msgid "Displays a title with the number of comments."
+msgstr "Visualizza un titolo con il numero dei commenti."
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block title"
+msgid "Comments Title"
+msgstr "Titolo commenti"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:12106
+msgid "Responses to %s"
+msgstr "Risposte a %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:9263 build/block-library/index.js:12089
+msgid "One response to %s"
+msgstr "Una risposta a %s"
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:12111
+msgid "Responses"
+msgstr "Risposte"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:12095
+msgid "One response"
+msgstr "Una risposta"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block description"
+msgid "Gather blocks in a layout container."
+msgstr "Raccogli i blocchi in un layout contenitore."
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post comments using different visual configurations."
+msgstr "Un blocco avanzato che consente di visualizzare i commenti agli articoli usando diverse configurazioni visive."
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "Visualizza la data in cui il commento è stato pubblicato."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block description"
+msgid "Displays the name of the author of the comment."
+msgstr "Visualizza il nome dell'autore del commento."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Avatar block instead."
+msgstr "Questo blocco è deprecato. Al suo posto utilizza il blocco Avatar."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block title"
+msgid "Comment Author Avatar (deprecated)"
+msgstr "Avatar dell'autore del commento (deprecato)"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:166
+msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
+msgstr "Se è necessario attivare la V2 del blocco Citazione che usa i blocchi interni."
+
+#: build/block-library/blocks/rss.php:19
+msgid "Adding an RSS feed to this site’s homepage is not supported, as it could lead to a loop that slows down your site. Try using another block, like the <strong>Latest Posts</strong> block, to list posts from the site."
+msgstr "L'aggiunta di un feed RSS alla homepage di questo sito non è supportata, dato che potrebbe creare un loop che lo rallenta. Prova ad utilizzare un altro blocco, ad esempio <strong>Ultimi articoli</strong>, per visualizzare gli articoli del tuo sito."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render content when no query results are found."
+msgstr "Contiene gli elementi dei blocchi usati per mostrare del contenuto quando non vengono trovati risultati per la query."
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "Nessun risultato"
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Voce elenco"
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "Aggiungi l'avatar di un utente."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "Avatar"
+
+#. translators: %s: Comment author name.
+#: build/block-library/blocks/avatar.php:92
+msgid "(%s website link, opens in a new tab)"
+msgstr "(Link al sito web %s, apre una nuova scheda)"
+
+#. translators: %s is the Author name.
+#: build/block-library/blocks/avatar.php:65
+msgid "(%s author archive, opens in a new tab)"
+msgstr "(Archivio dell'autore %s, apre una nuova scheda)"
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block description"
+msgid "Displays the link of a post, page, or any other content-type."
+msgstr "Mostra il link di un articolo, una pagina o qualsiasi altro tipo di contenuto."
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block title"
+msgid "Read More"
+msgstr "Leggi tutto"
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block description"
+msgid "The author biography."
+msgstr "La biografia dell'autore."
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block title"
+msgid "Author Biography"
+msgstr "Biografia dell'autore"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:208
+msgid "Sorry, you are not allowed to view this global style."
+msgstr "Non sei autorizzato a visualizzare questo stile globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:200
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:245
+msgid "Sorry, you are not allowed to edit this global style."
+msgstr "Non sei autorizzato a modificare questo stile globale."
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:9270 build/block-library/index.js:9353
+#: build/block-library/index.js:11397
+msgid "Older Comments"
+msgstr "Commenti meno recenti"
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:9276 build/block-library/index.js:9359
+#: build/block-library/index.js:11746
+msgid "Newer Comments"
+msgstr "Commenti più recenti"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block description"
+msgid "Display post author details such as name, avatar, and bio."
+msgstr "Visualizza dettagli sull'autore dell'articolo come nome, avatar, e bio."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block description"
+msgid "The author name."
+msgstr "Il nome dell'autore."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block title"
+msgid "Author Name"
+msgstr "Nome dell'autore"
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous comment's page link."
+msgstr "Visualizza il link alla precedente pagina dei commenti."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next comment's page link."
+msgstr "Visualizza il link alla successiva pagina dei commenti."
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:34827
+msgid "Icon"
+msgstr "Icona"
+
+#: build/block-library/blocks/site-logo.php:98
+msgid "Site icon."
+msgstr "Icona del sito."
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Molto grande"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Pagination"
+msgstr "Paginazione"
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block title"
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Numeri di pagina"
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block title"
+msgid "Next Page"
+msgstr "Pagina successiva"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for comments pagination."
+msgstr "Visualizza un elenco di numeri di pagina per la paginazione dei commenti."
+
+#. translators: Accessibility text. %s: Parent page title.
+#: build/block-library/blocks/navigation-submenu.php:119
+#: build/block-library/blocks/page-list.php:200
+msgid "%s submenu"
+msgstr "Sottomenu di %s"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of comments, when applicable."
+msgstr "Visualizza una navigazione paginata verso il prossimo/precedente set di commenti, quando applicabile."
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block title"
+msgid "Comments Pagination"
+msgstr "Paginazione dei commenti"
+
+#: lib/block-template-utils.php:33
+msgid "Unable to open export file (archive) for writing."
+msgstr "Impossibile aprire il file di esportazione (archivio) per la scrittura."
+
+#: lib/block-template-utils.php:24
+msgid "Zip Export not supported."
+msgstr "L'esportazione ZIP non è supportata."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Comments block instead."
+msgstr "Questo blocco è deprecato. Al suo posto utilizza il blocco Commenti."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block title"
+msgid "Comment (deprecated)"
+msgstr "Commento (deprecato)"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block description"
+msgid "Show a block pattern."
+msgstr "Mostra un pattern di blocco."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Pattern"
+msgstr "Pattern"
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to display a comment, like the title, date, author, avatar and more."
+msgstr "Contiene gli elementi dei blocchi usati per visualizzare un commento, come titolo, data, autore, avatar e altro."
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block title"
+msgid "Comment Template"
+msgstr "Template del commento"
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block description"
+msgid "Displays a link to reply to a comment."
+msgstr "Visualizza un link per rispondere ad un commento."
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block title"
+msgid "Comment Reply Link"
+msgstr "Link alla risposta ai commenti"
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block description"
+msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+msgstr "Visualizza un link per modificare il commento nella bacheca di WordPress. Questo link è visibile solamente agli utenti con la capacità di modifica dei commenti."
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block title"
+msgid "Comment Edit Link"
+msgstr "Link per modificare il commento"
+
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a comment."
+msgstr "Visualizza i contenuti di un commento."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block title"
+msgid "Comment Author Name"
+msgstr "Nome dell'autore del commento"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:583
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:652
+msgid "Theme not found."
+msgstr "Tema non trovato."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:516
+msgid "HTML title for the post, transformed for display."
+msgstr "Titolo HTML per l'articolo, trasformato per la visualizzazione."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:511
+msgid "Title for the global styles variation, as it exists in the database."
+msgstr "Titolo per la variante degli stili globali, se presente nel database."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:505
+msgid "Title of the global styles variation."
+msgstr "Titolo della variante degli stili globali."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:500
+msgid "Global settings."
+msgstr "Impostazioni globali."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:495
+msgid "Global styles."
+msgstr "Stili globali."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:489
+msgid "ID of global styles config."
+msgstr "ID per la configurazione degli stili globali."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:166
+msgid "No global styles config exist with that id."
+msgstr "Non esiste nessuna configurazione degli stili globali con quel ID."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:563
+msgid "Sorry, you are not allowed to access the global styles on this site."
+msgstr "Non hai i permessi per accedere agli stili globali su questo sito."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:58
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:92
+msgid "The theme identifier"
+msgstr "L'identificatore del tema"
+
+#. translators: %s: Author name.
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:2150 build/block-library/index.js:2188
+msgid "%s Avatar"
+msgstr "Avatar %s"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "Semplice"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block description"
+msgid "Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results."
+msgstr "Visualizza il nome di questo sito. Aggiorna il blocco, ed i cambiamenti saranno applicati ovunque sia in uso. Questo sarà visualizzato anche nella barra del titolo del browser e nei risultati di ricerca."
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the previous post"
+msgid "Previous:"
+msgstr "Precedente:"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the next post"
+msgid "Next:"
+msgstr "Successivo:"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block description"
+msgid "Add a submenu to your navigation."
+msgstr "Aggiungi un sottomenu alla tua navigazione."
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "Sottomenu"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "Visualizza contenuto su più colonne, con blocchi aggiunti ad ogni colonna."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block description"
+msgid "Create structured content in rows and columns to display information."
+msgstr "Crea contenuto strutturato in righe e colonne per visualizzare informazioni."
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "Blu e arancione"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "Viola e verde"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "Magenta e giallo"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "Blu mezzanotte"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "Blu e rosso"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "Viola e giallo"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "Scala di grigio"
+
+#: lib/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "Scala di grigio scuro"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "Blu mezzanotte"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "Verde elettrico"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "Azzurro oceano tenue"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "Crepuscolo luminoso"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "Bordeaux pastello"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "Viola tenue pastello"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "Gamma dai colori freddi ai colori caldi"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "Dal grigio molto chiaro al ciano bluastro grigio"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "Da arancione intenso luminoso a rosso vivo"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Da ambra intenso luminoso ad arancione intenso luminoso"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "Da ciano verde chiaro a ciano verde intenso"
+
+#: lib/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Da blu ciano intenso a viola intenso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "Viola intenso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid cyan blue"
+msgstr "Blu ciano intenso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale cyan blue"
+msgstr "Blu ciano pallido"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid green cyan"
+msgstr "Ciano verde intenso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Light green cyan"
+msgstr "Ciano verde chiaro"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid amber"
+msgstr "Ambra intenso luminoso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid orange"
+msgstr "Arancione vivido luminoso"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Vivid red"
+msgstr "Rosso vivo"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "Rosa pallido"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Bianco"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Cyan bluish gray"
+msgstr "Ciano bluastro grigio"
+
+#: lib/theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr "Nero"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: lib/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Piccolo"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
+msgstr "Un blocco avanzato che consente tipi di visualizzazione degli articoli in base a diversi parametri di query e configurazioni visuali."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr "Contiene gli elementi dei blocchi utilizzati per visualizzare un articolo, come titolo, immagine in evidenza, contenuto o riassunto, ed altro ancora."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr "Template articolo"
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "link"
+
+#: build/block-library/blocks/calendar.php:27
+msgid "The calendar block is hidden because there are no published posts."
+msgstr "Il blocco calendario è nascosto perché non ci sono articoli pubblicati."
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block keyword"
+msgid "movie"
+msgstr "film"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Incorpora un video dalla tua libreria dei media o caricane uno nuovo."
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poem"
+msgstr "poema"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poetry"
+msgstr "poesia"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block description"
+msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
+msgstr "Inserisci una poesia. Utilizza formati di spaziatura speciali. O cita i testi di una canzone."
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Columns block instead."
+msgstr "Questo blocco è deprecato. Al suo posto utilizza il blocco Colonne."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block style label"
+msgid "Stripes"
+msgstr "Strisce"
+
+#: build/block-library/blocks/details/block.json
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "riepilogo"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "document outline"
+msgstr "struttura del documento"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block description"
+msgid "Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here."
+msgstr "Riassumi il tuo articolo con un elenco di titoli. Aggiungi ancoraggi HTML ai blocchi Titolo per collegarli qui."
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Indice dei contenuti"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Add white space between blocks and customize its height."
+msgstr "Aggiungi uno spazio bianco tra i blocchi e personalizza la sua altezza."
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Forma di pillola"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Logos Only"
+msgstr "Solo loghi"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block description"
+msgid "Display icons linking to your social profiles or sites."
+msgstr "Visualizza icone collegate ai tuoi profili social o siti web."
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block description"
+msgid "Display an icon linking to a social profile or site."
+msgstr "Visualizza un'icona che rimanda a un profilo social media o sito."
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "descrizione"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "Descrivi in poche parole l'argomento del tuo sito. Il motto può essere utilizzato nei risultati della ricerca o nella condivisione sui social network, anche se non viene visualizzato nel tema."
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block description"
+msgid "Insert additional custom elements with a WordPress shortcode."
+msgstr "Inserisci elementi personalizzati aggiuntivi con uno shortcode di WordPress."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Dots"
+msgstr "Punti"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Wide Line"
+msgstr "Linea ampia"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "divisore"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "horizontal-line"
+msgstr "linea orizzontale"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr "Crea una interruzione tra idee o sezioni con un separatore orizzontale."
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block keyword"
+msgid "find"
+msgstr "trova"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block description"
+msgid "Help visitors find your content."
+msgstr "Aiuta i visitatori a trovare i tuoi contenuti."
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "feed"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "atom"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block description"
+msgid "Display entries from any RSS or Atom feed."
+msgstr "Visualizza i contenuti di un qualunque feed RSS o Atom."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "cite"
+msgstr "citazione"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "blockquote"
+msgstr "citazione"
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block description"
+msgid "Display the query title."
+msgstr "Visualizza il titolo della query."
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Titolo della query"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of posts, when applicable."
+msgstr "Visualizza una navigazione paginata verso il prossimo/precedente set di articoli, quando applicabile."
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous posts page link."
+msgstr "Visualizza il link alla pagina degli articoli precedenti."
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for pagination."
+msgstr "Visualizza un elenco di numeri di pagina per la paginazione."
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next posts page link."
+msgstr "Visualizza il link alla pagina degli articoli sucessivi."
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block description"
+msgid "Give special visual emphasis to a quote from your text."
+msgstr "Dai un'enfasi visiva speciale ad una citazione dal tuo testo."
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block description"
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "Aggiungi testo che rispetta spazi e tabulazioni e ti permette anche di formattare."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block description"
+msgid "Displays the title of a post, page, or any other content-type."
+msgstr "Visualizza il titolo di un articolo, pagina o altro tipo di contenuto."
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block description"
+msgid "Post terms."
+msgstr "Termini dell'articolo."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block description"
+msgid "Displays the next or previous post link that is adjacent to the current post."
+msgstr "Visualizza il link al prossimo o precedente articolo, adiacenti all'articolo attuale."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block title"
+msgid "Post Navigation Link"
+msgstr "Link di navigazione dell'articolo"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block description"
+msgid "Display a post's featured image."
+msgstr "Visualizza l'immagine in evidenza di un articolo."
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block description"
+msgid "Display the excerpt."
+msgstr "Visualizza il riassunto."
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a post or page."
+msgstr "Visualizza i contenuti di un articolo o di una pagina."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block description"
+msgid "Displays the link to the current post comments."
+msgstr "Visualizza i link ai commenti all'articolo attuale."
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block description"
+msgid "Display a post's comments form."
+msgstr "Visualizza un modulo dei commenti dell'articolo."
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block description"
+msgid "Display a post's comments count."
+msgstr "Visualizza il numero dei commenti dell'articolo."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "testo"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "Inizia con il blocco base di tutta la narrazione."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block description"
+msgid "Display a list of all pages."
+msgstr "Visualizza un elenco di tutte le pagine."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "paginazione"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "next page"
+msgstr "pagina successiva"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block description"
+msgid "Separate your content into a multi-page experience."
+msgstr "Suddividi il tuo contenuto in una esperienza multi-pagina."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "navigazione"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "menu"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "Una raccolta di blocchi che permettono ai visitatori di muoversi nel tuo sito."
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "Aggiungi una pagina, un link o un altro elemento ala tua navigazione."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block keyword"
+msgid "read more"
+msgstr "leggi tutto"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "Il contenuto prima di questo blocco verrà mostrato nel riassunto della pagina degli archivi."
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block description"
+msgid "Your site doesn’t include support for this block."
+msgstr "Il tuo sito non include il supporto per questo blocco."
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr "video"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "immagine"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block description"
+msgid "Set media and words side-by-side for a richer layout."
+msgstr "Imposta contenuti media e parole vicine per ottenere un layout più ricco."
+
+#: build/block-library/blocks/form-input/block.json
+#: build/block-library/blocks/form-submission-notification/block.json
+#: build/block-library/blocks/form-submit-button/block.json
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "modulo"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr "disconnetti"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr "accedi"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block description"
+msgid "Show login & logout links."
+msgstr "Mostra i link di accesso e di disconnessione."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "numbered list"
+msgstr "elenco numerato"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "ordered list"
+msgstr "elenco ordinato"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "bullet list"
+msgstr "elenco puntato"
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block description"
+msgid "Display a legacy widget."
+msgstr "Visualizza un widget legacy."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block title"
+msgid "Legacy Widget"
+msgstr "Widget legacy"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block keyword"
+msgid "recent posts"
+msgstr "articoli recenti"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Visualizza un elenco dei tuoi articoli più recenti."
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block keyword"
+msgid "recent comments"
+msgstr "commenti recenti"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent comments."
+msgstr "Visualizza una lista dei tuoi commenti più recenti."
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr "Arrotondato"
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/quote/block.json
+#: build/block-library/blocks/separator/block.json
+#: build/block-library/blocks/site-logo/block.json
+#: build/block-library/blocks/social-links/block.json
+#: build/block-library/blocks/table/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr "Predefinito"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr "immagine"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "foto"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block description"
+msgid "Insert an image to make a visual statement."
+msgstr "Inserisci una immagine per catturare l'attenzione."
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "incorporato"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block description"
+msgid "Add custom HTML code and preview it as you edit."
+msgstr "Aggiungi codice HTML personalizzato e visualizzalo in anteprima mentre lo modifichi."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block description"
+msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
+msgstr "Crea un link che punta sempre alla homepage del sito. Di solito non è necessario se nell'header c'è già un link al titolo del sito."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block title"
+msgid "Home Link"
+msgstr "Link alla Home"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr "sottotitolo"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "titolo"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "sezione"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr "riga"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "wrapper"
+msgstr "wrapper"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "contenitore"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "foto"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "immagini"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block description"
+msgid "Display multiple images in a rich gallery."
+msgstr "Visualizza più immagini in una ricca galleria."
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block description"
+msgid "Use the classic WordPress editor."
+msgstr "Utilizza l'editor classico di WordPress."
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "download"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr "pdf"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "documento"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block description"
+msgid "Add a link to a downloadable file."
+msgstr "Aggiungi un link a un file che può essere scaricato."
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "Una singola colonna all'interno di un blocco di colonne."
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block description"
+msgid "Display code snippets that respect your spacing and tabs."
+msgstr "Mostra frammenti di codice che rispettano spazi e tabulazioni."
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr "archivio"
+
+#: build/block-library/blocks/calendar/block.json
+#: build/block-library/blocks/query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "articoli"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block description"
+msgid "A calendar of your site’s posts."
+msgstr "Un calendario degli articoli del tuo sito."
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a group of button-style links."
+msgstr "Invita gli utenti ad effettuare un'azione con un gruppo di link a forma di pulsante."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Contorno"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Riempimento"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a button-style link."
+msgstr "Invita gli utenti ad effettuare un'azione con un link che ha l'aspetto di un pulsante."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr "registrazione"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr "podcast"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr "suono"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr "musica"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block description"
+msgid "Embed a simple audio player."
+msgstr "Incorpora un player audio semplice."
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block description"
+msgid "Display a date archive of your posts."
+msgstr "Visualizza un archivio dei tuoi articoli per data."
+
+#: build/block-library/blocks/site-logo.php:47
+msgid "(Home link, opens in a new tab)"
+msgstr "(link a Home, si apre in una nuova scheda)"
+
+#: build/block-library/blocks/navigation.php:491
+#: build/block-library/index.js:34458
+msgid "Close menu"
+msgstr "Chiudi menu"
+
+#: build/block-library/blocks/navigation.php:490
+#: build/block-library/index.js:34440
+msgid "Open menu"
+msgstr "Apri menu"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:160
+msgid "Styles consolidated from core, theme, and user origins."
+msgstr "Stili consolidati da core, tema e origini utente."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:154
+msgid "Settings consolidated from core, theme, and user origins."
+msgstr "Impostazioni consolidate da core, tema e origini utente."
+
+#: build/block-library/blocks/site-logo.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:298
+msgid "Active theme gradients."
+msgstr "Gradienti del tema attivo."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:292
+msgid "Active theme font sizes."
+msgstr "Dimensioni font del tema attivo."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:286
+msgid "Active theme color palette."
+msgstr "Tavolozza di colori del tema attivo."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:280
+msgid "Maximum upload size in bytes allowed for the site."
+msgstr "Dimensione massima consentita per l'upload sul sito in byte."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:274
+msgid "Available image sizes."
+msgstr "Dimensioni delle immagini disponibili."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:268
+msgid "Determines whether the image editing feature is enabled."
+msgstr "Determina se la funzionalità di modifica delle immagini è abilitata."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:262
+msgid "Available image dimensions."
+msgstr "Dimensioni disponibili per un'immagine."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:256
+msgid "Default size for images."
+msgstr "Dimensione predefinita per le immagini."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:250
+msgid "Determines whether the current locale is right-to-left (RTL)."
+msgstr "Determina se la scrittura del locale corrente è da destra a sinistra (RTL)."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:244
+msgid "Enables custom units."
+msgstr "Abilita unità personalizzate."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:238
+msgid "Enables custom spacing."
+msgstr "Abilita spaziatura personalizzata."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:232
+msgid "Enables custom line height."
+msgstr "Abilita altezza della riga personalizzata."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:214
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:220
+msgid "Disables custom font size."
+msgstr "Disabilita dimensione del font personalizzata."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:208
+msgid "Disables custom colors."
+msgstr "Disabilita colori personalizzati."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:196
+msgid "Returns all the categories for block types that will be shown in the block editor."
+msgstr "Restituisce tutte le categorie per i tipi di blocco che saranno mostrate nell'editor a blocchi."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:190
+msgid "List of allowed mime types and file extensions."
+msgstr "Elenco dei tipi mime e delle estensioni dei file permessi."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:184
+msgid "List of allowed block types."
+msgstr "Elenco dei tipi di blocco permessi."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:178
+msgid "Enable/Disable Wide/Full Alignments."
+msgstr "Abilita/disabilita gli allineamenti A larghezza ampia/A larghezza piena."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:148
+msgid "Widget types to hide from Legacy Widget block."
+msgstr "Tipi di widget da nascondere nel blocco Widget legacy."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:142
+msgid "Enable/disable layouts support in container blocks."
+msgstr "Abilita/disabilita il supporto ai layout nei blocchi contenitore."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:130
+msgid "Editor styles"
+msgstr "Stili dell'editor"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:124
+msgid "Enables experimental Site Editor blocks"
+msgstr "Abilita i blocchi sperimentali dell'editor del sito"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:65
+msgid "Sorry, you are not allowed to read the block editor settings."
+msgstr "Non sei autorizzato a leggere le impostazioni dell'editor a blocchi."
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block description"
+msgid "Display the description of categories, tags and custom taxonomies when viewing an archive."
+msgstr "Mostra la descrizione di categorie, tag e tassonomie personalizzate quando viene mostrato un archivio."
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block title"
+msgid "Term Description"
+msgstr "Descrizione del termine"
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block title"
+msgid "Comments Link"
+msgstr "Link ai commenti"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block title"
+msgid "Login/out"
+msgstr "Accedi/Esci"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Link personalizzato"
+
+#. translators: %s: filename.
+#: build/block-library/blocks/file.php:35 build/block-library/index.js:18265
+#: build/block-library/index.js:18374 build/block-library/index.js:18475
+msgid "Embed of %s."
+msgstr "Incorporamento di %s."
+
+#: build/block-library/blocks/file.php:37 build/block-library/index.js:18264
+#: build/block-library/index.js:18373 build/block-library/index.js:18474
+msgid "PDF embed"
+msgstr "Incorporamento PDF"
+
+#: build/block-library/blocks/navigation-link.php:345
+msgid "A link to a post format"
+msgstr "Un link a un formato articolo"
+
+#: build/block-library/blocks/navigation-link.php:344
+msgid "Post Format Link"
+msgstr "Link al formato dell'articolo"
+
+#: build/block-library/blocks/latest-posts.php:169
+#: build/block-library/blocks/latest-posts.php:184
+#: build/block-library/index.js:43038
+msgid "This content is password protected."
+msgstr "Questo contenuto è protetto da password."
+
+#. translators: 1: Number of comments, 2: post title
+#: build/block-library/blocks/post-comments-link.php:47
+msgid "%1$s comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s commento<span class=\"screen-reader-text\"> su %2$s</span>"
+msgstr[1] "%1$s commenti<span class=\"screen-reader-text\"> su %2$s</span>"
+
+#. translators: %s post title
+#: build/block-library/blocks/post-comments-link.php:41
+msgid "No comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Nessun commento<span class=\"screen-reader-text\"> su %s</span>"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block description"
+msgid "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
+msgstr "Modifica le regioni globali del tuo sito, come header, footer, barra laterale, oppure crea le tue."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Elenco delle pagine"
+
+#. translators: %s: taxonomy's singular name
+#: build/block-library/blocks/categories.php:46
+#: build/block-library/index.js:6534
+msgid "Select %s"
+msgstr "Seleziona %s"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Precedente"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Successivo"
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:51081
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Comments Page Numbers"
+msgstr "Numeri di pagina dei commenti"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:50804
+msgid "Next Page"
+msgstr "Pagina successiva"
+
+#. translators: %s: Template part slug.
+#: build/block-library/blocks/template-part.php:120
+#: build/block-library/index.js:63375
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "La parte del template è stata eliminata o non è disponibile: %s"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:38
+#: build/block-library/blocks/post-content.php:34
+#: build/block-library/blocks/template-part.php:131
+msgid "[block rendering halted]"
+msgstr "[rendering del blocco arrestato]"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "Termini dell'articolo"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Featured Image"
+msgstr "Immagine in evidenza"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Comments Form"
+msgstr "Modulo dei commenti"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Comments Count"
+msgstr "Conteggio dei commenti"
+
+#: build/block-library/index.js:10326
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "Data commento"
+
+#: build/block-library/index.js:10148
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "Contenuto del commento"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Query loop"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Parte del template"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Titolo del sito"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Motto del sito"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Logo del sito"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Icona social"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Icone social"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Video"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Verso"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Testo in colonne (deprecato)"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Tabella"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Spazio vuoto"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Separatore"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Gruppo"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Ricerca"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Citazione evidenziata"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Preformattato"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Interruzione di pagina"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Altro"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "Non supportato"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Elenco"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Ultimi articoli"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "Ultimi commenti"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Media e testo"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "HTML personalizzato"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "File"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Copertina"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Colonna"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Colonne"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Codice"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Calendario"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Pulsante"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Audio"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Archivi"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Galleria"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Citazione"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Titolo"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Immagine"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Paragrafo"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php:27
+msgid "No templates exist with that id."
+msgstr "Non esistono template con questo ID."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:118
+msgid "The id of a template"
+msgstr "L'ID di un template"
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "Logo del sito."
+
+#: lib/compat/wordpress-6.8/site-editor.php:137
+#: build/block-editor/index.js:73741 build/block-editor/index.js:73744
+#: build/block-library/index.js:63286 build/blocks/index.js:8092
+#: build/edit-site/index.js:14723 build/edit-site/index.js:14815
+#: build/edit-site/index.js:26547 build/editor/index.js:32999
+msgid "Design"
+msgstr "Design"
+
+#. translators: byline. %s: author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29115
+msgid "by %s"
+msgstr "di %s"
+
+#: lib/compat/wordpress-6.7/script-modules.php:139 build/a11y/index.js:106
+#: build/a11y/index.min.js:231
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:51351
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:75065 build/edit-widgets/index.js:1444
+#: build/editor/index.js:12651 build/editor/index.js:33131
+#: build/editor/index.js:33187 build/edit-widgets/index.min.js:1456
+msgid "Content"
+msgstr "Contenuto"
+
+#: build/block-library/blocks/navigation.php:487
+#: build/block-library/blocks/navigation.php:609
+#: build/block-library/index.js:34433 build/block-library/index.js:34445
+#: build/block-library/index.js:36368 build/block-library/index.js:36825
+#: build/core-data/index.js:1636 build/edit-site/index.js:25884
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:140
+#: build/block-library/index.js:24905 build/block-library/index.js:37805
+msgid "Home"
+msgstr "Home"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:417
+msgid "Sort collection by post attribute."
+msgstr "Ordina la raccolta in base ad un attributo dell'articolo."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:410
+msgid "Order sort attribute ascending or descending."
+msgstr "Attributo per l'ordinamento ascendente o discendente."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:399
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Limita i risultati agli articoli con uno specifico valore menu_order."
+
+#: lib/experimental/media/class-gutenberg-rest-attachments-controller.php:41
+msgid "Image size."
+msgstr "Dimensione dell'immagine."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "link"
+
+#: lib/experiments-page.php:235
+msgid "The block editor includes experimental features that are usable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "L'editor a blocchi include funzionalità sperimentali che puoi usare mentre sono in fase di sviluppo. Seleziona quelle che desideri abilitare. È probabile che queste funzioni cambino, quindi evita di usarle in produzione."
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "Impostazioni degli esperimenti"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "Impostazioni delle funzionalità sperimentali"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Si è verificato un errore; probabilmente il feed non è attivo. Riprova più tardi."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Errore RSS:"
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51879
+#: build/block-editor/index.js:51880 build/block-editor/index.js:53959
+#: build/block-editor/index.js:54568 build/block-editor/index.js:54569
+#: build/block-editor/index.js:54792 build/block-editor/index.js:54793
+#: build/block-library/index.js:49276 build/block-library/index.js:49277
+#: build/block-library/index.js:53833 build/block-library/index.js:54037
+#: build/block-library/index.js:54038 build/block-library/index.js:54159
+#: build/block-library/index.js:54160 build/block-library/index.js:62729
+#: build/block-library/index.js:62730 build/components/index.js:60036
+#: build/components/index.js:60037 build/edit-site/index.js:16587
+#: build/edit-site/index.js:16588 build/edit-site/index.js:19355
+#: build/edit-site/index.js:37367 build/edit-site/index.js:40219
+msgid "Search"
+msgstr "Cerca"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:43710
+#: build/block-library/index.js:45952 build/editor/index.js:24213
+#: build/editor/index.js:24257 build/editor/index.js:32264
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: build/block-library/index.js:17180
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Incorpora"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Editor classico"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Dai un'enfasi visiva al testo citato. \"Citando gli altri, citiamo noi stessi.\" - Julio Cortázar"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Introduci nuove sezioni e organizza i contenuti per aiutare i visitatori (e i motori di ricerca) a comprenderne la struttura."
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:479
+msgid "Limit result set to posts assigned one or more statuses."
+msgstr "Limita i risultati agli articoli con uno o più stati assegnati."
+
+#: lib/class-wp-theme-json-gutenberg.php:4229 build/block-editor/index.js:7980
+#: build/components/index.js:57348
+msgid "Medium"
+msgstr "Medio"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "Nessun archivio da mostrare."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Panorama stupendo"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Grazie per aver testato Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Aiuta a costruire Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Se vuoi imparare di più su come sviluppare blocchi aggiuntivi o sei interessato a dare una mano al progetto, vai al <a href=\"%s\">repository su GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "La comunità di WordPress"
+
+#: post-content.php:159 build/block-library/index.js:24797
+msgid "Code is Poetry"
+msgstr "Il codice è poesia"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Puoi sviluppare qualsiasi blocco tu voglia, statico o dinamico, decorativo o semplice. Ecco il blocco di una citazione in evidenza:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Qualsiasi blocco può usufruire di questi allineamenti. Anche i blocchi incorporati hanno i loro e sono già predisposti per essere responsivi:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Quella sopra è una galleria con sole due immagini. È un modo facile di creare layout ad impatto visivo, senza dover combattere con i float. Puoi anche riconvertire facilmente la galleria in immagini individuali, utilizzando la funzione di cambio blocco."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Certo, l'immagine a larghezza piena può essere molto grande. Ma qualche volta l'immagine lo merita."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "L'accessibilità è importante — non dimenticare l'attributo alt dell'immagine"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Se combini i nuovi allineamenti <strong>a larghezza ampia</strong> e <strong>a larghezza piena</strong> con le gallerie, puoi creare un layout multimediale molto avanzato, molto velocemente:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Formattazione avanzata dei media"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Puoi cambiare la quantità di colonne delle tue gallerie trascinando un selettore nella gestione del blocco della barra laterale."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "I blocchi possono essere qualsiasi cosa di cui hai bisogno. Per esempio potresti voler aggiungere una citazione non invasiva come parte della composizione del tuo testo, oppure potresti preferire visualizzarne una gigante. Tutte queste opzioni sono disponibili con lo strumento di inserimento."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "L'informazione corrispondente alla fonte della citazione è un campo di testo separato, simile alle didascalie sotto le immagini, così la struttura della citazione è protetta anche se selezioni, modifichi o rimuovi la fonte. È sempre facile aggiungerla di nuovo."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "L'editor proverà a creare una nuova esperienza di costruzione di pagine e articoli che agevolerà la scrittura di articoli con formattazione avanzata, e con i “blocchi” renderà semplice quello che oggi è ottenuto con shortcode, HTML personalizzato ed embed discovery di “provenienza incerta”."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Un enorme beneficio dei blocchi è che puoi modificarli dove sono e modificare il tuo contenuto direttamente. Invece di avere campi per modificare cose come la fonte di una citazione o il testo di un pulsante, puoi cambiare direttamente il contenuto. Prova a modificare la citazione seguente:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Modifiche visuali"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Ed <em>elenchi</em> come questo naturalmente :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blocchi di layout come pulsanti, immagini a tutto schermo (hero), separatori, ecc ecc."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Oggetti da incorporare come YouTube, Tweet o altri articoli di WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Immagini e video"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Testi e titoli"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Provalo, potresti scoprire cosa WordPress può già aggiungere nei tuoi articoli che non ti aspetti. Ecco un elenco di cosa puoi trovare in questo momento:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Immagina che tutto quello che WordPress può fare sia disponibile velocemente e nella stessa posizione dell'interfaccia. Nessuna necessità di capire tag HTML e classi o ricordare le complicate sintassi dei shortcode. È l'anima che sta dietro allo strumento di inserimento —il pulsante <code>(+)</code> che vedi vicino all'editor— che ti permette di scorrere tutti i blocchi di contenuto disponibili e aggiungerli nel tuo articolo. Plugin e temi possono registrare i loro propri blocchi, offrendo così ogni tipo di possibilità per formattazioni avanzate e pubblicazione."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Lo strumento di <em>inserimento</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Prova a selezionare e rimuovere o modificare la didascalia, ora non devi più stare attento nel selezionare l'immagine o altro testo per errore e rovinarne la presentazione."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Se il tuo tema lo supporta vedrai un pulsante \"larghezza ampia\" nella barra degli strumenti dell'immagine. Provalo."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Gestire immagini e media con la massima attenzione è un obiettivo primario del nuovo editor. Speriamo che troverai gli aspetti di aggiungere didascalie o di rendere le tue foto a larghezza piena più facili e solidi di prima."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Un'immagine vale più di mille parole"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Anche i titoli sono blocchi separati, i quali aiutano a strutturare e organizzare il tuo contenuto."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... come questo, allineato a destra."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Quello che stai leggendo adesso è un <strong>blocco di testo</strong> il più semplice di tutti i blocchi. Il blocco di testo ha le sue opzioni per essere liberamente mosso nell'articolo..."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "L'obiettivo di questo nuovo editor è di rendere l'aggiunta di contenuto con formattazione avanzata in WordPress semplice e piacevole. L'intero articolo è composto da <em>pezzi di contenuto</em> —un po' simili ai mattoncini LEGO— che puoi muovere e con cui puoi interagire. Muovi il puntatore e noterai i vari blocchi evidenziarsi con bordi e frecce. Premi le frecce per riposizionare velocemente i blocchi, evitando la paura di perdere qualcosa durante il copia e incolla."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Di montagne e macchine da stampa"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Ti diamo il benvenuto nell'editor Gutenberg"
+
+#: lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php:287
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Il numero di pagina chiesto è più grande del numero di pagine disponibili."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:4210
+#: build/block-library/index.js:57685 build/components/index.js:57348
+msgid "Small"
+msgstr "Piccolo"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Supporto"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "Nessun commento da mostrare."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s su %2$s"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Seleziona un articolo"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Seleziona la settimana"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Seleziona il giorno"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Seleziona il mese"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Seleziona l'anno"
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Archivi"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:4247 build/block-editor/index.js:7983
+#: build/block-library/index.js:57691 build/components/index.js:57348
+msgid "Large"
+msgstr "Grande"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Aggiungi un blocco che visualizza il contenuto estratto da altri siti, come Twitter o YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Paginazione"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3321 build/editor/index.js:33075
+#: build/edit-widgets/index.min.js:3638
+msgid "Block"
+msgstr "Blocco"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/page-list.php:196
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29079
+#: build/block-library/index.js:29111 build/block-library/index.js:40281
+#: build/block-library/index.js:40284 build/core-commands/index.js:390
+#: build/core-commands/index.js:483 build/core-data/index.js:22587
+#: build/core-data/index.js:22609 build/core-data/index.js:22631
+#: build/core-data/index.js:22651 build/edit-site/index.js:41009
+#: build/editor/index.js:6577 build/editor/index.js:21981
+#: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
+msgid "(no title)"
+msgstr "(senza titolo)"
+
+#: build/block-library/blocks/image.php:258
+#: build/block-library/blocks/navigation.php:489
+#: build/block-editor/index.js:73856 build/block-editor/index.js:75593
+#: build/block-library/index.js:34462 build/block-library/index.js:36827
+#: build/components/index.js:34495 build/components/index.js:47956
+#: build/components/index.js:62086 build/edit-site/index.js:14020
+#: build/edit-site/index.js:27466 build/edit-site/index.js:45876
+#: build/edit-widgets/index.js:4473 build/editor/index.js:6179
+#: build/editor/index.js:26656 build/editor/index.js:29118
+#: build/editor/index.js:30405 build/edit-widgets/index.min.js:4967
+msgid "Close"
+msgstr "Chiudi"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:24007 build/block-library/index.js:33632
+#: build/block-library/index.js:53071 build/block-library/index.js:53163
+msgid "Read more"
+msgstr "Leggi tutto"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "Esperimenti"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:70939 build/block-library/index.js:6916
+#: build/block-library/index.js:9320 build/block-library/index.js:10564
+#: build/block-library/index.js:40086 build/block-library/index.js:40386
+#: build/block-library/index.js:40394 build/block-library/index.js:40396
+#: build/block-library/index.js:63397 build/block-library/index.js:64811
+#: build/edit-post/index.js:3135 build/edit-site/index.js:29135
+#: build/edit-site/index.js:29652 build/edit-site/index.js:30041
+#: build/edit-site/index.js:41649 build/edit-post/index.min.js:3049
+msgid "Edit"
+msgstr "Modifica"
+
+#: gutenberg.php:45
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "La modalità di sviluppo Gutenberg richiede la creazione di file. Esegui <code>npm install</code> per installare le dipendenze, <code>npm run build</code> per creare i file e <code>npm run dev</code> per creare i file e visualizzare i cambiamenti. Leggi il file <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributo</a> per maggiori informazioni."
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Team Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/comment-date.php:33
+#: build/block-library/blocks/post-date.php:32
+#: build/block-library/blocks/post-date.php:55
+msgid "%s ago"
+msgstr "%s fa"
+
+#. translators: %s: human-readable time difference.
+#: build/block-library/blocks/post-date.php:29
+msgid "%s from now"
+msgstr "%s da ora"
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:54
+msgid "Template names must contain a namespace prefix. Example: my-plugin//my-custom-template"
+msgstr "I nomi dei template devono contenere un namespace prefix. Ad esempio: mio-plugin//mio-template-personalizzato"
+
+#: lib/compat/wordpress-6.7/class-wp-block-templates-registry.php:51
+msgid "Template names must not contain uppercase characters."
+msgstr "I nomi dei template non devono contenere caratteri maiuscoli."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:32
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg richiede WordPress %s o successivo per funzionare correttamente. Aggiorna WordPress prima di attivare Gutenberg."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demo"

@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2020-05-02 11:23:36+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Gutenberg - Stable (latest release)','language'=>'eo','messages'=>['Documentation'=>'Dokumentado','Gutenberg Team'=>'Teamo de Gutenberg','https://github.com/WordPress/gutenberg'=>'https://github.com/WordPress/gutenberg','Gutenberg'=>'Gutenberg','Demo'=>'Demonstraĵo','%s ago'=>'antaŭ %s','%s from now'=>'%s pli poste']];
